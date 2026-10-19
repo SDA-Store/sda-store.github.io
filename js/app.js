@@ -70,19 +70,7 @@
         reqSourceLinkInput: document.getElementById('reqSourceLinkInput'),
         reqFeaturesInput: document.getElementById('reqFeaturesInput'),
         reqSubmitGithubBtn: document.getElementById('reqSubmitGithubBtn'),
-        reqCopyTemplateBtn: document.getElementById('reqCopyTemplateBtn'),
-
-        // In-App Browser Alert
-        inAppBrowserAlert: document.getElementById('inAppBrowserAlert'),
-        openInChromeBtn: document.getElementById('openInChromeBtn'),
-        dismissInAppAlertBtn: document.getElementById('dismissInAppAlertBtn'),
-
-        // Android Install & Storage Guide Modal
-        installHelpModal: document.getElementById('installHelpModal'),
-        installHelpModalCloseBtn: document.getElementById('installHelpModalCloseBtn'),
-        installHelpGotItBtn: document.getElementById('installHelpGotItBtn'),
-        footerInstallHelpLink: document.getElementById('footerInstallHelpLink'),
-        modalInstallHelpTrigger: document.getElementById('modalInstallHelpTrigger')
+        reqCopyTemplateBtn: document.getElementById('reqCopyTemplateBtn')
     };
 
     /**
@@ -90,7 +78,6 @@
      */
     async function init() {
         setupTheme();
-        setupInAppBrowserAlert();
         setupEventListeners();
         await loadAppsData();
         handleUrlParams();
@@ -470,7 +457,6 @@
                 closePatchModal();
                 closeReportModal();
                 closeRequestModal();
-                closeInstallHelpModal();
                 DOM.obtainiumModal.classList.add('hidden');
                 document.body.style.overflow = '';
             }
@@ -586,42 +572,14 @@
             DOM.reportCopyTemplateBtn.addEventListener('click', copyReportTemplate);
         }
 
-        // Install Help Modal Listeners
-        if (DOM.installHelpModalCloseBtn) {
-            DOM.installHelpModalCloseBtn.addEventListener('click', closeInstallHelpModal);
-        }
-        if (DOM.installHelpGotItBtn) {
-            DOM.installHelpGotItBtn.addEventListener('click', closeInstallHelpModal);
-        }
-        if (DOM.installHelpModal) {
-            DOM.installHelpModal.addEventListener('click', (e) => {
-                if (e.target === DOM.installHelpModal) closeInstallHelpModal();
-            });
-        }
-        if (DOM.footerInstallHelpLink) {
-            DOM.footerInstallHelpLink.addEventListener('click', (e) => {
-                e.preventDefault();
-                openInstallHelpModal();
-            });
-        }
-        if (DOM.modalInstallHelpTrigger) {
-            DOM.modalInstallHelpTrigger.addEventListener('click', () => {
-                openInstallHelpModal();
-            });
-        }
-
-        // Direct Download Interception & Storage Guidance
+        // Direct Download Interception
         document.addEventListener('click', (e) => {
             const btn = e.target.closest('.btn-apk-download');
             if (btn) {
                 const appName = btn.getAttribute('data-app-name') || 'APK';
                 const url = btn.getAttribute('href');
                 if (url && url !== '#' && !url.startsWith('javascript:')) {
-                    if (detectInAppBrowser()) {
-                        showToast('Note: In-app browser detected. Open in Chrome for 1-tap install!');
-                    } else {
-                        showToast(`Downloading ${appName} directly to Internal Storage...`);
-                    }
+                    showToast(`Downloading ${appName}...`);
                 }
             }
         });
@@ -810,75 +768,11 @@
         return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
 
-    /**
-     * Android Installation & Storage Guide Modal
-     */
-    function openInstallHelpModal() {
-        if (!DOM.installHelpModal) return;
-        DOM.installHelpModal.classList.remove('hidden');
-        document.body.style.overflow = 'hidden';
-    }
-
-    function closeInstallHelpModal() {
-        if (!DOM.installHelpModal) return;
-        DOM.installHelpModal.classList.add('hidden');
-        document.body.style.overflow = '';
-    }
-
-    /**
-     * Detect in-app browsers (Telegram, WhatsApp, Instagram, Facebook, Reddit, WebViews)
-     */
-    function detectInAppBrowser() {
-        const ua = navigator.userAgent || navigator.vendor || window.opera || '';
-        const inAppRegex = /FBAN|FBAV|Instagram|Twitter|Snapchat|Line|Discord|Telegram|WhatsApp|GSA|AlohaBrowser|BytedanceWebview/i;
-        const isAndroid = /Android/i.test(ua);
-        const isAndroidWebView = isAndroid && (/wv/.test(ua) || (/Version\/[0-9].[0-9]/.test(ua) && !/Chrome\/[0-9]/.test(ua)));
-        return inAppRegex.test(ua) || isAndroidWebView;
-    }
-
-    /**
-     * Setup In-App Browser Alert Banner
-     */
-    function setupInAppBrowserAlert() {
-        if (!DOM.inAppBrowserAlert) return;
-
-        if (detectInAppBrowser()) {
-            DOM.inAppBrowserAlert.classList.remove('hidden');
-        }
-
-        if (DOM.dismissInAppAlertBtn) {
-            DOM.dismissInAppAlertBtn.addEventListener('click', () => {
-                DOM.inAppBrowserAlert.classList.add('hidden');
-            });
-        }
-
-        if (DOM.openInChromeBtn) {
-            DOM.openInChromeBtn.addEventListener('click', () => {
-                const currentUrl = window.location.href;
-                const cleanUrl = currentUrl.replace(/^https?:\/\//, '');
-                const intentUrl = `intent://${cleanUrl}#Intent;scheme=https;package=com.android.chrome;end`;
-                try {
-                    window.location.href = intentUrl;
-                } catch (err) {
-                    // Fallback
-                }
-                setTimeout(() => {
-                    if (navigator.clipboard) {
-                        navigator.clipboard.writeText(currentUrl).then(() => {
-                            showToast('Link copied! Open Chrome and paste.');
-                        });
-                    }
-                }, 1200);
-            });
-        }
-    }
-
     // Expose for inline handlers
     window.sdaStore = {
         openPatchModal,
         openReportModal,
-        openRequestModal,
-        openInstallHelpModal
+        openRequestModal
     };
 
     // Auto-init on DOMContentLoaded

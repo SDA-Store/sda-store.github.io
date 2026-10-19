@@ -13,7 +13,7 @@ Builds are automatically compiled and published through GitHub Actions CI pipeli
 
 - **100% Non-Root**: Works on any Android phone without root access or custom ROMs.
 - **Zero Modules**: Self-contained APKs that install directly without Magisk or Xposed.
-- **Direct APK Downloads**: Downloads directly into Android primary Internal Storage (`/storage/emulated/0/Download`) for clean 1-tap installation.
+- **Direct APK Downloads**: Clean, direct downloads for instant 1-tap installation.
 - **Obtainium Integration**: Built-in 1-tap tracking via Obtainium for instant background update notifications directly from GitHub Releases.
 - **Full Privacy**: Tracking libraries, Google Analytics, and ad-networks removed.
 
