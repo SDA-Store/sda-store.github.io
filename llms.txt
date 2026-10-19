@@ -19,15 +19,15 @@ Builds are automatically compiled and published through GitHub Actions CI pipeli
 
 ## Flagship Applications
 
-- [MovieBox](https://sudarsansda.github.io/SDA-Store/?app=moviebox): v6 • Patched MovieBox by SDA Store with ad-removal, VIP streaming unlock, download enable, and UI decluttering.
-- [Brave Browser](https://sudarsansda.github.io/SDA-Store/?app=bravebrowser): v1.97.57 • Patched Brave Browser by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
-- [Cricbuzz](https://sudarsansda.github.io/SDA-Store/?app=cricbuzz): v16.02.05 • Patched Cricbuzz by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
-- [Discord](https://sudarsansda.github.io/SDA-Store/?app=discord): v349.9-Stable • Patched Discord by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
-- [Instagram](https://sudarsansda.github.io/SDA-Store/?app=instagram): v451.0.0.53.80 • Patched Instagram by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
-- [Reddit](https://sudarsansda.github.io/SDA-Store/?app=reddit): v2026.24.0 • Patched Reddit by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
-- [Twitter](https://sudarsansda.github.io/SDA-Store/?app=twitter): v12.35.0-prod.01 • Patched Twitter by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
-- [YouTube](https://sudarsansda.github.io/SDA-Store/?app=youtube): v21.20.405 • Patched YouTube by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
-- [YouTube Music](https://sudarsansda.github.io/SDA-Store/?app=youtubemusic): v9.20.53 • Patched YouTube Music by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [MovieBox](https://sda-store.github.io/?app=moviebox): v6 • Patched MovieBox by SDA Store with ad-removal, VIP streaming unlock, download enable, and UI decluttering.
+- [Brave Browser](https://sda-store.github.io/?app=bravebrowser): v1.97.57 • Patched Brave Browser by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Cricbuzz](https://sda-store.github.io/?app=cricbuzz): v16.02.05 • Patched Cricbuzz by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Discord](https://sda-store.github.io/?app=discord): v349.9-Stable • Patched Discord by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Instagram](https://sda-store.github.io/?app=instagram): v7 • Patched Instagram by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Reddit](https://sda-store.github.io/?app=reddit): v2026.24.0 • Patched Reddit by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Twitter](https://sda-store.github.io/?app=twitter): v12.35.0-prod.01 • Patched Twitter by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [YouTube](https://sda-store.github.io/?app=youtube): v7 • Patched YouTube by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [YouTube Music](https://sda-store.github.io/?app=youtubemusic): v9.20.53 • Patched YouTube Music by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
 
 ## Available Categories
 
@@ -39,10 +39,11 @@ Builds are automatically compiled and published through GitHub Actions CI pipeli
 
 ## Direct Links & Resources
 
-- [Full Application Index (136 Apps)](https://sudarsansda.github.io/SDA-Store/llms-full.txt)
-- [Web Catalog Interface](https://sudarsansda.github.io/SDA-Store/)
-- [XML Sitemap](https://sudarsansda.github.io/SDA-Store/sitemap.xml)
-- [RSS Release Feed](https://sudarsansda.github.io/SDA-Store/feed.xml)
-- [GitHub Repository & CI Pipelines](https://github.com/sudarsanSDA/SDA-Store)
-- [GitHub Releases (Direct Binaries)](https://github.com/sudarsanSDA/SDA-Store/releases)
+- [Full Application Index (136 Apps)](https://sda-store.github.io/llms-full.txt)
+- [Web Catalog Interface](https://sda-store.github.io/)
+- [Repository Mirror URL](https://sda-store.github.io/SDA-Store/)
+- [XML Sitemap](https://sda-store.github.io/sitemap.xml)
+- [RSS Release Feed](https://sda-store.github.io/feed.xml)
+- [GitHub Repository & CI Pipelines](https://github.com/sda-store/SDA-Store)
+- [GitHub Releases (Direct Binaries)](https://github.com/sda-store/SDA-Store/releases)
 - [Obtainium Open-Source Updater](https://github.com/ImranR98/Obtainium)

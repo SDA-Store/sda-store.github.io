@@ -2,10 +2,10 @@
 > **Fast, Modern Catalog for Patched Android APKs**  
 > *100% Non-Root APKs. Zero Modules. Automated GitHub Actions CI/CD.*
 
-[![Automated APK Builder & Release](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/build-and-release.yml)
-[![Upstream Update Watcher](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/auto-update-watcher.yml/badge.svg)](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/auto-update-watcher.yml)
-[![Deploy SDA Store to GitHub Pages](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/deploy-pages.yml)
-[![Latest Release](https://img.shields.io/github/v/release/sudarsanSDA/SDA-Store?style=flat&color=10b981)](https://github.com/sudarsanSDA/SDA-Store/releases)
+[![Automated APK Builder & Release](https://github.com/sda-store/SDA-Store/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/sda-store/SDA-Store/actions/workflows/build-and-release.yml)
+[![Upstream Update Watcher](https://github.com/sda-store/SDA-Store/actions/workflows/auto-update-watcher.yml/badge.svg)](https://github.com/sda-store/SDA-Store/actions/workflows/auto-update-watcher.yml)
+[![Deploy SDA Store to GitHub Pages](https://github.com/sda-store/SDA-Store/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/sda-store/SDA-Store/actions/workflows/deploy-pages.yml)
+[![Latest Release](https://img.shields.io/github/v/release/sda-store/SDA-Store?style=flat&color=10b981)](https://github.com/sda-store/SDA-Store/releases)
 
 ---
 
@@ -70,14 +70,14 @@ You can host this entire store on GitHub Pages in under 2 minutes:
    git add .
    git commit -m "feat: initial SDA Store release"
    git branch -M main
-   git remote add origin https://github.com/sudarsanSDA/SDA-Store.git
+   git remote add origin https://github.com/sda-store/SDA-Store.git
    git push -u origin main
    ```
 2. **Enable GitHub Pages:**
    * Go to your repository **Settings** &rarr; **Pages**.
    * Under **Build and deployment &rarr; Source**, choose **GitHub Actions**.
 3. **Access your site:**
-   * Your store will be live at `https://sudarsansda.github.io/SDA-Store/`.
+   * Your store will be live at `https://sda-store.github.io` (or `https://sda-store.github.io/SDA-Store/`).
 
 ---
 
@@ -85,7 +85,7 @@ You can host this entire store on GitHub Pages in under 2 minutes:
 
 The repository includes a complete, production-grade headless build automation system powered by GitHub Actions ([`.github/workflows/build-and-release.yml`](.github/workflows/build-and-release.yml)):
 
-* **Direct Pipeline Link:** [https://github.com/sudarsanSDA/SDA-Store/actions](https://github.com/sudarsanSDA/SDA-Store/actions)
+* **Direct Pipeline Link:** [https://github.com/sda-store/SDA-Store/actions](https://github.com/sda-store/SDA-Store/actions)
 * **Automated Daily Runs:** Configured on cron schedule (`0 2 * * *`) to automatically pull the newest clean base APKs and re-apply latest upstream patches daily.
 * **Supported Build Targets:**
   * `all-flagships`: Batch builds all high-priority flagships (MovieBox, YouTube, Reddit, Twitter, Instagram, TikTok, Brave).
@@ -94,8 +94,8 @@ The repository includes a complete, production-grade headless build automation s
   * Custom base APKs: Pass any clean APK direct URL via `custom_apk_url`.
 
 ### How to Trigger a Build in GitHub Actions:
-1. Navigate to the **[Actions Tab](https://github.com/sudarsanSDA/SDA-Store/actions)**.
-2. Select **[Automated APK Builder & Release](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/build-and-release.yml)** from the left sidebar.
+1. Navigate to the **[Actions Tab](https://github.com/sda-store/SDA-Store/actions)**.
+2. Select **[Automated APK Builder & Release](https://github.com/sda-store/SDA-Store/actions/workflows/build-and-release.yml)** from the left sidebar.
 3. Click the **Run workflow** dropdown on the right.
 4. Choose your desired target (`all-flagships`, `moviebox`, `youtube`, etc.) and click the green **Run workflow** button.
 5. GitHub Actions executes:
@@ -103,7 +103,7 @@ The repository includes a complete, production-grade headless build automation s
    - Executes bytecode transformation and unhardening via Morphe CLI (`.mpp`) or ReVanced CLI (`.rvp`).
    - Signs the APK with Android `apksigner`.
    - Uploads the signed `.apk` as a 14-day CI artifact (instant download from workflow summary).
-   - Publishes a formal release to [GitHub Releases](https://github.com/sudarsanSDA/SDA-Store/releases).
+   - Publishes a formal release to [GitHub Releases](https://github.com/sda-store/SDA-Store/releases).
    - Syncs `data/apps.json` with the new download link and triggers the live GitHub Pages redeployment.
 
 ---

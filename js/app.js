@@ -351,7 +351,7 @@
      * Get Releases Index Page for an application
      */
     function getReleasesPageUrl(app) {
-        if (!app.releaseUrl) return 'https://github.com/sudarsanSDA/SDA-Store/releases';
+        if (!app.releaseUrl) return 'https://github.com/sda-store/SDA-Store/releases';
         return app.releaseUrl.replace(/\/(tag\/[^/?#]+|latest)[/?#]?.*$/, '');
     }
 
@@ -656,7 +656,7 @@
         const title = `[Bug]: ${app} - ${category}`;
         const body = `### Affected Application\n${app}\n\n### Issue Category\n${category}\n\n### Device & Android OS\n${device}\n\n### Problem Description\n${details}\n\n---\n*Reported via SDA Store Web Catalog*`;
 
-        const issueUrl = `https://github.com/sudarsanSDA/SDA-Store/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+        const issueUrl = `https://github.com/sda-store/SDA-Store/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
         window.open(issueUrl, '_blank', 'noopener,noreferrer');
     }
 
@@ -713,7 +713,7 @@
         const title = `[Request]: ${appName}`;
         const body = `### Requested Application\n${appName}\n\n### Play Store or APK Source Link\n${sourceLink || 'Not provided'}\n\n### Desired Features / Patches\n${features || 'Clean ad-free / unlocked build'}\n\n---\n*Requested via SDA Store Web Catalog*`;
 
-        const issueUrl = `https://github.com/sudarsanSDA/SDA-Store/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+        const issueUrl = `https://github.com/sda-store/SDA-Store/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
         window.open(issueUrl, '_blank', 'noopener,noreferrer');
     }
 

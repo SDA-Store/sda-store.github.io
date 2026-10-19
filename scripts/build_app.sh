@@ -4,7 +4,7 @@ set -e
 # ==============================================================================
 # SDA Store - Automated Headless APK Patcher
 # Fetches base APKs from trusted sources, applies patches, and signs output APKs
-# All builds and releases are hosted exclusively on sudarsanSDA/SDA-Store
+# All builds and releases are hosted exclusively on sda-store/SDA-Store
 # ==============================================================================
 
 TARGET="${1:-moviebox}"

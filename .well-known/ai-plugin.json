@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://sudarsansda.github.io/SDA-Store/data/apps.json"
+    "url": "https://sda-store.github.io/data/apps.json"
   },
-  "logo_url": "https://sudarsansda.github.io/SDA-Store/assets/icons/moviebox.svg",
-  "contact_email": "sudarsan@sda.store",
-  "legal_info_url": "https://sudarsansda.github.io/SDA-Store/#utilities"
+  "logo_url": "https://sda-store.github.io/assets/icons/moviebox.svg",
+  "contact_email": "team@sda.store",
+  "legal_info_url": "https://sda-store.github.io/#utilities"
 }

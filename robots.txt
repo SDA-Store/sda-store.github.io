@@ -45,7 +45,7 @@ User-agent: Diffbot
 Allow: /
 
 # Sitemaps and AI Manifest References
-Sitemap: https://sudarsansda.github.io/SDA-Store/sitemap.xml
-Sitemap: https://sudarsansda.github.io/sitemap.xml
-AI-Content: https://sudarsansda.github.io/SDA-Store/llms.txt
-AI-Full-Content: https://sudarsansda.github.io/SDA-Store/llms-full.txt
+Sitemap: https://sda-store.github.io/sitemap.xml
+Sitemap: https://sda-store.github.io/SDA-Store/sitemap.xml
+AI-Content: https://sda-store.github.io/llms.txt
+AI-Full-Content: https://sda-store.github.io/llms-full.txt

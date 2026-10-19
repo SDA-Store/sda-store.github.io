@@ -3,841 +3,1669 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/</loc>
+    <loc>https://sda-store.github.io/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/#catalog</loc>
+    <loc>https://sda-store.github.io/SDA-Store/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/#catalog</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/#utilities</loc>
+    <loc>https://sda-store.github.io/SDA-Store/#catalog</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/#utilities</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/</loc>
+    <loc>https://sda-store.github.io/SDA-Store/#utilities</loc>
     <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=moviebox</loc>
+    <loc>https://sda-store.github.io/?app=moviebox</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=acalendar</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=moviebox</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=acalendar</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=accuweather</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=acalendar</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=accuweather</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=adguard</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=accuweather</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=adobeacrobat</loc>
+    <loc>https://sda-store.github.io/?app=adguard</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=adguard</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=adobeacrobat</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=adobelightroom</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=adobeacrobat</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=adobelightroom</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=adobescan</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=adobelightroom</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=adobescan</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=aliexpress</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=adobescan</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=aliexpress</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=amazonindia</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=aliexpress</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=amazonindia</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=amazonshopping</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=amazonindia</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=appsales</loc>
+    <loc>https://sda-store.github.io/?app=amazonshopping</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=amazonshopping</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=appsales</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=at4klauncher</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=appsales</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=at4klauncher</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=atvtools</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=at4klauncher</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=atvtools</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=automate</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=atvtools</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=automate</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=autosync</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=automate</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=backdrops</loc>
+    <loc>https://sda-store.github.io/?app=autosync</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=batteryguru</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=autosync</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=betamaniac</loc>
+    <loc>https://sda-store.github.io/?app=backdrops</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=backdrops</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=batteryguru</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=batteryguru</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=betamaniac</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=bluetoothkeyboardmouse</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=betamaniac</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=bravebrowser</loc>
+    <loc>https://sda-store.github.io/?app=bluetoothkeyboardmouse</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=bluetoothkeyboardmouse</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=bravebrowser</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=byair</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=bravebrowser</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=byair</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=calm</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=byair</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=calm</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=caloriecounter</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=calm</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=caloriecounter</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=camscanner</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=caloriecounter</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=camscanner</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=capcut</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=camscanner</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=capcut</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=chesscom</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=capcut</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=chesscom</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=citymapper</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=chesscom</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=citymapper</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=cloudflarewarp</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=citymapper</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=cricbuzz</loc>
+    <loc>https://sda-store.github.io/?app=cloudflarewarp</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=cloudflarewarp</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=cricbuzz</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=discord</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=cricbuzz</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=discord</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=disney</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=discord</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=disney</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=duolingo</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=disney</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=duolingo</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=eyecon</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=duolingo</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=eyecon</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=fdroid</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=eyecon</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=fdroid</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=facebook</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=fdroid</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=facebook</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=fairemail</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=facebook</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=fairemail</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=fing</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=fairemail</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=fing</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=flipkart</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=fing</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=flipkart</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=foldersync</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=flipkart</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=foldersync</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=gboard</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=foldersync</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=gboard</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=github</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=gboard</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=github</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=goodreads</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=github</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=googlemaps</loc>
+    <loc>https://sda-store.github.io/?app=goodreads</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=goodreads</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=googlemaps</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=googlenews</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=googlemaps</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=googlenews</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=googlephone</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=googlenews</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=googlephotos</loc>
+    <loc>https://sda-store.github.io/?app=googlephone</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=googlephone</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=googlephotos</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=googlerecorder</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=googlephotos</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=googlerecorder</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=hbomax</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=googlerecorder</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=hbomax</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=hellochinese</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=hbomax</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=hellochinese</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=hermit</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=hellochinese</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=hermit</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=holavpn</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=hermit</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=holavpn</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=ibispaintx</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=holavpn</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=ibispaintx</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=iconpacker</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=ibispaintx</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=iconpacker</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=imdb</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=iconpacker</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=imdb</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=inshorts</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=imdb</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=inshorts</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=inshot</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=inshorts</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=inshot</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=instagram</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=inshot</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=instagram</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=kinestop</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=instagram</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=kinestop</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=komoot</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=kinestop</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=letterboxd</loc>
+    <loc>https://sda-store.github.io/?app=komoot</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=komoot</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=letterboxd</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=linkedin</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=letterboxd</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=linkedin</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=luminawallpapers</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=linkedin</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=luminawallpapers</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=macrodroid</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=luminawallpapers</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=macrodroid</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=medium</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=macrodroid</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=medium</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=meesho</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=medium</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=meesho</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=merriamwebsterdictionary</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=meesho</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=merriamwebsterdictionary</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=messenger</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=merriamwebsterdictionary</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=messenger</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=microsoftedge</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=messenger</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=microsoftedge</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=microsoftlens</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=microsoftedge</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=microsoftlens</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=microsoftswiftkey</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=microsoftlens</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=microsoftswiftkey</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=moneymanager</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=microsoftswiftkey</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=moneymanager</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=moonreader</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=moneymanager</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=myexpenses</loc>
+    <loc>https://sda-store.github.io/?app=moonreader</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=moonreader</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=myexpenses</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=myfitnesspal</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=myexpenses</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=myfitnesspal</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=netflix</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=myfitnesspal</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=netflix</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=niagaralauncher</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=netflix</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=niagaralauncher</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=ninjavpn</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=niagaralauncher</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=ninjavpn</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=novalauncher</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=ninjavpn</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=novalauncher</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=nuvio</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=novalauncher</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=nuvio</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=offlinegames</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=nuvio</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=offlinegames</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=pandora</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=offlinegames</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=pandora</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=peacock</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=pandora</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=peacock</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=photomath</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=peacock</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=photomath</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=picsart</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=photomath</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=picsart</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=pinterest</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=picsart</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=pinterest</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=pixiv</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=pinterest</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=pixiv</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=plusmessenger</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=pixiv</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=plusmessenger</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=plutotv</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=plusmessenger</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=plutotv</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=pocketcasts</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=plutotv</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=pocketcasts</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=pocketwhip</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=pocketcasts</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=pocketwhip</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=podcastaddict</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=pocketwhip</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=podcastaddict</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=poweramp</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=podcastaddict</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=poweramp</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=primevideo</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=poweramp</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=primevideo</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=protonmail</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=primevideo</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=protonmail</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=protonpass</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=protonmail</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=protonvpn</loc>
+    <loc>https://sda-store.github.io/?app=protonpass</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=rar</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=protonpass</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=protonvpn</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=protonvpn</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=rar</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=reddit</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=rar</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=reddit</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=rumble</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=reddit</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=rumble</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=sdmaid2se</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=rumble</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=sendfilestotv</loc>
+    <loc>https://sda-store.github.io/?app=sdmaid2se</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=sdmaid2se</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=sendfilestotv</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=showly</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=sendfilestotv</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=showly</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=smartlauncher6</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=showly</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=smartlauncher6</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=sofascore</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=smartlauncher6</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=sofascore</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=solidexplorer</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=soundcloud</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=speedtest</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=strava</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=swiftbackup</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=symfonium</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=telegram</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=terabox</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=termius</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=theweatherchannel</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=threads</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=ticktick</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=tiktok</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=sofascore</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=titaniumbrowser</loc>
+    <loc>https://sda-store.github.io/?app=solidexplorer</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=solidexplorer</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=soundcloud</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=soundcloud</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=speedtest</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=speedtest</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=strava</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=strava</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=swiftbackup</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=swiftbackup</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=symfonium</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=symfonium</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=telegram</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=telegram</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=terabox</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=terabox</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=termius</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=termius</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=theweatherchannel</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=theweatherchannel</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=threads</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=threads</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=ticktick</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=ticktick</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=tiktok</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=tiktok</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=titaniumbrowser</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=todoist</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=titaniumbrowser</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=todoist</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=trakttv</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=todoist</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=trakttv</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=truecaller</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=trakttv</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=truecaller</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=tubi</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=truecaller</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=tubi</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=tumblr</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=tubi</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=tumblr</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=twitch</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=tumblr</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=twitch</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=twitter</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=twitch</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=twitter</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=ventusky</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=twitter</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=ventusky</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=viber</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=ventusky</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=vix</loc>
+    <loc>https://sda-store.github.io/?app=viber</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=viber</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=vix</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=vpnify</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=vix</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=vpnify</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=wallcraft</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=vpnify</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=wallcraft</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=windscribevpn</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=wallcraft</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=windscribevpn</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=wpsoffice</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=windscribevpn</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=wpsoffice</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=xodo</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=wpsoffice</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=xrecorder</loc>
+    <loc>https://sda-store.github.io/?app=xodo</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=youtube</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=xodo</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=xrecorder</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=xrecorder</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=youtube</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/SDA-Store/?app=youtube</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sda-store.github.io/?app=youtubemusic</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sudarsansda.github.io/SDA-Store/?app=youtubemusic</loc>
+    <loc>https://sda-store.github.io/SDA-Store/?app=youtubemusic</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 SDA Store - Catalog Sync Script
-Scans GitHub Releases for sudarsanSDA/SDA-Store and updates data/apps.json
+Scans GitHub Releases for sda-store/SDA-Store and updates data/apps.json
 with the latest verified APK assets and download URLs.
 """
 
@@ -26,7 +26,7 @@ def fetch_json(url):
     with urllib.request.urlopen(req, timeout=20) as res:
         return json.loads(res.read().decode('utf-8'))
 
-def sync_catalog(repo_name='sudarsanSDA/SDA-Store'):
+def sync_catalog(repo_name='sda-store/SDA-Store'):
     if not os.path.exists(DATA_PATH):
         print(f"Error: Catalog file not found at {DATA_PATH}")
         return
@@ -94,7 +94,7 @@ def sync_catalog(repo_name='sudarsanSDA/SDA-Store'):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Synchronize SDA Store Catalog with GitHub Releases")
-    parser.add_argument('--repo', type=str, default='sudarsanSDA/SDA-Store', help="GitHub repository in 'owner/repo' format")
+    parser.add_argument('--repo', type=str, default='sda-store/SDA-Store', help="GitHub repository in 'owner/repo' format")
     args = parser.parse_args()
 
     sync_catalog(args.repo)

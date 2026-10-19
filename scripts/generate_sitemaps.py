@@ -18,8 +18,9 @@ import xml.etree.ElementTree as ET
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APPS_JSON = os.path.join(BASE_DIR, 'data', 'apps.json')
-BASE_URL = "https://sudarsansda.github.io/SDA-Store"
-ROOT_URL = "https://sudarsansda.github.io"
+BASE_URL = "https://sda-store.github.io/SDA-Store"
+ROOT_URL = "https://sda-store.github.io"
+REPO_URL = "https://github.com/sda-store/SDA-Store"
 
 def load_catalog():
     if not os.path.exists(APPS_JSON):
@@ -40,10 +41,12 @@ def generate_sitemap_xml(catalog):
 
     # Main Pages
     pages = [
+        (f"{ROOT_URL}/", "1.0", "daily"),
         (f"{BASE_URL}/", "1.0", "daily"),
+        (f"{ROOT_URL}/#catalog", "0.9", "daily"),
         (f"{BASE_URL}/#catalog", "0.9", "daily"),
+        (f"{ROOT_URL}/#utilities", "0.8", "weekly"),
         (f"{BASE_URL}/#utilities", "0.8", "weekly"),
-        (f"{ROOT_URL}/", "0.9", "daily"),
     ]
 
     for loc, priority, changefreq in pages:
@@ -54,20 +57,28 @@ def generate_sitemap_xml(catalog):
         xml_lines.append(f'    <priority>{priority}</priority>')
         xml_lines.append('  </url>')
 
-    # Deep links for each application in the catalog
+    # Deep links for each application in the catalog (both root domain and subfolder)
     for app in catalog.get('apps', []):
         app_id = app.get('id', '')
         if not app_id:
             continue
         pub_at = app.get('publishedAt', '')
         lastmod = pub_at[:10] if pub_at else now_iso
-        app_url = f"{BASE_URL}/?app={app_id}"
 
         # Flagships get higher priority
         priority = "0.9" if app_id in ['moviebox', 'youtube', 'youtubemusic', 'reddit', 'cricbuzz', 'discord', 'twitter', 'instagram'] else "0.7"
 
+        # 1. Direct root domain
         xml_lines.append('  <url>')
-        xml_lines.append(f'    <loc>{app_url}</loc>')
+        xml_lines.append(f'    <loc>{ROOT_URL}/?app={app_id}</loc>')
+        xml_lines.append(f'    <lastmod>{lastmod}</lastmod>')
+        xml_lines.append('    <changefreq>weekly</changefreq>')
+        xml_lines.append(f'    <priority>{priority}</priority>')
+        xml_lines.append('  </url>')
+
+        # 2. Repository subfolder
+        xml_lines.append('  <url>')
+        xml_lines.append(f'    <loc>{BASE_URL}/?app={app_id}</loc>')
         xml_lines.append(f'    <lastmod>{lastmod}</lastmod>')
         xml_lines.append('    <changefreq>weekly</changefreq>')
         xml_lines.append(f'    <priority>{priority}</priority>')
@@ -117,7 +128,7 @@ def generate_llms_txt(catalog):
 
     for app in flagship_apps:
         v = app.get('version', 'Latest')
-        lines.append(f"- [{app['name']}]({BASE_URL}/?app={app['id']}): v{v} • {app['description']}")
+        lines.append(f"- [{app['name']}]({ROOT_URL}/?app={app['id']}): v{v} • {app['description']}")
 
     lines.extend([
         "",
@@ -132,12 +143,13 @@ def generate_llms_txt(catalog):
         "",
         "## Direct Links & Resources",
         "",
-        f"- [Full Application Index ({len(apps)} Apps)]({BASE_URL}/llms-full.txt)",
-        f"- [Web Catalog Interface]({BASE_URL}/)",
-        f"- [XML Sitemap]({BASE_URL}/sitemap.xml)",
-        f"- [RSS Release Feed]({BASE_URL}/feed.xml)",
-        "- [GitHub Repository & CI Pipelines](https://github.com/sudarsanSDA/SDA-Store)",
-        "- [GitHub Releases (Direct Binaries)](https://github.com/sudarsanSDA/SDA-Store/releases)",
+        f"- [Full Application Index ({len(apps)} Apps)]({ROOT_URL}/llms-full.txt)",
+        f"- [Web Catalog Interface]({ROOT_URL}/)",
+        f"- [Repository Mirror URL]({BASE_URL}/)",
+        f"- [XML Sitemap]({ROOT_URL}/sitemap.xml)",
+        f"- [RSS Release Feed]({ROOT_URL}/feed.xml)",
+        f"- [GitHub Repository & CI Pipelines]({REPO_URL})",
+        f"- [GitHub Releases (Direct Binaries)]({REPO_URL}/releases)",
         "- [Obtainium Open-Source Updater](https://github.com/ImranR98/Obtainium)"
     ])
 
@@ -174,7 +186,7 @@ def generate_llms_full_txt(catalog):
         lines.append(f"- **App ID**: `{app_id}`")
         lines.append(f"- **Category**: {category}")
         lines.append(f"- **Description**: {desc}")
-        lines.append(f"- **Catalog Link**: {BASE_URL}/?app={app_id}")
+        lines.append(f"- **Catalog Link**: {ROOT_URL}/?app={app_id}")
         
         if patches:
             lines.append("- **Applied Patches**:")
@@ -247,10 +259,10 @@ User-agent: Diffbot
 Allow: /
 
 # Sitemaps and AI Manifest References
-Sitemap: {BASE_URL}/sitemap.xml
 Sitemap: {ROOT_URL}/sitemap.xml
-AI-Content: {BASE_URL}/llms.txt
-AI-Full-Content: {BASE_URL}/llms-full.txt
+Sitemap: {BASE_URL}/sitemap.xml
+AI-Content: {ROOT_URL}/llms.txt
+AI-Full-Content: {ROOT_URL}/llms-full.txt
 """
     output_path = os.path.join(BASE_DIR, 'robots.txt')
     with open(output_path, 'w', encoding='utf-8') as f:
@@ -267,18 +279,18 @@ def generate_feed_xml(catalog):
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
         '  <channel>',
         '    <title>SDA Store — Latest Patched Android APK Releases</title>',
-        f'    <link>{BASE_URL}/</link>',
+        f'    <link>{ROOT_URL}/</link>',
         '    <description>Curated catalog of verified, safe, non-root patched Android APKs with ad-removal, VIP streaming, and zero telemetry.</description>',
         '    <language>en-us</language>',
         f'    <lastBuildDate>{now_rfc}</lastBuildDate>',
-        f'    <atom:link href="{BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>',
+        f'    <atom:link href="{ROOT_URL}/feed.xml" rel="self" type="application/rss+xml"/>',
     ]
 
     for app in apps[:30]:  # Top 30 recent releases in feed
         name = app.get('name', 'App')
         version = app.get('version', 'Latest')
         desc = app.get('description', '')
-        link = f"{BASE_URL}/?app={app.get('id', '')}"
+        link = f"{ROOT_URL}/?app={app.get('id', '')}"
         guid = f"sda-store-{app.get('id', '')}-{version}"
         pub_date = now_rfc
 
@@ -318,11 +330,11 @@ def generate_ai_plugin_json():
         },
         "api": {
             "type": "openapi",
-            "url": f"{BASE_URL}/data/apps.json"
+            "url": f"{ROOT_URL}/data/apps.json"
         },
-        "logo_url": f"{BASE_URL}/assets/icons/moviebox.svg",
-        "contact_email": "sudarsan@sda.store",
-        "legal_info_url": f"{BASE_URL}/#utilities"
+        "logo_url": f"{ROOT_URL}/assets/icons/moviebox.svg",
+        "contact_email": "team@sda.store",
+        "legal_info_url": f"{ROOT_URL}/#utilities"
     }
 
     output_path = os.path.join(plugin_dir, 'ai-plugin.json')
@@ -365,7 +377,7 @@ def inject_noscript_catalog(catalog):
             name = app.get('name', 'App')
             version = app.get('version', 'Latest')
             desc = app.get('description', '')
-            link = f"{BASE_URL}/?app={app_id}"
+            link = f"?app={app_id}"
             assets = app.get('assets', [])
             dl_link = assets[0].get('downloadUrl', link) if assets else link
             arch = assets[0].get('arch', 'arm64').upper() if assets else 'ARM64'

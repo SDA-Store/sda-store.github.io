@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Convert sample/data.json and data/patches into full SDA Store data/apps.json.
-Ensures ALL release and download URLs point ONLY to sudarsanSDA/SDA-Store.
+Ensures ALL release and download URLs point ONLY to sda-store/SDA-Store.
 """
 
 import json
@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 
 DATA_JSON_PATH = 'sample/data.json'
 OUT_APPS_JSON = 'data/apps.json'
-GITHUB_REPO = 'sudarsanSDA/SDA-Store'
+GITHUB_REPO = 'sda-store/SDA-Store'
 
 # Category mapping based on app key / category
 CATEGORY_MAP = {

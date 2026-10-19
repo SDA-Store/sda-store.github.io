@@ -115,7 +115,7 @@ def create_og_image():
     )
     draw.text(
         (card_margin_x + 50, card_margin_y + 455),
-        "sudarsansda.github.io/SDA-Store  •  Automated CI/CD via GitHub Actions",
+        "sda-store.github.io  •  Automated CI/CD via GitHub Actions",
         fill=(113, 113, 122, 255),
         font=font_badge
     )

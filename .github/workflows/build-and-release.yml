@@ -112,7 +112,7 @@ jobs:
           path: build_output/*.apk
           retention-days: 14
 
-      # 2. Publish to GitHub Releases on sudarsanSDA/SDA-Store
+      # 2. Publish to GitHub Releases on sda-store/SDA-Store
       - name: Publish GitHub Release
         id: create_release
         uses: softprops/action-gh-release@v2
@@ -127,7 +127,7 @@ jobs:
             * **Architecture:** `arm64-v8a`
             * **Patcher:** ReVanced / Morphe CLI
             * **Signing:** SDA Store Keystore (Signed Release)
-            * **Repository:** `sudarsanSDA/SDA-Store`
+            * **Repository:** `${{ github.repository }}`
           files: build_output/*.apk
           draft: false
           prerelease: false

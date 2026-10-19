@@ -1,5 +1,5 @@
 # MASTER UI/UX & DESIGN SYSTEM SPECIFICATION
-> **Project Source**: Sudarsan Engineering Platform (`New-profile-page-main`)  
+> **Project Source**: SDA Store Engineering Platform (`New-profile-page-main`)  
 > **Target Audience**: AI Agents & Frontend Engineers building identical UI/UX implementations.  
 > **Design Philosophy**: High-End Minimalist Monochromatic Editorial with Precision Cyberpunk/Technical HUD Accents, Dual-Texture Typography, and Apple-grade Smooth Motion.
 
