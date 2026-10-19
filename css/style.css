@@ -626,25 +626,12 @@ body {
   }
 }
 
-/* Hero Asymmetric 12-Column Section */
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3rem;
-  align-items: start;
-  margin-bottom: 5.5rem;
-}
-
-@media (min-width: 1024px) {
-  .hero-grid {
-    grid-template-columns: 7fr 5fr;
-    gap: 4rem;
-  }
-}
-
-.hero-left {
+/* Hero Section (Focused & Monumental) */
+.hero-section {
   display: flex;
   flex-direction: column;
+  max-width: 1040px;
+  margin-bottom: 5.5rem;
 }
 
 .hero-actions-row {
@@ -652,73 +639,11 @@ body {
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 3rem;
-}
-
-/* Live Stats Bar */
-.stats-strip {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  padding: 1.5rem;
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  border-radius: 24px;
-  box-shadow: var(--shadow-xs);
-}
-
-@media (min-width: 640px) {
-  .stats-strip {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-  }
-}
-
-.stat-item {
-  display: flex;
-  flex-direction: column;
-}
-
-.stat-number {
-  font-family: var(--font-sans);
-  font-weight: 900;
-  font-size: 1.75rem;
-  letter-spacing: -0.04em;
-  color: var(--text-primary);
-  line-height: 1.1;
-}
-
-.stat-label {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--text-eyebrow);
-  margin-top: 4px;
 }
 
 /* --------------------------------------------------------------------------
-   7. LIVE SYSTEM TELEMETRY HUD COMPONENT (Section 8.1 of Spec)
+   7. TOP ACCENT GRADIENT STROKES (Section 4.2 of Spec)
    -------------------------------------------------------------------------- */
-.telemetry-hud-card {
-  border-radius: 24px;
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-sm);
-  padding: 1.75rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s var(--ease-apple);
-}
-
-.telemetry-hud-card:hover {
-  border-color: var(--border-interactive);
-  box-shadow: var(--shadow-md);
-}
-
-/* Top Accent Gradient Stroke (Section 4.2 of Spec) */
 .card-top-accent {
   position: absolute;
   top: 0;
@@ -739,145 +664,6 @@ body {
 
 [data-theme="dark"] .card-top-accent {
   background: linear-gradient(to right, #fafafa, #71717a, #27272a);
-}
-
-.telemetry-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--border-subtle);
-  padding-bottom: 0.85rem;
-  margin-bottom: 1.25rem;
-}
-
-.telemetry-title-box {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--text-primary);
-}
-
-.telemetry-live-chip {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.15em;
-  font-weight: 600;
-  color: var(--emerald-700);
-  background-color: var(--emerald-50);
-  border: 1px solid var(--emerald-200);
-  padding: 3px 8px;
-  border-radius: 9999px;
-}
-
-.live-pulse-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 9999px;
-  background-color: var(--emerald-500);
-  animation: pulse-emerald 1.8s infinite;
-}
-
-/* Telemetry Key-Value Rows */
-.telemetry-rows {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  margin-bottom: 1.25rem;
-}
-
-.telemetry-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--font-mono);
-  font-size: 0.725rem;
-}
-
-.telemetry-key {
-  color: var(--text-eyebrow);
-  letter-spacing: 0.05em;
-}
-
-.telemetry-val {
-  font-weight: 700;
-  color: var(--text-primary);
-  letter-spacing: 0.05em;
-}
-
-.telemetry-val-emerald {
-  color: var(--emerald-700);
-  font-weight: 700;
-}
-
-/* Spotlight Strip */
-.telemetry-spotlight {
-  background-color: var(--bg-card-subtle);
-  border: 1px solid var(--border-subtle);
-  border-radius: 14px;
-  padding: 0.85rem 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-bottom: 1.25rem;
-}
-
-.spotlight-eyebrow {
-  font-family: var(--font-mono);
-  font-size: 0.62rem;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  color: var(--text-eyebrow);
-  font-weight: 700;
-}
-
-.spotlight-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: var(--font-sans);
-  font-size: 0.85rem;
-}
-
-.spotlight-name {
-  font-weight: 800;
-  color: var(--text-primary);
-}
-
-.spotlight-tag {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 600;
-  color: var(--emerald-700);
-  background-color: var(--emerald-50);
-  padding: 2px 8px;
-  border-radius: 6px;
-}
-
-/* Mini Terminal Output in Telemetry */
-.telemetry-terminal {
-  background-color: var(--dark-blueprint-bg);
-  border: 1px solid var(--dark-blueprint-border);
-  border-radius: 12px;
-  padding: 0.85rem 1rem;
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  color: #a3e635;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.terminal-prompt {
-  color: #71717a;
-  font-weight: 700;
 }
 
 /* --------------------------------------------------------------------------

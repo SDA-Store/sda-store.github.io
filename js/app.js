@@ -24,8 +24,6 @@
         archFilter: document.getElementById('archFilter'),
         sortFilter: document.getElementById('sortFilter'),
         resetFiltersBtn: document.getElementById('resetFiltersBtn'),
-        totalAppsCount: document.getElementById('totalAppsCount'),
-        totalPatchesCount: document.getElementById('totalPatchesCount'),
         themeToggleBtn: document.getElementById('themeToggleBtn'),
         themeIcon: document.getElementById('themeIcon'),
         toast: document.getElementById('toast'),
@@ -154,7 +152,6 @@
             if (!response.ok) throw new Error('Network error');
             const data = await response.json();
             appsData = data.apps || [];
-            updateStats();
             renderApps();
         } catch (err) {
             console.warn('Could not load data/apps.json via fetch:', err);
@@ -168,40 +165,6 @@
                 `;
             }
         }
-    }
-
-    /**
-     * Compute and render global stats with numeric spring interpolation
-     */
-    function updateStats() {
-        if (!appsData.length) return;
-        const totalApps = appsData.length;
-        const totalPatches = appsData.reduce((acc, app) => acc + (app.patchCount || 0), 0);
-
-        animateNumber(DOM.totalAppsCount, totalApps);
-        animateNumber(DOM.totalPatchesCount, totalPatches);
-    }
-
-    function animateNumber(element, target) {
-        if (!element) return;
-        let start = 0;
-        const duration = 1200;
-        const startTime = performance.now();
-
-        function update(currentTime) {
-            const elapsed = currentTime - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-            const easeOut = 1 - Math.pow(1 - progress, 3);
-            const current = Math.floor(easeOut * target);
-            element.textContent = current.toLocaleString();
-
-            if (progress < 1) {
-                requestAnimationFrame(update);
-            } else {
-                element.textContent = target.toLocaleString();
-            }
-        }
-        requestAnimationFrame(update);
     }
 
     /**

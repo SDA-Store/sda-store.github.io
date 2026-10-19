@@ -80,116 +80,40 @@
 
     <!-- Main Content Container -->
     <main class="main-bounds">
-        <!-- Hero Section: Asymmetric 12-Column Grid -->
-        <section class="hero-grid">
-            <div class="hero-left">
-                <!-- Eyebrow Line (Section 3.2 of Spec) -->
-                <div class="section-eyebrow">
-                    <span class="eyebrow-line"></span>
-                    <span class="eyebrow-text">00 // Headless CI/CD Architecture</span>
-                </div>
-
-                <!-- Mega Dual-Texture Hero Statement (Section 3.2 of Spec) -->
-                <h1 class="hero-title">
-                    <span class="hero-title-main">PRE-PATCHED</span>
-                    <span class="hero-title-serif stroke-text">APPLICATIONS</span>
-                </h1>
-
-                <!-- Editorial Serif Subtitle (Section 3.2 of Spec) -->
-                <p class="hero-subtext">
-                    &ldquo;High-performance Android APK catalog built entirely via headless GitHub Actions CI. 
-                    No Magisk modules, pure non-root binaries, and native Obtainium auto-sync.&rdquo;
-                </p>
-
-                <!-- Action Buttons Row (Section 7.1 & 7.2 of Spec) -->
-                <div class="hero-actions-row">
-                    <a href="#catalog" class="btn btn-primary">
-                        <span>Explore Software Catalog</span>
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                    <button id="obtainiumGuideBtn" class="btn btn-secondary">
-                        <i class="fa-solid fa-arrows-rotate"></i>
-                        <span>Auto-Update Setup</span>
-                    </button>
-                    <a href="#gmscore" class="btn btn-secondary">
-                        <i class="fa-brands fa-google"></i>
-                        <span>GmsCore / MicroG</span>
-                    </a>
-                </div>
-
-                <!-- Live Quick Stats Strip -->
-                <div class="stats-strip">
-                    <div class="stat-item">
-                        <span class="stat-number" id="totalAppsCount">11</span>
-                        <span class="stat-label">Curated Apps</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" id="totalPatchesCount">142</span>
-                        <span class="stat-label">Total Patches</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">Non-Root APKs</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">$0.00</span>
-                        <span class="stat-label">Hosting Cost</span>
-                    </div>
-                </div>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <!-- Eyebrow Line (Section 3.2 of Spec) -->
+            <div class="section-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span class="eyebrow-text">00 // Headless CI/CD Architecture</span>
             </div>
 
-            <!-- Hero Right: Live System Telemetry HUD Card (Section 8.1 of Spec) -->
-            <div class="hero-right">
-                <div class="telemetry-hud-card">
-                    <div class="card-top-accent-emerald"></div>
+            <!-- Mega Dual-Texture Hero Statement (Section 3.2 of Spec) -->
+            <h1 class="hero-title">
+                <span class="hero-title-main">PRE-PATCHED</span>
+                <span class="hero-title-serif stroke-text">APPLICATIONS</span>
+            </h1>
 
-                    <!-- Telemetry Header -->
-                    <div class="telemetry-header">
-                        <div class="telemetry-title-box">
-                            <i class="fa-solid fa-terminal"></i>
-                            <span>SYS_TELEMETRY // v5.0-RELEASE</span>
-                        </div>
-                        <span class="telemetry-live-chip">
-                            <span class="live-pulse-dot"></span>
-                            LIVE • CI ACTIVE
-                        </span>
-                    </div>
+            <!-- Editorial Serif Subtitle (Section 3.2 of Spec) -->
+            <p class="hero-subtext">
+                &ldquo;High-performance Android APK catalog built entirely via headless GitHub Actions CI. 
+                No Magisk modules, pure non-root binaries, and native Obtainium auto-sync.&rdquo;
+            </p>
 
-                    <!-- Metrics -->
-                    <div class="telemetry-rows">
-                        <div class="telemetry-row">
-                            <span class="telemetry-key">ENGINEERING STATUS:</span>
-                            <span class="telemetry-val-emerald">ACCEPTING BUILDS</span>
-                        </div>
-                        <div class="telemetry-row">
-                            <span class="telemetry-key">LATEST RELEASE:</span>
-                            <span class="telemetry-val">v5 • MovieBox</span>
-                        </div>
-                        <div class="telemetry-row">
-                            <span class="telemetry-key">TARGET ARCHITECTURE:</span>
-                            <span class="telemetry-val">ARM64-v8a (Clean)</span>
-                        </div>
-                        <div class="telemetry-row">
-                            <span class="telemetry-key">ACTIVE PATCHER:</span>
-                            <span class="telemetry-val">Morphe CLI + hxreborn</span>
-                        </div>
-                    </div>
-
-                    <!-- Active Software Spotlight Strip -->
-                    <div class="telemetry-spotlight">
-                        <span class="spotlight-eyebrow">FLAGSHIP VERIFIED BUILD</span>
-                        <div class="spotlight-content">
-                            <span class="spotlight-name">MovieBox Premium</span>
-                            <span class="spotlight-tag">v5 • Unhardened</span>
-                        </div>
-                    </div>
-
-                    <!-- Terminal Prompt Simulation -->
-                    <div class="telemetry-terminal">
-                        <span class="terminal-prompt">$</span>
-                        <span>morphe patch -p hxreborn.mpp -o moviebox.apk</span>
-                    </div>
-                </div>
+            <!-- Action Buttons Row (Section 7.1 & 7.2 of Spec) -->
+            <div class="hero-actions-row">
+                <a href="#catalog" class="btn btn-primary">
+                    <span>Explore Software Catalog</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <button id="obtainiumGuideBtn" class="btn btn-secondary">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    <span>Auto-Update Setup</span>
+                </button>
+                <a href="#gmscore" class="btn btn-secondary">
+                    <i class="fa-brands fa-google"></i>
+                    <span>GmsCore / MicroG</span>
+                </a>
             </div>
         </section>
 
