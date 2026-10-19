@@ -143,9 +143,9 @@ def generate_catalog():
             {
                 "name": "moviebox-patched-arm64-v8a.apk",
                 "arch": "arm64",
-                "version": "5",
+                "version": "6",
                 "size": 68151874,
-                "downloadUrl": f"https://github.com/{GITHUB_REPO}/releases/download/v5/moviebox-patched-arm64-v8a.apk"
+                "downloadUrl": f"https://github.com/{GITHUB_REPO}/releases/download/v6/moviebox-patched-arm64-v8a.apk"
             }
         ]
     }
@@ -191,10 +191,10 @@ def generate_catalog():
                         patches = patch_sets[idx]
                         break
 
-        # Assets
+        # Assets - Extract authentic, working, direct download links
         assets = []
         if builds:
-            for bld in builds[:2]:
+            for bld in builds:
                 for ast in bld.get('assets', []):
                     fname = ast.get('name', '')
                     if not fname.endswith('.apk'):
@@ -207,8 +207,10 @@ def generate_catalog():
                     arch_suffix = 'arm64-v8a' if arch == 'arm64' else ('arm-v7a' if arch == 'arm' else 'universal')
                     clean_fname = f"{app_key}-sda-v{ast_ver}-{arch_suffix}.apk"
 
-                    # SDA Store release download URL
-                    sda_download_url = f"https://github.com/{GITHUB_REPO}/releases/download/v{ast_ver}/{clean_fname}"
+                    # Authentic live download URL
+                    real_download_url = ast.get('browser_download_url') or ast.get('downloadUrl')
+                    if not real_download_url:
+                        continue
 
                     # Avoid duplicate archs
                     if not any(x['arch'] == arch for x in assets):
@@ -217,22 +219,23 @@ def generate_catalog():
                             "arch": arch,
                             "version": str(ast_ver),
                             "size": size,
-                            "downloadUrl": sda_download_url
+                            "downloadUrl": real_download_url
                         })
+                if len(assets) >= 2:
+                    break
 
         if not assets:
-            # Generate default asset row
-            std_name = f"{app_key}-sda-v{version}-arm64-v8a.apk"
-            assets.append({
-                "name": std_name,
-                "arch": "arm64",
-                "version": str(version),
-                "size": 52428800,
-                "downloadUrl": f"https://github.com/{GITHUB_REPO}/releases/download/v{version}/{std_name}"
-            })
+            continue
 
         category = guess_category(app_key, app_name)
-        icon_url = ICON_MAP.get(app_key) or f"https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/{app_key}.svg"
+        
+        # Check local icon first
+        if os.path.exists(os.path.join('assets', 'icons', f"{app_key}.png")):
+            icon_url = f"assets/icons/{app_key}.png"
+        elif os.path.exists(os.path.join('assets', 'icons', f"{app_key}.svg")):
+            icon_url = f"assets/icons/{app_key}.svg"
+        else:
+            icon_url = ICON_MAP.get(app_key) or f"assets/icons/{app_key}.png"
 
         # Generate clean description with full credit to SDA Store
         desc = f"Patched {app_name} by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking."

@@ -25,8 +25,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock aCalendar+
 - **Direct Download Assets**:
-  - [acalendar-sda-v2.9.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.9.5/acalendar-sda-v2.9.5-arm64-v8a.apk)
-  - [acalendar-sda-v2.9.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.9.5/acalendar-sda-v2.9.5-arm-v7a.apk)
+  - [acalendar-sda-v2.9.5-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260310/acalendar-hxreborn-v2.9.5-arm64-v8a.apk)
+  - [acalendar-sda-v2.9.5-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260310/acalendar-hxreborn-v2.9.5-arm-v7a.apk)
 
 ## 3. AccuWeather (v21.1.15-3-rc)
 - **App ID**: `accuweather`
@@ -36,8 +36,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium+
 - **Direct Download Assets**:
-  - [accuweather-sda-v21.1.15-3-rc-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.1.15-3-rc/accuweather-sda-v21.1.15-3-rc-arm64-v8a.apk)
-  - [accuweather-sda-v21.1.15-3-rc-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.1.15-3-rc/accuweather-sda-v21.1.15-3-rc-arm-v7a.apk)
+  - [accuweather-sda-v21.1.15-3-rc-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/accuweather-rushiranpise-v21.1.15-3-rc-arm64-v8a.apk)
+  - [accuweather-sda-v21.1.15-3-rc-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/accuweather-rushiranpise-v21.1.15-3-rc-arm-v7a.apk)
 
 ## 4. AdGuard (v4.14.68)
 - **App ID**: `adguard`
@@ -47,8 +47,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Lifetime Premium
 - **Direct Download Assets**:
-  - [adguard-sda-v4.14.68-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.14.68/adguard-sda-v4.14.68-arm64-v8a.apk)
-  - [adguard-sda-v4.14.68-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.14.68/adguard-sda-v4.14.68-arm-v7a.apk)
+  - [adguard-sda-v4.14.68-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/adguard-rushiranpise-nightly-v4.14.68-arm64-v8a.apk)
+  - [adguard-sda-v4.14.68-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/adguard-rushiranpise-nightly-v4.14.68-arm-v7a.apk)
 
 ## 5. Adobe Acrobat (v26.7.1.47181)
 - **App ID**: `adobeacrobat`
@@ -58,7 +58,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Pro 
 - **Direct Download Assets**:
-  - [adobeacrobat-sda-v26.7.1.47181-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.7.1.47181/adobeacrobat-sda-v26.7.1.47181-arm64-v8a.apk)
+  - [adobeacrobat-sda-v26.7.1.47181-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/adobe-acrobat-hooman-v26.7.1.47181-arm64-v8a.apk)
 
 ## 6. Adobe Lightroom (v11.5.31)
 - **App ID**: `adobelightroom`
@@ -68,7 +68,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock premium features
 - **Direct Download Assets**:
-  - [adobelightroom-sda-v11.5.31-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.5.31/adobelightroom-sda-v11.5.31-arm64-v8a.apk)
+  - [adobelightroom-sda-v11.5.31-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/adobe-lightroom-hoodles-v11.5.31-arm64-v8a.apk)
 
 ## 7. Adobe Scan (v26.08.01)
 - **App ID**: `adobescan`
@@ -78,7 +78,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium
 - **Direct Download Assets**:
-  - [adobescan-sda-v26.08.01-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.08.01/adobescan-sda-v26.08.01-arm64-v8a.apk)
+  - [adobescan-sda-v26.08.01-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/adobe-scan-rushiranpise-v26.08.01-arm64-v8a.apk)
 
 ## 8. AliExpress (v8.162.8)
 - **App ID**: `aliexpress`
@@ -94,8 +94,8 @@ This document provides the complete machine-readable index of all patched applic
   - Enable image saving 
   - *...and 4 more patches*
 - **Direct Download Assets**:
-  - [aliexpress-sda-v8.162.8-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.162.8/aliexpress-sda-v8.162.8-arm64-v8a.apk)
-  - [aliexpress-sda-v8.162.8-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.162.8/aliexpress-sda-v8.162.8-arm-v7a.apk)
+  - [aliexpress-sda-v8.162.8-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/aliexpress-quantro100-v8.162.8-arm64-v8a.apk)
+  - [aliexpress-sda-v8.162.8-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/aliexpress-quantro100-v8.162.8-arm-v7a.apk)
 
 ## 9. Amazon India (v32.18.0.300)
 - **App ID**: `amazonindia`
@@ -111,8 +111,8 @@ This document provides the complete machine-readable index of all patched applic
   - Open links in browser
   - *...and 2 more patches*
 - **Direct Download Assets**:
-  - [amazonindia-sda-v32.18.0.300-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.300/amazonindia-sda-v32.18.0.300-arm64-v8a.apk)
-  - [amazonindia-sda-v32.18.0.300-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.300/amazonindia-sda-v32.18.0.300-arm-v7a.apk)
+  - [amazonindia-sda-v32.18.0.300-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/amazon-india-rushiranpise-v32.18.0.300-arm64-v8a.apk)
+  - [amazonindia-sda-v32.18.0.300-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/amazon-india-rushiranpise-v32.18.0.300-arm-v7a.apk)
 
 ## 10. Amazon Shopping (v32.18.0.100)
 - **App ID**: `amazonshopping`
@@ -128,8 +128,8 @@ This document provides the complete machine-readable index of all patched applic
   - Open links in browser
   - *...and 2 more patches*
 - **Direct Download Assets**:
-  - [amazonshopping-sda-v32.18.0.100-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.100/amazonshopping-sda-v32.18.0.100-arm64-v8a.apk)
-  - [amazonshopping-sda-v32.18.0.100-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.100/amazonshopping-sda-v32.18.0.100-arm-v7a.apk)
+  - [amazonshopping-sda-v32.18.0.100-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/amazon-shopping-rushiranpise-v32.18.0.100-arm64-v8a.apk)
+  - [amazonshopping-sda-v32.18.0.100-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/amazon-shopping-rushiranpise-v32.18.0.100-arm-v7a.apk)
 
 ## 11. AppSales (v12.3)
 - **App ID**: `appsales`
@@ -139,8 +139,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Pro 
 - **Direct Download Assets**:
-  - [appsales-sda-v12.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.3/appsales-sda-v12.3-arm64-v8a.apk)
-  - [appsales-sda-v12.3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.3/appsales-sda-v12.3-arm-v7a.apk)
+  - [appsales-sda-v12.3-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/appsales-entree3k-v12.3-arm64-v8a.apk)
+  - [appsales-sda-v12.3-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/appsales-entree3k-v12.3-arm-v7a.apk)
 
 ## 12. AT4K Launcher (v0.99)
 - **App ID**: `at4klauncher`
@@ -150,7 +150,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [at4klauncher-sda-v0.99-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.99/at4klauncher-sda-v0.99-universal.apk)
+  - [at4klauncher-sda-v0.99-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/at4k-launcher-hooman-android-tv-v0.99-all.apk)
 
 ## 13. atvTools (v1.3.2)
 - **App ID**: `atvtools`
@@ -160,8 +160,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock premium
 - **Direct Download Assets**:
-  - [atvtools-sda-v1.3.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.3.2/atvtools-sda-v1.3.2-arm64-v8a.apk)
-  - [atvtools-sda-v1.3.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.3.2/atvtools-sda-v1.3.2-arm-v7a.apk)
+  - [atvtools-sda-v1.3.2-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260239/atvtools-hxreborn-v1.3.2-arm64-v8a.apk)
+  - [atvtools-sda-v1.3.2-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260239/atvtools-hxreborn-v1.3.2-arm-v7a.apk)
 
 ## 14. Automate (v1.51.1)
 - **App ID**: `automate`
@@ -171,8 +171,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Bypass Blocks Limit 
 - **Direct Download Assets**:
-  - [automate-sda-v1.51.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.51.1/automate-sda-v1.51.1-arm64-v8a.apk)
-  - [automate-sda-v1.51.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.51.1/automate-sda-v1.51.1-arm-v7a.apk)
+  - [automate-sda-v1.51.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/automate-bholeykabhakt-v1.51.1-arm64-v8a.apk)
+  - [automate-sda-v1.51.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/automate-bholeykabhakt-v1.51.1-arm-v7a.apk)
 
 ## 15. Autosync (v7.5.10)
 - **App ID**: `autosync`
@@ -182,7 +182,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Purchase All Items 
 - **Direct Download Assets**:
-  - [autosync-sda-v7.5.10-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.5.10/autosync-sda-v7.5.10-arm64-v8a.apk)
+  - [autosync-sda-v7.5.10-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/autosync-bholeykabhakt-v7.5.10-arm64-v8a.apk)
 
 ## 16. Backdrops (v6.1.2)
 - **App ID**: `backdrops`
@@ -192,8 +192,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [backdrops-sda-v6.1.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.1.2/backdrops-sda-v6.1.2-arm64-v8a.apk)
-  - [backdrops-sda-v6.1.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.1.2/backdrops-sda-v6.1.2-arm-v7a.apk)
+  - [backdrops-sda-v6.1.2-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/backdrops-bholeykabhakt-v6.1.2-arm64-v8a.apk)
+  - [backdrops-sda-v6.1.2-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/backdrops-bholeykabhakt-v6.1.2-arm-v7a.apk)
 
 ## 17. Battery Guru (v2.5.0.6)
 - **App ID**: `batteryguru`
@@ -203,8 +203,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock PRO 
 - **Direct Download Assets**:
-  - [batteryguru-sda-v2.5.0.6-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.0.6/batteryguru-sda-v2.5.0.6-arm64-v8a.apk)
-  - [batteryguru-sda-v2.5.0.6-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.0.6/batteryguru-sda-v2.5.0.6-arm-v7a.apk)
+  - [batteryguru-sda-v2.5.0.6-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/battery-guru-hooman-v2.5.0.6-arm64-v8a.apk)
+  - [batteryguru-sda-v2.5.0.6-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/battery-guru-hooman-v2.5.0.6-arm-v7a.apk)
 
 ## 18. Beta Maniac (v0.11.0)
 - **App ID**: `betamaniac`
@@ -214,8 +214,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium
 - **Direct Download Assets**:
-  - [betamaniac-sda-v0.11.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.11.0/betamaniac-sda-v0.11.0-arm64-v8a.apk)
-  - [betamaniac-sda-v0.11.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.11.0/betamaniac-sda-v0.11.0-arm-v7a.apk)
+  - [betamaniac-sda-v0.11.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/beta-maniac-rushiranpise-v0.11.0-arm64-v8a.apk)
+  - [betamaniac-sda-v0.11.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/beta-maniac-rushiranpise-v0.11.0-arm-v7a.apk)
 
 ## 19. Bluetooth Keyboard & Mouse (v6.23.1)
 - **App ID**: `bluetoothkeyboardmouse`
@@ -225,8 +225,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium
 - **Direct Download Assets**:
-  - [bluetoothkeyboardmouse-sda-v6.23.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.23.1/bluetoothkeyboardmouse-sda-v6.23.1-arm64-v8a.apk)
-  - [bluetoothkeyboardmouse-sda-v6.23.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.23.1/bluetoothkeyboardmouse-sda-v6.23.1-arm-v7a.apk)
+  - [bluetoothkeyboardmouse-sda-v6.23.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/bluetooth-keyboard-mouse-rushiranpise-v6.23.1-arm64-v8a.apk)
+  - [bluetoothkeyboardmouse-sda-v6.23.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/bluetooth-keyboard-mouse-rushiranpise-v6.23.1-arm-v7a.apk)
 
 ## 20. Brave Browser (v1.97.57)
 - **App ID**: `bravebrowser`
@@ -242,8 +242,8 @@ This document provides the complete machine-readable index of all patched applic
   - Clean Start Page
   - *...and 8 more patches*
 - **Direct Download Assets**:
-  - [bravebrowser-sda-v1.97.57-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.97.57/bravebrowser-sda-v1.97.57-arm64-v8a.apk)
-  - [bravebrowser-sda-v1.97.57-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.97.57/bravebrowser-sda-v1.97.57-arm-v7a.apk)
+  - [bravebrowser-sda-v1.97.57-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260286/brave-browser-kveld9-v1.97.57-arm64-v8a.apk)
+  - [bravebrowser-sda-v1.97.57-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260286/brave-browser-kveld9-v1.97.57-arm-v7a.apk)
 
 ## 21. ByAir (v2.41.0)
 - **App ID**: `byair`
@@ -254,8 +254,8 @@ This document provides the complete machine-readable index of all patched applic
   - Enable Pro
   - Remove Update Prompt
 - **Direct Download Assets**:
-  - [byair-sda-v2.41.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.41.0/byair-sda-v2.41.0-arm64-v8a.apk)
-  - [byair-sda-v2.41.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.41.0/byair-sda-v2.41.0-arm-v7a.apk)
+  - [byair-sda-v2.41.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260289/byair-franticg33k-v2.41.0-arm64-v8a.apk)
+  - [byair-sda-v2.41.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260289/byair-franticg33k-v2.41.0-arm-v7a.apk)
 
 ## 22. Calm (v6.102)
 - **App ID**: `calm`
@@ -265,8 +265,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium
 - **Direct Download Assets**:
-  - [calm-sda-v6.102-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.102/calm-sda-v6.102-arm64-v8a.apk)
-  - [calm-sda-v6.102-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.102/calm-sda-v6.102-arm-v7a.apk)
+  - [calm-sda-v6.102-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/calm-rushiranpise-v6.102-arm64-v8a.apk)
+  - [calm-sda-v6.102-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/calm-rushiranpise-v6.102-arm-v7a.apk)
 
 ## 23. Calorie Counter (v11.8.1.1)
 - **App ID**: `caloriecounter`
@@ -278,8 +278,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable force update dialog
   - Unlock Premium
 - **Direct Download Assets**:
-  - [caloriecounter-sda-v11.8.1.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.8.1.1/caloriecounter-sda-v11.8.1.1-arm64-v8a.apk)
-  - [caloriecounter-sda-v11.8.1.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.8.1.1/caloriecounter-sda-v11.8.1.1-arm-v7a.apk)
+  - [caloriecounter-sda-v11.8.1.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260228/calorie-counter-kondratjev-v11.8.1.1-arm64-v8a.apk)
+  - [caloriecounter-sda-v11.8.1.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260228/calorie-counter-kondratjev-v11.8.1.1-arm-v7a.apk)
 
 ## 24. CamScanner (v7.20.0.2606230000)
 - **App ID**: `camscanner`
@@ -290,8 +290,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable telemetry
   - Enable Premium
 - **Direct Download Assets**:
-  - [camscanner-sda-v7.20.0.2606230000-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.20.0.2606230000/camscanner-sda-v7.20.0.2606230000-arm64-v8a.apk)
-  - [camscanner-sda-v7.20.0.2606230000-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.20.0.2606230000/camscanner-sda-v7.20.0.2606230000-arm-v7a.apk)
+  - [camscanner-sda-v7.20.0.2606230000-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/camscanner-hoodles-v7.20.0.2606230000-arm64-v8a.apk)
+  - [camscanner-sda-v7.20.0.2606230000-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/camscanner-hoodles-v7.20.0.2606230000-arm-v7a.apk)
 
 ## 25. CapCut (v9.0.0)
 - **App ID**: `capcut`
@@ -302,8 +302,8 @@ This document provides the complete machine-readable index of all patched applic
   - Bypass effects region restriction
   - Unlock Premium
 - **Direct Download Assets**:
-  - [capcut-sda-v9.0.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.0.0/capcut-sda-v9.0.0-arm64-v8a.apk)
-  - [capcut-sda-v9.0.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.0.0/capcut-sda-v9.0.0-arm-v7a.apk)
+  - [capcut-sda-v9.0.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260309/capcut-riky-v9.0.0-arm64-v8a.apk)
+  - [capcut-sda-v9.0.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260309/capcut-riky-v9.0.0-arm-v7a.apk)
 
 ## 26. Chess.com (v4.10.0)
 - **App ID**: `chesscom`
@@ -319,8 +319,8 @@ This document provides the complete machine-readable index of all patched applic
   - Unlimited Play Coach
   - *...and 1 more patches*
 - **Direct Download Assets**:
-  - [chesscom-sda-v4.10.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.10.0/chesscom-sda-v4.10.0-arm64-v8a.apk)
-  - [chesscom-sda-v4.10.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.10.0/chesscom-sda-v4.10.0-arm-v7a.apk)
+  - [chesscom-sda-v4.10.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/chess-com-prathxm-v4.10.0-arm64-v8a.apk)
+  - [chesscom-sda-v4.10.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/chess-com-prathxm-v4.10.0-arm-v7a.apk)
 
 ## 27. Citymapper (v11.60)
 - **App ID**: `citymapper`
@@ -330,8 +330,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Club
 - **Direct Download Assets**:
-  - [citymapper-sda-v11.60-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.60/citymapper-sda-v11.60-arm64-v8a.apk)
-  - [citymapper-sda-v11.60-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.60/citymapper-sda-v11.60-arm-v7a.apk)
+  - [citymapper-sda-v11.60-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/citymapper-rushiranpise-v11.60-arm64-v8a.apk)
+  - [citymapper-sda-v11.60-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/citymapper-rushiranpise-v11.60-arm-v7a.apk)
 
 ## 28. Cloudflare WARP (v6.38.9)
 - **App ID**: `cloudflarewarp`
@@ -342,8 +342,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable Analytics / Telemetry
   - Spoof WARP+ Unlimited UI
 - **Direct Download Assets**:
-  - [cloudflarewarp-sda-v6.38.9-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.38.9/cloudflarewarp-sda-v6.38.9-arm64-v8a.apk)
-  - [cloudflarewarp-sda-v6.38.9-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.38.9/cloudflarewarp-sda-v6.38.9-arm-v7a.apk)
+  - [cloudflarewarp-sda-v6.38.9-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/cloudflare-warp-rushiranpise-v6.38.9-arm64-v8a.apk)
+  - [cloudflarewarp-sda-v6.38.9-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/cloudflare-warp-rushiranpise-v6.38.9-arm-v7a.apk)
 
 ## 29. Cricbuzz (v16.02.05)
 - **App ID**: `cricbuzz`
@@ -354,8 +354,8 @@ This document provides the complete machine-readable index of all patched applic
   - Cricbuzz Disable Ads 
   - Cricbuzz Premium 
 - **Direct Download Assets**:
-  - [cricbuzz-sda-v16.02.05-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.02.05/cricbuzz-sda-v16.02.05-arm64-v8a.apk)
-  - [cricbuzz-sda-v16.02.05-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.02.05/cricbuzz-sda-v16.02.05-arm-v7a.apk)
+  - [cricbuzz-sda-v16.02.05-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/cricbuzz-paresh-v16.02.05-arm64-v8a.apk)
+  - [cricbuzz-sda-v16.02.05-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/cricbuzz-paresh-v16.02.05-arm-v7a.apk)
 
 ## 30. Discord (v349.9-Stable)
 - **App ID**: `discord`
@@ -369,8 +369,8 @@ This document provides the complete machine-readable index of all patched applic
   - Premium feature unlocking
   - Pure clean interface & decluttering
 - **Direct Download Assets**:
-  - [discord-sda-v349.9-Stable-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v349.9-Stable/discord-sda-v349.9-Stable-arm64-v8a.apk)
-  - [discord-sda-v349.9-Stable-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v349.9-Stable/discord-sda-v349.9-Stable-arm-v7a.apk)
+  - [discord-sda-v349.9-Stable-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260298/discord-revenge-v349.9-Stable-arm64-v8a.apk)
+  - [discord-sda-v349.9-Stable-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260298/discord-revenge-v349.9-Stable-arm-v7a.apk)
 
 ## 31. Disney+ (v26.16.0+rc2-2026.09.08)
 - **App ID**: `disney`
@@ -380,7 +380,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Disney+ Android TV
 - **Direct Download Assets**:
-  - [disney-sda-v26.16.0+rc2-2026.09.08-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.16.0+rc2-2026.09.08/disney-sda-v26.16.0+rc2-2026.09.08-universal.apk)
+  - [disney-sda-v26.16.0+rc2-2026.09.08-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/disney-ajstrick81-android-tv-v26.16.0%2Brc2-2026.09.08-all.apk)
 
 ## 32. Duolingo (v6.98.4)
 - **App ID**: `duolingo`
@@ -390,8 +390,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Premium
 - **Direct Download Assets**:
-  - [duolingo-sda-v6.98.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.98.4/duolingo-sda-v6.98.4-arm64-v8a.apk)
-  - [duolingo-sda-v6.98.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.98.4/duolingo-sda-v6.98.4-arm-v7a.apk)
+  - [duolingo-sda-v6.98.4-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/duolingo-hoodles-v6.98.4-arm64-v8a.apk)
+  - [duolingo-sda-v6.98.4-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/duolingo-hoodles-v6.98.4-arm-v7a.apk)
 
 ## 33. Eyecon (v4.2026.04.05.1300)
 - **App ID**: `eyecon`
@@ -401,8 +401,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Eyecon Premium 
 - **Direct Download Assets**:
-  - [eyecon-sda-v4.2026.04.05.1300-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.2026.04.05.1300/eyecon-sda-v4.2026.04.05.1300-arm64-v8a.apk)
-  - [eyecon-sda-v4.2026.04.05.1300-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.2026.04.05.1300/eyecon-sda-v4.2026.04.05.1300-arm-v7a.apk)
+  - [eyecon-sda-v4.2026.04.05.1300-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/eyecon-paresh-v4.2026.04.05.1300-arm64-v8a.apk)
+  - [eyecon-sda-v4.2026.04.05.1300-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/eyecon-paresh-v4.2026.04.05.1300-arm-v7a.apk)
 
 ## 34. F-Droid (v1.23.2)
 - **App ID**: `fdroid`
@@ -412,8 +412,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Selectable install backend
 - **Direct Download Assets**:
-  - [fdroid-sda-v1.23.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.23.2/fdroid-sda-v1.23.2-arm64-v8a.apk)
-  - [fdroid-sda-v1.23.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.23.2/fdroid-sda-v1.23.2-arm-v7a.apk)
+  - [fdroid-sda-v1.23.2-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260225/f-droid-patchweaver-v1.23.2-arm64-v8a.apk)
+  - [fdroid-sda-v1.23.2-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260225/f-droid-patchweaver-v1.23.2-arm-v7a.apk)
 
 ## 35. Facebook (v583.0.0.39.55)
 - **App ID**: `facebook`
@@ -429,8 +429,8 @@ This document provides the complete machine-readable index of all patched applic
   - Block promotional notifications
   - *...and 84 more patches*
 - **Direct Download Assets**:
-  - [facebook-sda-v583.0.0.39.55-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v583.0.0.39.55/facebook-sda-v583.0.0.39.55-arm64-v8a.apk)
-  - [facebook-sda-v583.0.0.39.55-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v583.0.0.39.55/facebook-sda-v583.0.0.39.55-arm-v7a.apk)
+  - [facebook-sda-v583.0.0.39.55-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260313/facebook-hushfacebook-v583.0.0.39.55-arm64-v8a.apk)
+  - [facebook-sda-v583.0.0.39.55-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260313/facebook-hushfacebook-v583.0.0.39.55-arm-v7a.apk)
 
 ## 36. FairEmail (v1.2338)
 - **App ID**: `fairemail`
@@ -440,8 +440,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Pro
 - **Direct Download Assets**:
-  - [fairemail-sda-v1.2338-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.2338/fairemail-sda-v1.2338-arm64-v8a.apk)
-  - [fairemail-sda-v1.2338-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.2338/fairemail-sda-v1.2338-arm-v7a.apk)
+  - [fairemail-sda-v1.2338-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260244/fairemail-heval99-v1.2338-arm64-v8a.apk)
+  - [fairemail-sda-v1.2338-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260244/fairemail-heval99-v1.2338-arm-v7a.apk)
 
 ## 37. Fing (v12.12.0)
 - **App ID**: `fing`
@@ -451,8 +451,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Fing Premium 
 - **Direct Download Assets**:
-  - [fing-sda-v12.12.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.12.0/fing-sda-v12.12.0-arm64-v8a.apk)
-  - [fing-sda-v12.12.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.12.0/fing-sda-v12.12.0-arm-v7a.apk)
+  - [fing-sda-v12.12.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/fing-paresh-v12.12.0-arm64-v8a.apk)
+  - [fing-sda-v12.12.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/fing-paresh-v12.12.0-arm-v7a.apk)
 
 ## 38. Flipkart (v9.15)
 - **App ID**: `flipkart`
@@ -462,8 +462,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Sort by number of ratings
 - **Direct Download Assets**:
-  - [flipkart-sda-v9.15-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.15/flipkart-sda-v9.15-arm64-v8a.apk)
-  - [flipkart-sda-v9.15-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.15/flipkart-sda-v9.15-arm-v7a.apk)
+  - [flipkart-sda-v9.15-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260256/flipkart-debakarr-v9.15-arm64-v8a.apk)
+  - [flipkart-sda-v9.15-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260256/flipkart-debakarr-v9.15-arm-v7a.apk)
 
 ## 39. FolderSync (v4.12.0)
 - **App ID**: `foldersync`
@@ -473,8 +473,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [foldersync-sda-v4.12.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.12.0/foldersync-sda-v4.12.0-arm64-v8a.apk)
-  - [foldersync-sda-v4.12.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.12.0/foldersync-sda-v4.12.0-arm-v7a.apk)
+  - [foldersync-sda-v4.12.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/foldersync-hooman-v4.12.0-arm64-v8a.apk)
+  - [foldersync-sda-v4.12.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/foldersync-hooman-v4.12.0-arm-v7a.apk)
 
 ## 40. Gboard (v18.0.3.954559732-release-arm64-v8a)
 - **App ID**: `gboard`
@@ -490,7 +490,7 @@ This document provides the complete machine-readable index of all patched applic
   - Change emoji size
   - *...and 37 more patches*
 - **Direct Download Assets**:
-  - [gboard-sda-v18.0.3.954559732-release-arm64-v8a-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v18.0.3.954559732-release-arm64-v8a/gboard-sda-v18.0.3.954559732-release-arm64-v8a-arm64-v8a.apk)
+  - [gboard-sda-v18.0.3.954559732-release-arm64-v8a-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260290/gboard-jasonwu1994-v18.0.3.954559732-release-arm64-v8a-arm64-v8a.apk)
 
 ## 41. GitHub (v1.271.1)
 - **App ID**: `github`
@@ -500,8 +500,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - AMOLED dark theme
 - **Direct Download Assets**:
-  - [github-sda-v1.271.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.271.1/github-sda-v1.271.1-arm64-v8a.apk)
-  - [github-sda-v1.271.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.271.1/github-sda-v1.271.1-arm-v7a.apk)
+  - [github-sda-v1.271.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/github-hoodles-v1.271.1-arm64-v8a.apk)
+  - [github-sda-v1.271.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/github-hoodles-v1.271.1-arm-v7a.apk)
 
 ## 42. Goodreads (v2.75.0Build3)
 - **App ID**: `goodreads`
@@ -511,8 +511,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Disable ads
 - **Direct Download Assets**:
-  - [goodreads-sda-v2.75.0Build3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.75.0Build3/goodreads-sda-v2.75.0Build3-arm64-v8a.apk)
-  - [goodreads-sda-v2.75.0Build3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.75.0Build3/goodreads-sda-v2.75.0Build3-arm-v7a.apk)
+  - [goodreads-sda-v2.75.0Build3-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/goodreads-hoodles-v2.75.0Build3-arm64-v8a.apk)
+  - [goodreads-sda-v2.75.0Build3-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/goodreads-hoodles-v2.75.0Build3-arm-v7a.apk)
 
 ## 43. Google Maps (v26.36.04.973607363)
 - **App ID**: `googlemaps`
@@ -528,8 +528,8 @@ This document provides the complete machine-readable index of all patched applic
   - Black theme
   - *...and 21 more patches*
 - **Direct Download Assets**:
-  - [googlemaps-sda-v26.36.04.973607363-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.36.04.973607363/googlemaps-sda-v26.36.04.973607363-arm64-v8a.apk)
-  - [googlemaps-sda-v26.36.04.973607363-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.36.04.973607363/googlemaps-sda-v26.36.04.973607363-arm-v7a.apk)
+  - [googlemaps-sda-v26.36.04.973607363-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/google-maps-bearinmindcat-v26.36.04.973607363-arm64-v8a.apk)
+  - [googlemaps-sda-v26.36.04.973607363-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/google-maps-bearinmindcat-v26.36.04.973607363-arm-v7a.apk)
 
 ## 44. Google News (v5.163.0.947799485)
 - **App ID**: `googlenews`
@@ -540,8 +540,8 @@ This document provides the complete machine-readable index of all patched applic
   - Enable CustomTabs 
   - GmsCore support 
 - **Direct Download Assets**:
-  - [googlenews-sda-v5.163.0.947799485-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.163.0.947799485/googlenews-sda-v5.163.0.947799485-arm64-v8a.apk)
-  - [googlenews-sda-v5.163.0.947799485-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.163.0.947799485/googlenews-sda-v5.163.0.947799485-arm-v7a.apk)
+  - [googlenews-sda-v5.163.0.947799485-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/google-news-docbt-v5.163.0.947799485-arm64-v8a.apk)
+  - [googlenews-sda-v5.163.0.947799485-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/google-news-docbt-v5.163.0.947799485-arm-v7a.apk)
 
 ## 45. Google Phone (v161.0.726587057)
 - **App ID**: `googlephone`
@@ -551,8 +551,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable call recording 
 - **Direct Download Assets**:
-  - [googlephone-sda-v161.0.726587057-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v161.0.726587057/googlephone-sda-v161.0.726587057-arm64-v8a.apk)
-  - [googlephone-sda-v161.0.726587057-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v161.0.726587057/googlephone-sda-v161.0.726587057-arm-v7a.apk)
+  - [googlephone-sda-v161.0.726587057-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/google-phone-hooman-v161.0.726587057-arm64-v8a.apk)
+  - [googlephone-sda-v161.0.726587057-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/google-phone-hooman-v161.0.726587057-arm-v7a.apk)
 
 ## 46. Google Photos (v7.97.0.997578476)
 - **App ID**: `googlephotos`
@@ -567,8 +567,8 @@ This document provides the complete machine-readable index of all patched applic
   - GmsCore support
   - Spoof features
 - **Direct Download Assets**:
-  - [googlephotos-sda-v7.97.0.997578476-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.97.0.997578476/googlephotos-sda-v7.97.0.997578476-arm64-v8a.apk)
-  - [googlephotos-sda-v7.97.0.997578476-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.97.0.997578476/googlephotos-sda-v7.97.0.997578476-arm-v7a.apk)
+  - [googlephotos-sda-v7.97.0.997578476-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/google-photos-rushiranpise-v7.97.0.997578476-arm64-v8a.apk)
+  - [googlephotos-sda-v7.97.0.997578476-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/google-photos-rushiranpise-v7.97.0.997578476-arm-v7a.apk)
 
 ## 47. Google Recorder (v4.2.20260823.982886211)
 - **App ID**: `googlerecorder`
@@ -578,7 +578,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Remove device restrictions
 - **Direct Download Assets**:
-  - [googlerecorder-sda-v4.2.20260823.982886211-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.2.20260823.982886211/googlerecorder-sda-v4.2.20260823.982886211-arm64-v8a.apk)
+  - [googlerecorder-sda-v4.2.20260823.982886211-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/google-recorder-devanced-v4.2.20260823.982886211-arm64-v8a.apk)
 
 ## 48. HBO Max (v7.9.0.61)
 - **App ID**: `hbomax`
@@ -589,7 +589,7 @@ This document provides the complete machine-readable index of all patched applic
   - HBO Max - Disable Ads
   - HBO Max - Prefer Ad-Free Stream
 - **Direct Download Assets**:
-  - [hbomax-sda-v7.9.0.61-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.9.0.61/hbomax-sda-v7.9.0.61-universal.apk)
+  - [hbomax-sda-v7.9.0.61-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/hbo-max-ajstrick81-android-tv-v7.9.0.61-all.apk)
 
 ## 49. HelloChinese (v7.11.0)
 - **App ID**: `hellochinese`
@@ -599,7 +599,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Premium
 - **Direct Download Assets**:
-  - [hellochinese-sda-v7.11.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.0/hellochinese-sda-v7.11.0-arm64-v8a.apk)
+  - [hellochinese-sda-v7.11.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/hellochinese-hoodles-v7.11.0-arm64-v8a.apk)
 
 ## 50. Hermit (v31.6.1)
 - **App ID**: `hermit`
@@ -609,8 +609,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [hermit-sda-v31.6.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v31.6.1/hermit-sda-v31.6.1-arm64-v8a.apk)
-  - [hermit-sda-v31.6.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v31.6.1/hermit-sda-v31.6.1-arm-v7a.apk)
+  - [hermit-sda-v31.6.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/hermit-lain-v31.6.1-arm64-v8a.apk)
+  - [hermit-sda-v31.6.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/hermit-lain-v31.6.1-arm-v7a.apk)
 
 ## 51. Hola VPN (vAARCH64_1.248.400)
 - **App ID**: `holavpn`
@@ -620,7 +620,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [holavpn-sda-vAARCH64_1.248.400-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/vAARCH64_1.248.400/holavpn-sda-vAARCH64_1.248.400-arm64-v8a.apk)
+  - [holavpn-sda-vAARCH64_1.248.400-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/hola-vpn-rushiranpise-vAARCH64_1.248.400-arm64-v8a.apk)
 
 ## 52. Ibis Paint X (v14.1.0)
 - **App ID**: `ibispaintx`
@@ -630,7 +630,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Prime membership
 - **Direct Download Assets**:
-  - [ibispaintx-sda-v14.1.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.1.0/ibispaintx-sda-v14.1.0-arm64-v8a.apk)
+  - [ibispaintx-sda-v14.1.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/ibis-paint-x-hoodles-v14.1.0-arm64-v8a.apk)
 
 ## 53. Icon Packer (v1.21.0-release)
 - **App ID**: `iconpacker`
@@ -640,8 +640,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock premium features
 - **Direct Download Assets**:
-  - [iconpacker-sda-v1.21.0-release-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.21.0-release/iconpacker-sda-v1.21.0-release-arm64-v8a.apk)
-  - [iconpacker-sda-v1.21.0-release-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.21.0-release/iconpacker-sda-v1.21.0-release-arm-v7a.apk)
+  - [iconpacker-sda-v1.21.0-release-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/icon-packer-hoodles-v1.21.0-release-arm64-v8a.apk)
+  - [iconpacker-sda-v1.21.0-release-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/icon-packer-hoodles-v1.21.0-release-arm-v7a.apk)
 
 ## 54. IMDb (v9.3.4)
 - **App ID**: `imdb`
@@ -651,7 +651,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Remove IMDb's ads, trackers, and analytics 
 - **Direct Download Assets**:
-  - [imdb-sda-v9.3.4-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.3.4/imdb-sda-v9.3.4-universal.apk)
+  - [imdb-sda-v9.3.4-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/imdb-adobo-v9.3.4-all.apk)
 
 ## 55. Inshorts (v6.12.18)
 - **App ID**: `inshorts`
@@ -662,8 +662,8 @@ This document provides the complete machine-readable index of all patched applic
   - Remove Ads
   - Skip Login
 - **Direct Download Assets**:
-  - [inshorts-sda-v6.12.18-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.12.18/inshorts-sda-v6.12.18-arm64-v8a.apk)
-  - [inshorts-sda-v6.12.15-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.12.15/inshorts-sda-v6.12.15-arm-v7a.apk)
+  - [inshorts-sda-v6.12.18-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/inshorts-bholeykabhakt-v6.12.18-arm64-v8a.apk)
+  - [inshorts-sda-v6.12.15-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/inshorts-bholeykabhakt-v6.12.15-arm-v7a.apk)
 
 ## 56. InShot (v2.214.1539)
 - **App ID**: `inshot`
@@ -673,8 +673,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Pro 
 - **Direct Download Assets**:
-  - [inshot-sda-v2.214.1539-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.214.1539/inshot-sda-v2.214.1539-arm64-v8a.apk)
-  - [inshot-sda-v2.214.1539-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.214.1539/inshot-sda-v2.214.1539-arm-v7a.apk)
+  - [inshot-sda-v2.214.1539-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/inshot-hooman-v2.214.1539-arm64-v8a.apk)
+  - [inshot-sda-v2.214.1539-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/inshot-hooman-v2.214.1539-arm-v7a.apk)
 
 ## 57. Instagram (v451.0.0.53.80)
 - **App ID**: `instagram`
@@ -690,7 +690,7 @@ This document provides the complete machine-readable index of all patched applic
   - Back leaves Home
   - *...and 102 more patches*
 - **Direct Download Assets**:
-  - [instagram-sda-v451.0.0.53.80-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v451.0.0.53.80/instagram-sda-v451.0.0.53.80-arm64-v8a.apk)
+  - [instagram-sda-v451.0.0.53.80-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260313/instagram-hushgram-v451.0.0.53.80-arm64-v8a.apk)
 
 ## 58. KineStop (v5.1)
 - **App ID**: `kinestop`
@@ -700,8 +700,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [kinestop-sda-v5.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1/kinestop-sda-v5.1-arm64-v8a.apk)
-  - [kinestop-sda-v5.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1/kinestop-sda-v5.1-arm-v7a.apk)
+  - [kinestop-sda-v5.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/kinestop-shaunthesheep-v5.1-arm64-v8a.apk)
+  - [kinestop-sda-v5.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/kinestop-shaunthesheep-v5.1-arm-v7a.apk)
 
 ## 59. Komoot (v2026.26.7)
 - **App ID**: `komoot`
@@ -711,8 +711,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium features 
 - **Direct Download Assets**:
-  - [komoot-sda-v2026.26.7-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.26.7/komoot-sda-v2026.26.7-arm64-v8a.apk)
-  - [komoot-sda-v2026.26.7-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.26.7/komoot-sda-v2026.26.7-arm-v7a.apk)
+  - [komoot-sda-v2026.26.7-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/komoot-brosssh-v2026.26.7-arm64-v8a.apk)
+  - [komoot-sda-v2026.26.7-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/komoot-brosssh-v2026.26.7-arm-v7a.apk)
 
 ## 60. Letterboxd (v3.5.8)
 - **App ID**: `letterboxd`
@@ -726,8 +726,8 @@ This document provides the complete machine-readable index of all patched applic
   - Hide ads
   - Mod settings
 - **Direct Download Assets**:
-  - [letterboxd-sda-v3.5.8-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.5.8/letterboxd-sda-v3.5.8-arm64-v8a.apk)
-  - [letterboxd-sda-v3.5.8-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.5.8/letterboxd-sda-v3.5.8-arm-v7a.apk)
+  - [letterboxd-sda-v3.5.8-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/letterboxd-mvaishak-v3.5.8-arm64-v8a.apk)
+  - [letterboxd-sda-v3.5.8-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/letterboxd-mvaishak-v3.5.8-arm-v7a.apk)
 
 ## 61. LinkedIn (v4.1.1261)
 - **App ID**: `linkedin`
@@ -743,8 +743,8 @@ This document provides the complete machine-readable index of all patched applic
   - Hide ads
   - *...and 5 more patches*
 - **Direct Download Assets**:
-  - [linkedin-sda-v4.1.1261-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1261/linkedin-sda-v4.1.1261-arm64-v8a.apk)
-  - [linkedin-sda-v4.1.1261-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1261/linkedin-sda-v4.1.1261-arm-v7a.apk)
+  - [linkedin-sda-v4.1.1261-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260293/linkedin-michii-v4.1.1261-arm64-v8a.apk)
+  - [linkedin-sda-v4.1.1261-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260293/linkedin-michii-v4.1.1261-arm-v7a.apk)
 
 ## 62. Lumina Wallpapers (v1.0.2.4)
 - **App ID**: `luminawallpapers`
@@ -754,8 +754,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Lumina Premium 
 - **Direct Download Assets**:
-  - [luminawallpapers-sda-v1.0.2.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.0.2.4/luminawallpapers-sda-v1.0.2.4-arm64-v8a.apk)
-  - [luminawallpapers-sda-v1.0.2.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.0.2.4/luminawallpapers-sda-v1.0.2.4-arm-v7a.apk)
+  - [luminawallpapers-sda-v1.0.2.4-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/lumina-wallpapers-paresh-v1.0.2.4-arm64-v8a.apk)
+  - [luminawallpapers-sda-v1.0.2.4-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/lumina-wallpapers-paresh-v1.0.2.4-arm-v7a.apk)
 
 ## 63. MacroDroid (v5.66.9)
 - **App ID**: `macrodroid`
@@ -765,8 +765,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Pro
 - **Direct Download Assets**:
-  - [macrodroid-sda-v5.66.9-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.66.9/macrodroid-sda-v5.66.9-arm64-v8a.apk)
-  - [macrodroid-sda-v5.66.9-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.66.9/macrodroid-sda-v5.66.9-arm-v7a.apk)
+  - [macrodroid-sda-v5.66.9-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/macrodroid-rushiranpise-v5.66.9-arm64-v8a.apk)
+  - [macrodroid-sda-v5.66.9-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/macrodroid-rushiranpise-v5.66.9-arm-v7a.apk)
 
 ## 64. Medium (v4.5.1302097)
 - **App ID**: `medium`
@@ -776,8 +776,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Freedium 
 - **Direct Download Assets**:
-  - [medium-sda-v4.5.1302097-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.5.1302097/medium-sda-v4.5.1302097-arm64-v8a.apk)
-  - [medium-sda-v4.5.1302097-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.5.1302097/medium-sda-v4.5.1302097-arm-v7a.apk)
+  - [medium-sda-v4.5.1302097-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/medium-bufferk-v4.5.1302097-arm64-v8a.apk)
+  - [medium-sda-v4.5.1302097-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/medium-bufferk-v4.5.1302097-arm-v7a.apk)
 
 ## 65. Meesho (v29.6)
 - **App ID**: `meesho`
@@ -787,8 +787,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Sort by number of ratings
 - **Direct Download Assets**:
-  - [meesho-sda-v29.6-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v29.6/meesho-sda-v29.6-arm64-v8a.apk)
-  - [meesho-sda-v29.6-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v29.6/meesho-sda-v29.6-arm-v7a.apk)
+  - [meesho-sda-v29.6-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260256/meesho-debakarr-v29.6-arm64-v8a.apk)
+  - [meesho-sda-v29.6-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260256/meesho-debakarr-v29.6-arm-v7a.apk)
 
 ## 66. Merriam Webster Dictionary (v5.6.2)
 - **App ID**: `merriamwebsterdictionary`
@@ -798,8 +798,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Premium
 - **Direct Download Assets**:
-  - [merriamwebsterdictionary-sda-v5.6.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.6.2/merriamwebsterdictionary-sda-v5.6.2-arm64-v8a.apk)
-  - [merriamwebsterdictionary-sda-v5.6.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.6.2/merriamwebsterdictionary-sda-v5.6.2-arm-v7a.apk)
+  - [merriamwebsterdictionary-sda-v5.6.2-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/merriam-webster-dictionary-hoodles-v5.6.2-arm64-v8a.apk)
+  - [merriamwebsterdictionary-sda-v5.6.2-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/merriam-webster-dictionary-hoodles-v5.6.2-arm-v7a.apk)
 
 ## 67. Messenger (v583.0.0.29.95)
 - **App ID**: `messenger`
@@ -815,7 +815,7 @@ This document provides the complete machine-readable index of all patched applic
   - Hide AI sticker tools
   - *...and 52 more patches*
 - **Direct Download Assets**:
-  - [messenger-sda-v583.0.0.29.95-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v583.0.0.29.95/messenger-sda-v583.0.0.29.95-arm64-v8a.apk)
+  - [messenger-sda-v583.0.0.29.95-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260313/messenger-hushmessenger-v583.0.0.29.95-arm64-v8a.apk)
 
 ## 68. Microsoft Edge (v152.0.4191.65)
 - **App ID**: `microsoftedge`
@@ -827,8 +827,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable news notifications 
   - Telemetry elimination 
 - **Direct Download Assets**:
-  - [microsoftedge-sda-v152.0.4191.65-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v152.0.4191.65/microsoftedge-sda-v152.0.4191.65-arm64-v8a.apk)
-  - [microsoftedge-sda-v152.0.4191.65-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v152.0.4191.65/microsoftedge-sda-v152.0.4191.65-arm-v7a.apk)
+  - [microsoftedge-sda-v152.0.4191.65-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/microsoft-edge-quantavil-v152.0.4191.65-arm64-v8a.apk)
+  - [microsoftedge-sda-v152.0.4191.65-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/microsoft-edge-quantavil-v152.0.4191.65-arm-v7a.apk)
 
 ## 69. Microsoft Lens (v16.0.19628.20008)
 - **App ID**: `microsoftlens`
@@ -838,8 +838,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Hide OneDrive migration 
 - **Direct Download Assets**:
-  - [microsoftlens-sda-v16.0.19628.20008-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.0.19628.20008/microsoftlens-sda-v16.0.19628.20008-arm64-v8a.apk)
-  - [microsoftlens-sda-v16.0.19628.20008-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.0.19628.20008/microsoftlens-sda-v16.0.19628.20008-arm-v7a.apk)
+  - [microsoftlens-sda-v16.0.19628.20008-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/microsoft-lens-devanced-v16.0.19628.20008-arm64-v8a.apk)
+  - [microsoftlens-sda-v16.0.19628.20008-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/microsoft-lens-devanced-v16.0.19628.20008-arm-v7a.apk)
 
 ## 70. Microsoft Swiftkey (v9.13.13.5)
 - **App ID**: `microsoftswiftkey`
@@ -850,8 +850,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable cloud sign-in prompt 
   - Disable telemetry 
 - **Direct Download Assets**:
-  - [microsoftswiftkey-sda-v9.13.13.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.13.13.5/microsoftswiftkey-sda-v9.13.13.5-arm64-v8a.apk)
-  - [microsoftswiftkey-sda-v9.13.13.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.13.13.5/microsoftswiftkey-sda-v9.13.13.5-arm-v7a.apk)
+  - [microsoftswiftkey-sda-v9.13.13.5-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/microsoft-swiftkey-hooman-v9.13.13.5-arm64-v8a.apk)
+  - [microsoftswiftkey-sda-v9.13.13.5-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/microsoft-swiftkey-hooman-v9.13.13.5-arm-v7a.apk)
 
 ## 71. Money Manager (v4.11.1GF)
 - **App ID**: `moneymanager`
@@ -861,8 +861,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [moneymanager-sda-v4.11.1GF-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.11.1GF/moneymanager-sda-v4.11.1GF-arm64-v8a.apk)
-  - [moneymanager-sda-v4.11.1GF-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.11.1GF/moneymanager-sda-v4.11.1GF-arm-v7a.apk)
+  - [moneymanager-sda-v4.11.1GF-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/money-manager-hooman-v4.11.1GF-arm64-v8a.apk)
+  - [moneymanager-sda-v4.11.1GF-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/money-manager-hooman-v4.11.1GF-arm-v7a.apk)
 
 ## 72. Moon+ Reader (v10.5)
 - **App ID**: `moonreader`
@@ -873,8 +873,8 @@ This document provides the complete machine-readable index of all patched applic
   - Make UI look like Pro 
   - Unlock Moon+ Reader Pro 
 - **Direct Download Assets**:
-  - [moonreader-sda-v10.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v10.5/moonreader-sda-v10.5-arm64-v8a.apk)
-  - [moonreader-sda-v10.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v10.5/moonreader-sda-v10.5-arm-v7a.apk)
+  - [moonreader-sda-v10.5-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/moon-reader-binarymend-v10.5-arm64-v8a.apk)
+  - [moonreader-sda-v10.5-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/moon-reader-binarymend-v10.5-arm-v7a.apk)
 
 ## 73. My Expenses (v4.1.1.2)
 - **App ID**: `myexpenses`
@@ -884,8 +884,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Pro
 - **Direct Download Assets**:
-  - [myexpenses-sda-v4.1.1.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1.2/myexpenses-sda-v4.1.1.2-arm64-v8a.apk)
-  - [myexpenses-sda-v4.1.1.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1.2/myexpenses-sda-v4.1.1.2-arm-v7a.apk)
+  - [myexpenses-sda-v4.1.1.2-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260297/my-expenses-hoodles-v4.1.1.2-arm64-v8a.apk)
+  - [myexpenses-sda-v4.1.1.2-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260297/my-expenses-hoodles-v4.1.1.2-arm-v7a.apk)
 
 ## 74. MyFitnessPal (v26.31.0)
 - **App ID**: `myfitnesspal`
@@ -895,8 +895,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Premium+
 - **Direct Download Assets**:
-  - [myfitnesspal-sda-v26.31.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.31.0/myfitnesspal-sda-v26.31.0-arm64-v8a.apk)
-  - [myfitnesspal-sda-v26.31.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.31.0/myfitnesspal-sda-v26.31.0-arm-v7a.apk)
+  - [myfitnesspal-sda-v26.31.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/myfitnesspal-hoodles-v26.31.0-arm64-v8a.apk)
+  - [myfitnesspal-sda-v26.31.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/myfitnesspal-hoodles-v26.31.0-arm-v7a.apk)
 
 ## 75. Netflix (v13.0.1build25028)
 - **App ID**: `netflix`
@@ -909,7 +909,7 @@ This document provides the complete machine-readable index of all patched applic
   - Remove Netflix ads (loader)
   - Clone Netflix
 - **Direct Download Assets**:
-  - [netflix-sda-v13.0.1build25028-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.1build25028/netflix-sda-v13.0.1build25028-arm-v7a.apk)
+  - [netflix-sda-v13.0.1build25028-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260303/netflix-ajstrick81-android-tv-v13.0.1build25028-arm-v7a.apk)
 
 ## 76. Niagara Launcher (v1.16.7)
 - **App ID**: `niagaralauncher`
@@ -919,8 +919,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Niagara Pro 
 - **Direct Download Assets**:
-  - [niagaralauncher-sda-v1.16.7-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.16.7/niagaralauncher-sda-v1.16.7-arm64-v8a.apk)
-  - [niagaralauncher-sda-v1.16.7-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.16.7/niagaralauncher-sda-v1.16.7-arm-v7a.apk)
+  - [niagaralauncher-sda-v1.16.7-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/niagara-launcher-entree3k-v1.16.7-arm64-v8a.apk)
+  - [niagaralauncher-sda-v1.16.7-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/niagara-launcher-entree3k-v1.16.7-arm-v7a.apk)
 
 ## 77. Ninja VPN (v1.4.7)
 - **App ID**: `ninjavpn`
@@ -930,7 +930,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium
 - **Direct Download Assets**:
-  - [ninjavpn-sda-v1.4.7-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.4.7/ninjavpn-sda-v1.4.7-arm64-v8a.apk)
+  - [ninjavpn-sda-v1.4.7-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/ninja-vpn-rushiranpise-v1.4.7-arm64-v8a.apk)
 
 ## 78. Nova Launcher (v88600)
 - **App ID**: `novalauncher`
@@ -940,8 +940,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Prime
 - **Direct Download Assets**:
-  - [novalauncher-sda-v88600-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v88600/novalauncher-sda-v88600-arm64-v8a.apk)
-  - [novalauncher-sda-v88600-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v88600/novalauncher-sda-v88600-arm-v7a.apk)
+  - [novalauncher-sda-v88600-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/nova-launcher-hoodles-v88600-arm64-v8a.apk)
+  - [novalauncher-sda-v88600-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/nova-launcher-hoodles-v88600-arm-v7a.apk)
 
 ## 79. Nuvio (v0.9.0-beta)
 - **App ID**: `nuvio`
@@ -956,8 +956,8 @@ This document provides the complete machine-readable index of all patched applic
   - Random Episode 
   - Remove SDH Annotations 
 - **Direct Download Assets**:
-  - [nuvio-sda-v0.9.0-beta-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.9.0-beta/nuvio-sda-v0.9.0-beta-arm64-v8a.apk)
-  - [nuvio-sda-v0.9.0-beta-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.9.0-beta/nuvio-sda-v0.9.0-beta-arm-v7a.apk)
+  - [nuvio-sda-v0.9.0-beta-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/beta/nuvio-liongalahad-android-tv-v0.9.0-beta-arm64-v8a.apk)
+  - [nuvio-sda-v0.9.0-beta-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/beta/nuvio-liongalahad-android-tv-v0.9.0-beta-arm-v7a.apk)
 
 ## 80. Offline Games (v3.15.3)
 - **App ID**: `offlinegames`
@@ -970,8 +970,8 @@ This document provides the complete machine-readable index of all patched applic
   - In-house ad only
   - Instant in-house ad close
 - **Direct Download Assets**:
-  - [offlinegames-sda-v3.15.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.15.3/offlinegames-sda-v3.15.3-arm64-v8a.apk)
-  - [offlinegames-sda-v3.14.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.14.1/offlinegames-sda-v3.14.1-arm-v7a.apk)
+  - [offlinegames-sda-v3.15.3-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260251/offline-games-ggyasin-v3.15.3-arm64-v8a.apk)
+  - [offlinegames-sda-v3.14.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260251/offline-games-ggyasin-v3.14.1-arm-v7a.apk)
 
 ## 81. Pandora (v2609.2)
 - **App ID**: `pandora`
@@ -982,8 +982,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable ads
   - Unlimited skips
 - **Direct Download Assets**:
-  - [pandora-sda-v2609.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2609.2/pandora-sda-v2609.2-arm64-v8a.apk)
-  - [pandora-sda-v2609.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2609.2/pandora-sda-v2609.2-arm-v7a.apk)
+  - [pandora-sda-v2609.2-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/pandora-hoodles-v2609.2-arm64-v8a.apk)
+  - [pandora-sda-v2609.2-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/pandora-hoodles-v2609.2-arm-v7a.apk)
 
 ## 82. Peacock (v7.10.102)
 - **App ID**: `peacock`
@@ -994,7 +994,7 @@ This document provides the complete machine-readable index of all patched applic
   - Disable auto-updates
   - Skip ads
 - **Direct Download Assets**:
-  - [peacock-sda-v7.10.102-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.10.102/peacock-sda-v7.10.102-universal.apk)
+  - [peacock-sda-v7.10.102-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/peacock-ajstrick81-android-tv-v7.10.102-all.apk)
 
 ## 83. Photomath (v8.48.0)
 - **App ID**: `photomath`
@@ -1006,8 +1006,8 @@ This document provides the complete machine-readable index of all patched applic
   - Spoof device ID
   - Unlock plus
 - **Direct Download Assets**:
-  - [photomath-sda-v8.48.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.48.0/photomath-sda-v8.48.0-arm64-v8a.apk)
-  - [photomath-sda-v8.48.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.48.0/photomath-sda-v8.48.0-arm-v7a.apk)
+  - [photomath-sda-v8.48.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/photomath-devanced-v8.48.0-arm64-v8a.apk)
+  - [photomath-sda-v8.48.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/photomath-devanced-v8.48.0-arm-v7a.apk)
 
 ## 84. PicsArt (v30.7.8)
 - **App ID**: `picsart`
@@ -1019,7 +1019,7 @@ This document provides the complete machine-readable index of all patched applic
   - Remove Watermark
   - Unlock Premium
 - **Direct Download Assets**:
-  - [picsart-sda-v30.7.8-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v30.7.8/picsart-sda-v30.7.8-universal.apk)
+  - [picsart-sda-v30.7.8-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/260277/picsart-rushiranpise-v30.7.8-all.apk)
 
 ## 85. Pinterest (v14.39.0)
 - **App ID**: `pinterest`
@@ -1035,8 +1035,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable ads
   - *...and 28 more patches*
 - **Direct Download Assets**:
-  - [pinterest-sda-v14.39.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.39.0/pinterest-sda-v14.39.0-arm64-v8a.apk)
-  - [pinterest-sda-v14.39.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.39.0/pinterest-sda-v14.39.0-arm-v7a.apk)
+  - [pinterest-sda-v14.39.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260312/pinterest-browzomje-v14.39.0-arm64-v8a.apk)
+  - [pinterest-sda-v14.39.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260312/pinterest-browzomje-v14.39.0-arm-v7a.apk)
 
 ## 86. pixiv (v6.196.0)
 - **App ID**: `pixiv`
@@ -1047,8 +1047,8 @@ This document provides the complete machine-readable index of all patched applic
   - Hide ads
   - Remove popular search time limit
 - **Direct Download Assets**:
-  - [pixiv-sda-v6.196.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.196.0/pixiv-sda-v6.196.0-arm64-v8a.apk)
-  - [pixiv-sda-v6.196.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.196.0/pixiv-sda-v6.196.0-arm-v7a.apk)
+  - [pixiv-sda-v6.196.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/pixiv-devanced-v6.196.0-arm64-v8a.apk)
+  - [pixiv-sda-v6.196.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/pixiv-devanced-v6.196.0-arm-v7a.apk)
 
 ## 87. Plus Messenger (v12.9.2.0)
 - **App ID**: `plusmessenger`
@@ -1064,8 +1064,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable analytics 
   - *...and 5 more patches*
 - **Direct Download Assets**:
-  - [plusmessenger-sda-v12.9.2.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.9.2.0/plusmessenger-sda-v12.9.2.0-arm64-v8a.apk)
-  - [plusmessenger-sda-v12.9.2.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.9.2.0/plusmessenger-sda-v12.9.2.0-arm-v7a.apk)
+  - [plusmessenger-sda-v12.9.2.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/plus-messenger-paresh-v12.9.2.0-arm64-v8a.apk)
+  - [plusmessenger-sda-v12.9.2.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/plus-messenger-paresh-v12.9.2.0-arm-v7a.apk)
 
 ## 88. PlutoTV (v5.66.0-leanback)
 - **App ID**: `plutotv`
@@ -1077,7 +1077,7 @@ This document provides the complete machine-readable index of all patched applic
   - Mask live ad breaks (black screen + mute)
   - Skip ads
 - **Direct Download Assets**:
-  - [plutotv-sda-v5.66.0-leanback-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.66.0-leanback/plutotv-sda-v5.66.0-leanback-universal.apk)
+  - [plutotv-sda-v5.66.0-leanback-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/plutotv-ajstrick81-android-tv-v5.66.0-leanback-all.apk)
 
 ## 89. Pocket Casts (v8.16)
 - **App ID**: `pocketcasts`
@@ -1087,8 +1087,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Patron
 - **Direct Download Assets**:
-  - [pocketcasts-sda-v8.16-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.16/pocketcasts-sda-v8.16-arm64-v8a.apk)
-  - [pocketcasts-sda-v8.16-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.16/pocketcasts-sda-v8.16-arm-v7a.apk)
+  - [pocketcasts-sda-v8.16-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/pocket-casts-rushiranpise-v8.16-arm64-v8a.apk)
+  - [pocketcasts-sda-v8.16-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/pocket-casts-rushiranpise-v8.16-arm-v7a.apk)
 
 ## 90. Pocket Whip (v2.3)
 - **App ID**: `pocketwhip`
@@ -1099,8 +1099,8 @@ This document provides the complete machine-readable index of all patched applic
   - Hide ads
   - Unlock premium
 - **Direct Download Assets**:
-  - [pocketwhip-sda-v2.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.3/pocketwhip-sda-v2.3-arm64-v8a.apk)
-  - [pocketwhip-sda-v2.3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.3/pocketwhip-sda-v2.3-arm-v7a.apk)
+  - [pocketwhip-sda-v2.3-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260239/pocket-whip-hxreborn-v2.3-arm64-v8a.apk)
+  - [pocketwhip-sda-v2.3-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260239/pocket-whip-hxreborn-v2.3-arm-v7a.apk)
 
 ## 91. Podcast Addict (v2026.10.1)
 - **App ID**: `podcastaddict`
@@ -1110,8 +1110,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Premium
 - **Direct Download Assets**:
-  - [podcastaddict-sda-v2026.10.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.10.1/podcastaddict-sda-v2026.10.1-arm64-v8a.apk)
-  - [podcastaddict-sda-v2026.10.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.10.1/podcastaddict-sda-v2026.10.1-arm-v7a.apk)
+  - [podcastaddict-sda-v2026.10.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/podcast-addict-hoodles-v2026.10.1-arm64-v8a.apk)
+  - [podcastaddict-sda-v2026.10.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/podcast-addict-hoodles-v2026.10.1-arm-v7a.apk)
 
 ## 92. Poweramp (vbuild-1025-bundle-play)
 - **App ID**: `poweramp`
@@ -1121,7 +1121,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [poweramp-sda-vbuild-1025-bundle-play-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/vbuild-1025-bundle-play/poweramp-sda-vbuild-1025-bundle-play-universal.apk)
+  - [poweramp-sda-vbuild-1025-bundle-play-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/poweramp-hooman-vbuild-1025-bundle-play-all.apk)
 
 ## 93. Prime Video (v6.23.23+v15.5.0.70-armv7a)
 - **App ID**: `primevideo`
@@ -1135,7 +1135,7 @@ This document provides the complete machine-readable index of all patched applic
   - Prime Video extension
   - Skip ads
 - **Direct Download Assets**:
-  - [primevideo-sda-v6.23.23+v15.5.0.70-armv7a-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.23.23+v15.5.0.70-armv7a/primevideo-sda-v6.23.23+v15.5.0.70-armv7a-arm-v7a.apk)
+  - [primevideo-sda-v6.23.23+v15.5.0.70-armv7a-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/prime-video-ajstrick81-android-tv-v6.23.23%2Bv15.5.0.70-armv7a-arm-v7a.apk)
 
 ## 94. Proton Mail (v7.11.4)
 - **App ID**: `protonmail`
@@ -1146,8 +1146,8 @@ This document provides the complete machine-readable index of all patched applic
   - Unlock Custom Time Picker 
   - Unlock Unlimited Plan 
 - **Direct Download Assets**:
-  - [protonmail-sda-v7.11.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.4/protonmail-sda-v7.11.4-arm64-v8a.apk)
-  - [protonmail-sda-v7.11.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.4/protonmail-sda-v7.11.4-arm-v7a.apk)
+  - [protonmail-sda-v7.11.4-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/proton-mail-rushiranpise-v7.11.4-arm64-v8a.apk)
+  - [protonmail-sda-v7.11.4-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/proton-mail-rushiranpise-v7.11.4-arm-v7a.apk)
 
 ## 95. Proton Pass (v1.41.4)
 - **App ID**: `protonpass`
@@ -1162,8 +1162,8 @@ This document provides the complete machine-readable index of all patched applic
   - Hide upgrade promotions
   - Material 3 switches
 - **Direct Download Assets**:
-  - [protonpass-sda-v1.41.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.41.4/protonpass-sda-v1.41.4-arm64-v8a.apk)
-  - [protonpass-sda-v1.41.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.41.4/protonpass-sda-v1.41.4-arm-v7a.apk)
+  - [protonpass-sda-v1.41.4-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260306/proton-pass-hxreborn-v1.41.4-arm64-v8a.apk)
+  - [protonpass-sda-v1.41.4-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260306/proton-pass-hxreborn-v1.41.4-arm-v7a.apk)
 
 ## 96. Proton VPN (v5.20.74.0)
 - **App ID**: `protonvpn`
@@ -1179,8 +1179,8 @@ This document provides the complete machine-readable index of all patched applic
   - Remove server change delay
   - *...and 7 more patches*
 - **Direct Download Assets**:
-  - [protonvpn-sda-v5.20.74.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.20.74.0/protonvpn-sda-v5.20.74.0-arm64-v8a.apk)
-  - [protonvpn-sda-v5.20.74.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.20.74.0/protonvpn-sda-v5.20.74.0-arm-v7a.apk)
+  - [protonvpn-sda-v5.20.74.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260306/proton-vpn-hxreborn-v5.20.74.0-arm64-v8a.apk)
+  - [protonvpn-sda-v5.20.74.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260306/proton-vpn-hxreborn-v5.20.74.0-arm-v7a.apk)
 
 ## 97. RAR (v7.23.build134)
 - **App ID**: `rar`
@@ -1190,8 +1190,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Pro
 - **Direct Download Assets**:
-  - [rar-sda-v7.23.build134-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.23.build134/rar-sda-v7.23.build134-arm64-v8a.apk)
-  - [rar-sda-v7.23.build134-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.23.build134/rar-sda-v7.23.build134-arm-v7a.apk)
+  - [rar-sda-v7.23.build134-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/rar-rushiranpise-v7.23.build134-arm64-v8a.apk)
+  - [rar-sda-v7.23.build134-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/rar-rushiranpise-v7.23.build134-arm-v7a.apk)
 
 ## 98. Reddit (v2026.24.0)
 - **App ID**: `reddit`
@@ -1207,8 +1207,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable screenshot popup
   - *...and 22 more patches*
 - **Direct Download Assets**:
-  - [reddit-sda-v2026.24.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.24.0/reddit-sda-v2026.24.0-arm64-v8a.apk)
-  - [reddit-sda-v2026.24.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.24.0/reddit-sda-v2026.24.0-arm-v7a.apk)
+  - [reddit-sda-v2026.24.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260307/reddit-morphe-v2026.24.0-arm64-v8a.apk)
+  - [reddit-sda-v2026.24.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260307/reddit-morphe-v2026.24.0-arm-v7a.apk)
 
 ## 99. Rumble (v3.14.5)
 - **App ID**: `rumble`
@@ -1218,8 +1218,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [rumble-sda-v3.14.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.14.5/rumble-sda-v3.14.5-arm64-v8a.apk)
-  - [rumble-sda-v3.14.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.14.5/rumble-sda-v3.14.5-arm-v7a.apk)
+  - [rumble-sda-v3.14.5-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/rumble-hooman-v3.14.5-arm64-v8a.apk)
+  - [rumble-sda-v3.14.5-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/rumble-hooman-v3.14.5-arm-v7a.apk)
 
 ## 100. SD Maid 2/SE (v1.7.3-rc0)
 - **App ID**: `sdmaid2se`
@@ -1229,8 +1229,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Pro 
 - **Direct Download Assets**:
-  - [sdmaid2se-sda-v1.7.3-rc0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.7.3-rc0/sdmaid2se-sda-v1.7.3-rc0-arm64-v8a.apk)
-  - [sdmaid2se-sda-v1.7.3-rc0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.7.3-rc0/sdmaid2se-sda-v1.7.3-rc0-arm-v7a.apk)
+  - [sdmaid2se-sda-v1.7.3-rc0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/sd-maid-2-se-paresh-v1.7.3-rc0-arm64-v8a.apk)
+  - [sdmaid2se-sda-v1.7.3-rc0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/sd-maid-2-se-paresh-v1.7.3-rc0-arm-v7a.apk)
 
 ## 101. Send Files to TV (v1.4.22)
 - **App ID**: `sendfilestotv`
@@ -1240,8 +1240,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Remove Ads
 - **Direct Download Assets**:
-  - [sendfilestotv-sda-v1.4.22-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.4.22/sendfilestotv-sda-v1.4.22-arm64-v8a.apk)
-  - [sendfilestotv-sda-v1.4.22-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.4.22/sendfilestotv-sda-v1.4.22-arm-v7a.apk)
+  - [sendfilestotv-sda-v1.4.22-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/send-files-to-tv-rushiranpise-v1.4.22-arm64-v8a.apk)
+  - [sendfilestotv-sda-v1.4.22-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/send-files-to-tv-rushiranpise-v1.4.22-arm-v7a.apk)
 
 ## 102. Showly (v3.72.0)
 - **App ID**: `showly`
@@ -1252,8 +1252,8 @@ This document provides the complete machine-readable index of all patched applic
   - AMOLED dark theme
   - Unlock premium
 - **Direct Download Assets**:
-  - [showly-sda-v3.72.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.72.0/showly-sda-v3.72.0-arm64-v8a.apk)
-  - [showly-sda-v3.72.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.72.0/showly-sda-v3.72.0-arm-v7a.apk)
+  - [showly-sda-v3.72.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260239/showly-hxreborn-v3.72.0-arm64-v8a.apk)
+  - [showly-sda-v3.72.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260239/showly-hxreborn-v3.72.0-arm-v7a.apk)
 
 ## 103. Smart Launcher 6 (v6.6build020)
 - **App ID**: `smartlauncher6`
@@ -1263,8 +1263,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Pro
 - **Direct Download Assets**:
-  - [smartlauncher6-sda-v6.6build020-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.6build020/smartlauncher6-sda-v6.6build020-arm64-v8a.apk)
-  - [smartlauncher6-sda-v6.6build020-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.6build020/smartlauncher6-sda-v6.6build020-arm-v7a.apk)
+  - [smartlauncher6-sda-v6.6build020-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/smart-launcher-6-hoodles-v6.6build020-arm64-v8a.apk)
+  - [smartlauncher6-sda-v6.6build020-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/smart-launcher-6-hoodles-v6.6build020-arm-v7a.apk)
 
 ## 104. Sofascore (v26.09.28)
 - **App ID**: `sofascore`
@@ -1278,8 +1278,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable telemetry
   - Enable Premium
 - **Direct Download Assets**:
-  - [sofascore-sda-v26.09.28-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.09.28/sofascore-sda-v26.09.28-arm64-v8a.apk)
-  - [sofascore-sda-v26.09.28-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.09.28/sofascore-sda-v26.09.28-arm-v7a.apk)
+  - [sofascore-sda-v26.09.28-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260292/sofascore-heval99-v26.09.28-arm64-v8a.apk)
+  - [sofascore-sda-v26.09.28-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/sofascore-heval99-v26.09.28-arm-v7a.apk)
 
 ## 105. Solid Explorer (v3.6.1)
 - **App ID**: `solidexplorer`
@@ -1289,8 +1289,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Pro
 - **Direct Download Assets**:
-  - [solidexplorer-sda-v3.6.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.6.1/solidexplorer-sda-v3.6.1-arm64-v8a.apk)
-  - [solidexplorer-sda-v3.6.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.6.1/solidexplorer-sda-v3.6.1-arm-v7a.apk)
+  - [solidexplorer-sda-v3.6.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/solid-explorer-hoodles-v3.6.1-arm64-v8a.apk)
+  - [solidexplorer-sda-v3.6.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/solid-explorer-hoodles-v3.6.1-arm-v7a.apk)
 
 ## 106. SoundCloud (v2026.08.26-release)
 - **App ID**: `soundcloud`
@@ -1302,8 +1302,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable consent popup 
   - Enable SoundCloud Go 
 - **Direct Download Assets**:
-  - [soundcloud-sda-v2026.08.26-release-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.08.26-release/soundcloud-sda-v2026.08.26-release-arm64-v8a.apk)
-  - [soundcloud-sda-v2026.08.26-release-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.08.26-release/soundcloud-sda-v2026.08.26-release-arm-v7a.apk)
+  - [soundcloud-sda-v2026.08.26-release-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/soundcloud-kondratjev-v2026.08.26-release-arm64-v8a.apk)
+  - [soundcloud-sda-v2026.08.26-release-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/soundcloud-kondratjev-v2026.08.26-release-arm-v7a.apk)
 
 ## 107. Speedtest (v7.0.4)
 - **App ID**: `speedtest`
@@ -1314,8 +1314,8 @@ This document provides the complete machine-readable index of all patched applic
   - AdFree Account 
   - Disable Logging(analytics) 
 - **Direct Download Assets**:
-  - [speedtest-sda-v7.0.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.0.4/speedtest-sda-v7.0.4-arm64-v8a.apk)
-  - [speedtest-sda-v7.0.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.0.4/speedtest-sda-v7.0.4-arm-v7a.apk)
+  - [speedtest-sda-v7.0.4-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/speedtest-bholeykabhakt-v7.0.4-arm64-v8a.apk)
+  - [speedtest-sda-v7.0.4-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/speedtest-bholeykabhakt-v7.0.4-arm-v7a.apk)
 
 ## 108. Strava (v477.14)
 - **App ID**: `strava`
@@ -1331,8 +1331,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable Quick Edit
   - *...and 4 more patches*
 - **Direct Download Assets**:
-  - [strava-sda-v477.14-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v477.14/strava-sda-v477.14-arm64-v8a.apk)
-  - [strava-sda-v477.14-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v477.14/strava-sda-v477.14-arm-v7a.apk)
+  - [strava-sda-v477.14-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/strava-devanced-v477.14-arm64-v8a.apk)
+  - [strava-sda-v477.14-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/strava-devanced-v477.14-arm-v7a.apk)
 
 ## 109. Swift Backup (v5.1.0)
 - **App ID**: `swiftbackup`
@@ -1345,8 +1345,8 @@ This document provides the complete machine-readable index of all patched applic
   - Swift Backup Tamper Protection
   - Swift Backup Web Login
 - **Direct Download Assets**:
-  - [swiftbackup-sda-v5.1.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1.0/swiftbackup-sda-v5.1.0-arm64-v8a.apk)
-  - [swiftbackup-sda-v5.1.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1.0/swiftbackup-sda-v5.1.0-arm-v7a.apk)
+  - [swiftbackup-sda-v5.1.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260268/swift-backup-byehi98-v5.1.0-arm64-v8a.apk)
+  - [swiftbackup-sda-v5.1.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260268/swift-backup-byehi98-v5.1.0-arm-v7a.apk)
 
 ## 110. Symfonium (v14.0.0)
 - **App ID**: `symfonium`
@@ -1356,8 +1356,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Symfonium 
 - **Direct Download Assets**:
-  - [symfonium-sda-v14.0.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.0.0/symfonium-sda-v14.0.0-arm64-v8a.apk)
-  - [symfonium-sda-v14.0.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.0.0/symfonium-sda-v14.0.0-arm-v7a.apk)
+  - [symfonium-sda-v14.0.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/symfonium-binarymend-v14.0.0-arm64-v8a.apk)
+  - [symfonium-sda-v14.0.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/symfonium-binarymend-v14.0.0-arm-v7a.apk)
 
 ## 111. Telegram (v13.0.3)
 - **App ID**: `telegram`
@@ -1373,8 +1373,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable analytics
   - *...and 57 more patches*
 - **Direct Download Assets**:
-  - [telegram-sda-v13.0.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.3/telegram-sda-v13.0.3-arm64-v8a.apk)
-  - [telegram-sda-v13.0.3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.3/telegram-sda-v13.0.3-arm-v7a.apk)
+  - [telegram-sda-v13.0.3-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260305/telegram-hushtelegram-google-play-v13.0.3-arm64-v8a.apk)
+  - [telegram-sda-v13.0.3-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260305/telegram-hushtelegram-google-play-v13.0.3-arm-v7a.apk)
 
 ## 112. TeraBox (v4.26.5)
 - **App ID**: `terabox`
@@ -1389,8 +1389,8 @@ This document provides the complete machine-readable index of all patched applic
   - Hide video recommendations
   - Unlock Premium Plus
 - **Direct Download Assets**:
-  - [terabox-sda-v4.26.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.26.5/terabox-sda-v4.26.5-arm64-v8a.apk)
-  - [terabox-sda-v4.26.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.26.5/terabox-sda-v4.26.5-arm-v7a.apk)
+  - [terabox-sda-v4.26.5-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260306/terabox-hxreborn-v4.26.5-arm64-v8a.apk)
+  - [terabox-sda-v4.26.5-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260306/terabox-hxreborn-v4.26.5-arm-v7a.apk)
 
 ## 113. Termius (v7.11.2)
 - **App ID**: `termius`
@@ -1400,8 +1400,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Server Auditor Premium
 - **Direct Download Assets**:
-  - [termius-sda-v7.11.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.2/termius-sda-v7.11.2-arm64-v8a.apk)
-  - [termius-sda-v7.11.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.2/termius-sda-v7.11.2-arm-v7a.apk)
+  - [termius-sda-v7.11.2-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/termius-rushiranpise-v7.11.2-arm64-v8a.apk)
+  - [termius-sda-v7.11.2-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/termius-rushiranpise-v7.11.2-arm-v7a.apk)
 
 ## 114. The Weather Channel (v16.25.0)
 - **App ID**: `theweatherchannel`
@@ -1411,8 +1411,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium
 - **Direct Download Assets**:
-  - [theweatherchannel-sda-v16.25.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.25.0/theweatherchannel-sda-v16.25.0-arm64-v8a.apk)
-  - [theweatherchannel-sda-v16.25.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.25.0/theweatherchannel-sda-v16.25.0-arm-v7a.apk)
+  - [theweatherchannel-sda-v16.25.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260277/the-weather-channel-rushiranpise-v16.25.0-arm64-v8a.apk)
+  - [theweatherchannel-sda-v16.25.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260277/the-weather-channel-rushiranpise-v16.25.0-arm-v7a.apk)
 
 ## 115. Threads (v451.0.0.51.80)
 - **App ID**: `threads`
@@ -1428,7 +1428,7 @@ This document provides the complete machine-readable index of all patched applic
   - Hide ads
   - *...and 13 more patches*
 - **Direct Download Assets**:
-  - [threads-sda-v451.0.0.51.80-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v451.0.0.51.80/threads-sda-v451.0.0.51.80-arm64-v8a.apk)
+  - [threads-sda-v451.0.0.51.80-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260310/threads-hushthreads-v451.0.0.51.80-arm64-v8a.apk)
 
 ## 116. TickTick (v8.1.3.3)
 - **App ID**: `ticktick`
@@ -1440,8 +1440,8 @@ This document provides the complete machine-readable index of all patched applic
   - Restore reminder alarms 
   - TickTick Premium 
 - **Direct Download Assets**:
-  - [ticktick-sda-v8.1.3.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.1.3.3/ticktick-sda-v8.1.3.3-arm64-v8a.apk)
-  - [ticktick-sda-v8.1.3.3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.1.3.3/ticktick-sda-v8.1.3.3-arm-v7a.apk)
+  - [ticktick-sda-v8.1.3.3-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/ticktick-paresh-v8.1.3.3-arm64-v8a.apk)
+  - [ticktick-sda-v8.1.3.3-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/ticktick-paresh-v8.1.3.3-arm-v7a.apk)
 
 ## 117. TikTok (v47.1.4)
 - **App ID**: `tiktok`
@@ -1457,8 +1457,8 @@ This document provides the complete machine-readable index of all patched applic
   - Always show publish date
   - *...and 128 more patches*
 - **Direct Download Assets**:
-  - [tiktok-sda-v47.1.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v47.1.4/tiktok-sda-v47.1.4-arm64-v8a.apk)
-  - [tiktok-sda-v47.1.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v47.1.4/tiktok-sda-v47.1.4-arm-v7a.apk)
+  - [tiktok-sda-v47.1.4-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260294/tiktok-hushfeed-v47.1.4-arm64-v8a.apk)
+  - [tiktok-sda-v47.1.4-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260294/tiktok-hushfeed-v47.1.4-arm-v7a.apk)
 
 ## 118. Titanium Browser (v153.0.8010.36)
 - **App ID**: `titaniumbrowser`
@@ -1469,8 +1469,8 @@ This document provides the complete machine-readable index of all patched applic
   - Force highest refresh rate
   - Keep Titanium Extensions Child Processes Alive
 - **Direct Download Assets**:
-  - [titaniumbrowser-sda-v153.0.8010.36-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v153.0.8010.36/titaniumbrowser-sda-v153.0.8010.36-arm64-v8a.apk)
-  - [titaniumbrowser-sda-v153.0.8010.36-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v153.0.8010.36/titaniumbrowser-sda-v153.0.8010.36-arm-v7a.apk)
+  - [titaniumbrowser-sda-v153.0.8010.36-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/titanium-browser-dh6k-v153.0.8010.36-arm64-v8a.apk)
+  - [titaniumbrowser-sda-v153.0.8010.36-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/titanium-browser-dh6k-v153.0.8010.36-arm-v7a.apk)
 
 ## 119. Todoist (v12190)
 - **App ID**: `todoist`
@@ -1481,8 +1481,8 @@ This document provides the complete machine-readable index of all patched applic
   - No date first 
   - Unlock Pro 
 - **Direct Download Assets**:
-  - [todoist-sda-v12190-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12190/todoist-sda-v12190-arm64-v8a.apk)
-  - [todoist-sda-v12190-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12190/todoist-sda-v12190-arm-v7a.apk)
+  - [todoist-sda-v12190-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/todoist-hooman-v12190-arm64-v8a.apk)
+  - [todoist-sda-v12190-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/todoist-hooman-v12190-arm-v7a.apk)
 
 ## 120. trakt.TV (v3.19.0)
 - **App ID**: `trakttv`
@@ -1492,8 +1492,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock pro
 - **Direct Download Assets**:
-  - [trakttv-sda-v3.19.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.19.0/trakttv-sda-v3.19.0-arm64-v8a.apk)
-  - [trakttv-sda-v3.19.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.19.0/trakttv-sda-v3.19.0-arm-v7a.apk)
+  - [trakttv-sda-v3.19.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/trakt-tv-imxeren-v3.19.0-arm64-v8a.apk)
+  - [trakttv-sda-v3.19.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/trakt-tv-imxeren-v3.19.0-arm-v7a.apk)
 
 ## 121. Truecaller (v26.40.5)
 - **App ID**: `truecaller`
@@ -1509,8 +1509,8 @@ This document provides the complete machine-readable index of all patched applic
   - Hide Scam feed
   - *...and 4 more patches*
 - **Direct Download Assets**:
-  - [truecaller-sda-v26.40.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.40.5/truecaller-sda-v26.40.5-arm64-v8a.apk)
-  - [truecaller-sda-v26.40.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.40.5/truecaller-sda-v26.40.5-arm-v7a.apk)
+  - [truecaller-sda-v26.40.5-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260311/truecaller-heval99-v26.40.5-arm64-v8a.apk)
+  - [truecaller-sda-v26.40.5-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260311/truecaller-heval99-v26.40.5-arm-v7a.apk)
 
 ## 122. Tubi (v10.36.5000)
 - **App ID**: `tubi`
@@ -1520,7 +1520,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Skip ads
 - **Direct Download Assets**:
-  - [tubi-sda-v10.36.5000-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v10.36.5000/tubi-sda-v10.36.5000-universal.apk)
+  - [tubi-sda-v10.36.5000-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/tubi-ajstrick81-android-tv-v10.36.5000-all.apk)
 
 ## 123. Tumblr (v45.8.0.110)
 - **App ID**: `tumblr`
@@ -1536,8 +1536,8 @@ This document provides the complete machine-readable index of all patched applic
   - Disable screenshot sharing 
   - *...and 2 more patches*
 - **Direct Download Assets**:
-  - [tumblr-sda-v45.8.0.110-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v45.8.0.110/tumblr-sda-v45.8.0.110-arm64-v8a.apk)
-  - [tumblr-sda-v45.8.0.110-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v45.8.0.110/tumblr-sda-v45.8.0.110-arm-v7a.apk)
+  - [tumblr-sda-v45.8.0.110-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/tumblr-hooman-v45.8.0.110-arm64-v8a.apk)
+  - [tumblr-sda-v45.8.0.110-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/tumblr-hooman-v45.8.0.110-arm-v7a.apk)
 
 ## 124. Twitch (v13.0.0.2)
 - **App ID**: `twitch`
@@ -1547,7 +1547,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Block TV ads
 - **Direct Download Assets**:
-  - [twitch-sda-v13.0.0.2-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.0.2/twitch-sda-v13.0.0.2-universal.apk)
+  - [twitch-sda-v13.0.0.2-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/twitch-ajstrick81-android-tv-v13.0.0.2-all.apk)
 
 ## 125. Twitter (v12.35.0-prod.01)
 - **App ID**: `twitter`
@@ -1563,8 +1563,8 @@ This document provides the complete machine-readable index of all patched applic
   - NewX: Customize inline actions
   - *...and 37 more patches*
 - **Direct Download Assets**:
-  - [twitter-sda-v12.35.0-prod.01-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.35.0-prod.01/twitter-sda-v12.35.0-prod.01-arm64-v8a.apk)
-  - [twitter-sda-v12.35.0-prod.01-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.35.0-prod.01/twitter-sda-v12.35.0-prod.01-arm-v7a.apk)
+  - [twitter-sda-v12.35.0-prod.01-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260308/twitter-piko-newx-v12.35.0-prod.01-arm64-v8a.apk)
+  - [twitter-sda-v12.35.0-prod.01-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260308/twitter-piko-newx-v12.35.0-prod.01-arm-v7a.apk)
 
 ## 126. Ventusky (v53.1)
 - **App ID**: `ventusky`
@@ -1574,8 +1574,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Premium
 - **Direct Download Assets**:
-  - [ventusky-sda-v53.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v53.1/ventusky-sda-v53.1-arm64-v8a.apk)
-  - [ventusky-sda-v53.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v53.1/ventusky-sda-v53.1-arm-v7a.apk)
+  - [ventusky-sda-v53.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/ventusky-hoodles-v53.1-arm64-v8a.apk)
+  - [ventusky-sda-v53.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/ventusky-hoodles-v53.1-arm-v7a.apk)
 
 ## 127. Viber (v26.1.2.0)
 - **App ID**: `viber`
@@ -1585,8 +1585,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Hide Ads
 - **Direct Download Assets**:
-  - [viber-sda-v26.1.2.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.1.2.0/viber-sda-v26.1.2.0-arm64-v8a.apk)
-  - [viber-sda-v26.1.2.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.1.2.0/viber-sda-v26.1.2.0-arm-v7a.apk)
+  - [viber-sda-v26.1.2.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/viber-devanced-v26.1.2.0-arm64-v8a.apk)
+  - [viber-sda-v26.1.2.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/viber-devanced-v26.1.2.0-arm-v7a.apk)
 
 ## 128. ViX (v4.47.2_tv)
 - **App ID**: `vix`
@@ -1597,7 +1597,7 @@ This document provides the complete machine-readable index of all patched applic
   - Override certificate pinning
   - Skip ads
 - **Direct Download Assets**:
-  - [vix-sda-v4.47.2_tv-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.47.2_tv/vix-sda-v4.47.2_tv-universal.apk)
+  - [vix-sda-v4.47.2_tv-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/stable/vix-ajstrick81-android-tv-v4.47.2_tv-all.apk)
 
 ## 129. VPNify (v2.2.9)
 - **App ID**: `vpnify`
@@ -1607,8 +1607,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium 
 - **Direct Download Assets**:
-  - [vpnify-sda-v2.2.9-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.2.9/vpnify-sda-v2.2.9-arm64-v8a.apk)
-  - [vpnify-sda-v2.2.9-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.2.9/vpnify-sda-v2.2.9-arm-v7a.apk)
+  - [vpnify-sda-v2.2.9-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/vpnify-bholeykabhakt-v2.2.9-arm64-v8a.apk)
+  - [vpnify-sda-v2.2.9-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/vpnify-bholeykabhakt-v2.2.9-arm-v7a.apk)
 
 ## 130. Wallcraft (v3.61.01)
 - **App ID**: `wallcraft`
@@ -1618,8 +1618,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Premium
 - **Direct Download Assets**:
-  - [wallcraft-sda-v3.61.01-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.61.01/wallcraft-sda-v3.61.01-arm64-v8a.apk)
-  - [wallcraft-sda-v3.61.01-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.61.01/wallcraft-sda-v3.61.01-arm-v7a.apk)
+  - [wallcraft-sda-v3.61.01-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/wallcraft-hoodles-v3.61.01-arm64-v8a.apk)
+  - [wallcraft-sda-v3.61.01-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/wallcraft-hoodles-v3.61.01-arm-v7a.apk)
 
 ## 131. Windscribe VPN (v4.3.2360)
 - **App ID**: `windscribevpn`
@@ -1629,7 +1629,7 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Unlock Premium
 - **Direct Download Assets**:
-  - [windscribevpn-sda-v4.3.2360-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.3.2360/windscribevpn-sda-v4.3.2360-universal.apk)
+  - [windscribevpn-sda-v4.3.2360-universal.apk (UNIVERSAL)](https://github.com/nullcpy/rvb/releases/download/260277/windscribe-vpn-rushiranpise-v4.3.2360-all.apk)
 
 ## 132. WPS Office (v18.24)
 - **App ID**: `wpsoffice`
@@ -1639,8 +1639,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Pro
 - **Direct Download Assets**:
-  - [wpsoffice-sda-v18.24-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v18.24/wpsoffice-sda-v18.24-arm64-v8a.apk)
-  - [wpsoffice-sda-v18.24-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v18.24/wpsoffice-sda-v18.24-arm-v7a.apk)
+  - [wpsoffice-sda-v18.24-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/wps-office-hoodles-v18.24-arm64-v8a.apk)
+  - [wpsoffice-sda-v18.24-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/wps-office-hoodles-v18.24-arm-v7a.apk)
 
 ## 133. Xodo (v11.2.0)
 - **App ID**: `xodo`
@@ -1650,8 +1650,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Pro
 - **Direct Download Assets**:
-  - [xodo-sda-v11.2.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.2.0/xodo-sda-v11.2.0-arm64-v8a.apk)
-  - [xodo-sda-v11.2.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.2.0/xodo-sda-v11.2.0-arm-v7a.apk)
+  - [xodo-sda-v11.2.0-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/xodo-hoodles-v11.2.0-arm64-v8a.apk)
+  - [xodo-sda-v11.2.0-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/xodo-hoodles-v11.2.0-arm-v7a.apk)
 
 ## 134. XRecorder (v2.5.1.1)
 - **App ID**: `xrecorder`
@@ -1661,8 +1661,8 @@ This document provides the complete machine-readable index of all patched applic
 - **Applied Patches**:
   - Enable Pro
 - **Direct Download Assets**:
-  - [xrecorder-sda-v2.5.1.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.1.1/xrecorder-sda-v2.5.1.1-arm64-v8a.apk)
-  - [xrecorder-sda-v2.5.1.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.1.1/xrecorder-sda-v2.5.1.1-arm-v7a.apk)
+  - [xrecorder-sda-v2.5.1.1-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/stable/xrecorder-hoodles-v2.5.1.1-arm64-v8a.apk)
+  - [xrecorder-sda-v2.5.1.1-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/stable/xrecorder-hoodles-v2.5.1.1-arm-v7a.apk)
 
 ## 135. YouTube (v21.20.405)
 - **App ID**: `youtube`
@@ -1678,8 +1678,8 @@ This document provides the complete machine-readable index of all patched applic
   - Bypass link redirects
   - *...and 93 more patches*
 - **Direct Download Assets**:
-  - [youtube-sda-v21.20.405-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.20.405/youtube-sda-v21.20.405-arm64-v8a.apk)
-  - [youtube-sda-v21.20.405-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.20.405/youtube-sda-v21.20.405-arm-v7a.apk)
+  - [youtube-sda-v21.20.405-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260307/youtube-morphe-v21.20.405-arm64-v8a.apk)
+  - [youtube-sda-v21.20.405-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260307/youtube-morphe-v21.20.405-arm-v7a.apk)
 
 ## 136. YouTube Music (v9.20.53)
 - **App ID**: `youtubemusic`
@@ -1695,5 +1695,5 @@ This document provides the complete machine-readable index of all patched applic
   - Check watch history domain name resolution
   - *...and 41 more patches*
 - **Direct Download Assets**:
-  - [youtubemusic-sda-v9.20.53-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.20.53/youtubemusic-sda-v9.20.53-arm64-v8a.apk)
-  - [youtubemusic-sda-v9.20.53-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.20.53/youtubemusic-sda-v9.20.53-arm-v7a.apk)
+  - [youtubemusic-sda-v9.20.53-arm64-v8a.apk (ARM64)](https://github.com/nullcpy/rvb/releases/download/260307/youtube-music-morphe-v9.20.53-arm64-v8a.apk)
+  - [youtubemusic-sda-v9.20.53-arm-v7a.apk (ARM)](https://github.com/nullcpy/rvb/releases/download/260307/youtube-music-morphe-v9.20.53-arm-v7a.apk)

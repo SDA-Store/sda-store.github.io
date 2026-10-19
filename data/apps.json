@@ -1,7 +1,7 @@
 {
   "storeName": "SDA Store",
   "storeDescription": "Fast, modern catalog for clean, automated patched Android APKs.",
-  "updatedAt": "2026-10-19T11:00:24Z",
+  "updatedAt": "2026-10-19T16:48:35Z",
   "appsCount": 136,
   "apps": [
     {
@@ -11,7 +11,7 @@
       "brand": "SDA Store",
       "version": "6",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/tag/v6",
-      "publishedAt": "2026-10-19T11:00:22Z",
+      "publishedAt": "2026-10-19T16:48:35Z",
       "icon": "assets/icons/moviebox.svg",
       "description": "Patched MovieBox by SDA Store with ad-removal, VIP streaming unlock, download enable, and UI decluttering.",
       "patchCount": 4,
@@ -51,14 +51,14 @@
           "arch": "arm64",
           "version": "2.9.5",
           "size": 14126164,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.9.5/acalendar-sda-v2.9.5-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260310/acalendar-hxreborn-v2.9.5-arm64-v8a.apk"
         },
         {
           "name": "acalendar-sda-v2.9.5-arm-v7a.apk",
           "arch": "arm",
           "version": "2.9.5",
           "size": 14126164,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.9.5/acalendar-sda-v2.9.5-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260310/acalendar-hxreborn-v2.9.5-arm-v7a.apk"
         }
       ]
     },
@@ -82,14 +82,14 @@
           "arch": "arm64",
           "version": "21.1.15-3-rc",
           "size": 18847800,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.1.15-3-rc/accuweather-sda-v21.1.15-3-rc-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/accuweather-rushiranpise-v21.1.15-3-rc-arm64-v8a.apk"
         },
         {
           "name": "accuweather-sda-v21.1.15-3-rc-arm-v7a.apk",
           "arch": "arm",
           "version": "21.1.15-3-rc",
           "size": 18819132,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.1.15-3-rc/accuweather-sda-v21.1.15-3-rc-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/accuweather-rushiranpise-v21.1.15-3-rc-arm-v7a.apk"
         }
       ]
     },
@@ -113,14 +113,14 @@
           "arch": "arm64",
           "version": "4.14.68",
           "size": 36766876,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.14.68/adguard-sda-v4.14.68-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/adguard-rushiranpise-nightly-v4.14.68-arm64-v8a.apk"
         },
         {
           "name": "adguard-sda-v4.14.68-arm-v7a.apk",
           "arch": "arm",
           "version": "4.14.68",
           "size": 35706024,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.14.68/adguard-sda-v4.14.68-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/adguard-rushiranpise-nightly-v4.14.68-arm-v7a.apk"
         }
       ]
     },
@@ -144,7 +144,7 @@
           "arch": "arm64",
           "version": "26.7.1.47181",
           "size": 154413847,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.7.1.47181/adobeacrobat-sda-v26.7.1.47181-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/adobe-acrobat-hooman-v26.7.1.47181-arm64-v8a.apk"
         }
       ]
     },
@@ -168,7 +168,7 @@
           "arch": "arm64",
           "version": "11.5.31",
           "size": 244406841,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.5.31/adobelightroom-sda-v11.5.31-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/adobe-lightroom-hoodles-v11.5.31-arm64-v8a.apk"
         }
       ]
     },
@@ -192,7 +192,7 @@
           "arch": "arm64",
           "version": "26.08.01",
           "size": 171003324,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.08.01/adobescan-sda-v26.08.01-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/adobe-scan-rushiranpise-v26.08.01-arm64-v8a.apk"
         }
       ]
     },
@@ -225,14 +225,14 @@
           "arch": "arm64",
           "version": "8.162.8",
           "size": 82072639,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.162.8/aliexpress-sda-v8.162.8-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/aliexpress-quantro100-v8.162.8-arm64-v8a.apk"
         },
         {
           "name": "aliexpress-sda-v8.162.8-arm-v7a.apk",
           "arch": "arm",
           "version": "8.162.8",
           "size": 48692365,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.162.8/aliexpress-sda-v8.162.8-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/aliexpress-quantro100-v8.162.8-arm-v7a.apk"
         }
       ]
     },
@@ -263,14 +263,14 @@
           "arch": "arm64",
           "version": "32.18.0.300",
           "size": 185014535,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.300/amazonindia-sda-v32.18.0.300-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/amazon-india-rushiranpise-v32.18.0.300-arm64-v8a.apk"
         },
         {
           "name": "amazonindia-sda-v32.18.0.300-arm-v7a.apk",
           "arch": "arm",
           "version": "32.18.0.300",
           "size": 164272551,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.300/amazonindia-sda-v32.18.0.300-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/amazon-india-rushiranpise-v32.18.0.300-arm-v7a.apk"
         }
       ]
     },
@@ -301,14 +301,14 @@
           "arch": "arm64",
           "version": "32.18.0.100",
           "size": 169663376,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.100/amazonshopping-sda-v32.18.0.100-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/amazon-shopping-rushiranpise-v32.18.0.100-arm64-v8a.apk"
         },
         {
           "name": "amazonshopping-sda-v32.18.0.100-arm-v7a.apk",
           "arch": "arm",
           "version": "32.18.0.100",
           "size": 149576744,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.100/amazonshopping-sda-v32.18.0.100-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/amazon-shopping-rushiranpise-v32.18.0.100-arm-v7a.apk"
         }
       ]
     },
@@ -332,14 +332,14 @@
           "arch": "arm64",
           "version": "12.3",
           "size": 11577575,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.3/appsales-sda-v12.3-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/appsales-entree3k-v12.3-arm64-v8a.apk"
         },
         {
           "name": "appsales-sda-v12.3-arm-v7a.apk",
           "arch": "arm",
           "version": "12.3",
           "size": 11577575,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.3/appsales-sda-v12.3-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/appsales-entree3k-v12.3-arm-v7a.apk"
         }
       ]
     },
@@ -363,7 +363,7 @@
           "arch": "universal",
           "version": "0.99",
           "size": 3094133,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.99/at4klauncher-sda-v0.99-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/at4k-launcher-hooman-android-tv-v0.99-all.apk"
         }
       ]
     },
@@ -387,14 +387,14 @@
           "arch": "arm64",
           "version": "1.3.2",
           "size": 22716784,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.3.2/atvtools-sda-v1.3.2-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260239/atvtools-hxreborn-v1.3.2-arm64-v8a.apk"
         },
         {
           "name": "atvtools-sda-v1.3.2-arm-v7a.apk",
           "arch": "arm",
           "version": "1.3.2",
           "size": 28197137,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.3.2/atvtools-sda-v1.3.2-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260239/atvtools-hxreborn-v1.3.2-arm-v7a.apk"
         }
       ]
     },
@@ -418,14 +418,14 @@
           "arch": "arm64",
           "version": "1.51.1",
           "size": 8180397,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.51.1/automate-sda-v1.51.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/automate-bholeykabhakt-v1.51.1-arm64-v8a.apk"
         },
         {
           "name": "automate-sda-v1.51.1-arm-v7a.apk",
           "arch": "arm",
           "version": "1.51.1",
           "size": 8078003,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.51.1/automate-sda-v1.51.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/automate-bholeykabhakt-v1.51.1-arm-v7a.apk"
         }
       ]
     },
@@ -449,7 +449,7 @@
           "arch": "arm64",
           "version": "7.5.10",
           "size": 35310604,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.5.10/autosync-sda-v7.5.10-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/autosync-bholeykabhakt-v7.5.10-arm64-v8a.apk"
         }
       ]
     },
@@ -473,14 +473,14 @@
           "arch": "arm64",
           "version": "6.1.2",
           "size": 26342708,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.1.2/backdrops-sda-v6.1.2-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/backdrops-bholeykabhakt-v6.1.2-arm64-v8a.apk"
         },
         {
           "name": "backdrops-sda-v6.1.2-arm-v7a.apk",
           "arch": "arm",
           "version": "6.1.2",
           "size": 26305848,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.1.2/backdrops-sda-v6.1.2-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/backdrops-bholeykabhakt-v6.1.2-arm-v7a.apk"
         }
       ]
     },
@@ -504,14 +504,14 @@
           "arch": "arm64",
           "version": "2.5.0.6",
           "size": 11289584,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.0.6/batteryguru-sda-v2.5.0.6-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/battery-guru-hooman-v2.5.0.6-arm64-v8a.apk"
         },
         {
           "name": "batteryguru-sda-v2.5.0.6-arm-v7a.apk",
           "arch": "arm",
           "version": "2.5.0.6",
           "size": 11306052,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.0.6/batteryguru-sda-v2.5.0.6-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/battery-guru-hooman-v2.5.0.6-arm-v7a.apk"
         }
       ]
     },
@@ -535,14 +535,14 @@
           "arch": "arm64",
           "version": "0.11.0",
           "size": 5432669,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.11.0/betamaniac-sda-v0.11.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/beta-maniac-rushiranpise-v0.11.0-arm64-v8a.apk"
         },
         {
           "name": "betamaniac-sda-v0.11.0-arm-v7a.apk",
           "arch": "arm",
           "version": "0.11.0",
           "size": 5432669,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.11.0/betamaniac-sda-v0.11.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/beta-maniac-rushiranpise-v0.11.0-arm-v7a.apk"
         }
       ]
     },
@@ -566,14 +566,14 @@
           "arch": "arm64",
           "version": "6.23.1",
           "size": 7731112,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.23.1/bluetoothkeyboardmouse-sda-v6.23.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/bluetooth-keyboard-mouse-rushiranpise-v6.23.1-arm64-v8a.apk"
         },
         {
           "name": "bluetoothkeyboardmouse-sda-v6.23.1-arm-v7a.apk",
           "arch": "arm",
           "version": "6.23.1",
           "size": 7362068,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.23.1/bluetoothkeyboardmouse-sda-v6.23.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/bluetooth-keyboard-mouse-rushiranpise-v6.23.1-arm-v7a.apk"
         }
       ]
     },
@@ -610,14 +610,14 @@
           "arch": "arm64",
           "version": "1.97.57",
           "size": 357065571,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.97.57/bravebrowser-sda-v1.97.57-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260286/brave-browser-kveld9-v1.97.57-arm64-v8a.apk"
         },
         {
           "name": "bravebrowser-sda-v1.97.57-arm-v7a.apk",
           "arch": "arm",
           "version": "1.97.57",
           "size": 223752558,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.97.57/bravebrowser-sda-v1.97.57-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260286/brave-browser-kveld9-v1.97.57-arm-v7a.apk"
         }
       ]
     },
@@ -642,14 +642,14 @@
           "arch": "arm64",
           "version": "2.41.0",
           "size": 112197113,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.41.0/byair-sda-v2.41.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260289/byair-franticg33k-v2.41.0-arm64-v8a.apk"
         },
         {
           "name": "byair-sda-v2.41.0-arm-v7a.apk",
           "arch": "arm",
           "version": "2.41.0",
           "size": 104898055,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.41.0/byair-sda-v2.41.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260289/byair-franticg33k-v2.41.0-arm-v7a.apk"
         }
       ]
     },
@@ -673,14 +673,14 @@
           "arch": "arm64",
           "version": "6.102",
           "size": 82840086,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.102/calm-sda-v6.102-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/calm-rushiranpise-v6.102-arm64-v8a.apk"
         },
         {
           "name": "calm-sda-v6.102-arm-v7a.apk",
           "arch": "arm",
           "version": "6.102",
           "size": 81507158,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.102/calm-sda-v6.102-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/calm-rushiranpise-v6.102-arm-v7a.apk"
         }
       ]
     },
@@ -706,14 +706,14 @@
           "arch": "arm64",
           "version": "11.8.1.1",
           "size": 96568159,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.8.1.1/caloriecounter-sda-v11.8.1.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260228/calorie-counter-kondratjev-v11.8.1.1-arm64-v8a.apk"
         },
         {
           "name": "caloriecounter-sda-v11.8.1.1-arm-v7a.apk",
           "arch": "arm",
           "version": "11.8.1.1",
           "size": 94008171,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.8.1.1/caloriecounter-sda-v11.8.1.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260228/calorie-counter-kondratjev-v11.8.1.1-arm-v7a.apk"
         }
       ]
     },
@@ -738,14 +738,14 @@
           "arch": "arm64",
           "version": "7.20.0.2606230000",
           "size": 169353529,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.20.0.2606230000/camscanner-sda-v7.20.0.2606230000-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/camscanner-hoodles-v7.20.0.2606230000-arm64-v8a.apk"
         },
         {
           "name": "camscanner-sda-v7.20.0.2606230000-arm-v7a.apk",
           "arch": "arm",
           "version": "7.20.0.2606230000",
           "size": 182667792,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.20.0.2606230000/camscanner-sda-v7.20.0.2606230000-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/camscanner-hoodles-v7.20.0.2606230000-arm-v7a.apk"
         }
       ]
     },
@@ -770,14 +770,14 @@
           "arch": "arm64",
           "version": "9.0.0",
           "size": 278423519,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.0.0/capcut-sda-v9.0.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260309/capcut-riky-v9.0.0-arm64-v8a.apk"
         },
         {
           "name": "capcut-sda-v9.0.0-arm-v7a.apk",
           "arch": "arm",
           "version": "9.0.0",
           "size": 226490335,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.0.0/capcut-sda-v9.0.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260309/capcut-riky-v9.0.0-arm-v7a.apk"
         }
       ]
     },
@@ -807,14 +807,14 @@
           "arch": "arm64",
           "version": "4.10.0",
           "size": 280374904,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.10.0/chesscom-sda-v4.10.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/chess-com-prathxm-v4.10.0-arm64-v8a.apk"
         },
         {
           "name": "chesscom-sda-v4.10.0-arm-v7a.apk",
           "arch": "arm",
           "version": "4.10.0",
           "size": 279129780,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.10.0/chesscom-sda-v4.10.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/chess-com-prathxm-v4.10.0-arm-v7a.apk"
         }
       ]
     },
@@ -838,14 +838,14 @@
           "arch": "arm64",
           "version": "11.60",
           "size": 42458174,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.60/citymapper-sda-v11.60-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/citymapper-rushiranpise-v11.60-arm64-v8a.apk"
         },
         {
           "name": "citymapper-sda-v11.60-arm-v7a.apk",
           "arch": "arm",
           "version": "11.60",
           "size": 41761864,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.60/citymapper-sda-v11.60-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/citymapper-rushiranpise-v11.60-arm-v7a.apk"
         }
       ]
     },
@@ -870,14 +870,14 @@
           "arch": "arm64",
           "version": "6.38.9",
           "size": 48342830,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.38.9/cloudflarewarp-sda-v6.38.9-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/cloudflare-warp-rushiranpise-v6.38.9-arm64-v8a.apk"
         },
         {
           "name": "cloudflarewarp-sda-v6.38.9-arm-v7a.apk",
           "arch": "arm",
           "version": "6.38.9",
           "size": 35604288,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.38.9/cloudflarewarp-sda-v6.38.9-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/cloudflare-warp-rushiranpise-v6.38.9-arm-v7a.apk"
         }
       ]
     },
@@ -902,14 +902,14 @@
           "arch": "arm64",
           "version": "16.02.05",
           "size": 34854920,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.02.05/cricbuzz-sda-v16.02.05-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/cricbuzz-paresh-v16.02.05-arm64-v8a.apk"
         },
         {
           "name": "cricbuzz-sda-v16.02.05-arm-v7a.apk",
           "arch": "arm",
           "version": "16.02.05",
           "size": 34351118,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.02.05/cricbuzz-sda-v16.02.05-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/cricbuzz-paresh-v16.02.05-arm-v7a.apk"
         }
       ]
     },
@@ -937,14 +937,14 @@
           "arch": "arm64",
           "version": "349.9-Stable",
           "size": 209623064,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v349.9-Stable/discord-sda-v349.9-Stable-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260298/discord-revenge-v349.9-Stable-arm64-v8a.apk"
         },
         {
           "name": "discord-sda-v349.9-Stable-arm-v7a.apk",
           "arch": "arm",
           "version": "349.9-Stable",
           "size": 186415214,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v349.9-Stable/discord-sda-v349.9-Stable-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260298/discord-revenge-v349.9-Stable-arm-v7a.apk"
         }
       ]
     },
@@ -968,7 +968,7 @@
           "arch": "universal",
           "version": "26.16.0+rc2-2026.09.08",
           "size": 45048683,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.16.0+rc2-2026.09.08/disney-sda-v26.16.0+rc2-2026.09.08-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/disney-ajstrick81-android-tv-v26.16.0%2Brc2-2026.09.08-all.apk"
         }
       ]
     },
@@ -992,14 +992,14 @@
           "arch": "arm64",
           "version": "6.98.4",
           "size": 144805416,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.98.4/duolingo-sda-v6.98.4-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/duolingo-hoodles-v6.98.4-arm64-v8a.apk"
         },
         {
           "name": "duolingo-sda-v6.98.4-arm-v7a.apk",
           "arch": "arm",
           "version": "6.98.4",
           "size": 143015522,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.98.4/duolingo-sda-v6.98.4-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/duolingo-hoodles-v6.98.4-arm-v7a.apk"
         }
       ]
     },
@@ -1023,14 +1023,14 @@
           "arch": "arm64",
           "version": "4.2026.04.05.1300",
           "size": 60118926,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.2026.04.05.1300/eyecon-sda-v4.2026.04.05.1300-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/eyecon-paresh-v4.2026.04.05.1300-arm64-v8a.apk"
         },
         {
           "name": "eyecon-sda-v4.2026.04.05.1300-arm-v7a.apk",
           "arch": "arm",
           "version": "4.2026.04.05.1300",
           "size": 59164580,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.2026.04.05.1300/eyecon-sda-v4.2026.04.05.1300-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/eyecon-paresh-v4.2026.04.05.1300-arm-v7a.apk"
         }
       ]
     },
@@ -1054,14 +1054,14 @@
           "arch": "arm64",
           "version": "1.23.2",
           "size": 13122389,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.23.2/fdroid-sda-v1.23.2-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260225/f-droid-patchweaver-v1.23.2-arm64-v8a.apk"
         },
         {
           "name": "fdroid-sda-v1.23.2-arm-v7a.apk",
           "arch": "arm",
           "version": "1.23.2",
           "size": 13122391,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.23.2/fdroid-sda-v1.23.2-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260225/f-droid-patchweaver-v1.23.2-arm-v7a.apk"
         }
       ]
     },
@@ -1174,14 +1174,14 @@
           "arch": "arm64",
           "version": "583.0.0.39.55",
           "size": 144388109,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v583.0.0.39.55/facebook-sda-v583.0.0.39.55-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260313/facebook-hushfacebook-v583.0.0.39.55-arm64-v8a.apk"
         },
         {
           "name": "facebook-sda-v583.0.0.39.55-arm-v7a.apk",
           "arch": "arm",
           "version": "583.0.0.39.55",
           "size": 141397490,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v583.0.0.39.55/facebook-sda-v583.0.0.39.55-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260313/facebook-hushfacebook-v583.0.0.39.55-arm-v7a.apk"
         }
       ]
     },
@@ -1205,14 +1205,14 @@
           "arch": "arm64",
           "version": "1.2338",
           "size": 26846658,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.2338/fairemail-sda-v1.2338-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260244/fairemail-heval99-v1.2338-arm64-v8a.apk"
         },
         {
           "name": "fairemail-sda-v1.2338-arm-v7a.apk",
           "arch": "arm",
           "version": "1.2338",
           "size": 26768836,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.2338/fairemail-sda-v1.2338-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260244/fairemail-heval99-v1.2338-arm-v7a.apk"
         }
       ]
     },
@@ -1236,14 +1236,14 @@
           "arch": "arm64",
           "version": "12.12.0",
           "size": 38085193,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.12.0/fing-sda-v12.12.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/fing-paresh-v12.12.0-arm64-v8a.apk"
         },
         {
           "name": "fing-sda-v12.12.0-arm-v7a.apk",
           "arch": "arm",
           "version": "12.12.0",
           "size": 38072909,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.12.0/fing-sda-v12.12.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/fing-paresh-v12.12.0-arm-v7a.apk"
         }
       ]
     },
@@ -1267,14 +1267,14 @@
           "arch": "arm64",
           "version": "9.15",
           "size": 42181441,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.15/flipkart-sda-v9.15-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260256/flipkart-debakarr-v9.15-arm64-v8a.apk"
         },
         {
           "name": "flipkart-sda-v9.15-arm-v7a.apk",
           "arch": "arm",
           "version": "9.15",
           "size": 42320301,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.15/flipkart-sda-v9.15-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260256/flipkart-debakarr-v9.15-arm-v7a.apk"
         }
       ]
     },
@@ -1298,14 +1298,14 @@
           "arch": "arm64",
           "version": "4.12.0",
           "size": 38927484,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.12.0/foldersync-sda-v4.12.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/foldersync-hooman-v4.12.0-arm64-v8a.apk"
         },
         {
           "name": "foldersync-sda-v4.12.0-arm-v7a.apk",
           "arch": "arm",
           "version": "4.12.0",
           "size": 37342346,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.12.0/foldersync-sda-v4.12.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/foldersync-hooman-v4.12.0-arm-v7a.apk"
         }
       ]
     },
@@ -1371,7 +1371,7 @@
           "arch": "arm64",
           "version": "18.0.3.954559732-release-arm64-v8a",
           "size": 138526972,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v18.0.3.954559732-release-arm64-v8a/gboard-sda-v18.0.3.954559732-release-arm64-v8a-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260290/gboard-jasonwu1994-v18.0.3.954559732-release-arm64-v8a-arm64-v8a.apk"
         }
       ]
     },
@@ -1395,14 +1395,14 @@
           "arch": "arm64",
           "version": "1.271.1",
           "size": 20301364,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.271.1/github-sda-v1.271.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/github-hoodles-v1.271.1-arm64-v8a.apk"
         },
         {
           "name": "github-sda-v1.271.1-arm-v7a.apk",
           "arch": "arm",
           "version": "1.271.1",
           "size": 20301368,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.271.1/github-sda-v1.271.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/github-hoodles-v1.271.1-arm-v7a.apk"
         }
       ]
     },
@@ -1426,14 +1426,14 @@
           "arch": "arm64",
           "version": "2.75.0Build3",
           "size": 46026474,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.75.0Build3/goodreads-sda-v2.75.0Build3-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/goodreads-hoodles-v2.75.0Build3-arm64-v8a.apk"
         },
         {
           "name": "goodreads-sda-v2.75.0Build3-arm-v7a.apk",
           "arch": "arm",
           "version": "2.75.0Build3",
           "size": 39558906,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.75.0Build3/goodreads-sda-v2.75.0Build3-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/goodreads-hoodles-v2.75.0Build3-arm-v7a.apk"
         }
       ]
     },
@@ -1483,14 +1483,14 @@
           "arch": "arm64",
           "version": "26.36.04.973607363",
           "size": 137176147,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.36.04.973607363/googlemaps-sda-v26.36.04.973607363-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/google-maps-bearinmindcat-v26.36.04.973607363-arm64-v8a.apk"
         },
         {
           "name": "googlemaps-sda-v26.36.04.973607363-arm-v7a.apk",
           "arch": "arm",
           "version": "26.36.04.973607363",
           "size": 127300729,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.36.04.973607363/googlemaps-sda-v26.36.04.973607363-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/google-maps-bearinmindcat-v26.36.04.973607363-arm-v7a.apk"
         }
       ]
     },
@@ -1515,14 +1515,14 @@
           "arch": "arm64",
           "version": "5.163.0.947799485",
           "size": 19199523,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.163.0.947799485/googlenews-sda-v5.163.0.947799485-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/google-news-docbt-v5.163.0.947799485-arm64-v8a.apk"
         },
         {
           "name": "googlenews-sda-v5.163.0.947799485-arm-v7a.apk",
           "arch": "arm",
           "version": "5.163.0.947799485",
           "size": 19199525,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.163.0.947799485/googlenews-sda-v5.163.0.947799485-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/google-news-docbt-v5.163.0.947799485-arm-v7a.apk"
         }
       ]
     },
@@ -1546,14 +1546,14 @@
           "arch": "arm64",
           "version": "161.0.726587057",
           "size": 61649475,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v161.0.726587057/googlephone-sda-v161.0.726587057-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/google-phone-hooman-v161.0.726587057-arm64-v8a.apk"
         },
         {
           "name": "googlephone-sda-v161.0.726587057-arm-v7a.apk",
           "arch": "arm",
           "version": "161.0.726587057",
           "size": 52552051,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v161.0.726587057/googlephone-sda-v161.0.726587057-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/google-phone-hooman-v161.0.726587057-arm-v7a.apk"
         }
       ]
     },
@@ -1582,14 +1582,14 @@
           "arch": "arm64",
           "version": "7.97.0.997578476",
           "size": 95919909,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.97.0.997578476/googlephotos-sda-v7.97.0.997578476-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/google-photos-rushiranpise-v7.97.0.997578476-arm64-v8a.apk"
         },
         {
           "name": "googlephotos-sda-v7.97.0.997578476-arm-v7a.apk",
           "arch": "arm",
           "version": "7.97.0.997578476",
           "size": 91463485,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.97.0.997578476/googlephotos-sda-v7.97.0.997578476-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/google-photos-rushiranpise-v7.97.0.997578476-arm-v7a.apk"
         }
       ]
     },
@@ -1613,7 +1613,7 @@
           "arch": "arm64",
           "version": "4.2.20260823.982886211",
           "size": 55236899,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.2.20260823.982886211/googlerecorder-sda-v4.2.20260823.982886211-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/google-recorder-devanced-v4.2.20260823.982886211-arm64-v8a.apk"
         }
       ]
     },
@@ -1638,7 +1638,7 @@
           "arch": "universal",
           "version": "7.9.0.61",
           "size": 87907190,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.9.0.61/hbomax-sda-v7.9.0.61-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/hbo-max-ajstrick81-android-tv-v7.9.0.61-all.apk"
         }
       ]
     },
@@ -1662,7 +1662,7 @@
           "arch": "arm64",
           "version": "7.11.0",
           "size": 55477084,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.0/hellochinese-sda-v7.11.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/hellochinese-hoodles-v7.11.0-arm64-v8a.apk"
         }
       ]
     },
@@ -1686,14 +1686,14 @@
           "arch": "arm64",
           "version": "31.6.1",
           "size": 5368831,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v31.6.1/hermit-sda-v31.6.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/hermit-lain-v31.6.1-arm64-v8a.apk"
         },
         {
           "name": "hermit-sda-v31.6.1-arm-v7a.apk",
           "arch": "arm",
           "version": "31.6.1",
           "size": 5368831,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v31.6.1/hermit-sda-v31.6.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/hermit-lain-v31.6.1-arm-v7a.apk"
         }
       ]
     },
@@ -1717,7 +1717,7 @@
           "arch": "arm64",
           "version": "AARCH64_1.248.400",
           "size": 22969628,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/vAARCH64_1.248.400/holavpn-sda-vAARCH64_1.248.400-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/hola-vpn-rushiranpise-vAARCH64_1.248.400-arm64-v8a.apk"
         }
       ]
     },
@@ -1741,7 +1741,7 @@
           "arch": "arm64",
           "version": "14.1.0",
           "size": 76244216,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.1.0/ibispaintx-sda-v14.1.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/ibis-paint-x-hoodles-v14.1.0-arm64-v8a.apk"
         }
       ]
     },
@@ -1765,14 +1765,14 @@
           "arch": "arm64",
           "version": "1.21.0-release",
           "size": 17346330,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.21.0-release/iconpacker-sda-v1.21.0-release-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/icon-packer-hoodles-v1.21.0-release-arm64-v8a.apk"
         },
         {
           "name": "iconpacker-sda-v1.21.0-release-arm-v7a.apk",
           "arch": "arm",
           "version": "1.21.0-release",
           "size": 16036295,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.21.0-release/iconpacker-sda-v1.21.0-release-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/icon-packer-hoodles-v1.21.0-release-arm-v7a.apk"
         }
       ]
     },
@@ -1796,7 +1796,7 @@
           "arch": "universal",
           "version": "9.3.4",
           "size": 37724235,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.3.4/imdb-sda-v9.3.4-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/imdb-adobo-v9.3.4-all.apk"
         }
       ]
     },
@@ -1821,14 +1821,14 @@
           "arch": "arm64",
           "version": "6.12.18",
           "size": 38830865,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.12.18/inshorts-sda-v6.12.18-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/inshorts-bholeykabhakt-v6.12.18-arm64-v8a.apk"
         },
         {
           "name": "inshorts-sda-v6.12.15-arm-v7a.apk",
           "arch": "arm",
           "version": "6.12.15",
           "size": 39057698,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.12.15/inshorts-sda-v6.12.15-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/inshorts-bholeykabhakt-v6.12.15-arm-v7a.apk"
         }
       ]
     },
@@ -1852,14 +1852,14 @@
           "arch": "arm64",
           "version": "2.214.1539",
           "size": 69972441,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.214.1539/inshot-sda-v2.214.1539-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/inshot-hooman-v2.214.1539-arm64-v8a.apk"
         },
         {
           "name": "inshot-sda-v2.214.1539-arm-v7a.apk",
           "arch": "arm",
           "version": "2.214.1539",
           "size": 67646011,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.214.1539/inshot-sda-v2.214.1539-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/inshot-hooman-v2.214.1539-arm-v7a.apk"
         }
       ]
     },
@@ -1990,7 +1990,7 @@
           "arch": "arm64",
           "version": "451.0.0.53.80",
           "size": 246219490,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v451.0.0.53.80/instagram-sda-v451.0.0.53.80-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260313/instagram-hushgram-v451.0.0.53.80-arm64-v8a.apk"
         }
       ]
     },
@@ -2014,14 +2014,14 @@
           "arch": "arm64",
           "version": "5.1",
           "size": 8240890,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1/kinestop-sda-v5.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/kinestop-shaunthesheep-v5.1-arm64-v8a.apk"
         },
         {
           "name": "kinestop-sda-v5.1-arm-v7a.apk",
           "arch": "arm",
           "version": "5.1",
           "size": 8240890,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1/kinestop-sda-v5.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/kinestop-shaunthesheep-v5.1-arm-v7a.apk"
         }
       ]
     },
@@ -2045,14 +2045,14 @@
           "arch": "arm64",
           "version": "2026.26.7",
           "size": 93022770,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.26.7/komoot-sda-v2026.26.7-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/komoot-brosssh-v2026.26.7-arm64-v8a.apk"
         },
         {
           "name": "komoot-sda-v2026.26.7-arm-v7a.apk",
           "arch": "arm",
           "version": "2026.26.7",
           "size": 83372612,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.26.7/komoot-sda-v2026.26.7-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/komoot-brosssh-v2026.26.7-arm-v7a.apk"
         }
       ]
     },
@@ -2080,14 +2080,14 @@
           "arch": "arm64",
           "version": "3.5.8",
           "size": 104945949,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.5.8/letterboxd-sda-v3.5.8-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/letterboxd-mvaishak-v3.5.8-arm64-v8a.apk"
         },
         {
           "name": "letterboxd-sda-v3.5.8-arm-v7a.apk",
           "arch": "arm",
           "version": "3.5.8",
           "size": 99162423,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.5.8/letterboxd-sda-v3.5.8-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/letterboxd-mvaishak-v3.5.8-arm-v7a.apk"
         }
       ]
     },
@@ -2121,14 +2121,14 @@
           "arch": "arm64",
           "version": "4.1.1261",
           "size": 108292896,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1261/linkedin-sda-v4.1.1261-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260293/linkedin-michii-v4.1.1261-arm64-v8a.apk"
         },
         {
           "name": "linkedin-sda-v4.1.1261-arm-v7a.apk",
           "arch": "arm",
           "version": "4.1.1261",
           "size": 107416288,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1261/linkedin-sda-v4.1.1261-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260293/linkedin-michii-v4.1.1261-arm-v7a.apk"
         }
       ]
     },
@@ -2152,14 +2152,14 @@
           "arch": "arm64",
           "version": "1.0.2.4",
           "size": 10322966,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.0.2.4/luminawallpapers-sda-v1.0.2.4-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/lumina-wallpapers-paresh-v1.0.2.4-arm64-v8a.apk"
         },
         {
           "name": "luminawallpapers-sda-v1.0.2.4-arm-v7a.apk",
           "arch": "arm",
           "version": "1.0.2.4",
           "size": 10281828,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.0.2.4/luminawallpapers-sda-v1.0.2.4-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/lumina-wallpapers-paresh-v1.0.2.4-arm-v7a.apk"
         }
       ]
     },
@@ -2183,14 +2183,14 @@
           "arch": "arm64",
           "version": "5.66.9",
           "size": 101692193,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.66.9/macrodroid-sda-v5.66.9-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/macrodroid-rushiranpise-v5.66.9-arm64-v8a.apk"
         },
         {
           "name": "macrodroid-sda-v5.66.9-arm-v7a.apk",
           "arch": "arm",
           "version": "5.66.9",
           "size": 78384292,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.66.9/macrodroid-sda-v5.66.9-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/macrodroid-rushiranpise-v5.66.9-arm-v7a.apk"
         }
       ]
     },
@@ -2214,14 +2214,14 @@
           "arch": "arm64",
           "version": "4.5.1302097",
           "size": 15878989,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.5.1302097/medium-sda-v4.5.1302097-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/medium-bufferk-v4.5.1302097-arm64-v8a.apk"
         },
         {
           "name": "medium-sda-v4.5.1302097-arm-v7a.apk",
           "arch": "arm",
           "version": "4.5.1302097",
           "size": 15837851,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.5.1302097/medium-sda-v4.5.1302097-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/medium-bufferk-v4.5.1302097-arm-v7a.apk"
         }
       ]
     },
@@ -2245,14 +2245,14 @@
           "arch": "arm64",
           "version": "29.6",
           "size": 35322760,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v29.6/meesho-sda-v29.6-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260256/meesho-debakarr-v29.6-arm64-v8a.apk"
         },
         {
           "name": "meesho-sda-v29.6-arm-v7a.apk",
           "arch": "arm",
           "version": "29.6",
           "size": 34978706,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v29.6/meesho-sda-v29.6-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260256/meesho-debakarr-v29.6-arm-v7a.apk"
         }
       ]
     },
@@ -2276,14 +2276,14 @@
           "arch": "arm64",
           "version": "5.6.2",
           "size": 138830741,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.6.2/merriamwebsterdictionary-sda-v5.6.2-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/merriam-webster-dictionary-hoodles-v5.6.2-arm64-v8a.apk"
         },
         {
           "name": "merriamwebsterdictionary-sda-v5.6.2-arm-v7a.apk",
           "arch": "arm",
           "version": "5.6.2",
           "size": 138830741,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.6.2/merriamwebsterdictionary-sda-v5.6.2-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/merriam-webster-dictionary-hoodles-v5.6.2-arm-v7a.apk"
         }
       ]
     },
@@ -2364,7 +2364,7 @@
           "arch": "arm64",
           "version": "583.0.0.29.95",
           "size": 99368997,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v583.0.0.29.95/messenger-sda-v583.0.0.29.95-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260313/messenger-hushmessenger-v583.0.0.29.95-arm64-v8a.apk"
         }
       ]
     },
@@ -2390,14 +2390,14 @@
           "arch": "arm64",
           "version": "152.0.4191.65",
           "size": 233566791,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v152.0.4191.65/microsoftedge-sda-v152.0.4191.65-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/microsoft-edge-quantavil-v152.0.4191.65-arm64-v8a.apk"
         },
         {
           "name": "microsoftedge-sda-v152.0.4191.65-arm-v7a.apk",
           "arch": "arm",
           "version": "152.0.4191.65",
           "size": 197809710,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v152.0.4191.65/microsoftedge-sda-v152.0.4191.65-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/microsoft-edge-quantavil-v152.0.4191.65-arm-v7a.apk"
         }
       ]
     },
@@ -2421,14 +2421,14 @@
           "arch": "arm64",
           "version": "16.0.19628.20008",
           "size": 70177498,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.0.19628.20008/microsoftlens-sda-v16.0.19628.20008-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/microsoft-lens-devanced-v16.0.19628.20008-arm64-v8a.apk"
         },
         {
           "name": "microsoftlens-sda-v16.0.19628.20008-arm-v7a.apk",
           "arch": "arm",
           "version": "16.0.19628.20008",
           "size": 66138904,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.0.19628.20008/microsoftlens-sda-v16.0.19628.20008-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/microsoft-lens-devanced-v16.0.19628.20008-arm-v7a.apk"
         }
       ]
     },
@@ -2453,14 +2453,14 @@
           "arch": "arm64",
           "version": "9.13.13.5",
           "size": 193341258,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.13.13.5/microsoftswiftkey-sda-v9.13.13.5-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/microsoft-swiftkey-hooman-v9.13.13.5-arm64-v8a.apk"
         },
         {
           "name": "microsoftswiftkey-sda-v9.13.13.5-arm-v7a.apk",
           "arch": "arm",
           "version": "9.13.13.5",
           "size": 190793560,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.13.13.5/microsoftswiftkey-sda-v9.13.13.5-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/microsoft-swiftkey-hooman-v9.13.13.5-arm-v7a.apk"
         }
       ]
     },
@@ -2484,14 +2484,14 @@
           "arch": "arm64",
           "version": "4.11.1GF",
           "size": 25380368,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.11.1GF/moneymanager-sda-v4.11.1GF-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/money-manager-hooman-v4.11.1GF-arm64-v8a.apk"
         },
         {
           "name": "moneymanager-sda-v4.11.1GF-arm-v7a.apk",
           "arch": "arm",
           "version": "4.11.1GF",
           "size": 25007638,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.11.1GF/moneymanager-sda-v4.11.1GF-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/money-manager-hooman-v4.11.1GF-arm-v7a.apk"
         }
       ]
     },
@@ -2516,14 +2516,14 @@
           "arch": "arm64",
           "version": "10.5",
           "size": 33776893,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v10.5/moonreader-sda-v10.5-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/moon-reader-binarymend-v10.5-arm64-v8a.apk"
         },
         {
           "name": "moonreader-sda-v10.5-arm-v7a.apk",
           "arch": "arm",
           "version": "10.5",
           "size": 31905033,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v10.5/moonreader-sda-v10.5-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/moon-reader-binarymend-v10.5-arm-v7a.apk"
         }
       ]
     },
@@ -2547,14 +2547,14 @@
           "arch": "arm64",
           "version": "4.1.1.2",
           "size": 31392961,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1.2/myexpenses-sda-v4.1.1.2-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260297/my-expenses-hoodles-v4.1.1.2-arm64-v8a.apk"
         },
         {
           "name": "myexpenses-sda-v4.1.1.2-arm-v7a.apk",
           "arch": "arm",
           "version": "4.1.1.2",
           "size": 28910791,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1.2/myexpenses-sda-v4.1.1.2-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260297/my-expenses-hoodles-v4.1.1.2-arm-v7a.apk"
         }
       ]
     },
@@ -2578,14 +2578,14 @@
           "arch": "arm64",
           "version": "26.31.0",
           "size": 53854369,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.31.0/myfitnesspal-sda-v26.31.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/myfitnesspal-hoodles-v26.31.0-arm64-v8a.apk"
         },
         {
           "name": "myfitnesspal-sda-v26.31.0-arm-v7a.apk",
           "arch": "arm",
           "version": "26.31.0",
           "size": 52134059,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.31.0/myfitnesspal-sda-v26.31.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/myfitnesspal-hoodles-v26.31.0-arm-v7a.apk"
         }
       ]
     },
@@ -2612,7 +2612,7 @@
           "arch": "arm",
           "version": "13.0.1build25028",
           "size": 108374965,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.1build25028/netflix-sda-v13.0.1build25028-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260303/netflix-ajstrick81-android-tv-v13.0.1build25028-arm-v7a.apk"
         }
       ]
     },
@@ -2636,14 +2636,14 @@
           "arch": "arm64",
           "version": "1.16.7",
           "size": 15696595,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.16.7/niagaralauncher-sda-v1.16.7-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/niagara-launcher-entree3k-v1.16.7-arm64-v8a.apk"
         },
         {
           "name": "niagaralauncher-sda-v1.16.7-arm-v7a.apk",
           "arch": "arm",
           "version": "1.16.7",
           "size": 15696597,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.16.7/niagaralauncher-sda-v1.16.7-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/niagara-launcher-entree3k-v1.16.7-arm-v7a.apk"
         }
       ]
     },
@@ -2667,7 +2667,7 @@
           "arch": "arm64",
           "version": "1.4.7",
           "size": 40229833,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.4.7/ninjavpn-sda-v1.4.7-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/ninja-vpn-rushiranpise-v1.4.7-arm64-v8a.apk"
         }
       ]
     },
@@ -2691,14 +2691,14 @@
           "arch": "arm64",
           "version": "88600",
           "size": 35217739,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v88600/novalauncher-sda-v88600-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/nova-launcher-hoodles-v88600-arm64-v8a.apk"
         },
         {
           "name": "novalauncher-sda-v88600-arm-v7a.apk",
           "arch": "arm",
           "version": "88600",
           "size": 34414943,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v88600/novalauncher-sda-v88600-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/nova-launcher-hoodles-v88600-arm-v7a.apk"
         }
       ]
     },
@@ -2727,14 +2727,14 @@
           "arch": "arm64",
           "version": "0.9.0-beta",
           "size": 74257362,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.9.0-beta/nuvio-sda-v0.9.0-beta-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/beta/nuvio-liongalahad-android-tv-v0.9.0-beta-arm64-v8a.apk"
         },
         {
           "name": "nuvio-sda-v0.9.0-beta-arm-v7a.apk",
           "arch": "arm",
           "version": "0.9.0-beta",
           "size": 72905738,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.9.0-beta/nuvio-sda-v0.9.0-beta-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/beta/nuvio-liongalahad-android-tv-v0.9.0-beta-arm-v7a.apk"
         }
       ]
     },
@@ -2761,14 +2761,14 @@
           "arch": "arm64",
           "version": "3.15.3",
           "size": 155882828,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.15.3/offlinegames-sda-v3.15.3-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260251/offline-games-ggyasin-v3.15.3-arm64-v8a.apk"
         },
         {
           "name": "offlinegames-sda-v3.14.1-arm-v7a.apk",
           "arch": "arm",
           "version": "3.14.1",
           "size": 149783930,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.14.1/offlinegames-sda-v3.14.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260251/offline-games-ggyasin-v3.14.1-arm-v7a.apk"
         }
       ]
     },
@@ -2793,14 +2793,14 @@
           "arch": "arm64",
           "version": "2609.2",
           "size": 62530034,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2609.2/pandora-sda-v2609.2-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/pandora-hoodles-v2609.2-arm64-v8a.apk"
         },
         {
           "name": "pandora-sda-v2609.2-arm-v7a.apk",
           "arch": "arm",
           "version": "2609.2",
           "size": 62034426,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2609.2/pandora-sda-v2609.2-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/pandora-hoodles-v2609.2-arm-v7a.apk"
         }
       ]
     },
@@ -2825,7 +2825,7 @@
           "arch": "universal",
           "version": "7.10.102",
           "size": 9051201,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.10.102/peacock-sda-v7.10.102-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/peacock-ajstrick81-android-tv-v7.10.102-all.apk"
         }
       ]
     },
@@ -2851,14 +2851,14 @@
           "arch": "arm64",
           "version": "8.48.0",
           "size": 15209072,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.48.0/photomath-sda-v8.48.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/photomath-devanced-v8.48.0-arm64-v8a.apk"
         },
         {
           "name": "photomath-sda-v8.48.0-arm-v7a.apk",
           "arch": "arm",
           "version": "8.48.0",
           "size": 14672506,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.48.0/photomath-sda-v8.48.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/photomath-devanced-v8.48.0-arm-v7a.apk"
         }
       ]
     },
@@ -2884,7 +2884,7 @@
           "arch": "universal",
           "version": "30.7.8",
           "size": 88960046,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v30.7.8/picsart-sda-v30.7.8-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/picsart-rushiranpise-v30.7.8-all.apk"
         }
       ]
     },
@@ -2941,14 +2941,14 @@
           "arch": "arm64",
           "version": "14.39.0",
           "size": 87442577,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.39.0/pinterest-sda-v14.39.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260312/pinterest-browzomje-v14.39.0-arm64-v8a.apk"
         },
         {
           "name": "pinterest-sda-v14.39.0-arm-v7a.apk",
           "arch": "arm",
           "version": "14.39.0",
           "size": 85591217,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.39.0/pinterest-sda-v14.39.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260312/pinterest-browzomje-v14.39.0-arm-v7a.apk"
         }
       ]
     },
@@ -2973,14 +2973,14 @@
           "arch": "arm64",
           "version": "6.196.0",
           "size": 32955647,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.196.0/pixiv-sda-v6.196.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/pixiv-devanced-v6.196.0-arm64-v8a.apk"
         },
         {
           "name": "pixiv-sda-v6.196.0-arm-v7a.apk",
           "arch": "arm",
           "version": "6.196.0",
           "size": 31825179,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.196.0/pixiv-sda-v6.196.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/pixiv-devanced-v6.196.0-arm-v7a.apk"
         }
       ]
     },
@@ -3014,14 +3014,14 @@
           "arch": "arm64",
           "version": "12.9.2.0",
           "size": 68664193,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.9.2.0/plusmessenger-sda-v12.9.2.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/plus-messenger-paresh-v12.9.2.0-arm64-v8a.apk"
         },
         {
           "name": "plusmessenger-sda-v12.9.2.0-arm-v7a.apk",
           "arch": "arm",
           "version": "12.9.2.0",
           "size": 67955589,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.9.2.0/plusmessenger-sda-v12.9.2.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/plus-messenger-paresh-v12.9.2.0-arm-v7a.apk"
         }
       ]
     },
@@ -3047,7 +3047,7 @@
           "arch": "universal",
           "version": "5.66.0-leanback",
           "size": 34443086,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.66.0-leanback/plutotv-sda-v5.66.0-leanback-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/plutotv-ajstrick81-android-tv-v5.66.0-leanback-all.apk"
         }
       ]
     },
@@ -3071,14 +3071,14 @@
           "arch": "arm64",
           "version": "8.16",
           "size": 34804129,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.16/pocketcasts-sda-v8.16-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/pocket-casts-rushiranpise-v8.16-arm64-v8a.apk"
         },
         {
           "name": "pocketcasts-sda-v8.16-arm-v7a.apk",
           "arch": "arm",
           "version": "8.16",
           "size": 34259371,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.16/pocketcasts-sda-v8.16-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/pocket-casts-rushiranpise-v8.16-arm-v7a.apk"
         }
       ]
     },
@@ -3103,14 +3103,14 @@
           "arch": "arm64",
           "version": "2.3",
           "size": 79366058,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.3/pocketwhip-sda-v2.3-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260239/pocket-whip-hxreborn-v2.3-arm64-v8a.apk"
         },
         {
           "name": "pocketwhip-sda-v2.3-arm-v7a.apk",
           "arch": "arm",
           "version": "2.3",
           "size": 79361966,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.3/pocketwhip-sda-v2.3-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260239/pocket-whip-hxreborn-v2.3-arm-v7a.apk"
         }
       ]
     },
@@ -3134,14 +3134,14 @@
           "arch": "arm64",
           "version": "2026.10.1",
           "size": 22025970,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.10.1/podcastaddict-sda-v2026.10.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/podcast-addict-hoodles-v2026.10.1-arm64-v8a.apk"
         },
         {
           "name": "podcastaddict-sda-v2026.10.1-arm-v7a.apk",
           "arch": "arm",
           "version": "2026.10.1",
           "size": 21575418,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.10.1/podcastaddict-sda-v2026.10.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/podcast-addict-hoodles-v2026.10.1-arm-v7a.apk"
         }
       ]
     },
@@ -3165,7 +3165,7 @@
           "arch": "universal",
           "version": "build-1025-bundle-play",
           "size": 25501499,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/vbuild-1025-bundle-play/poweramp-sda-vbuild-1025-bundle-play-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/poweramp-hooman-vbuild-1025-bundle-play-all.apk"
         }
       ]
     },
@@ -3193,7 +3193,7 @@
           "arch": "arm",
           "version": "6.23.23+v15.5.0.70-armv7a",
           "size": 28003577,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.23.23+v15.5.0.70-armv7a/primevideo-sda-v6.23.23+v15.5.0.70-armv7a-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/prime-video-ajstrick81-android-tv-v6.23.23%2Bv15.5.0.70-armv7a-arm-v7a.apk"
         }
       ]
     },
@@ -3218,14 +3218,14 @@
           "arch": "arm64",
           "version": "7.11.4",
           "size": 66194738,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.4/protonmail-sda-v7.11.4-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/proton-mail-rushiranpise-v7.11.4-arm64-v8a.apk"
         },
         {
           "name": "protonmail-sda-v7.11.4-arm-v7a.apk",
           "arch": "arm",
           "version": "7.11.4",
           "size": 48893250,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.4/protonmail-sda-v7.11.4-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/proton-mail-rushiranpise-v7.11.4-arm-v7a.apk"
         }
       ]
     },
@@ -3254,14 +3254,14 @@
           "arch": "arm64",
           "version": "1.41.4",
           "size": 65403513,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.41.4/protonpass-sda-v1.41.4-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260306/proton-pass-hxreborn-v1.41.4-arm64-v8a.apk"
         },
         {
           "name": "protonpass-sda-v1.41.4-arm-v7a.apk",
           "arch": "arm",
           "version": "1.41.4",
           "size": 58235531,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.41.4/protonpass-sda-v1.41.4-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260306/proton-pass-hxreborn-v1.41.4-arm-v7a.apk"
         }
       ]
     },
@@ -3297,14 +3297,14 @@
           "arch": "arm64",
           "version": "5.20.74.0",
           "size": 36346833,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.20.74.0/protonvpn-sda-v5.20.74.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260306/proton-vpn-hxreborn-v5.20.74.0-arm64-v8a.apk"
         },
         {
           "name": "protonvpn-sda-v5.20.74.0-arm-v7a.apk",
           "arch": "arm",
           "version": "5.20.74.0",
           "size": 35945441,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.20.74.0/protonvpn-sda-v5.20.74.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260306/proton-vpn-hxreborn-v5.20.74.0-arm-v7a.apk"
         }
       ]
     },
@@ -3328,14 +3328,14 @@
           "arch": "arm64",
           "version": "7.23.build134",
           "size": 4390849,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.23.build134/rar-sda-v7.23.build134-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/rar-rushiranpise-v7.23.build134-arm64-v8a.apk"
         },
         {
           "name": "rar-sda-v7.23.build134-arm-v7a.apk",
           "arch": "arm",
           "version": "7.23.build134",
           "size": 5095221,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.23.build134/rar-sda-v7.23.build134-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/rar-rushiranpise-v7.23.build134-arm-v7a.apk"
         }
       ]
     },
@@ -3386,14 +3386,14 @@
           "arch": "arm64",
           "version": "2026.24.0",
           "size": 97852406,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.24.0/reddit-sda-v2026.24.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260307/reddit-morphe-v2026.24.0-arm64-v8a.apk"
         },
         {
           "name": "reddit-sda-v2026.24.0-arm-v7a.apk",
           "arch": "arm",
           "version": "2026.24.0",
           "size": 95263746,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.24.0/reddit-sda-v2026.24.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260307/reddit-morphe-v2026.24.0-arm-v7a.apk"
         }
       ]
     },
@@ -3417,14 +3417,14 @@
           "arch": "arm64",
           "version": "3.14.5",
           "size": 21283033,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.14.5/rumble-sda-v3.14.5-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/rumble-hooman-v3.14.5-arm64-v8a.apk"
         },
         {
           "name": "rumble-sda-v3.14.5-arm-v7a.apk",
           "arch": "arm",
           "version": "3.14.5",
           "size": 21262559,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.14.5/rumble-sda-v3.14.5-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/rumble-hooman-v3.14.5-arm-v7a.apk"
         }
       ]
     },
@@ -3448,14 +3448,14 @@
           "arch": "arm64",
           "version": "1.7.3-rc0",
           "size": 8930644,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.7.3-rc0/sdmaid2se-sda-v1.7.3-rc0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/sd-maid-2-se-paresh-v1.7.3-rc0-arm64-v8a.apk"
         },
         {
           "name": "sdmaid2se-sda-v1.7.3-rc0-arm-v7a.apk",
           "arch": "arm",
           "version": "1.7.3-rc0",
           "size": 8930646,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.7.3-rc0/sdmaid2se-sda-v1.7.3-rc0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/sd-maid-2-se-paresh-v1.7.3-rc0-arm-v7a.apk"
         }
       ]
     },
@@ -3479,14 +3479,14 @@
           "arch": "arm64",
           "version": "1.4.22",
           "size": 11564897,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.4.22/sendfilestotv-sda-v1.4.22-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/send-files-to-tv-rushiranpise-v1.4.22-arm64-v8a.apk"
         },
         {
           "name": "sendfilestotv-sda-v1.4.22-arm-v7a.apk",
           "arch": "arm",
           "version": "1.4.22",
           "size": 11552611,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.4.22/sendfilestotv-sda-v1.4.22-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/send-files-to-tv-rushiranpise-v1.4.22-arm-v7a.apk"
         }
       ]
     },
@@ -3511,14 +3511,14 @@
           "arch": "arm64",
           "version": "3.72.0",
           "size": 7384299,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.72.0/showly-sda-v3.72.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260239/showly-hxreborn-v3.72.0-arm64-v8a.apk"
         },
         {
           "name": "showly-sda-v3.72.0-arm-v7a.apk",
           "arch": "arm",
           "version": "3.72.0",
           "size": 7380205,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.72.0/showly-sda-v3.72.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260239/showly-hxreborn-v3.72.0-arm-v7a.apk"
         }
       ]
     },
@@ -3542,14 +3542,14 @@
           "arch": "arm64",
           "version": "6.6build020",
           "size": 19271185,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.6build020/smartlauncher6-sda-v6.6build020-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/smart-launcher-6-hoodles-v6.6build020-arm64-v8a.apk"
         },
         {
           "name": "smartlauncher6-sda-v6.6build020-arm-v7a.apk",
           "arch": "arm",
           "version": "6.6build020",
           "size": 19250709,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.6build020/smartlauncher6-sda-v6.6build020-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/smart-launcher-6-hoodles-v6.6build020-arm-v7a.apk"
         }
       ]
     },
@@ -3577,14 +3577,14 @@
           "arch": "arm64",
           "version": "26.09.28",
           "size": 77054904,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.09.28/sofascore-sda-v26.09.28-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260292/sofascore-heval99-v26.09.28-arm64-v8a.apk"
         },
         {
           "name": "sofascore-sda-v26.09.28-arm-v7a.apk",
           "arch": "arm",
           "version": "26.09.28",
           "size": 76633036,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.09.28/sofascore-sda-v26.09.28-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/sofascore-heval99-v26.09.28-arm-v7a.apk"
         }
       ]
     },
@@ -3608,14 +3608,14 @@
           "arch": "arm64",
           "version": "3.6.1",
           "size": 24289651,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.6.1/solidexplorer-sda-v3.6.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/solid-explorer-hoodles-v3.6.1-arm64-v8a.apk"
         },
         {
           "name": "solidexplorer-sda-v3.6.1-arm-v7a.apk",
           "arch": "arm",
           "version": "3.6.1",
           "size": 23982461,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.6.1/solidexplorer-sda-v3.6.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/solid-explorer-hoodles-v3.6.1-arm-v7a.apk"
         }
       ]
     },
@@ -3641,14 +3641,14 @@
           "arch": "arm64",
           "version": "2026.08.26-release",
           "size": 54728726,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.08.26-release/soundcloud-sda-v2026.08.26-release-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/soundcloud-kondratjev-v2026.08.26-release-arm64-v8a.apk"
         },
         {
           "name": "soundcloud-sda-v2026.08.26-release-arm-v7a.apk",
           "arch": "arm",
           "version": "2026.08.26-release",
           "size": 52996132,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.08.26-release/soundcloud-sda-v2026.08.26-release-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/soundcloud-kondratjev-v2026.08.26-release-arm-v7a.apk"
         }
       ]
     },
@@ -3673,14 +3673,14 @@
           "arch": "arm64",
           "version": "7.0.4",
           "size": 28315412,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.0.4/speedtest-sda-v7.0.4-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/speedtest-bholeykabhakt-v7.0.4-arm64-v8a.apk"
         },
         {
           "name": "speedtest-sda-v7.0.4-arm-v7a.apk",
           "arch": "arm",
           "version": "7.0.4",
           "size": 27184928,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.0.4/speedtest-sda-v7.0.4-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/speedtest-bholeykabhakt-v7.0.4-arm-v7a.apk"
         }
       ]
     },
@@ -3713,14 +3713,14 @@
           "arch": "arm64",
           "version": "477.14",
           "size": 144538582,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v477.14/strava-sda-v477.14-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/strava-devanced-v477.14-arm64-v8a.apk"
         },
         {
           "name": "strava-sda-v477.14-arm-v7a.apk",
           "arch": "arm",
           "version": "477.14",
           "size": 132828142,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v477.14/strava-sda-v477.14-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/strava-devanced-v477.14-arm-v7a.apk"
         }
       ]
     },
@@ -3747,14 +3747,14 @@
           "arch": "arm64",
           "version": "5.1.0",
           "size": 11361555,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1.0/swiftbackup-sda-v5.1.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260268/swift-backup-byehi98-v5.1.0-arm64-v8a.apk"
         },
         {
           "name": "swiftbackup-sda-v5.1.0-arm-v7a.apk",
           "arch": "arm",
           "version": "5.1.0",
           "size": 11234595,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1.0/swiftbackup-sda-v5.1.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260268/swift-backup-byehi98-v5.1.0-arm-v7a.apk"
         }
       ]
     },
@@ -3778,14 +3778,14 @@
           "arch": "arm64",
           "version": "14.0.0",
           "size": 17415049,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.0.0/symfonium-sda-v14.0.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/symfonium-binarymend-v14.0.0-arm64-v8a.apk"
         },
         {
           "name": "symfonium-sda-v14.0.0-arm-v7a.apk",
           "arch": "arm",
           "version": "14.0.0",
           "size": 16645071,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.0.0/symfonium-sda-v14.0.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/symfonium-binarymend-v14.0.0-arm-v7a.apk"
         }
       ]
     },
@@ -3871,14 +3871,14 @@
           "arch": "arm64",
           "version": "13.0.3",
           "size": 43147567,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.3/telegram-sda-v13.0.3-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260305/telegram-hushtelegram-google-play-v13.0.3-arm64-v8a.apk"
         },
         {
           "name": "telegram-sda-v13.0.3-arm-v7a.apk",
           "arch": "arm",
           "version": "13.0.3",
           "size": 41967923,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.3/telegram-sda-v13.0.3-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260305/telegram-hushtelegram-google-play-v13.0.3-arm-v7a.apk"
         }
       ]
     },
@@ -3907,14 +3907,14 @@
           "arch": "arm64",
           "version": "4.26.5",
           "size": 207753898,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.26.5/terabox-sda-v4.26.5-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260306/terabox-hxreborn-v4.26.5-arm64-v8a.apk"
         },
         {
           "name": "terabox-sda-v4.26.5-arm-v7a.apk",
           "arch": "arm",
           "version": "4.26.5",
           "size": 200803185,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.26.5/terabox-sda-v4.26.5-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260306/terabox-hxreborn-v4.26.5-arm-v7a.apk"
         }
       ]
     },
@@ -3938,14 +3938,14 @@
           "arch": "arm64",
           "version": "7.11.2",
           "size": 57542662,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.2/termius-sda-v7.11.2-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/termius-rushiranpise-v7.11.2-arm64-v8a.apk"
         },
         {
           "name": "termius-sda-v7.11.2-arm-v7a.apk",
           "arch": "arm",
           "version": "7.11.2",
           "size": 54888478,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.2/termius-sda-v7.11.2-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/termius-rushiranpise-v7.11.2-arm-v7a.apk"
         }
       ]
     },
@@ -3969,14 +3969,14 @@
           "arch": "arm64",
           "version": "16.25.0",
           "size": 130849206,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.25.0/theweatherchannel-sda-v16.25.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/the-weather-channel-rushiranpise-v16.25.0-arm64-v8a.apk"
         },
         {
           "name": "theweatherchannel-sda-v16.25.0-arm-v7a.apk",
           "arch": "arm",
           "version": "16.25.0",
           "size": 128883148,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.25.0/theweatherchannel-sda-v16.25.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/the-weather-channel-rushiranpise-v16.25.0-arm-v7a.apk"
         }
       ]
     },
@@ -4018,7 +4018,7 @@
           "arch": "arm64",
           "version": "451.0.0.51.80",
           "size": 144085962,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v451.0.0.51.80/threads-sda-v451.0.0.51.80-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260310/threads-hushthreads-v451.0.0.51.80-arm64-v8a.apk"
         }
       ]
     },
@@ -4044,14 +4044,14 @@
           "arch": "arm64",
           "version": "8.1.3.3",
           "size": 54466839,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.1.3.3/ticktick-sda-v8.1.3.3-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/ticktick-paresh-v8.1.3.3-arm64-v8a.apk"
         },
         {
           "name": "ticktick-sda-v8.1.3.3-arm-v7a.apk",
           "arch": "arm",
           "version": "8.1.3.3",
           "size": 54262051,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.1.3.3/ticktick-sda-v8.1.3.3-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/ticktick-paresh-v8.1.3.3-arm-v7a.apk"
         }
       ]
     },
@@ -4208,14 +4208,14 @@
           "arch": "arm64",
           "version": "47.1.4",
           "size": 344269644,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v47.1.4/tiktok-sda-v47.1.4-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260294/tiktok-hushfeed-v47.1.4-arm64-v8a.apk"
         },
         {
           "name": "tiktok-sda-v47.1.4-arm-v7a.apk",
           "arch": "arm",
           "version": "47.1.4",
           "size": 333304835,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v47.1.4/tiktok-sda-v47.1.4-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260294/tiktok-hushfeed-v47.1.4-arm-v7a.apk"
         }
       ]
     },
@@ -4240,14 +4240,14 @@
           "arch": "arm64",
           "version": "153.0.8010.36",
           "size": 245927573,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v153.0.8010.36/titaniumbrowser-sda-v153.0.8010.36-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/titanium-browser-dh6k-v153.0.8010.36-arm64-v8a.apk"
         },
         {
           "name": "titaniumbrowser-sda-v153.0.8010.36-arm-v7a.apk",
           "arch": "arm",
           "version": "153.0.8010.36",
           "size": 245927573,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v153.0.8010.36/titaniumbrowser-sda-v153.0.8010.36-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/titanium-browser-dh6k-v153.0.8010.36-arm-v7a.apk"
         }
       ]
     },
@@ -4272,14 +4272,14 @@
           "arch": "arm64",
           "version": "12190",
           "size": 32089618,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12190/todoist-sda-v12190-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/todoist-hooman-v12190-arm64-v8a.apk"
         },
         {
           "name": "todoist-sda-v12190-arm-v7a.apk",
           "arch": "arm",
           "version": "12190",
           "size": 32052576,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12190/todoist-sda-v12190-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/todoist-hooman-v12190-arm-v7a.apk"
         }
       ]
     },
@@ -4303,14 +4303,14 @@
           "arch": "arm64",
           "version": "3.19.0",
           "size": 11980358,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.19.0/trakttv-sda-v3.19.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/trakt-tv-imxeren-v3.19.0-arm64-v8a.apk"
         },
         {
           "name": "trakttv-sda-v3.19.0-arm-v7a.apk",
           "arch": "arm",
           "version": "3.19.0",
           "size": 13250662,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.19.0/trakttv-sda-v3.19.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/trakt-tv-imxeren-v3.19.0-arm-v7a.apk"
         }
       ]
     },
@@ -4343,14 +4343,14 @@
           "arch": "arm64",
           "version": "26.40.5",
           "size": 107259368,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.40.5/truecaller-sda-v26.40.5-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260311/truecaller-heval99-v26.40.5-arm64-v8a.apk"
         },
         {
           "name": "truecaller-sda-v26.40.5-arm-v7a.apk",
           "arch": "arm",
           "version": "26.40.5",
           "size": 105645568,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.40.5/truecaller-sda-v26.40.5-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260311/truecaller-heval99-v26.40.5-arm-v7a.apk"
         }
       ]
     },
@@ -4374,7 +4374,7 @@
           "arch": "universal",
           "version": "10.36.5000",
           "size": 86891997,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v10.36.5000/tubi-sda-v10.36.5000-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/tubi-ajstrick81-android-tv-v10.36.5000-all.apk"
         }
       ]
     },
@@ -4405,14 +4405,14 @@
           "arch": "arm64",
           "version": "45.8.0.110",
           "size": 42869945,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v45.8.0.110/tumblr-sda-v45.8.0.110-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/tumblr-hooman-v45.8.0.110-arm64-v8a.apk"
         },
         {
           "name": "tumblr-sda-v45.8.0.110-arm-v7a.apk",
           "arch": "arm",
           "version": "45.8.0.110",
           "size": 41219283,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v45.8.0.110/tumblr-sda-v45.8.0.110-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/tumblr-hooman-v45.8.0.110-arm-v7a.apk"
         }
       ]
     },
@@ -4436,7 +4436,7 @@
           "arch": "universal",
           "version": "13.0.0.2",
           "size": 57534883,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.0.2/twitch-sda-v13.0.0.2-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/twitch-ajstrick81-android-tv-v13.0.0.2-all.apk"
         }
       ]
     },
@@ -4502,14 +4502,14 @@
           "arch": "arm64",
           "version": "12.35.0-prod.01",
           "size": 154726101,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.35.0-prod.01/twitter-sda-v12.35.0-prod.01-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260308/twitter-piko-newx-v12.35.0-prod.01-arm64-v8a.apk"
         },
         {
           "name": "twitter-sda-v12.35.0-prod.01-arm-v7a.apk",
           "arch": "arm",
           "version": "12.35.0-prod.01",
           "size": 127475459,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.35.0-prod.01/twitter-sda-v12.35.0-prod.01-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260308/twitter-piko-newx-v12.35.0-prod.01-arm-v7a.apk"
         }
       ]
     },
@@ -4533,14 +4533,14 @@
           "arch": "arm64",
           "version": "53.1",
           "size": 43811355,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v53.1/ventusky-sda-v53.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/ventusky-hoodles-v53.1-arm64-v8a.apk"
         },
         {
           "name": "ventusky-sda-v53.1-arm-v7a.apk",
           "arch": "arm",
           "version": "53.1",
           "size": 40763937,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v53.1/ventusky-sda-v53.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/ventusky-hoodles-v53.1-arm-v7a.apk"
         }
       ]
     },
@@ -4564,14 +4564,14 @@
           "arch": "arm64",
           "version": "26.1.2.0",
           "size": 124051452,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.1.2.0/viber-sda-v26.1.2.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/viber-devanced-v26.1.2.0-arm64-v8a.apk"
         },
         {
           "name": "viber-sda-v26.1.2.0-arm-v7a.apk",
           "arch": "arm",
           "version": "26.1.2.0",
           "size": 118190166,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.1.2.0/viber-sda-v26.1.2.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/viber-devanced-v26.1.2.0-arm-v7a.apk"
         }
       ]
     },
@@ -4596,7 +4596,7 @@
           "arch": "universal",
           "version": "4.47.2_tv",
           "size": 48783618,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.47.2_tv/vix-sda-v4.47.2_tv-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/vix-ajstrick81-android-tv-v4.47.2_tv-all.apk"
         }
       ]
     },
@@ -4620,14 +4620,14 @@
           "arch": "arm64",
           "version": "2.2.9",
           "size": 25311970,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.2.9/vpnify-sda-v2.2.9-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/vpnify-bholeykabhakt-v2.2.9-arm64-v8a.apk"
         },
         {
           "name": "vpnify-sda-v2.2.9-arm-v7a.apk",
           "arch": "arm",
           "version": "2.2.9",
           "size": 19933300,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.2.9/vpnify-sda-v2.2.9-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/vpnify-bholeykabhakt-v2.2.9-arm-v7a.apk"
         }
       ]
     },
@@ -4651,14 +4651,14 @@
           "arch": "arm64",
           "version": "3.61.01",
           "size": 88381903,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.61.01/wallcraft-sda-v3.61.01-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/wallcraft-hoodles-v3.61.01-arm64-v8a.apk"
         },
         {
           "name": "wallcraft-sda-v3.61.01-arm-v7a.apk",
           "arch": "arm",
           "version": "3.61.01",
           "size": 84781547,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.61.01/wallcraft-sda-v3.61.01-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/wallcraft-hoodles-v3.61.01-arm-v7a.apk"
         }
       ]
     },
@@ -4682,7 +4682,7 @@
           "arch": "universal",
           "version": "4.3.2360",
           "size": 94929847,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.3.2360/windscribevpn-sda-v4.3.2360-universal.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260277/windscribe-vpn-rushiranpise-v4.3.2360-all.apk"
         }
       ]
     },
@@ -4706,14 +4706,14 @@
           "arch": "arm64",
           "version": "18.24",
           "size": 224778154,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v18.24/wpsoffice-sda-v18.24-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/wps-office-hoodles-v18.24-arm64-v8a.apk"
         },
         {
           "name": "wpsoffice-sda-v18.24-arm-v7a.apk",
           "arch": "arm",
           "version": "18.24",
           "size": 202295304,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v18.24/wpsoffice-sda-v18.24-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/wps-office-hoodles-v18.24-arm-v7a.apk"
         }
       ]
     },
@@ -4737,14 +4737,14 @@
           "arch": "arm64",
           "version": "11.2.0",
           "size": 113473585,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.2.0/xodo-sda-v11.2.0-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/xodo-hoodles-v11.2.0-arm64-v8a.apk"
         },
         {
           "name": "xodo-sda-v11.2.0-arm-v7a.apk",
           "arch": "arm",
           "version": "11.2.0",
           "size": 86489153,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.2.0/xodo-sda-v11.2.0-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/xodo-hoodles-v11.2.0-arm-v7a.apk"
         }
       ]
     },
@@ -4768,14 +4768,14 @@
           "arch": "arm64",
           "version": "2.5.1.1",
           "size": 24713855,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.1.1/xrecorder-sda-v2.5.1.1-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/xrecorder-hoodles-v2.5.1.1-arm64-v8a.apk"
         },
         {
           "name": "xrecorder-sda-v2.5.1.1-arm-v7a.apk",
           "arch": "arm",
           "version": "2.5.1.1",
           "size": 23829157,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.1.1/xrecorder-sda-v2.5.1.1-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/stable/xrecorder-hoodles-v2.5.1.1-arm-v7a.apk"
         }
       ]
     },
@@ -4897,14 +4897,14 @@
           "arch": "arm64",
           "version": "21.20.405",
           "size": 105578490,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.20.405/youtube-sda-v21.20.405-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260307/youtube-morphe-v21.20.405-arm64-v8a.apk"
         },
         {
           "name": "youtube-sda-v21.20.405-arm-v7a.apk",
           "arch": "arm",
           "version": "21.20.405",
           "size": 100606010,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.20.405/youtube-sda-v21.20.405-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260307/youtube-morphe-v21.20.405-arm-v7a.apk"
         }
       ]
     },
@@ -4974,14 +4974,14 @@
           "arch": "arm64",
           "version": "9.20.53",
           "size": 76802454,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.20.53/youtubemusic-sda-v9.20.53-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260307/youtube-music-morphe-v9.20.53-arm64-v8a.apk"
         },
         {
           "name": "youtubemusic-sda-v9.20.53-arm-v7a.apk",
           "arch": "arm",
           "version": "9.20.53",
           "size": 65534400,
-          "downloadUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.20.53/youtubemusic-sda-v9.20.53-arm-v7a.apk"
+          "downloadUrl": "https://github.com/nullcpy/rvb/releases/download/260307/youtube-music-morphe-v9.20.53-arm-v7a.apk"
         }
       ]
     }
