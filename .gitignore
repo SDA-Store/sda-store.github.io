@@ -1,12 +1,11 @@
 # SDA Store - Git Ignore Rules
 
 # Base APKs and build output (large binaries uploaded via GitHub Releases)
-workspace/*.apk
-build_output/*.apk
+workspace/
+build_output/
 
 # Tools and Keystores (generated dynamically in CI)
-tools/*.jar
-tools/*.keystore
+tools/
 
 # Python cache
 __pycache__/

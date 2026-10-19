@@ -24,6 +24,9 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+  actions: write
 
 jobs:
   build-and-publish:
@@ -32,6 +35,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Java 21 (Temurin)
         uses: actions/setup-java@v4
@@ -75,6 +80,9 @@ jobs:
 
       # Execute Headless Patcher
       - name: Execute Patching Script
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x scripts/build_app.sh
           TARGET_APP="${{ github.event.inputs.target_app || 'moviebox' }}"
@@ -95,22 +103,25 @@ jobs:
         uses: softprops/action-gh-release@v2
         if: success()
         with:
-          tag_name: "release-${{ github.run_number }}"
+          tag_name: "v${{ github.run_number }}"
           name: "SDA Store Build #${{ github.run_number }} (${{ github.event.inputs.target_app || 'moviebox' }})"
           body: |
             ### 📱 SDA Store Automated APK Build
             * **Target App:** `${{ github.event.inputs.target_app || 'moviebox' }}`
             * **Build Number:** `${{ github.run_number }}`
+            * **Architecture:** `arm64-v8a`
             * **Patcher:** ReVanced / Morphe CLI
-            * **Signing:** Non-root Release Keystore
+            * **Signing:** SDA Store Keystore (Signed Release)
           files: build_output/*.apk
           draft: false
           prerelease: false
 
       # 3. Synchronize Web Catalog to point to YOUR new release APK
       - name: Sync Store Catalog With New Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python3 -m pip install requests
           python3 scripts/sync_catalog.py --repo "${{ github.repository }}" || true
 
       # 4. Commit updated catalog back to repository
@@ -120,3 +131,10 @@ jobs:
           git config --local user.name "GitHub Actions [SDA Store Builder]"
           git add data/apps.json
           git diff --staged --quiet || (git commit -m "chore(store): auto-update apps.json with build #${{ github.run_number }} [skip ci]" && git push)
+
+      # 5. Trigger GitHub Pages Deployment
+      - name: Trigger GitHub Pages Redeploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run deploy-pages.yml --ref main || true

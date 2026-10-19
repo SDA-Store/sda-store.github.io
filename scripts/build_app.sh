@@ -24,29 +24,29 @@ setup_tools() {
     echo "Checking patcher tools..."
 
     if [ ! -f "$TOOLS_DIR/cli.jar" ]; then
-        echo "Downloading latest ReVanced CLI..."
-        CLI_URL=$(curl -sL https://api.github.com/repos/ReVanced/revanced-cli/releases/latest | grep -o 'https://[^"]*revanced-cli-[^"]*\.jar' | head -n 1)
-        if [ -n "$CLI_URL" ]; then
+        echo "Downloading inotia00/revanced-cli..."
+        if command -v gh >/dev/null 2>&1; then
+            gh release download --repo inotia00/revanced-cli --pattern "*all.jar" --output "$TOOLS_DIR/cli.jar" || true
+        fi
+        if [ ! -f "$TOOLS_DIR/cli.jar" ] || [ ! -s "$TOOLS_DIR/cli.jar" ]; then
+            CLI_URL=$(curl -sL https://api.github.com/repos/inotia00/revanced-cli/releases/latest | grep -o 'https://[^"]*revanced-cli-[^"]*\.jar' | head -n 1)
+            [ -z "$CLI_URL" ] && CLI_URL="https://github.com/inotia00/revanced-cli/releases/download/v5.0.2/revanced-cli-5.0.2-all.jar"
             curl -sL "$CLI_URL" -o "$TOOLS_DIR/cli.jar"
-            echo "Downloaded CLI to $TOOLS_DIR/cli.jar"
         fi
+        echo "Downloaded CLI to $TOOLS_DIR/cli.jar"
     fi
 
-    if [ ! -f "$TOOLS_DIR/patches.jar" ]; then
-        echo "Downloading latest ReVanced Patches..."
-        PATCH_URL=$(curl -sL https://api.github.com/repos/ReVanced/revanced-patches/releases/latest | grep -o 'https://[^"]*revanced-patches-[^"]*\.jar' | head -n 1)
-        if [ -n "$PATCH_URL" ]; then
-            curl -sL "$PATCH_URL" -o "$TOOLS_DIR/patches.jar"
-            echo "Downloaded Patches to $TOOLS_DIR/patches.jar"
+    if [ ! -f "$TOOLS_DIR/patches.rvp" ]; then
+        echo "Downloading inotia00/revanced-patches..."
+        if command -v gh >/dev/null 2>&1; then
+            gh release download --repo inotia00/revanced-patches --pattern "*.rvp" --output "$TOOLS_DIR/patches.rvp" || true
         fi
-    fi
-
-    if [ ! -f "$TOOLS_DIR/keystore.keystore" ]; then
-        echo "Generating build signing keystore..."
-        keytool -genkeypair -v -keystore "$TOOLS_DIR/keystore.keystore" \
-            -storepass "sdastorepassword" -alias "sdastore" \
-            -keypass "sdastorepassword" -keyalg RSA -keysize 2048 \
-            -validity 10000 -dname "CN=SDA Store, OU=Automated Builder, O=SDA, C=US" 2>/dev/null || true
+        if [ ! -f "$TOOLS_DIR/patches.rvp" ] || [ ! -s "$TOOLS_DIR/patches.rvp" ]; then
+            PATCH_URL=$(curl -sL https://api.github.com/repos/inotia00/revanced-patches/releases/latest | grep -o 'https://[^"]*patches-[^"]*\.rvp' | head -n 1)
+            [ -z "$PATCH_URL" ] && PATCH_URL="https://github.com/inotia00/revanced-patches/releases/download/v5.14.1/patches-5.14.1.rvp"
+            curl -sL "$PATCH_URL" -o "$TOOLS_DIR/patches.rvp"
+        fi
+        echo "Downloaded Patches to $TOOLS_DIR/patches.rvp"
     fi
 }
 
@@ -74,18 +74,22 @@ fetch_base_apk() {
             echo "Fetching official MovieBox base APK from movie-box.co..."
             MOVIEBOX_OFFICIAL_URL="https://h5-api.aoneroom.com/pkg/redirect"
             curl -sL -f -A "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36" \
-                "$MOVIEBOX_OFFICIAL_URL" -o "$base_path" || {
-                echo "Fallback to direct CDN release URL..."
+                "$MOVIEBOX_OFFICIAL_URL" -o "$base_path" || true
+            
+            # Verify file size > 10MB or fallback to direct CDN release URL
+            if [ ! -f "$base_path" ] || [ ! -s "$base_path" ] || [ $(wc -c < "$base_path" 2>/dev/null || echo 0) -lt 10000000 ]; then
+                echo "Fallback to direct CDN release URL for MovieBox..."
                 curl -sL -f -A "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36" \
                     "https://apk.aoneroom.com/apk/moviebox/release/4.0.03.0922.03/1218_protected_signed/moviebox-in-v-4.0.03.0922.03.apk" -o "$base_path"
-            }
+            fi
             ;;
         youtube)
             echo "Fetching YouTube base APK..."
-            # Handled in GitHub Actions via gh-apkmirror-dl or fallback
+            # Handled in GitHub Actions via gh-apkmirror-dl or custom URL
             ;;
         reddit)
             echo "Fetching Reddit base APK..."
+            # Handled in GitHub Actions via gh-apkmirror-dl or custom URL
             ;;
         *)
             echo "Unknown app for auto-fetch: $app"
@@ -108,17 +112,18 @@ patch_app() {
     fetch_base_apk "$app" || return 1
 
     echo "Applying patches to $base_apk..."
-    if [ -f "$TOOLS_DIR/cli.jar" ] && [ -f "$TOOLS_DIR/patches.jar" ]; then
+    if [ -f "$TOOLS_DIR/cli.jar" ] && [ -f "$TOOLS_DIR/patches.rvp" ]; then
         java -jar "$TOOLS_DIR/cli.jar" patch \
-            --patches "$TOOLS_DIR/patches.jar" \
-            --keystore "$TOOLS_DIR/keystore.keystore" \
-            --keystore-password "sdastorepassword" \
-            --out "$output_apk" \
+            -p "$TOOLS_DIR/patches.rvp" \
+            -f \
+            --purge \
+            --signer "SDA Store" \
+            -o "$output_apk" \
             "$base_apk"
 
         echo ">>> SUCCESS: Built and signed: $output_apk"
     else
-        echo "Error: CLI or patches bundle missing."
+        echo "Error: CLI ($TOOLS_DIR/cli.jar) or patches bundle ($TOOLS_DIR/patches.rvp) missing."
         return 1
     fi
 }
