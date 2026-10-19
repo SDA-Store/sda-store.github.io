@@ -34,7 +34,7 @@
         modalAppIcon: document.getElementById('modalAppIcon'),
         modalAppName: document.getElementById('modalAppName'),
         modalAppVersion: document.getElementById('modalAppVersion'),
-        modalAppBrand: document.getElementById('modalAppBrand'),
+        modalAppArch: document.getElementById('modalAppArch'),
         modalPatchCount: document.getElementById('modalPatchCount'),
         modalPatchesList: document.getElementById('modalPatchesList'),
         patchSearchInput: document.getElementById('patchSearchInput'),
@@ -132,12 +132,13 @@
                 ? (targetAsset.size / (1024 * 1024)).toFixed(1) + ' MB' 
                 : 'Direct APK';
             const archLabel = targetAsset && targetAsset.arch 
-                ? (targetAsset.arch === 'arm64' ? 'arm64-v8a' : (targetAsset.arch === 'arm' ? 'arm-v7a' : targetAsset.arch)) 
-                : 'arm64';
+                ? (targetAsset.arch === 'arm64' ? 'ARM64-v8a' : (targetAsset.arch === 'arm' ? 'ARM-v7a' : (targetAsset.arch.toLowerCase() === 'universal' ? 'Universal' : targetAsset.arch.toUpperCase()))) 
+                : 'ARM64-v8a';
+            const versionStr = app.version ? (String(app.version).toLowerCase().startsWith('v') ? app.version : `v${app.version}`) : 'vLatest';
 
             const displayPatches = (app.patches || []).slice(0, 3);
             const remainingPatches = Math.max(0, (app.patchCount || app.patches.length) - displayPatches.length);
-            const obtainiumUrl = generateObtainiumUrl(app, targetAsset);
+            const releasesUrl = getReleasesPageUrl(app);
 
             // Flagship card accent (MovieBox gets emerald accent line)
             const isFlagship = app.id === 'moviebox';
@@ -155,10 +156,8 @@
                                 <span class="app-category-text">${escapeHtml(app.category || 'App')}</span>
                                 <h3 class="app-name-title" title="${escapeHtml(app.name)}">${escapeHtml(app.name)}</h3>
                                 <div class="app-badges-flex">
-                                    <span class="chip-brand">${escapeHtml(app.brand || 'Morphe')}</span>
-                                    <span class="chip-version">v${escapeHtml(app.version || 'latest')}</span>
+                                    <span class="chip-version">${escapeHtml(versionStr)}</span>
                                     <span class="chip-arch">${escapeHtml(archLabel)}</span>
-                                    ${isFlagship ? `<span class="chip-verified"><i class="fa-solid fa-check"></i> Verified</span>` : ''}
                                 </div>
                             </div>
                         </div>
@@ -180,14 +179,14 @@
                                download="${escapeHtml(targetAsset?.name || 'app.apk')}"
                                target="_blank" rel="noopener">
                                 <i class="fa-solid fa-download"></i>
-                                <span>Download APK</span>
+                                <span>Download Latest APK</span>
                             </a>
-                            <a href="${escapeHtml(obtainiumUrl)}" 
-                               class="btn-obtainium-ghost" 
-                               title="Install or sync automated updates in Obtainium"
+                            <a href="${escapeHtml(releasesUrl)}" 
+                               class="btn-releases-ghost" 
+                               title="View previous releases and version history on GitHub"
                                target="_blank" rel="noopener">
-                                <i class="fa-solid fa-link"></i>
-                                <span>Obtainium</span>
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <span>Previous Releases</span>
                             </a>
                         </div>
                         <div class="action-row-meta">
@@ -263,24 +262,11 @@
     }
 
     /**
-     * Generate an Obtainium 1-Click Redirect URL
+     * Get Releases Index Page for an application
      */
-    function generateObtainiumUrl(app, targetAsset) {
-        const releaseUrl = app.releaseUrl || 'https://github.com/sudarsanSDA/SDA-Store';
-        const filterRegex = targetAsset ? `^${escapeRegex(targetAsset.name)}$` : `^${escapeRegex(app.id)}.*\\.apk$`;
-        
-        const obtainiumConfig = {
-            id: app.id,
-            name: `${app.name} (${app.brand || 'Morphe'})`,
-            url: releaseUrl,
-            author: 'sudarsanSDA',
-            additionalSettings: JSON.stringify({
-                apkFilterRegEx: filterRegex
-            })
-        };
-
-        const uriScheme = `obtainium://app/${JSON.stringify(obtainiumConfig)}`;
-        return `https://apps.obtainium.imranr.dev/redirect?r=${encodeURIComponent(uriScheme)}`;
+    function getReleasesPageUrl(app) {
+        if (!app.releaseUrl) return 'https://github.com/sudarsanSDA/SDA-Store/releases';
+        return app.releaseUrl.replace(/\/(tag\/[^/?#]+|latest)[/?#]?.*$/, '');
     }
 
     /**
@@ -292,11 +278,17 @@
 
         activeModalApp = app;
         const targetAsset = pickBestAsset(app, currentArch);
+        const versionStr = app.version ? (String(app.version).toLowerCase().startsWith('v') ? app.version : `v${app.version}`) : 'vLatest';
+        const archLabel = targetAsset && targetAsset.arch 
+            ? (targetAsset.arch === 'arm64' ? 'ARM64-v8a' : (targetAsset.arch === 'arm' ? 'ARM-v7a' : (targetAsset.arch.toLowerCase() === 'universal' ? 'Universal' : targetAsset.arch.toUpperCase()))) 
+            : 'ARM64-v8a';
 
         DOM.modalAppIcon.src = app.icon || '';
         DOM.modalAppName.textContent = app.name;
-        DOM.modalAppVersion.textContent = `v${app.version || 'latest'}`;
-        DOM.modalAppBrand.textContent = app.brand || 'Morphe';
+        DOM.modalAppVersion.textContent = versionStr;
+        if (DOM.modalAppArch) {
+            DOM.modalAppArch.textContent = archLabel;
+        }
         DOM.modalPatchCount.textContent = `${app.patchCount || (app.patches || []).length} Patches Applied`;
         DOM.modalDirectDownloadBtn.href = targetAsset ? targetAsset.downloadUrl : '#';
         DOM.modalDirectDownloadBtn.setAttribute('download', targetAsset ? targetAsset.name : 'app.apk');
