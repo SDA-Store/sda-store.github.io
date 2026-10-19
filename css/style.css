@@ -114,6 +114,9 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
 }
 
 body {
@@ -124,6 +127,8 @@ body {
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
   transition: background-color var(--duration-base) var(--ease-apple), color var(--duration-base) var(--ease-apple);
 }
 
@@ -275,11 +280,14 @@ body {
   line-height: 1.05;
   color: var(--text-primary);
   margin-bottom: 0.85rem;
+  max-width: 100%;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-title-main {
   display: inline;
-  font-size: clamp(1.85rem, 3.5vw, 2.85rem);
+  font-size: clamp(1.75rem, 5vw, 2.85rem);
   margin-right: 0.35rem;
 }
 
@@ -289,7 +297,23 @@ body {
   font-weight: 400;
   font-style: italic;
   letter-spacing: 0.01em;
-  font-size: clamp(1.85rem, 3.5vw, 2.85rem);
+  font-size: clamp(1.75rem, 5vw, 2.85rem);
+  word-break: break-word;
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    margin-bottom: 0.75rem;
+  }
+  .hero-title-main,
+  .hero-title-serif {
+    display: block;
+    font-size: clamp(1.5rem, 7vw, 1.95rem);
+    margin-right: 0;
+    line-height: 1.12;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
 }
 
 .hero-subtext {
@@ -307,6 +331,15 @@ body {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-bottom: 2.25rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .hero-actions-row .btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* Section Headings */
@@ -540,9 +573,19 @@ body {
 .main-bounds {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem 6rem;
+  padding: 2.5rem 1.25rem 6rem;
   position: relative;
   z-index: 1;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: clip;
+}
+
+@media (max-width: 640px) {
+  .main-bounds {
+    padding: 1.75rem 0.75rem 4rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -610,6 +653,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .controls-panel {
+    padding: 1rem 0.75rem;
+    border-radius: 20px;
+    gap: 1rem;
+  }
 }
 
 /* Precision Search Input */
@@ -717,7 +771,22 @@ body {
 .filter-selects {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .custom-select-box {
+    flex: 1 1 calc(50% - 0.4rem);
+    min-width: 125px;
+    box-sizing: border-box;
+  }
+  .custom-select-box .select-native {
+    width: 100%;
+    font-size: 0.65rem;
+  }
 }
 
 .custom-select-box {
@@ -1089,6 +1158,31 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .companion-grid {
+    gap: 1.25rem;
+    margin-bottom: 3.5rem;
+  }
+  .master-info-card {
+    padding: 1.4rem 1.15rem;
+    border-radius: 20px;
+  }
+  .info-card-title {
+    font-size: 1.25rem;
+  }
+  .info-card-text {
+    font-size: 0.825rem;
+    margin-bottom: 1.25rem;
+  }
+  .master-info-card .btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 .card-icon-circle {
@@ -1355,6 +1449,10 @@ body {
   font-size: 0.8rem;
   position: relative;
   z-index: 99;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .in-app-alert.hidden {
@@ -1515,6 +1613,10 @@ body {
   padding: 3rem 1.5rem;
   position: relative;
   z-index: 1;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .footer-inner {
@@ -1523,6 +1625,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -1537,12 +1642,27 @@ body {
   font-family: var(--font-mono);
   font-size: 0.75rem;
   color: var(--text-eyebrow);
+  max-width: 100%;
+  word-break: break-word;
 }
 
 .footer-nav-links {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.85rem 1.25rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .site-footer {
+    padding: 2rem 1rem;
+  }
+  .footer-nav-links {
+    gap: 0.75rem 1rem;
+  }
 }
 
 .footer-nav-links a {
