@@ -4,6 +4,7 @@ set -e
 # ==============================================================================
 # SDA Store - Automated Headless APK Patcher
 # Fetches base APKs from trusted sources, applies patches, and signs output APKs
+# All builds and releases are hosted exclusively on sudarsanSDA/SDA-Store
 # ==============================================================================
 
 TARGET="${1:-moviebox}"
@@ -15,7 +16,7 @@ TOOLS_DIR="tools"
 mkdir -p "$BUILD_DIR" "$WORKSPACE" "$TOOLS_DIR"
 
 echo "========================================================"
-echo "  SDA Store - Headless APK Builder"
+echo "  SDA Store - Automated Headless APK Builder"
 echo "  Target: $TARGET"
 echo "========================================================"
 
@@ -50,7 +51,7 @@ setup_tools() {
     fi
 }
 
-# Setup Morphe CLI & hxreborn Patches (specifically engineered for MovieBox Ijiami unpacker)
+# Setup Morphe CLI & hxreborn Patches (engineered for MovieBox Ijiami unpacker)
 setup_morphe_tools() {
     echo "Checking Morphe patcher tools for MovieBox..."
 
@@ -97,39 +98,52 @@ fetch_base_apk() {
         return 0
     fi
 
-    echo "Fetching base APK for '$app' from verified source..."
+    echo "Fetching base APK for '$app'..."
 
-    case "$app" in
-        moviebox)
-            # Official MovieBox redirector & CDN from movie-box.co
-            echo "Fetching official MovieBox base APK from movie-box.co..."
-            MOVIEBOX_OFFICIAL_URL="https://h5-api.aoneroom.com/pkg/redirect"
-            curl -sL -f -A "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36" \
-                "$MOVIEBOX_OFFICIAL_URL" -o "$base_path" || true
-            
-            # Verify file size > 10MB or fallback to direct CDN release URL
-            if [ ! -f "$base_path" ] || [ ! -s "$base_path" ] || [ $(wc -c < "$base_path" 2>/dev/null || echo 0) -lt 10000000 ]; then
-                echo "Fallback to direct CDN release URL for MovieBox..."
-                curl -sL -f -A "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36" \
-                    "https://apk.aoneroom.com/apk/moviebox/release/4.0.03.0922.03/1218_protected_signed/moviebox-in-v-4.0.03.0922.03.apk" -o "$base_path"
+    if [ "$app" = "moviebox" ]; then
+        echo "Fetching official MovieBox base APK from movie-box.co..."
+        MOVIEBOX_OFFICIAL_URL="https://h5-api.aoneroom.com/pkg/redirect"
+        curl -sL -f -A "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36" \
+            "$MOVIEBOX_OFFICIAL_URL" -o "$base_path" || true
+        
+        if [ ! -f "$base_path" ] || [ ! -s "$base_path" ] || [ $(wc -c < "$base_path" 2>/dev/null || echo 0) -lt 10000000 ]; then
+            echo "Fallback to direct CDN release URL for MovieBox..."
+            curl -sL -f -A "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36" \
+                "https://apk.aoneroom.com/apk/moviebox/release/4.0.03.0922.03/1218_protected_signed/moviebox-in-v-4.0.03.0922.03.apk" -o "$base_path"
+        fi
+        return 0
+    fi
+
+    # Lookup in data/patches/ TOML configs
+    local toml_file="data/patches/${app}.toml"
+    if [ ! -f "$toml_file" ]; then
+        toml_file=$(ls data/patches/*${app}*.toml 2>/dev/null | head -n 1 || true)
+    fi
+
+    if [ -f "$toml_file" ]; then
+        echo "Found patch configuration in $toml_file"
+        local uptodown_url=$(grep -E '^\s*uptodown-dlurl\s*=' "$toml_file" | head -n 1 | cut -d'"' -f2 || true)
+        local archive_url=$(grep -E '^\s*archive-dlurl\s*=' "$toml_file" | head -n 1 | cut -d'"' -f2 || true)
+
+        if [ -n "$uptodown_url" ]; then
+            echo "Attempting to resolve & download base APK via Uptodown ($uptodown_url)..."
+            if python3 scripts/uptodown.py download "$uptodown_url" "" "$base_path" "arm64-v8a" 2>/dev/null; then
+                echo "Successfully downloaded base APK via Uptodown!"
+                return 0
             fi
-            ;;
-        youtube)
-            echo "Fetching YouTube base APK..."
-            # Handled in GitHub Actions via gh-apkmirror-dl or custom URL
-            ;;
-        reddit)
-            echo "Fetching Reddit base APK..."
-            # Handled in GitHub Actions via gh-apkmirror-dl or custom URL
-            ;;
-        *)
-            echo "Unknown app for auto-fetch: $app"
-            ;;
-    esac
+        fi
+
+        if [ ! -f "$base_path" ] || [ ! -s "$base_path" ]; then
+            if [ -n "$archive_url" ]; then
+                echo "Attempting direct download from archive mirror ($archive_url)..."
+                curl -sL -A "Mozilla/5.0" "$archive_url" -o "$base_path" || true
+            fi
+        fi
+    fi
 
     if [ ! -f "$base_path" ] || [ ! -s "$base_path" ]; then
-        echo "Notice: Base APK for $app could not be downloaded automatically."
-        echo "Please place clean '$base_path' into the workspace/ directory or supply a direct download URL."
+        echo "Notice: Base APK for '$app' could not be downloaded automatically."
+        echo "Please place clean '$base_path' into workspace/ or specify custom_apk_url in workflow dispatch."
         return 1
     fi
 }
@@ -145,7 +159,7 @@ patch_app() {
     echo "Applying patches to $base_apk..."
     if [ "$app" = "moviebox" ]; then
         setup_morphe_tools
-        echo "Patching MovieBox using Morphe CLI & hxreborn patches (with native Ijiami unhardener)..."
+        echo "Patching MovieBox using Morphe CLI & hxreborn patches..."
         java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
             -p "$TOOLS_DIR/hxreborn-patches.mpp" \
             -f \
@@ -178,11 +192,26 @@ case "$TARGET" in
     youtube)
         patch_app "youtube"
         ;;
+    youtubemusic)
+        patch_app "youtube-music"
+        ;;
     reddit)
         patch_app "reddit"
         ;;
+    twitter)
+        patch_app "twitter"
+        ;;
+    instagram)
+        patch_app "instagram"
+        ;;
+    tiktok)
+        patch_app "tiktok"
+        ;;
+    bravebrowser|brave)
+        patch_app "brave"
+        ;;
     all)
-        echo "Building all configured apps..."
+        echo "Building flagship apps..."
         for a in moviebox youtube reddit; do
             patch_app "$a" || true
         done

@@ -14,5 +14,7 @@ __pycache__/
 # OS & Editor files
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
+# Sample reference folders
+sample/
+sample_rvb/
+sample_rvb_data/

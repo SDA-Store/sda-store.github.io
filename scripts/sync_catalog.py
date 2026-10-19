@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 SDA Store - Catalog Sync Script
-Scans GitHub Releases and updates data/apps.json with the latest verified APK assets.
+Scans GitHub Releases for sudarsanSDA/SDA-Store and updates data/apps.json
+with the latest verified APK assets and download URLs.
 """
 
 import os
@@ -22,7 +23,7 @@ def fetch_json(url):
         headers['Authorization'] = f'Bearer {token}'
 
     req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=15) as res:
+    with urllib.request.urlopen(req, timeout=20) as res:
         return json.loads(res.read().decode('utf-8'))
 
 def sync_catalog(repo_name='sudarsanSDA/SDA-Store'):
@@ -41,7 +42,7 @@ def sync_catalog(repo_name='sudarsanSDA/SDA-Store'):
 
     print(f"Checking releases for repository: {repo_name}...")
     try:
-        releases = fetch_json(f"https://api.github.com/repos/{repo_name}/releases")
+        releases = fetch_json(f"https://api.github.com/repos/{repo_name}/releases?per_page=100")
         if not releases:
             print("No releases found on target repository.")
             return
@@ -52,9 +53,9 @@ def sync_catalog(repo_name='sudarsanSDA/SDA-Store'):
         # Scan releases from newest to oldest
         for app in catalog.get('apps', []):
             app_id = app.get('id', '').lower()
-            app_name_clean = app.get('name', '').lower().replace(' ', '')
+            app_name_clean = app.get('name', '').lower().replace(' ', '').replace('-', '')
 
-            for release in releases[:10]:
+            for release in releases:
                 tag_name = release.get('tag_name', 'latest')
                 release_url = release.get('html_url', '')
                 matched_assets = []
@@ -63,7 +64,7 @@ def sync_catalog(repo_name='sudarsanSDA/SDA-Store'):
                     name = asset.get('name', '')
                     name_lower = name.lower()
                     if name_lower.endswith('.apk') and (app_id in name_lower or app_name_clean in name_lower):
-                        arch = 'arm64' if 'arm64' in name_lower else ('arm' if ('arm-v7a' in name_lower or 'v7a' in name_lower) else 'universal')
+                        arch = 'arm64' if 'arm64' in name_lower or '64' in name_lower else ('arm' if ('arm-v7a' in name_lower or 'v7a' in name_lower) else 'universal')
                         matched_assets.append({
                             'name': name,
                             'arch': arch,
@@ -84,12 +85,12 @@ def sync_catalog(repo_name='sudarsanSDA/SDA-Store'):
         catalog['updatedAt'] = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
         with open(DATA_PATH, 'w', encoding='utf-8') as f:
-            json.dump(catalog, f, indent=2)
+            json.dump(catalog, f, indent=2, ensure_ascii=False)
 
         print(f"Successfully synchronized {updated_count} app(s) in data/apps.json!")
 
     except Exception as e:
-        print(f"Error syncing with GitHub API: {e}")
+        print(f"Notice during GitHub API sync: {e}")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Synchronize SDA Store Catalog with GitHub Releases")

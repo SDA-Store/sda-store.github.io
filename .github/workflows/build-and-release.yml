@@ -4,14 +4,22 @@ on:
   workflow_dispatch:
     inputs:
       target_app:
-        description: 'Application to patch'
+        description: 'Application to patch and release'
         required: true
         default: 'moviebox'
         type: choice
         options:
           - 'moviebox'
           - 'youtube'
+          - 'youtubemusic'
           - 'reddit'
+          - 'twitter'
+          - 'instagram'
+          - 'tiktok'
+          - 'bravebrowser'
+          - 'duolingo'
+          - 'discord'
+          - 'photos'
           - 'all'
       custom_apk_url:
         description: 'Optional: Custom direct URL for base clean APK'
@@ -44,17 +52,23 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Install Android Build Tools
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Android Build Tools & Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y zipalign apksigner jq curl wget
+          pip install --no-cache-dir curl_cffi || true
 
       - name: Prepare Workspace & Directories
         run: |
           mkdir -p workspace tools build_output
 
       # Optional: APKMirror trusted downloader for Google/Play Store apps
-      - name: Download Base APK from APKMirror (for YouTube)
+      - name: Download Base APK from APKMirror (for YouTube fallback)
         if: ${{ github.event.inputs.target_app == 'youtube' && github.event.inputs.custom_apk_url == '' }}
         uses: Yakov5776/gh-apkmirror-dl@v1.3
         continue-on-error: true
@@ -66,7 +80,7 @@ jobs:
           filename: "workspace/base-youtube.apk"
           overwrite: "true"
 
-      - name: Download Base APK from APKMirror (for Reddit)
+      - name: Download Base APK from APKMirror (for Reddit fallback)
         if: ${{ github.event.inputs.target_app == 'reddit' && github.event.inputs.custom_apk_url == '' }}
         uses: Yakov5776/gh-apkmirror-dl@v1.3
         continue-on-error: true
@@ -97,7 +111,7 @@ jobs:
           path: build_output/*.apk
           retention-days: 14
 
-      # 2. Publish to GitHub Releases
+      # 2. Publish to GitHub Releases on sudarsanSDA/SDA-Store
       - name: Publish GitHub Release
         id: create_release
         uses: softprops/action-gh-release@v2
@@ -112,6 +126,7 @@ jobs:
             * **Architecture:** `arm64-v8a`
             * **Patcher:** ReVanced / Morphe CLI
             * **Signing:** SDA Store Keystore (Signed Release)
+            * **Repository:** `sudarsanSDA/SDA-Store`
           files: build_output/*.apk
           draft: false
           prerelease: false
