@@ -1,0 +1,122 @@
+name: Automated APK Builder & Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_app:
+        description: 'Application to patch'
+        required: true
+        default: 'moviebox'
+        type: choice
+        options:
+          - 'moviebox'
+          - 'youtube'
+          - 'reddit'
+          - 'all'
+      custom_apk_url:
+        description: 'Optional: Custom direct URL for base clean APK'
+        required: false
+        default: ''
+        type: string
+  schedule:
+    # Run weekly every Sunday at 02:00 UTC
+    - cron: '0 2 * * 0'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    name: Build & Patch APK
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java 21 (Temurin)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Install Android Build Tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zipalign apksigner jq curl wget
+
+      - name: Prepare Workspace & Directories
+        run: |
+          mkdir -p workspace tools build_output
+
+      # Optional: APKMirror trusted downloader for Google/Play Store apps
+      - name: Download Base APK from APKMirror (for YouTube)
+        if: ${{ github.event.inputs.target_app == 'youtube' && github.event.inputs.custom_apk_url == '' }}
+        uses: Yakov5776/gh-apkmirror-dl@v1.3
+        continue-on-error: true
+        with:
+          org: "google-inc"
+          repo: "youtube"
+          version: ""
+          bundle: "false"
+          filename: "workspace/base-youtube.apk"
+          overwrite: "true"
+
+      - name: Download Base APK from APKMirror (for Reddit)
+        if: ${{ github.event.inputs.target_app == 'reddit' && github.event.inputs.custom_apk_url == '' }}
+        uses: Yakov5776/gh-apkmirror-dl@v1.3
+        continue-on-error: true
+        with:
+          org: "reddit-inc"
+          repo: "reddit"
+          version: ""
+          bundle: "false"
+          filename: "workspace/base-reddit.apk"
+          overwrite: "true"
+
+      # Execute Headless Patcher
+      - name: Execute Patching Script
+        run: |
+          chmod +x scripts/build_app.sh
+          TARGET_APP="${{ github.event.inputs.target_app || 'moviebox' }}"
+          CUSTOM_URL="${{ github.event.inputs.custom_apk_url || '' }}"
+          bash scripts/build_app.sh "$TARGET_APP" "$CUSTOM_URL"
+
+      # 1. Deliver finished APK via GitHub Actions Run Artifacts (Instant 1-Click Download in CI)
+      - name: Upload Finished APK Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.target_app || 'moviebox' }}-patched-apk
+          path: build_output/*.apk
+          retention-days: 14
+
+      # 2. Publish to GitHub Releases
+      - name: Publish GitHub Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        if: success()
+        with:
+          tag_name: "release-${{ github.run_number }}"
+          name: "SDA Store Build #${{ github.run_number }} (${{ github.event.inputs.target_app || 'moviebox' }})"
+          body: |
+            ### 📱 SDA Store Automated APK Build
+            * **Target App:** `${{ github.event.inputs.target_app || 'moviebox' }}`
+            * **Build Number:** `${{ github.run_number }}`
+            * **Patcher:** ReVanced / Morphe CLI
+            * **Signing:** Non-root Release Keystore
+          files: build_output/*.apk
+          draft: false
+          prerelease: false
+
+      # 3. Synchronize Web Catalog to point to YOUR new release APK
+      - name: Sync Store Catalog With New Release
+        run: |
+          python3 -m pip install requests
+          python3 scripts/sync_catalog.py --repo "${{ github.repository }}" || true
+
+      # 4. Commit updated catalog back to repository
+      - name: Commit and Push Updated Store Catalog
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions [SDA Store Builder]"
+          git add data/apps.json
+          git diff --staged --quiet || (git commit -m "chore(store): auto-update apps.json with build #${{ github.run_number }} [skip ci]" && git push)

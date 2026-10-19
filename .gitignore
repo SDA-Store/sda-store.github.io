@@ -1,0 +1,19 @@
+# SDA Store - Git Ignore Rules
+
+# Base APKs and build output (large binaries uploaded via GitHub Releases)
+workspace/*.apk
+build_output/*.apk
+
+# Tools and Keystores (generated dynamically in CI)
+tools/*.jar
+tools/*.keystore
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
