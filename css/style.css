@@ -301,6 +301,14 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.hero-actions-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2.25rem;
+}
+
 /* Section Headings */
 .section-heading {
   font-family: var(--font-sans);

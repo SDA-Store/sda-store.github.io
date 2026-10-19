@@ -80,22 +80,30 @@ You can host this entire store on GitHub Pages in under 2 minutes:
 
 ---
 
-## ⚡ How the Automated APK Builder Works
+## ⚡ Automated APK Builder & Patching Pipeline (GitHub Actions)
 
-The repository includes a complete GitHub Actions CI/CD workflow (`.github/workflows/build-and-release.yml`):
+The repository includes a complete, production-grade headless build automation system powered by GitHub Actions ([`.github/workflows/build-and-release.yml`](.github/workflows/build-and-release.yml)):
 
-1. **Matrix / Manual Trigger:**
-   * Trigger builds on a weekly cron schedule or manually choose which app to patch via `workflow_dispatch`.
-2. **Headless Patching:**
-   * Runs Java 21 on `ubuntu-latest`.
-   * Automatically downloads the latest CLI patcher and `.mpp` / `.jar` patch bundles.
-   * Applies smali/dex transformations and resource rebuilding.
-3. **Auto-Signing:**
-   * Generates a persistent release keystore and signs with Android's `apksigner`.
-4. **Automated GitHub Releases:**
-   * Publishes the compiled `.apk` files directly to GitHub Releases.
-5. **Catalog Sync:**
-   * Runs `scripts/sync_catalog.py` to automatically update `data/apps.json` with the new release URLs and commit back to `main`.
+* **Direct Pipeline Link:** [https://github.com/sudarsanSDA/SDA-Store/actions](https://github.com/sudarsanSDA/SDA-Store/actions)
+* **Automated Daily Runs:** Configured on cron schedule (`0 2 * * *`) to automatically pull the newest clean base APKs and re-apply latest upstream patches daily.
+* **Supported Build Targets:**
+  * `all-flagships`: Batch builds all high-priority flagships (MovieBox, YouTube, Reddit, Twitter, Instagram, TikTok, Brave).
+  * `all-apps`: Iterates through all 57 patch configurations in `data/patches/`.
+  * Individual apps: `moviebox`, `youtube`, `youtubemusic`, `reddit`, `twitter`, `instagram`, `tiktok`, `bravebrowser`, `duolingo`, `discord`, `photos`, etc.
+  * Custom base APKs: Pass any clean APK direct URL via `custom_apk_url`.
+
+### How to Trigger a Build in GitHub Actions:
+1. Navigate to the **[Actions Tab](https://github.com/sudarsanSDA/SDA-Store/actions)**.
+2. Select **[Automated APK Builder & Release](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/build-and-release.yml)** from the left sidebar.
+3. Click the **Run workflow** dropdown on the right.
+4. Choose your desired target (`all-flagships`, `moviebox`, `youtube`, etc.) and click the green **Run workflow** button.
+5. GitHub Actions executes:
+   - Downloads official base APKs via direct CDN / Uptodown / APKMirror.
+   - Executes bytecode transformation and unhardening via Morphe CLI (`.mpp`) or ReVanced CLI (`.rvp`).
+   - Signs the APK with Android `apksigner`.
+   - Uploads the signed `.apk` as a 14-day CI artifact (instant download from workflow summary).
+   - Publishes a formal release to [GitHub Releases](https://github.com/sudarsanSDA/SDA-Store/releases).
+   - Syncs `data/apps.json` with the new download link and triggers the live GitHub Pages redeployment.
 
 ---
 
