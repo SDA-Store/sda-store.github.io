@@ -1053,13 +1053,13 @@ body {
   margin-bottom: 5.5rem;
 }
 
-@media (min-width: 768px) and (max-width: 1049px) {
+@media (min-width: 680px) and (max-width: 991px) {
   .companion-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 1050px) {
+@media (min-width: 992px) {
   .companion-grid {
     grid-template-columns: repeat(3, 1fr);
   }
