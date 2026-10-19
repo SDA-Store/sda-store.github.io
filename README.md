@@ -112,7 +112,7 @@ The repository includes a complete, production-grade headless build automation s
 
 In addition to manual triggers and daily runs, the repository includes an automated update watcher ([`.github/workflows/auto-update-watcher.yml`](.github/workflows/auto-update-watcher.yml)):
 
-* **Runs Every 6 Hours:** Automatically queries upstream repositories for new releases:
+* **Runs Every 12 Hours:** Automatically queries upstream repositories for new releases:
   * **Base APKs:** Monitors upstream APK releases (YouTube, Reddit, Discord, Duolingo, TikTok, MovieBox, etc.) via Uptodown / APKMirror / official CDNs.
   * **Patch Bundles:** Monitors new patch bundle releases for Morphe (`hxreborn/morphe-patches`) and ReVanced (`inotia00/revanced-patches`).
 * **Auto-Dispatch:** If a new APK or patch version is detected, the watcher records the new version in `data/upstream_state.json` and automatically triggers `build-and-release.yml` for the updated application.
