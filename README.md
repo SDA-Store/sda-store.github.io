@@ -3,6 +3,7 @@
 > *100% Non-Root APKs. Zero Modules. Automated GitHub Actions CI/CD.*
 
 [![Automated APK Builder & Release](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/build-and-release.yml)
+[![Upstream Update Watcher](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/auto-update-watcher.yml/badge.svg)](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/auto-update-watcher.yml)
 [![Deploy SDA Store to GitHub Pages](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/deploy-pages.yml)
 [![Latest Release](https://img.shields.io/github/v/release/sudarsanSDA/SDA-Store?style=flat&color=10b981)](https://github.com/sudarsanSDA/SDA-Store/releases)
 
@@ -104,6 +105,18 @@ The repository includes a complete, production-grade headless build automation s
    - Uploads the signed `.apk` as a 14-day CI artifact (instant download from workflow summary).
    - Publishes a formal release to [GitHub Releases](https://github.com/sudarsanSDA/SDA-Store/releases).
    - Syncs `data/apps.json` with the new download link and triggers the live GitHub Pages redeployment.
+
+---
+
+## 🤖 Autonomous Upstream Update Watcher & Auto-Builds
+
+In addition to manual triggers and daily runs, the repository includes an automated update watcher ([`.github/workflows/auto-update-watcher.yml`](.github/workflows/auto-update-watcher.yml)):
+
+* **Runs Every 6 Hours:** Automatically queries upstream repositories for new releases:
+  * **Base APKs:** Monitors upstream APK releases (YouTube, Reddit, Discord, Duolingo, TikTok, MovieBox, etc.) via Uptodown / APKMirror / official CDNs.
+  * **Patch Bundles:** Monitors new patch bundle releases for Morphe (`hxreborn/morphe-patches`) and ReVanced (`inotia00/revanced-patches`).
+* **Auto-Dispatch:** If a new APK or patch version is detected, the watcher records the new version in `data/upstream_state.json` and automatically triggers `build-and-release.yml` for the updated application.
+* **Autonomous Release & Publish:** The builder compiles the updated APK, signs it with Android `apksigner`, publishes a new release on GitHub Releases, updates `data/apps.json`, and redeploys the GitHub Pages store without any manual intervention!
 
 ---
 

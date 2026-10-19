@@ -1,0 +1,52 @@
+name: Autonomous Upstream APK & Patch Watcher
+
+on:
+  schedule:
+    # Runs every 6 hours automatically (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: upstream-watcher
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  check-and-dispatch:
+    name: Check Upstream Releases & Auto-Dispatch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          pip install --no-cache-dir curl_cffi || true
+
+      - name: Run Upstream Update Watcher
+        id: watcher
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x scripts/check_upstream_updates.py
+          python3 scripts/check_upstream_updates.py --trigger
+
+      - name: Commit Updated Upstream State
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions [SDA Update Watcher]"
+          git add data/upstream_state.json
+          git diff --staged --quiet || (git commit -m "chore(watcher): update upstream release versions state [skip ci]" && git push origin main)
