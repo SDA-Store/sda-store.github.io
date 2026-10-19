@@ -1,60 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SDA Store | Automated Patched Android Apps (APKs)</title>
-    <meta name="description" content="Clean, high-performance catalog for the latest automated patched Android APKs (Morphe, ReVanced). Non-root builds, zero modules, direct downloads, and Obtainium auto-update support.">
-    <meta name="theme-color" content="#0d1117">
+    <title>SDA Store | High-Performance Patched Android APKs</title>
+    <meta name="description" content="High-end minimalist catalog for automated, pre-patched Android APKs powered by Morphe and ReVanced. Non-root binaries, zero modules, direct downloads, and Obtainium auto-updates.">
+    <meta name="theme-color" content="#fafafa">
 
     <!-- Open Graph / Meta -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="SDA Store - Automated Patched Android APKs">
-    <meta property="og:description" content="Download clean, verified non-root patched APKs with ad-blocking, background playback, and premium features.">
+    <meta property="og:title" content="SDA Store — Pre-Patched Applications">
+    <meta property="og:description" content="Clean, verified non-root patched Android APKs with VIP streaming, ad-blocking, and Obtainium integration.">
     
-    <!-- Google Fonts -->
+    <!-- Google Fonts: Inter (Sans), Playfair Display (Serif), JetBrains Mono (Mono) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Feather / Lucide Style Icons -->
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
-    <!-- Main Stylesheet -->
+    <!-- Master Design System Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236366f1'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230a0a0a'><circle cx='12' cy='12' r='10'/></svg>">
 </head>
 <body>
-    <div class="background-glow background-glow-1"></div>
-    <div class="background-glow background-glow-2"></div>
+    <!-- SVG Noise Texture Overlay (Section 5.1 of Spec) -->
+    <div id="noiseOverlay" class="noise-overlay" aria-hidden="true"></div>
 
-    <!-- Navigation Header -->
+    <!-- Interactive Fluid Custom Cursor (Section 6.3 of Spec) -->
+    <div id="customCursor" class="custom-cursor" aria-hidden="true"></div>
+
+    <!-- 24px Background Grid with Radial Mask (Section 5.2 of Spec) -->
+    <div class="bg-grid-pattern" aria-hidden="true"></div>
+    <div class="ambient-glow ambient-glow-center" aria-hidden="true"></div>
+    <div class="ambient-glow ambient-glow-corner" aria-hidden="true"></div>
+
+    <!-- Floating Pill Navigation (Section 4.1 & 7.3 of Spec) -->
     <header class="site-header">
         <div class="header-container">
-            <div class="brand">
-                <div class="brand-icon">
-                    <i class="fa-solid fa-layer-group"></i>
+            <!-- Brand with Rotating Circular Stamp (Section 5.5 of Spec) -->
+            <a href="#" class="brand" aria-label="SDA Store Home">
+                <div class="rotating-stamp">
+                    <svg viewBox="0 0 100 100" class="stamp-svg" aria-hidden="true">
+                        <path id="stampCircle" d="M 50, 50 m -36, 0 a 36,36 0 1,1 72,0 a 36,36 0 1,1 -72,0" fill="transparent" />
+                        <text class="stamp-text">
+                            <textPath href="#stampCircle" startOffset="0%">
+                                SDA STORE • AUTOMATED BUILDS • APK CATALOG • &nbsp;
+                            </textPath>
+                        </text>
+                    </svg>
+                    <div class="stamp-dot"></div>
                 </div>
                 <div class="brand-text">
-                    <h1 class="brand-title">SDA Store</h1>
-                    <span class="brand-badge">APKs Only &bull; Non-Root</span>
+                    <span class="brand-title">SDA Store</span>
+                    <span class="brand-badge">Automated CI • Non-Root</span>
                 </div>
-            </div>
+            </a>
+
+            <!-- Directional Expanding Underline Links (Section 7.4 of Spec) -->
+            <nav class="header-nav" aria-label="Primary Navigation">
+                <a href="#catalog" class="nav-link">01 // Catalog</a>
+                <a href="#blueprint" class="nav-link">02 // Pipeline</a>
+                <a href="#gmscore" class="nav-link">03 // GmsCore</a>
+                <a href="#obtainium" class="nav-link">04 // Auto-Update</a>
+            </nav>
 
             <div class="header-actions">
-                <a href="https://github.com/sudarsanSDA/SDA-Store" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" aria-label="GitHub Repository" title="View Source on GitHub">
+                <a href="https://github.com/sudarsanSDA/SDA-Store" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" aria-label="GitHub Repository">
                     <i class="fa-brands fa-github"></i>
                     <span>GitHub</span>
                 </a>
-                <button id="obtainiumGuideBtn" class="btn btn-secondary btn-sm" aria-label="Obtainium Guide">
-                    <i class="fa-solid fa-arrows-rotate"></i>
-                    <span>Auto-Update Guide</span>
-                </button>
-                <a href="#gmscore-card" class="btn btn-secondary btn-sm gmscore-link" id="gmsNavBtn">
-                    <i class="fa-brands fa-google"></i>
-                    <span>MicroG / GmsCore</span>
-                </a>
-                <button id="themeToggleBtn" class="theme-toggle" aria-label="Toggle Theme">
+                <button id="themeToggleBtn" class="theme-toggle" aria-label="Toggle Theme" title="Toggle Dark/Light Mode">
                     <i class="fa-solid fa-moon" id="themeIcon"></i>
                 </button>
             </div>
@@ -62,167 +79,360 @@
     </header>
 
     <!-- Main Content Container -->
-    <main class="main-container">
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="hero-badge">
-                <span class="pulse-dot"></span>
-                <span>Automated CI Builds &bull; GitHub Pages Hosted &bull; 100% Free</span>
+    <main class="main-bounds">
+        <!-- Hero Section: Asymmetric 12-Column Grid -->
+        <section class="hero-grid">
+            <div class="hero-left">
+                <!-- Eyebrow Line (Section 3.2 of Spec) -->
+                <div class="section-eyebrow">
+                    <span class="eyebrow-line"></span>
+                    <span class="eyebrow-text">00 // Headless CI/CD Architecture</span>
+                </div>
+
+                <!-- Mega Dual-Texture Hero Statement (Section 3.2 of Spec) -->
+                <h1 class="hero-title">
+                    <span class="hero-title-main">PRE-PATCHED</span>
+                    <span class="hero-title-serif stroke-text">APPLICATIONS</span>
+                </h1>
+
+                <!-- Editorial Serif Subtitle (Section 3.2 of Spec) -->
+                <p class="hero-subtext">
+                    &ldquo;High-performance Android APK catalog built entirely via headless GitHub Actions CI. 
+                    No Magisk modules, pure non-root binaries, and native Obtainium auto-sync.&rdquo;
+                </p>
+
+                <!-- Action Buttons Row (Section 7.1 & 7.2 of Spec) -->
+                <div class="hero-actions-row">
+                    <a href="#catalog" class="btn btn-primary">
+                        <span>Explore Software Catalog</span>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <button id="obtainiumGuideBtn" class="btn btn-secondary">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span>Auto-Update Setup</span>
+                    </button>
+                    <a href="#gmscore" class="btn btn-secondary">
+                        <i class="fa-brands fa-google"></i>
+                        <span>GmsCore / MicroG</span>
+                    </a>
+                </div>
+
+                <!-- Live Quick Stats Strip -->
+                <div class="stats-strip">
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalAppsCount">11</span>
+                        <span class="stat-label">Curated Apps</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalPatchesCount">142</span>
+                        <span class="stat-label">Total Patches</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Non-Root APKs</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">$0.00</span>
+                        <span class="stat-label">Hosting Cost</span>
+                    </div>
+                </div>
             </div>
-            <h2 class="hero-heading">Modern Patched Android Apps.<br><span class="gradient-text">Zero Modules. Pure APKs.</span></h2>
-            <p class="hero-subtext">
-                Pre-patched, clean Android applications powered by Morphe and ReVanced patches.
-                One-tap direct downloads and native <strong>Obtainium</strong> automated update integration.
+
+            <!-- Hero Right: Live System Telemetry HUD Card (Section 8.1 of Spec) -->
+            <div class="hero-right">
+                <div class="telemetry-hud-card">
+                    <div class="card-top-accent-emerald"></div>
+
+                    <!-- Telemetry Header -->
+                    <div class="telemetry-header">
+                        <div class="telemetry-title-box">
+                            <i class="fa-solid fa-terminal"></i>
+                            <span>SYS_TELEMETRY // v5.0-RELEASE</span>
+                        </div>
+                        <span class="telemetry-live-chip">
+                            <span class="live-pulse-dot"></span>
+                            LIVE • CI ACTIVE
+                        </span>
+                    </div>
+
+                    <!-- Metrics -->
+                    <div class="telemetry-rows">
+                        <div class="telemetry-row">
+                            <span class="telemetry-key">ENGINEERING STATUS:</span>
+                            <span class="telemetry-val-emerald">ACCEPTING BUILDS</span>
+                        </div>
+                        <div class="telemetry-row">
+                            <span class="telemetry-key">LATEST RELEASE:</span>
+                            <span class="telemetry-val">v5 • MovieBox</span>
+                        </div>
+                        <div class="telemetry-row">
+                            <span class="telemetry-key">TARGET ARCHITECTURE:</span>
+                            <span class="telemetry-val">ARM64-v8a (Clean)</span>
+                        </div>
+                        <div class="telemetry-row">
+                            <span class="telemetry-key">ACTIVE PATCHER:</span>
+                            <span class="telemetry-val">Morphe CLI + hxreborn</span>
+                        </div>
+                    </div>
+
+                    <!-- Active Software Spotlight Strip -->
+                    <div class="telemetry-spotlight">
+                        <span class="spotlight-eyebrow">FLAGSHIP VERIFIED BUILD</span>
+                        <div class="spotlight-content">
+                            <span class="spotlight-name">MovieBox Premium</span>
+                            <span class="spotlight-tag">v5 • Unhardened</span>
+                        </div>
+                    </div>
+
+                    <!-- Terminal Prompt Simulation -->
+                    <div class="telemetry-terminal">
+                        <span class="terminal-prompt">$</span>
+                        <span>morphe patch -p hxreborn.mpp -o moviebox.apk</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 01: Pre-Built Applications Catalog -->
+        <section id="catalog" class="catalog-section">
+            <div class="section-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span class="eyebrow-text">01 // Curated Software Products</span>
+            </div>
+
+            <h2 class="section-heading">
+                Pre-Built <br />
+                <span class="stroke-text font-serif">Applications</span>
+            </h2>
+            <p class="section-desc mb-8">
+                Every application is fetched directly from verified official distributors and patched in isolated GitHub runners.
             </p>
 
-            <!-- Quick Stats Bar -->
-            <div class="stats-bar">
-                <div class="stat-item">
-                    <span class="stat-number" id="totalAppsCount">0</span>
-                    <span class="stat-label">Curated Apps</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number" id="totalPatchesCount">0</span>
-                    <span class="stat-label">Total Patches</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">Non-Root APKs</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number">$0</span>
-                    <span class="stat-label">Hosting Costs</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Search and Filter Controls -->
-        <section class="controls-section">
-            <div class="search-bar-wrapper">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" id="searchInput" class="search-input" placeholder="Search apps, patches, or package names... (Press '/' to focus)" autocomplete="off">
-                <button id="searchClearBtn" class="search-clear hidden" aria-label="Clear Search">
-                    <i class="fa-solid fa-xmark"></i>
-                </button>
-            </div>
-
-            <!-- Categories and Filters -->
-            <div class="filters-row">
-                <div class="category-pills" id="categoryPills">
-                    <button class="pill active" data-category="all">All Apps</button>
-                    <button class="pill" data-category="Media & Video">Media & Video</button>
-                    <button class="pill" data-category="Social & News">Social & News</button>
-                    <button class="pill" data-category="Music & Audio">Music & Audio</button>
-                    <button class="pill" data-category="Tools & Privacy">Tools & Privacy</button>
-                    <button class="pill" data-category="Education">Education</button>
+            <!-- Precision Controls Panel -->
+            <div class="controls-panel">
+                <!-- Search Input -->
+                <div class="search-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search applications, patches, or package names... (Press '/' to focus)" autocomplete="off">
+                    <button id="searchClearBtn" class="search-clear-btn hidden" aria-label="Clear Search">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
                 </div>
 
-                <div class="filter-dropdowns">
-                    <div class="custom-select-wrapper">
-                        <label for="archFilter" class="select-label"><i class="fa-solid fa-microchip"></i> Arch:</label>
-                        <select id="archFilter" class="custom-select">
-                            <option value="all">All Architectures</option>
-                            <option value="arm64">ARM64-v8a (Modern)</option>
-                            <option value="arm">ARM-v7a (32-bit)</option>
-                            <option value="universal">Universal</option>
-                        </select>
+                <!-- Filter Controls Bar -->
+                <div class="filters-bar">
+                    <div class="category-pills" id="categoryPills">
+                        <button class="category-pill active" data-category="all">All Apps</button>
+                        <button class="category-pill" data-category="Media & Video">Media & Video</button>
+                        <button class="category-pill" data-category="Social & News">Social & News</button>
+                        <button class="category-pill" data-category="Music & Audio">Music & Audio</button>
+                        <button class="category-pill" data-category="Tools & Privacy">Tools & Privacy</button>
+                        <button class="category-pill" data-category="Education">Education</button>
                     </div>
 
-                    <div class="custom-select-wrapper">
-                        <label for="sortFilter" class="select-label"><i class="fa-solid fa-arrow-down-short-wide"></i> Sort:</label>
-                        <select id="sortFilter" class="custom-select">
-                            <option value="name">Name (A-Z)</option>
-                            <option value="patches">Most Patches</option>
-                            <option value="updated">Recently Updated</option>
-                        </select>
+                    <div class="filter-selects">
+                        <div class="custom-select-box">
+                            <i class="fa-solid fa-microchip"></i>
+                            <select id="archFilter" class="select-native" aria-label="Architecture Filter">
+                                <option value="all">All Archs</option>
+                                <option value="arm64">ARM64-v8a</option>
+                                <option value="arm">ARM-v7a</option>
+                                <option value="universal">Universal</option>
+                            </select>
+                        </div>
+
+                        <div class="custom-select-box">
+                            <i class="fa-solid fa-arrow-down-short-wide"></i>
+                            <select id="sortFilter" class="select-native" aria-label="Sort Filter">
+                                <option value="name">Name (A-Z)</option>
+                                <option value="patches">Most Patches</option>
+                                <option value="updated">Recently Updated</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- Apps Grid -->
-        <section class="apps-grid-section">
-            <div id="appsGrid" class="apps-grid">
-                <!-- Dynamically generated app cards -->
+            <!-- Dynamic Apps Grid -->
+            <div id="appsGrid" class="apps-grid-container">
+                <!-- Dynamically populated via js/app.js -->
             </div>
 
-            <div id="noResults" class="no-results hidden">
-                <div class="no-results-icon">
+            <!-- Empty Search Results State -->
+            <div id="noResults" class="no-results hidden" style="text-align: center; padding: 4rem 1rem;">
+                <div style="font-size: 2.5rem; color: var(--text-eyebrow); margin-bottom: 1rem;">
                     <i class="fa-solid fa-filter-circle-xmark"></i>
                 </div>
-                <h3>No applications found</h3>
-                <p>Try refining your search keyword or selecting a different category.</p>
-                <button id="resetFiltersBtn" class="btn btn-secondary btn-sm mt-3">Reset All Filters</button>
+                <h3 style="font-family: var(--font-sans); font-weight: 800; font-size: 1.5rem; margin-bottom: 0.5rem;">No matching applications</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">Try modifying your keyword query or resetting active category filters.</p>
+                <button id="resetFiltersBtn" class="btn btn-secondary btn-sm">Reset All Filters</button>
             </div>
         </section>
 
-        <!-- Companion Section: GmsCore / MicroG Helper -->
-        <section class="companion-section" id="gmscore-card">
-            <div class="companion-card">
-                <div class="companion-icon">
-                    <i class="fa-brands fa-google"></i>
+        <!-- Section 02: Technical Blueprint Window (Section 9 of Spec) -->
+        <section id="blueprint" class="blueprint-section">
+            <div class="section-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span class="eyebrow-text">02 // CI/CD Headless Build Pipeline</span>
+            </div>
+
+            <h2 class="section-heading">
+                Native <br />
+                <span class="stroke-text font-serif">Unhardening</span>
+            </h2>
+
+            <div class="dark-blueprint-card">
+                <!-- Window Titlebar -->
+                <div class="blueprint-window-bar">
+                    <div class="window-dots">
+                        <span class="window-dot window-dot-red"></span>
+                        <span class="window-dot window-dot-yellow"></span>
+                        <span class="window-dot window-dot-green"></span>
+                        <span class="window-title-text">github-actions_runner_x86_64</span>
+                    </div>
+                    <span class="blueprint-status-badge">
+                        <i class="fa-solid fa-check"></i> PIPELINE VERIFIED
+                    </span>
                 </div>
-                <div class="companion-content">
-                    <div class="companion-badge">Essential For Google Apps</div>
-                    <h3>Need Google Login on Non-Root Devices?</h3>
-                    <p>
-                        Apps like <strong>YouTube</strong>, <strong>YouTube Music</strong>, and <strong>Google Photos</strong> require 
-                        <strong>ReVanced GmsCore (MicroG)</strong> to sign into your Google Account without root privileges.
-                        Install GmsCore once, and all your patched Google apps will connect automatically.
+
+                <!-- Technical Hook Cards -->
+                <div class="blueprint-grid-content">
+                    <div class="blueprint-box">
+                        <span class="box-hook-tag">[ Hook 01: Ijiami / SecShell Interposition ]</span>
+                        <div class="box-code-line">
+                            <span>s.h.e.l.l.A &rarr; hx.Delegate</span>
+                            <span class="box-code-tag">ACTIVE</span>
+                        </div>
+                        <p class="box-desc">
+                            Overrides Android AppComponentFactory in classes2.dex to interpose classloading before native runtime decryption.
+                        </p>
+                    </div>
+
+                    <div class="blueprint-box">
+                        <span class="box-hook-tag">[ Hook 02: Anti-Tamper Bypass ]</span>
+                        <div class="box-code-line">
+                            <span>ConfusionUtils.check()</span>
+                            <span class="box-code-tag">DISABLED</span>
+                        </div>
+                        <p class="box-desc">
+                            Neutralizes resource obfuscation and package integrity validation routines to prevent instant launch crashes.
+                        </p>
+                    </div>
+
+                    <div class="blueprint-box">
+                        <span class="box-hook-tag">[ Hook 03: Feature Unlocking ]</span>
+                        <div class="box-code-line">
+                            <span>All-In-One Patch</span>
+                            <span class="box-code-tag">UNLOCKED</span>
+                        </div>
+                        <p class="box-desc">
+                            Enables 1080p VIP playback, removes all in-app advertising banners, unlocks video downloads, and bypasses region constraints.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Blueprint Footer -->
+                <div class="blueprint-footer">
+                    <span>Target: Android 10 - 15 (ARM64-v8a)</span>
+                    <span style="color: #f3f4f6; font-weight: 700;">Java 21 Temurin + Morphe Desktop CLI</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 03 & 04: Companion Infrastructure -->
+        <section id="gmscore" class="companion-grid">
+            <!-- GmsCore Card -->
+            <div class="master-info-card">
+                <div class="card-top-accent"></div>
+                <div>
+                    <div class="card-icon-circle">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <div class="section-eyebrow" style="margin-bottom: 0.5rem;">
+                        <span class="eyebrow-text">03 // Authentication Companion</span>
+                    </div>
+                    <h3 class="info-card-title">MicroG / GmsCore</h3>
+                    <p class="info-card-text">
+                        Required for non-root Google account login on YouTube, YouTube Music, and Google Photos. 
+                        Install once on your device to enable synchronized history, playlists, and subscription feeds.
                     </p>
                 </div>
-                <div class="companion-action">
-                    <a href="https://github.com/ReVanced/GmsCore/releases/latest" target="_blank" rel="noopener" class="btn btn-primary">
+                <div>
+                    <a href="https://github.com/ReVanced/GmsCore/releases/latest" target="_blank" rel="noopener" class="btn btn-secondary">
                         <i class="fa-solid fa-download"></i>
-                        <span>Get GmsCore APK</span>
+                        <span>Get Official GmsCore APK</span>
                     </a>
+                </div>
+            </div>
+
+            <!-- Obtainium Card -->
+            <div class="master-info-card" id="obtainium">
+                <div class="card-top-accent"></div>
+                <div>
+                    <div class="card-icon-circle">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                    </div>
+                    <div class="section-eyebrow" style="margin-bottom: 0.5rem;">
+                        <span class="eyebrow-text">04 // Lifecycle Automation</span>
+                    </div>
+                    <h3 class="info-card-title">Obtainium Integration</h3>
+                    <p class="info-card-text">
+                        Every application card in this catalog features one-click Obtainium registration. 
+                        Receive instant background updates whenever GitHub Actions publishes a new build release.
+                    </p>
+                </div>
+                <div>
+                    <button id="obtainiumGuideCardBtn" class="btn btn-primary">
+                        <i class="fa-solid fa-book-open"></i>
+                        <span>View 3-Step Setup Guide</span>
+                    </button>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Modal: Applied Patches View -->
+    <!-- Modal: Applied Patches Detail Dialog -->
     <div id="patchModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modalAppName">
         <div class="modal-card">
-            <div class="modal-header">
-                <div class="modal-app-info">
-                    <img id="modalAppIcon" src="" alt="App Icon" class="modal-app-icon">
-                    <div>
-                        <h3 id="modalAppName" class="modal-app-name">App Name</h3>
-                        <div class="modal-app-meta">
-                            <span id="modalAppVersion" class="badge badge-subtle">v1.0.0</span>
-                            <span id="modalAppBrand" class="badge badge-brand">Morphe</span>
+            <div class="card-top-accent-emerald"></div>
+
+            <div class="modal-header-bar">
+                <div class="modal-app-details">
+                    <img id="modalAppIcon" src="" alt="App Icon" class="modal-icon-img">
+                    <div class="modal-title-box">
+                        <h3 id="modalAppName" class="modal-app-h3">App Name</h3>
+                        <div class="modal-app-tags">
+                            <span id="modalAppBrand" class="chip-brand">Morphe</span>
+                            <span id="modalAppVersion" class="chip-version">v1.0.0</span>
                         </div>
                     </div>
                 </div>
-                <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">
+                <button class="modal-close-icon-btn" id="modalCloseBtn" aria-label="Close dialog">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
 
-            <div class="modal-search-box">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" id="patchSearchInput" placeholder="Filter patches in this build..." autocomplete="off">
+            <div class="modal-search-wrapper">
+                <input type="text" id="patchSearchInput" class="modal-search-field" placeholder="Filter patches in this build..." autocomplete="off">
             </div>
 
-            <div class="modal-body">
-                <div class="patches-count-row">
+            <div class="modal-body-scroll">
+                <div class="patches-count-strip">
                     <span id="modalPatchCount">0 Patches Applied</span>
-                    <button id="copyPatchesBtn" class="copy-link-btn" title="Copy patch list">
-                        <i class="fa-regular fa-copy"></i> Copy List
+                    <button id="copyPatchesBtn" class="btn-copy-clip" title="Copy full patch list">
+                        <i class="fa-regular fa-copy"></i>
+                        <span>Copy List</span>
                     </button>
                 </div>
-                <ul id="modalPatchesList" class="patches-list">
-                    <!-- Dynamic patch list items -->
+                <ul id="modalPatchesList" class="patches-detailed-list">
+                    <!-- Populated dynamically via app.js -->
                 </ul>
             </div>
 
-            <div class="modal-footer">
-                <a id="modalDirectDownloadBtn" href="#" class="btn btn-primary w-full justify-center">
-                    <i class="fa-solid fa-download"></i> Download Patched APK
+            <div class="modal-footer-bar">
+                <a id="modalDirectDownloadBtn" href="#" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                    <i class="fa-solid fa-download"></i>
+                    <span>Download Patched APK</span>
                 </a>
             </div>
         </div>
@@ -231,71 +441,74 @@
     <!-- Modal: Obtainium Auto-Update Guide -->
     <div id="obtainiumModal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
         <div class="modal-card">
-            <div class="modal-header">
-                <div class="modal-app-info">
-                    <div class="brand-icon small">
+            <div class="card-top-accent"></div>
+
+            <div class="modal-header-bar">
+                <div class="modal-app-details">
+                    <div class="card-icon-circle" style="width: 38px; height: 38px; margin-bottom: 0; font-size: 1rem;">
                         <i class="fa-solid fa-arrows-rotate"></i>
                     </div>
-                    <div>
-                        <h3 class="modal-app-name">How Auto-Updates Work</h3>
-                        <p class="modal-app-sub">Never manually download APKs again</p>
+                    <div class="modal-title-box">
+                        <h3 class="modal-app-h3">How Auto-Updates Work</h3>
+                        <span style="font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-eyebrow);">Never manually download APKs again</span>
                     </div>
                 </div>
-                <button class="modal-close-btn" id="obtainiumModalCloseBtn" aria-label="Close dialog">
+                <button class="modal-close-icon-btn" id="obtainiumModalCloseBtn" aria-label="Close dialog">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
-            <div class="modal-body obtainium-guide">
-                <div class="guide-step">
-                    <div class="step-badge">1</div>
-                    <div class="step-content">
+
+            <div class="modal-body-scroll">
+                <div class="guide-step-row">
+                    <div class="step-num-badge">1</div>
+                    <div class="step-content-box">
                         <h4>Install Obtainium</h4>
                         <p>Obtainium is a free, open-source Android app that tracks updates directly from GitHub Releases.</p>
-                        <a href="https://github.com/ImranR98/Obtainium/releases/latest" target="_blank" rel="noopener" class="btn btn-secondary btn-sm mt-1">
+                        <a href="https://github.com/ImranR98/Obtainium/releases/latest" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="margin-top: 6px;">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> Download Obtainium
                         </a>
                     </div>
                 </div>
 
-                <div class="guide-step">
-                    <div class="step-badge">2</div>
-                    <div class="step-content">
-                        <h4>Click "Add to Obtainium" on Any App</h4>
-                        <p>Click the <strong><i class="fa-solid fa-link"></i> Obtainium</strong> button on any app card in this store. It opens Obtainium with the GitHub repository and APK regex pre-filled.</p>
+                <div class="guide-step-row">
+                    <div class="step-num-badge">2</div>
+                    <div class="step-content-box">
+                        <h4>Tap "Obtainium" on Any App Card</h4>
+                        <p>Click the <strong>Obtainium</strong> button on any app in this catalog. It opens Obtainium with the release URL and filename filter pre-configured.</p>
                     </div>
                 </div>
 
-                <div class="guide-step">
-                    <div class="step-badge">3</div>
-                    <div class="step-content">
+                <div class="guide-step-row">
+                    <div class="step-num-badge">3</div>
+                    <div class="step-content-box">
                         <h4>Tap Add & Save</h4>
-                        <p>Obtainium will automatically check for new releases in the background and notify you as soon as a new patched APK build is published.</p>
+                        <p>Obtainium monitors GitHub Releases in the background and notifies you immediately whenever a new build is deployed.</p>
                     </div>
                 </div>
             </div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary w-full justify-center" id="obtainiumGotItBtn">Got It</button>
+
+            <div class="modal-footer-bar">
+                <button class="btn btn-secondary" id="obtainiumGotItBtn" style="width: 100%; justify-content: center;">Got It</button>
             </div>
         </div>
     </div>
 
-    <!-- Toast Notification Container -->
-    <div id="toast" class="toast hidden">
-        <i class="fa-solid fa-circle-check toast-icon"></i>
-        <span id="toastMsg" class="toast-message">Copied to clipboard!</span>
+    <!-- Toast Pill Notification -->
+    <div id="toast" class="toast-pill">
+        <i class="fa-solid fa-circle-check" style="color: #10b981;"></i>
+        <span id="toastMsg">Copied to clipboard!</span>
     </div>
 
     <!-- Footer -->
     <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-left">
-                <p><strong>SDA Store</strong> &bull; Curated Patched Android APKs</p>
-                <p class="footer-disclaimer">
-                    Patches are created and maintained by their respective open-source communities (Morphe, ReVanced, HushGram, Piko).
-                    This catalog is built for personal, educational, and open-source use.
+        <div class="footer-inner">
+            <div class="footer-left-text">
+                <p><strong>SDA Store</strong> • Curated Patched Android Binaries</p>
+                <p style="margin-top: 4px; color: var(--text-muted); font-size: 0.7rem;">
+                    Patches developed by open-source communities (Morphe, ReVanced, HushGram, Piko). Built for personal educational use.
                 </p>
             </div>
-            <div class="footer-links">
+            <div class="footer-nav-links">
                 <a href="https://morphe-patches.software/#apps" target="_blank" rel="noopener">Morphe Patches</a>
                 <a href="https://github.com/ReVanced" target="_blank" rel="noopener">ReVanced</a>
                 <a href="https://github.com/ImranR98/Obtainium" target="_blank" rel="noopener">Obtainium</a>
@@ -303,7 +516,7 @@
         </div>
     </footer>
 
-    <!-- App Logic -->
+    <!-- Application Script -->
     <script src="js/app.js"></script>
 </body>
 </html>

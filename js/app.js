@@ -1,6 +1,6 @@
 /**
- * SDA Store - Application Logic
- * Fast, reactive catalog for patched Android APKs
+ * MASTER DESIGN SYSTEM SCRIPT
+ * SDA Store - Application Logic & Interactive Micro-Physics
  */
 
 (() => {
@@ -30,6 +30,7 @@
         themeIcon: document.getElementById('themeIcon'),
         toast: document.getElementById('toast'),
         toastMsg: document.getElementById('toastMsg'),
+        customCursor: document.getElementById('customCursor'),
 
         // Patch Modal
         patchModal: document.getElementById('patchModal'),
@@ -46,18 +47,102 @@
 
         // Obtainium Guide Modal
         obtainiumGuideBtn: document.getElementById('obtainiumGuideBtn'),
+        obtainiumGuideCardBtn: document.getElementById('obtainiumGuideCardBtn'),
         obtainiumModal: document.getElementById('obtainiumModal'),
         obtainiumModalCloseBtn: document.getElementById('obtainiumModalCloseBtn'),
         obtainiumGotItBtn: document.getElementById('obtainiumGotItBtn')
     };
 
     /**
-     * Initialize Store Application
+     * Initialize Application
      */
     async function init() {
         setupTheme();
+        setupCustomCursor();
         setupEventListeners();
         await loadAppsData();
+    }
+
+    /**
+     * Theme Toggle System (Default: Light #fafafa Editorial Canvas)
+     */
+    function setupTheme() {
+        const savedTheme = localStorage.getItem('sda_store_theme') || 'light';
+        setTheme(savedTheme);
+
+        if (DOM.themeToggleBtn) {
+            DOM.themeToggleBtn.addEventListener('click', () => {
+                const current = document.documentElement.getAttribute('data-theme') || 'light';
+                const next = current === 'dark' ? 'light' : 'dark';
+                setTheme(next);
+            });
+        }
+    }
+
+    function setTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('sda_store_theme', theme);
+
+        if (DOM.themeIcon) {
+            if (theme === 'dark') {
+                DOM.themeIcon.className = 'fa-solid fa-sun';
+            } else {
+                DOM.themeIcon.className = 'fa-solid fa-moon';
+            }
+        }
+    }
+
+    /**
+     * Interactive Fluid Custom Cursor (Section 6.3 of Spec)
+     */
+    function setupCustomCursor() {
+        const cursor = DOM.customCursor;
+        if (!cursor) return;
+
+        let mouseX = window.innerWidth / 2;
+        let mouseY = window.innerHeight / 2;
+        let cursorX = mouseX;
+        let cursorY = mouseY;
+        let isVisible = false;
+
+        window.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+            if (!isVisible) {
+                isVisible = true;
+                cursor.style.display = 'block';
+            }
+        });
+
+        document.addEventListener('mouseleave', () => {
+            isVisible = false;
+            cursor.style.display = 'none';
+        });
+
+        // Hover expansion on interactive elements
+        const updateHoverState = (e) => {
+            const target = e.target;
+            if (!target) return;
+            const isInteractive = target.closest('a, button, input, select, .category-pill, .patch-chip-more, .btn-text-patches');
+            if (isInteractive) {
+                cursor.classList.add('is-hovering');
+            } else {
+                cursor.classList.remove('is-hovering');
+            }
+        };
+
+        window.addEventListener('mouseover', updateHoverState);
+
+        // Physics animation loop (Spring-like smoothness)
+        function animateCursor() {
+            const ease = 0.22;
+            cursorX += (mouseX - cursorX) * ease;
+            cursorY += (mouseY - cursorY) * ease;
+            cursor.style.left = `${cursorX}px`;
+            cursor.style.top = `${cursorY}px`;
+            requestAnimationFrame(animateCursor);
+        }
+        requestAnimationFrame(animateCursor);
     }
 
     /**
@@ -72,20 +157,21 @@
             updateStats();
             renderApps();
         } catch (err) {
-            console.warn('Could not load data/apps.json via fetch, trying fallback:', err);
-            // If running via direct file:// without server, fallback to default state
-            DOM.appsGrid.innerHTML = `
-                <div class="no-results" style="grid-column: 1 / -1;">
-                    <i class="fa-solid fa-triangle-exclamation" style="font-size: 2.5rem; color: #f59e0b; margin-bottom: 1rem;"></i>
-                    <h3>Data file requires HTTP server</h3>
-                    <p>To view apps when running locally, start a local server like <code>python -m http.server 8000</code> or deploy to GitHub Pages.</p>
-                </div>
-            `;
+            console.warn('Could not load data/apps.json via fetch:', err);
+            if (DOM.appsGrid) {
+                DOM.appsGrid.innerHTML = `
+                    <div style="grid-column: 1 / -1; text-align: center; padding: 3rem; background: var(--bg-card); border-radius: 24px; border: 1px solid var(--border-subtle);">
+                        <i class="fa-solid fa-triangle-exclamation" style="font-size: 2rem; color: #f59e0b; margin-bottom: 1rem;"></i>
+                        <h3 style="font-family: var(--font-sans); font-weight: 800; font-size: 1.25rem;">Data requires HTTP Server</h3>
+                        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.5rem;">To test locally, run <code>python -m http.server 8000</code> or access via GitHub Pages.</p>
+                    </div>
+                `;
+            }
         }
     }
 
     /**
-     * Compute and render global stats
+     * Compute and render global stats with numeric spring interpolation
      */
     function updateStats() {
         if (!appsData.length) return;
@@ -119,7 +205,7 @@
     }
 
     /**
-     * Render filtered and sorted apps grid
+     * Render filtered and sorted apps grid with Master Cards
      */
     function renderApps() {
         const filtered = getFilteredApps();
@@ -139,64 +225,69 @@
                 : 'Direct APK';
             const archLabel = targetAsset && targetAsset.arch 
                 ? (targetAsset.arch === 'arm64' ? 'arm64-v8a' : (targetAsset.arch === 'arm' ? 'arm-v7a' : targetAsset.arch)) 
-                : 'APK';
+                : 'arm64';
 
             const displayPatches = (app.patches || []).slice(0, 3);
             const remainingPatches = Math.max(0, (app.patchCount || app.patches.length) - displayPatches.length);
-
-            // Obtainium link config
             const obtainiumUrl = generateObtainiumUrl(app, targetAsset);
+
+            // Flagship card accent (MovieBox gets emerald accent line)
+            const isFlagship = app.id === 'moviebox';
+            const topAccentClass = isFlagship ? 'card-top-accent-emerald' : 'card-top-accent';
 
             return `
                 <article class="app-card" data-app-id="${escapeHtml(app.id)}">
+                    <div class="${topAccentClass}"></div>
                     <div>
-                        <div class="app-card-header">
-                            <img class="app-icon" src="${escapeHtml(app.icon || '')}" alt="${escapeHtml(app.name)}" onerror="this.onerror=null;this.src='data:image/svg+xml,<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 24 24\\' fill=\\'%236366f1\\'><circle cx=\\'12\\' cy=\\'12\\' r=\\'10\\'/></svg>';">
-                            <div class="app-meta">
-                                <div class="app-title-row">
-                                    <h3 class="app-name" title="${escapeHtml(app.name)}">${escapeHtml(app.name)}</h3>
-                                </div>
-                                <span class="app-category">${escapeHtml(app.category || 'App')}</span>
-                                <div class="app-badges-row">
-                                    <span class="badge badge-brand">${escapeHtml(app.brand || 'Morphe')}</span>
-                                    <span class="badge badge-subtle">v${escapeHtml(app.version || 'latest')}</span>
-                                    <span class="badge badge-arch">${escapeHtml(archLabel)}</span>
+                        <div class="app-card-top">
+                            <div class="app-icon-box">
+                                <img class="app-icon-img" src="${escapeHtml(app.icon || '')}" alt="${escapeHtml(app.name)}" onerror="this.onerror=null;this.src='data:image/svg+xml,<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 24 24\\' fill=\\'%230a0a0a\\'><circle cx=\\'12\\' cy=\\'12\\' r=\\'10\\'/></svg>';">
+                            </div>
+                            <div class="app-meta-box">
+                                <span class="app-category-text">${escapeHtml(app.category || 'App')}</span>
+                                <h3 class="app-name-title" title="${escapeHtml(app.name)}">${escapeHtml(app.name)}</h3>
+                                <div class="app-badges-flex">
+                                    <span class="chip-brand">${escapeHtml(app.brand || 'Morphe')}</span>
+                                    <span class="chip-version">v${escapeHtml(app.version || 'latest')}</span>
+                                    <span class="chip-arch">${escapeHtml(archLabel)}</span>
+                                    ${isFlagship ? `<span class="chip-verified"><i class="fa-solid fa-check"></i> Verified</span>` : ''}
                                 </div>
                             </div>
                         </div>
 
-                        <p class="app-desc">${escapeHtml(app.description || '')}</p>
+                        <p class="app-description-p">${escapeHtml(app.description || '')}</p>
 
-                        <!-- Highlights -->
-                        <div class="app-patches-preview">
-                            ${displayPatches.map(p => `<span class="patch-tag">${escapeHtml(p)}</span>`).join('')}
-                            ${remainingPatches > 0 ? `<span class="patch-tag more-tag" onclick="window.sdaStore.openPatchModal('${escapeHtml(app.id)}')">+${remainingPatches} more</span>` : ''}
+                        <!-- Highlights Preview -->
+                        <div class="patches-preview-wrap">
+                            ${displayPatches.map(p => `<span class="patch-chip">${escapeHtml(p)}</span>`).join('')}
+                            ${remainingPatches > 0 ? `<span class="patch-chip patch-chip-more" onclick="window.sdaStore.openPatchModal('${escapeHtml(app.id)}')">+${remainingPatches} more</span>` : ''}
                         </div>
                     </div>
 
-                    <div class="app-card-actions">
-                        <div class="action-row-primary">
+                    <!-- Actions -->
+                    <div class="app-action-grid">
+                        <div class="action-row-buttons">
                             <a href="${escapeHtml(targetAsset?.downloadUrl || '#')}" 
-                               class="btn btn-primary btn-download" 
+                               class="btn btn-primary btn-apk-download" 
                                download="${escapeHtml(targetAsset?.name || 'app.apk')}"
                                target="_blank" rel="noopener">
                                 <i class="fa-solid fa-download"></i>
                                 <span>Download APK</span>
                             </a>
                             <a href="${escapeHtml(obtainiumUrl)}" 
-                               class="btn btn-obtainium" 
-                               title="Install or track automated updates in Obtainium"
+                               class="btn-obtainium-ghost" 
+                               title="Install or sync automated updates in Obtainium"
                                target="_blank" rel="noopener">
                                 <i class="fa-solid fa-link"></i>
                                 <span>Obtainium</span>
                             </a>
                         </div>
-                        <div class="action-row-secondary">
-                            <button class="view-patches-btn" onclick="window.sdaStore.openPatchModal('${escapeHtml(app.id)}')">
+                        <div class="action-row-meta">
+                            <button class="btn-text-patches" onclick="window.sdaStore.openPatchModal('${escapeHtml(app.id)}')">
                                 <i class="fa-solid fa-list-check"></i>
                                 <span>View all ${app.patchCount || app.patches.length} patches</span>
                             </button>
-                            <span class="file-size-text">${escapeHtml(fileSizeMB)}</span>
+                            <span>${escapeHtml(fileSizeMB)}</span>
                         </div>
                     </div>
                 </article>
@@ -205,7 +296,7 @@
     }
 
     /**
-     * Choose the best APK asset based on requested architecture
+     * Choose best APK asset
      */
     function pickBestAsset(app, requestedArch) {
         if (!app.assets || app.assets.length === 0) return null;
@@ -215,7 +306,6 @@
             if (exactMatch) return exactMatch;
         }
 
-        // Default preference: arm64 -> universal -> arm -> first available
         return app.assets.find(a => a.arch === 'arm64') ||
                app.assets.find(a => a.arch === 'universal') ||
                app.assets.find(a => a.arch === 'arm') ||
@@ -227,18 +317,15 @@
      */
     function getFilteredApps() {
         return appsData.filter(app => {
-            // Category filter
             if (currentCategory !== 'all' && app.category !== currentCategory) {
                 return false;
             }
 
-            // Architecture filter
             if (currentArch !== 'all') {
                 const hasArch = (app.assets || []).some(a => a.arch === currentArch || a.arch === 'universal');
                 if (!hasArch) return false;
             }
 
-            // Search query filter
             if (searchQuery.trim() !== '') {
                 const q = searchQuery.toLowerCase();
                 const matchName = (app.name || '').toLowerCase().includes(q);
@@ -272,7 +359,6 @@
      */
     function generateObtainiumUrl(app, targetAsset) {
         const releaseUrl = app.releaseUrl || 'https://github.com/sudarsanSDA/SDA-Store';
-        // Match regex for this specific APK filename
         const filterRegex = targetAsset ? `^${escapeRegex(targetAsset.name)}$` : `^${escapeRegex(app.id)}.*\\.apk$`;
         
         const obtainiumConfig = {
@@ -325,12 +411,12 @@
         const filtered = q ? patches.filter(p => p.toLowerCase().includes(q)) : patches;
 
         if (filtered.length === 0) {
-            DOM.modalPatchesList.innerHTML = `<li class="patch-item" style="color: var(--text-muted); justify-content: center;">No patches matching "${escapeHtml(q)}"</li>`;
+            DOM.modalPatchesList.innerHTML = `<li class="detailed-patch-item" style="color: var(--text-eyebrow); justify-content: center;">No patches matching "${escapeHtml(q)}"</li>`;
             return;
         }
 
         DOM.modalPatchesList.innerHTML = filtered.map(p => `
-            <li class="patch-item">
+            <li class="detailed-patch-item">
                 <i class="fa-solid fa-check"></i>
                 <span>${escapeHtml(p)}</span>
             </li>
@@ -371,12 +457,25 @@
             renderApps();
         });
 
+        // Keyboard Shortcut: '/' focuses search input
+        window.addEventListener('keydown', (e) => {
+            if (e.key === '/' && document.activeElement !== DOM.searchInput && document.activeElement.tagName !== 'INPUT') {
+                e.preventDefault();
+                DOM.searchInput.focus();
+            }
+            if (e.key === 'Escape') {
+                closePatchModal();
+                DOM.obtainiumModal.classList.add('hidden');
+                document.body.style.overflow = '';
+            }
+        });
+
         // Category Pills
         DOM.categoryPills.addEventListener('click', (e) => {
-            const pill = e.target.closest('.pill');
+            const pill = e.target.closest('.category-pill');
             if (!pill) return;
 
-            DOM.categoryPills.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+            DOM.categoryPills.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
             pill.classList.add('active');
 
             currentCategory = pill.dataset.category || 'all';
@@ -404,7 +503,7 @@
             currentArch = 'all';
             currentSort = 'name';
 
-            DOM.categoryPills.querySelectorAll('.pill').forEach(p => {
+            DOM.categoryPills.querySelectorAll('.category-pill').forEach(p => {
                 p.classList.toggle('active', p.dataset.category === 'all');
             });
             DOM.archFilter.value = 'all';
@@ -428,11 +527,16 @@
 
         DOM.copyPatchesBtn.addEventListener('click', copyPatchesToClipboard);
 
-        // Obtainium Guide Modal
-        DOM.obtainiumGuideBtn.addEventListener('click', () => {
+        // Obtainium Guide Modals
+        const openObtainium = () => {
             DOM.obtainiumModal.classList.remove('hidden');
             document.body.style.overflow = 'hidden';
-        });
+        };
+
+        DOM.obtainiumGuideBtn.addEventListener('click', openObtainium);
+        if (DOM.obtainiumGuideCardBtn) {
+            DOM.obtainiumGuideCardBtn.addEventListener('click', openObtainium);
+        }
 
         DOM.obtainiumModalCloseBtn.addEventListener('click', () => {
             DOM.obtainiumModal.classList.add('hidden');
@@ -450,71 +554,25 @@
                 document.body.style.overflow = '';
             }
         });
-
-        // Keyboard Shortcuts
-        document.addEventListener('keydown', (e) => {
-            // Escape to close modals
-            if (e.key === 'Escape') {
-                closePatchModal();
-                DOM.obtainiumModal.classList.add('hidden');
-                document.body.style.overflow = '';
-            }
-
-            // '/' key to focus search if not in an input
-            if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-                e.preventDefault();
-                DOM.searchInput.focus();
-            }
-        });
     }
 
     /**
-     * Theme Toggle (Dark / Light)
+     * Show Toast Notification Pill
      */
-    function setupTheme() {
-        const savedTheme = localStorage.getItem('sda-store-theme') || 'dark';
-        document.documentElement.setAttribute('data-theme', savedTheme);
-        updateThemeIcon(savedTheme);
-
-        DOM.themeToggleBtn.addEventListener('click', () => {
-            const current = document.documentElement.getAttribute('data-theme') || 'dark';
-            const next = current === 'dark' ? 'light' : 'dark';
-            document.documentElement.setAttribute('data-theme', next);
-            localStorage.setItem('sda-store-theme', next);
-            updateThemeIcon(next);
-        });
-    }
-
-    function updateThemeIcon(theme) {
-        if (!DOM.themeIcon) return;
-        if (theme === 'dark') {
-            DOM.themeIcon.className = 'fa-solid fa-moon';
-        } else {
-            DOM.themeIcon.className = 'fa-solid fa-sun';
-        }
-    }
-
-    /**
-     * Toast Notification Helper
-     */
-    let toastTimeout = null;
     function showToast(message) {
-        if (!DOM.toast) return;
         DOM.toastMsg.textContent = message;
-        DOM.toast.classList.remove('hidden');
-
-        if (toastTimeout) clearTimeout(toastTimeout);
-        toastTimeout = setTimeout(() => {
-            DOM.toast.classList.add('hidden');
-        }, 2500);
+        DOM.toast.classList.add('show');
+        setTimeout(() => {
+            DOM.toast.classList.remove('show');
+        }, 2600);
     }
 
     /**
-     * String utilities
+     * Helpers
      */
     function escapeHtml(str) {
-        if (typeof str !== 'string') return '';
-        return str
+        if (!str) return '';
+        return String(str)
             .replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
             .replace(/>/g, '&gt;')
@@ -522,15 +580,19 @@
             .replace(/'/g, '&#039;');
     }
 
-    function escapeRegex(str) {
-        return (str || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    function escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
 
-    // Expose global controller
+    // Expose for inline handlers
     window.sdaStore = {
         openPatchModal
     };
 
-    // Run
-    document.addEventListener('DOMContentLoaded', init);
+    // Auto-init on DOMContentLoaded
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
 })();
