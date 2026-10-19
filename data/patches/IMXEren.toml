@@ -1,6 +1,6 @@
 patches-source = "IMXEren/mix-patches"
 patches-source-host = "gitlab"
-brand = "IMXEren"
+brand = "SDA Store"
 
 [TraktTV-IMXEren]
 enabled = true

@@ -1,6 +1,6 @@
 patches-source = "liongalahad/nuviotv-morphe-patches"
 patches-version = "both"
-brand = "liongalahad"
+brand = "SDA Store"
 
 [Nuvio-liongalahad-AndroidTV]
 enabled = true

@@ -1,5 +1,5 @@
 patches-source = "dh6k/morphe-patches"
-brand = "dh6k"
+brand = "SDA Store"
 
 [BraveBrowser-dh6k-Beta]
 enabled = true

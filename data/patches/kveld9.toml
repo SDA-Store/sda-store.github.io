@@ -1,5 +1,5 @@
 patches-source = "kveld9/kveld-morphe-patches"
-brand = "kveld9"
+brand = "SDA Store"
 
 [BraveBrowser-kveld9]
 enabled = true

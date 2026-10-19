@@ -1,5 +1,5 @@
 patches-source = "rushiranpise/morphe-patches"
-brand = "rushiranpise"
+brand = "SDA Store"
 
 [Cloudflare-WARP-rushiranpise]
 enabled = true

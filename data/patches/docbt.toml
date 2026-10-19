@@ -1,5 +1,5 @@
 patches-source = "docbt/patched-up"
-brand = "docbt"
+brand = "SDA Store"
 
 [GoogleNews-docbt]
 enabled = true

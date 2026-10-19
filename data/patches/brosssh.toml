@@ -1,5 +1,5 @@
 patches-source = "brosssh/morphe-patches"
-brand = "brosssh"
+brand = "SDA Store"
 
 [komoot-brosssh]
 enabled = true

@@ -2,7 +2,7 @@
 enabled = true
 pkg-name = "com.letterboxd.letterboxd"
 app-name = "Letterboxd"
-brand = "mvaishak"
+brand = "SDA Store"
 patches-source = "mvaishak/letterboxd-morphe-patches"
 excluded-patches = "'Material You theme'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/letterboxd-limited/letterboxd"
@@ -14,7 +14,7 @@ apkcombo-dlurl = "https://apkcombo.com/letterboxd/com.letterboxd.letterboxd"
 enabled = true
 pkg-name = "com.letterboxd.letterboxd"
 app-name = "Letterboxd"
-brand = "mvaishak"
+brand = "SDA Store"
 variant = "Material You"
 patches-source = "mvaishak/letterboxd-morphe-patches"
 included-patches = "'Material You theme'"

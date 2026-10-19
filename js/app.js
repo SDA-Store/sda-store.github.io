@@ -129,7 +129,7 @@
      */
     async function loadAppsData() {
         try {
-            const response = await fetch('data/apps.json?v=3.0');
+            const response = await fetch('data/apps.json?v=3.2');
             if (!response.ok) throw new Error('Network error');
             const data = await response.json();
             appsData = data.apps || [];

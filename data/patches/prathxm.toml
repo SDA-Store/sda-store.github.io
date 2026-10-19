@@ -1,5 +1,5 @@
 patches-source = "PrathxmOp/Prathxm-Patches"
-brand = "Prathxm"
+brand = "SDA Store"
 
 [ChessDotCom-Prathxm]
 enabled = true

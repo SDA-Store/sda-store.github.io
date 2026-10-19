@@ -1,5 +1,5 @@
 patches-source = "jkennethcarino/adobo"
-brand = "adobo"
+brand = "SDA Store"
 
 [IMDb-adobo]
 enabled = true

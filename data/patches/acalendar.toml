@@ -3,7 +3,7 @@ enabled = true
 pkg-name = "org.withouthat.acalendar"
 app-name = "aCalendar"
 patches-source = "binarymend/morphe-patches"
-brand = "binarymend"
+brand = "SDA Store"
 uptodown-dlurl = "https://acalendar.en.uptodown.com/android"
 apkpure-dlurl = "https://apkpure.com/acalendar-your-calendar/org.withouthat.acalendar"
 
@@ -12,7 +12,7 @@ enabled = true
 pkg-name = "org.withouthat.acalendar"
 app-name = "aCalendar"
 patches-source = "hxreborn/morphe-patches"
-brand = "hxreborn"
+brand = "SDA Store"
 uptodown-dlurl = "https://acalendar.en.uptodown.com/android"
 apkpure-dlurl = "https://apkpure.com/acalendar-your-calendar/org.withouthat.acalendar"
 

@@ -1,5 +1,5 @@
 patches-source = "binarymend/morphe-patches"
-brand = "binarymend"
+brand = "SDA Store"
 
 [MoonPlusReader-binarymend]
 enabled = true

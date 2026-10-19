@@ -3,7 +3,7 @@ enabled = true
 pkg-name = "com.pinterest"
 app-name = "Pinterest"
 patches-source = "binarymend/morphe-patches"
-brand = "binarymend"
+brand = "SDA Store"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/pinterest/pinterest-one-destination-for-a-world-of-inspiration"
 uptodown-dlurl = "https://pinterest.en.uptodown.com/android"
 
@@ -12,7 +12,7 @@ enabled = true
 pkg-name = "com.pinterest"
 app-name = "Pinterest"
 patches-source = "browzomje/browzomje-patches"
-brand = "browzomje"
+brand = "SDA Store"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/pinterest/pinterest-one-destination-for-a-world-of-inspiration"
 uptodown-dlurl = "https://pinterest.en.uptodown.com/android"
 apkpure-dlurl = "https://apkpure.com/pinterest/com.pinterest"

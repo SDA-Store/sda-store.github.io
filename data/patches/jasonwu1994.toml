@@ -1,6 +1,6 @@
 patches-source = "jasonwu1994/Gboard-patches"
 patches-version = "both"
-brand = "jasonwu1994"
+brand = "SDA Store"
 arch = "arm64-v8a"
 
 [Gboard-jasonwu1994]

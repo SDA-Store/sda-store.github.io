@@ -2,7 +2,7 @@
 enabled = true
 pkg-name = "eu.faircode.email"
 app-name = "FairEmail"
-brand = "heval99"
+brand = "SDA Store"
 patches-source = "heval99/Heval-Morphe-Patches"
 uptodown-dlurl = "https://fairemail.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/marcel-bokhorst/fairemail-open-source-privacy-oriented-email"
@@ -13,7 +13,7 @@ apkcombo-dlurl = "https://apkcombo.com/fairemail-privacy-aware-email/eu.faircode
 enabled = true
 pkg-name = "com.sofascore.results"
 app-name = "Sofascore"
-brand = "heval99"
+brand = "SDA Store"
 patches-source = "heval99/Heval-Morphe-Patches"
 uptodown-dlurl = "https://sofascore.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/sofascore/soccer-scores-and-sports-livescore-sofascore"

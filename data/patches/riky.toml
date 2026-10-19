@@ -1,5 +1,5 @@
 patches-source = "riky-dev/morphe-patches"
-brand = "riky"
+brand = "SDA Store"
 
 [CapCut-riky]
 enabled = true

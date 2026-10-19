@@ -1,10 +1,10 @@
-[Truecaller-Paresh]
+[Truecaller-SDA]
 enabled = true
 pkg-name = "com.truecaller"
 app-name = "Truecaller"
 patches-source = "Paresh-Maheshwari/paresh-patches"
 patches-source-host = "gitlab"
-brand = "Paresh"
+brand = "SDA Store"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/true-software-scandinavia-ab/truecaller-caller-id-block"
 uptodown-dlurl = "https://truecaller.en.uptodown.com/android"
@@ -15,7 +15,7 @@ enabled = true
 pkg-name = "com.truecaller"
 app-name = "Truecaller"
 patches-source = "bufferk/morphe-patches"
-brand = "bufferk"
+brand = "SDA Store"
 build-mode = "both"
 patches-version = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/true-software-scandinavia-ab/truecaller-caller-id-block"
@@ -26,7 +26,7 @@ apkpure-dlurl = "https://apkpure.com/truecaller-caller-id-block-for-android-2024
 enabled = true
 pkg-name = "com.truecaller"
 app-name = "Truecaller"
-brand = "heval99"
+brand = "SDA Store"
 patches-source = "heval99/Heval-Morphe-Patches"
 patches-version = "both"
 build-mode = "both"

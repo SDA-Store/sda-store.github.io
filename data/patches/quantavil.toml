@@ -1,5 +1,5 @@
 patches-source = "quantavil/edge-morphe-patches"
-brand = "quantavil"
+brand = "SDA Store"
 
 [MicrosoftEdge-quantavil]
 enabled = true

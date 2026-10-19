@@ -2,7 +2,7 @@
 enabled = true
 pkg-name = "com.linkedin.android"
 app-name = "LinkedIn"
-brand = "michii"
+brand = "SDA Store"
 patches-source = "heyymichii/michii-patches"
 uptodown-dlurl = "https://linkedin.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/linkedin/linkedin-linkedin"

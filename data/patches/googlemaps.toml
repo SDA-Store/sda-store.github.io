@@ -2,7 +2,7 @@
 enabled = true
 pkg-name = "com.google.android.apps.maps"
 app-name = "Google Maps"
-brand = "bearinmindcat"
+brand = "SDA Store"
 patches-source = "bearinmindcat/morphe-patches"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/maps"

@@ -1,5 +1,5 @@
 patches-source = "shaun-the-sheep-patches/morphe-patches"
-brand = "ShaunTheSheep"
+brand = "SDA Store"
 
 [KineStop-ShaunTheSheep]
 enabled = true

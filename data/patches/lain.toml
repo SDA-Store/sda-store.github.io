@@ -1,5 +1,5 @@
 patches-source = "kiraio-moe/Lain-Patches"
-brand = "Lain"
+brand = "SDA Store"
 
 [Hermit-Lain]
 enabled = true

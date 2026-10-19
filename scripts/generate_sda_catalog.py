@@ -126,12 +126,12 @@ def generate_catalog():
         "id": "moviebox",
         "name": "MovieBox",
         "category": "Media & Video",
-        "brand": "hxreborn (Morphe)",
-        "version": "5",
-        "releaseUrl": f"https://github.com/{GITHUB_REPO}/releases/tag/v5",
+        "brand": "SDA Store",
+        "version": "6",
+        "releaseUrl": f"https://github.com/{GITHUB_REPO}/releases/tag/v6",
         "publishedAt": datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-        "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/plex.svg",
-        "description": "Patched MovieBox with ad-removal, VIP streaming unlock, download enable, and UI decluttering.",
+        "icon": "assets/icons/moviebox.svg",
+        "description": "Patched MovieBox by SDA Store with ad-removal, VIP streaming unlock, download enable, and UI decluttering.",
         "patchCount": 4,
         "patches": [
             "All-In-One (Playback & download enable, ad removal, VIP unlock)",
@@ -204,13 +204,16 @@ def generate_catalog():
                     ast_ver = ast.get('version', version)
                     size = ast.get('size', 0)
 
+                    arch_suffix = 'arm64-v8a' if arch == 'arm64' else ('arm-v7a' if arch == 'arm' else 'universal')
+                    clean_fname = f"{app_key}-sda-v{ast_ver}-{arch_suffix}.apk"
+
                     # SDA Store release download URL
-                    sda_download_url = f"https://github.com/{GITHUB_REPO}/releases/download/v{ast_ver}/{fname}"
+                    sda_download_url = f"https://github.com/{GITHUB_REPO}/releases/download/v{ast_ver}/{clean_fname}"
 
                     # Avoid duplicate archs
                     if not any(x['arch'] == arch for x in assets):
                         assets.append({
-                            "name": fname,
+                            "name": clean_fname,
                             "arch": arch,
                             "version": str(ast_ver),
                             "size": size,
@@ -219,7 +222,7 @@ def generate_catalog():
 
         if not assets:
             # Generate default asset row
-            std_name = f"{app_key}-{brand_name.lower()}-v{version}-arm64-v8a.apk".replace(' ', '-')
+            std_name = f"{app_key}-sda-v{version}-arm64-v8a.apk"
             assets.append({
                 "name": std_name,
                 "arch": "arm64",
@@ -231,14 +234,14 @@ def generate_catalog():
         category = guess_category(app_key, app_name)
         icon_url = ICON_MAP.get(app_key) or f"https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/{app_key}.svg"
 
-        # Generate clean description
-        desc = f"Patched {app_name} by {brand_name} with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking."
+        # Generate clean description with full credit to SDA Store
+        desc = f"Patched {app_name} by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking."
 
         sda_apps.append({
             "id": app_key,
             "name": app_name,
             "category": category,
-            "brand": brand_name,
+            "brand": "SDA Store",
             "version": str(version),
             "releaseUrl": f"https://github.com/{GITHUB_REPO}/releases",
             "publishedAt": a.get('latestPublishedAt') or datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),

@@ -1,5 +1,5 @@
 patches-source = "kondratjev/morphe-patches"
-brand = "kondratjev"
+brand = "SDA Store"
 
 [CalorieCounter-kondratjev]
 enabled = true

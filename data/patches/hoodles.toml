@@ -1,5 +1,5 @@
 patches-source = "hoo-dles/morphe-patches"
-brand = "hoodles"
+brand = "SDA Store"
 
 [Duolingo-hoodles]
 enabled = true
