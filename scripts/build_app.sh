@@ -149,7 +149,6 @@ patch_app() {
         java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
             -p "$TOOLS_DIR/hxreborn-patches.mpp" \
             -f \
-            --purge \
             -o "$output_apk" \
             "$base_apk"
     else
