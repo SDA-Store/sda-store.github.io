@@ -1,0 +1,48 @@
+# SDA Store
+
+> High-Performance, Minimalist Catalog for Curated Patched Android Binaries.
+> Non-root binaries, zero telemetry, direct APK downloads, and Obtainium auto-updates.
+
+## Overview
+
+SDA Store is an open, curated catalog of 136+ verified patched Android applications.
+Every APK is clean, non-root, and built with ad-removal, telemetry stripping, background playback, and premium features unlocked.
+Builds are automatically compiled and published through GitHub Actions CI pipelines.
+
+## Key Features
+
+- **100% Non-Root**: Works on any Android phone without root access or custom ROMs.
+- **Zero Modules**: Self-contained APKs that install directly without Magisk or Xposed.
+- **Direct APK Downloads**: Downloads directly into Android primary Internal Storage (`/storage/emulated/0/Download`) for clean 1-tap installation.
+- **Obtainium Integration**: Built-in 1-tap tracking via Obtainium for instant background update notifications directly from GitHub Releases.
+- **Full Privacy**: Tracking libraries, Google Analytics, and ad-networks removed.
+
+## Flagship Applications
+
+- [MovieBox](https://sudarsansda.github.io/SDA-Store/?app=moviebox): v6 • Patched MovieBox by SDA Store with ad-removal, VIP streaming unlock, download enable, and UI decluttering.
+- [Brave Browser](https://sudarsansda.github.io/SDA-Store/?app=bravebrowser): v1.97.57 • Patched Brave Browser by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Cricbuzz](https://sudarsansda.github.io/SDA-Store/?app=cricbuzz): v16.02.05 • Patched Cricbuzz by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Discord](https://sudarsansda.github.io/SDA-Store/?app=discord): v349.9-Stable • Patched Discord by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Instagram](https://sudarsansda.github.io/SDA-Store/?app=instagram): v451.0.0.53.80 • Patched Instagram by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Reddit](https://sudarsansda.github.io/SDA-Store/?app=reddit): v2026.24.0 • Patched Reddit by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [Twitter](https://sudarsansda.github.io/SDA-Store/?app=twitter): v12.35.0-prod.01 • Patched Twitter by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [YouTube](https://sudarsansda.github.io/SDA-Store/?app=youtube): v21.20.405 • Patched YouTube by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [YouTube Music](https://sudarsansda.github.io/SDA-Store/?app=youtubemusic): v9.20.53 • Patched YouTube Music by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+
+## Available Categories
+
+- **Education**: 5 applications available.
+- **Media & Video**: 13 applications available.
+- **Music & Audio**: 7 applications available.
+- **Social & News**: 12 applications available.
+- **Tools & Privacy**: 99 applications available.
+
+## Direct Links & Resources
+
+- [Full Application Index (136 Apps)](https://sudarsansda.github.io/SDA-Store/llms-full.txt)
+- [Web Catalog Interface](https://sudarsansda.github.io/SDA-Store/)
+- [XML Sitemap](https://sudarsansda.github.io/SDA-Store/sitemap.xml)
+- [RSS Release Feed](https://sudarsansda.github.io/SDA-Store/feed.xml)
+- [GitHub Repository & CI Pipelines](https://github.com/sudarsanSDA/SDA-Store)
+- [GitHub Releases (Direct Binaries)](https://github.com/sudarsanSDA/SDA-Store/releases)
+- [Obtainium Open-Source Updater](https://github.com/ImranR98/Obtainium)

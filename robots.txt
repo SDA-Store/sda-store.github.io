@@ -1,0 +1,51 @@
+# Robots.txt for SDA Store
+# Optimized for Google, Bing, DuckDuckGo, and Modern AI Search Engines (Perplexity, ChatGPT, Claude)
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /data/
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /sitemap.xml
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /feed.xml
+
+# Explicitly Authorize AI & LLM Search Agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+# Sitemaps and AI Manifest References
+Sitemap: https://sudarsansda.github.io/SDA-Store/sitemap.xml
+Sitemap: https://sudarsansda.github.io/sitemap.xml
+AI-Content: https://sudarsansda.github.io/SDA-Store/llms.txt
+AI-Full-Content: https://sudarsansda.github.io/SDA-Store/llms-full.txt

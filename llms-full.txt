@@ -1,0 +1,1699 @@
+# SDA Store - Complete Application Catalog
+# Last Updated: 2026-10-19
+# Total Applications: 136
+
+This document provides the complete machine-readable index of all patched applications in SDA Store.
+
+## 1. MovieBox (v6)
+- **App ID**: `moviebox`
+- **Category**: Media & Video
+- **Description**: Patched MovieBox by SDA Store with ad-removal, VIP streaming unlock, download enable, and UI decluttering.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=moviebox
+- **Applied Patches**:
+  - All-In-One (Playback & download enable, ad removal, VIP unlock)
+  - Hide BuzzBox tabs from bottom navigation
+  - Hide Midnight 18+ tab from home
+  - Hide permanent foreground notification
+- **Direct Download Assets**:
+  - [moviebox-patched-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6/moviebox-patched-arm64-v8a.apk)
+
+## 2. aCalendar (v2.9.5)
+- **App ID**: `acalendar`
+- **Category**: Tools & Privacy
+- **Description**: Patched aCalendar by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=acalendar
+- **Applied Patches**:
+  - Unlock aCalendar+
+- **Direct Download Assets**:
+  - [acalendar-sda-v2.9.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.9.5/acalendar-sda-v2.9.5-arm64-v8a.apk)
+  - [acalendar-sda-v2.9.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.9.5/acalendar-sda-v2.9.5-arm-v7a.apk)
+
+## 3. AccuWeather (v21.1.15-3-rc)
+- **App ID**: `accuweather`
+- **Category**: Tools & Privacy
+- **Description**: Patched AccuWeather by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=accuweather
+- **Applied Patches**:
+  - Unlock Premium+
+- **Direct Download Assets**:
+  - [accuweather-sda-v21.1.15-3-rc-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.1.15-3-rc/accuweather-sda-v21.1.15-3-rc-arm64-v8a.apk)
+  - [accuweather-sda-v21.1.15-3-rc-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.1.15-3-rc/accuweather-sda-v21.1.15-3-rc-arm-v7a.apk)
+
+## 4. AdGuard (v4.14.68)
+- **App ID**: `adguard`
+- **Category**: Tools & Privacy
+- **Description**: Patched AdGuard by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=adguard
+- **Applied Patches**:
+  - Unlock Lifetime Premium
+- **Direct Download Assets**:
+  - [adguard-sda-v4.14.68-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.14.68/adguard-sda-v4.14.68-arm64-v8a.apk)
+  - [adguard-sda-v4.14.68-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.14.68/adguard-sda-v4.14.68-arm-v7a.apk)
+
+## 5. Adobe Acrobat (v26.7.1.47181)
+- **App ID**: `adobeacrobat`
+- **Category**: Tools & Privacy
+- **Description**: Patched Adobe Acrobat by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=adobeacrobat
+- **Applied Patches**:
+  - Unlock Pro 
+- **Direct Download Assets**:
+  - [adobeacrobat-sda-v26.7.1.47181-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.7.1.47181/adobeacrobat-sda-v26.7.1.47181-arm64-v8a.apk)
+
+## 6. Adobe Lightroom (v11.5.31)
+- **App ID**: `adobelightroom`
+- **Category**: Tools & Privacy
+- **Description**: Patched Adobe Lightroom by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=adobelightroom
+- **Applied Patches**:
+  - Unlock premium features
+- **Direct Download Assets**:
+  - [adobelightroom-sda-v11.5.31-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.5.31/adobelightroom-sda-v11.5.31-arm64-v8a.apk)
+
+## 7. Adobe Scan (v26.08.01)
+- **App ID**: `adobescan`
+- **Category**: Tools & Privacy
+- **Description**: Patched Adobe Scan by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=adobescan
+- **Applied Patches**:
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [adobescan-sda-v26.08.01-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.08.01/adobescan-sda-v26.08.01-arm64-v8a.apk)
+
+## 8. AliExpress (v8.162.8)
+- **App ID**: `aliexpress`
+- **Category**: Tools & Privacy
+- **Description**: Patched AliExpress by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=aliexpress
+- **Applied Patches**:
+  - Bypass signature check 
+  - Disable analytics 
+  - Disable forced updates 
+  - Disable promotions notifications 
+  - Disable splash screen 
+  - Enable image saving 
+  - *...and 4 more patches*
+- **Direct Download Assets**:
+  - [aliexpress-sda-v8.162.8-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.162.8/aliexpress-sda-v8.162.8-arm64-v8a.apk)
+  - [aliexpress-sda-v8.162.8-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.162.8/aliexpress-sda-v8.162.8-arm-v7a.apk)
+
+## 9. Amazon India (v32.18.0.300)
+- **App ID**: `amazonindia`
+- **Category**: Tools & Privacy
+- **Description**: Patched Amazon India by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=amazonindia
+- **Applied Patches**:
+  - Dark mode
+  - Disable search suggestions tracking
+  - Disable video autoplay
+  - Fix Amazon manifest conflicts
+  - Hide Rufus tab
+  - Open links in browser
+  - *...and 2 more patches*
+- **Direct Download Assets**:
+  - [amazonindia-sda-v32.18.0.300-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.300/amazonindia-sda-v32.18.0.300-arm64-v8a.apk)
+  - [amazonindia-sda-v32.18.0.300-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.300/amazonindia-sda-v32.18.0.300-arm-v7a.apk)
+
+## 10. Amazon Shopping (v32.18.0.100)
+- **App ID**: `amazonshopping`
+- **Category**: Tools & Privacy
+- **Description**: Patched Amazon Shopping by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=amazonshopping
+- **Applied Patches**:
+  - Dark mode
+  - Disable search suggestions tracking
+  - Disable video autoplay
+  - Fix Amazon manifest conflicts
+  - Hide Rufus tab
+  - Open links in browser
+  - *...and 2 more patches*
+- **Direct Download Assets**:
+  - [amazonshopping-sda-v32.18.0.100-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.100/amazonshopping-sda-v32.18.0.100-arm64-v8a.apk)
+  - [amazonshopping-sda-v32.18.0.100-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v32.18.0.100/amazonshopping-sda-v32.18.0.100-arm-v7a.apk)
+
+## 11. AppSales (v12.3)
+- **App ID**: `appsales`
+- **Category**: Tools & Privacy
+- **Description**: Patched AppSales by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=appsales
+- **Applied Patches**:
+  - Enable Pro 
+- **Direct Download Assets**:
+  - [appsales-sda-v12.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.3/appsales-sda-v12.3-arm64-v8a.apk)
+  - [appsales-sda-v12.3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.3/appsales-sda-v12.3-arm-v7a.apk)
+
+## 12. AT4K Launcher (v0.99)
+- **App ID**: `at4klauncher`
+- **Category**: Tools & Privacy
+- **Description**: Patched AT4K Launcher by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=at4klauncher
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [at4klauncher-sda-v0.99-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.99/at4klauncher-sda-v0.99-universal.apk)
+
+## 13. atvTools (v1.3.2)
+- **App ID**: `atvtools`
+- **Category**: Media & Video
+- **Description**: Patched atvTools by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=atvtools
+- **Applied Patches**:
+  - Unlock premium
+- **Direct Download Assets**:
+  - [atvtools-sda-v1.3.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.3.2/atvtools-sda-v1.3.2-arm64-v8a.apk)
+  - [atvtools-sda-v1.3.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.3.2/atvtools-sda-v1.3.2-arm-v7a.apk)
+
+## 14. Automate (v1.51.1)
+- **App ID**: `automate`
+- **Category**: Tools & Privacy
+- **Description**: Patched Automate by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=automate
+- **Applied Patches**:
+  - Bypass Blocks Limit 
+- **Direct Download Assets**:
+  - [automate-sda-v1.51.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.51.1/automate-sda-v1.51.1-arm64-v8a.apk)
+  - [automate-sda-v1.51.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.51.1/automate-sda-v1.51.1-arm-v7a.apk)
+
+## 15. Autosync (v7.5.10)
+- **App ID**: `autosync`
+- **Category**: Tools & Privacy
+- **Description**: Patched Autosync by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=autosync
+- **Applied Patches**:
+  - Purchase All Items 
+- **Direct Download Assets**:
+  - [autosync-sda-v7.5.10-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.5.10/autosync-sda-v7.5.10-arm64-v8a.apk)
+
+## 16. Backdrops (v6.1.2)
+- **App ID**: `backdrops`
+- **Category**: Tools & Privacy
+- **Description**: Patched Backdrops by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=backdrops
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [backdrops-sda-v6.1.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.1.2/backdrops-sda-v6.1.2-arm64-v8a.apk)
+  - [backdrops-sda-v6.1.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.1.2/backdrops-sda-v6.1.2-arm-v7a.apk)
+
+## 17. Battery Guru (v2.5.0.6)
+- **App ID**: `batteryguru`
+- **Category**: Tools & Privacy
+- **Description**: Patched Battery Guru by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=batteryguru
+- **Applied Patches**:
+  - Unlock PRO 
+- **Direct Download Assets**:
+  - [batteryguru-sda-v2.5.0.6-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.0.6/batteryguru-sda-v2.5.0.6-arm64-v8a.apk)
+  - [batteryguru-sda-v2.5.0.6-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.0.6/batteryguru-sda-v2.5.0.6-arm-v7a.apk)
+
+## 18. Beta Maniac (v0.11.0)
+- **App ID**: `betamaniac`
+- **Category**: Tools & Privacy
+- **Description**: Patched Beta Maniac by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=betamaniac
+- **Applied Patches**:
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [betamaniac-sda-v0.11.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.11.0/betamaniac-sda-v0.11.0-arm64-v8a.apk)
+  - [betamaniac-sda-v0.11.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.11.0/betamaniac-sda-v0.11.0-arm-v7a.apk)
+
+## 19. Bluetooth Keyboard & Mouse (v6.23.1)
+- **App ID**: `bluetoothkeyboardmouse`
+- **Category**: Tools & Privacy
+- **Description**: Patched Bluetooth Keyboard & Mouse by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=bluetoothkeyboardmouse
+- **Applied Patches**:
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [bluetoothkeyboardmouse-sda-v6.23.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.23.1/bluetoothkeyboardmouse-sda-v6.23.1-arm64-v8a.apk)
+  - [bluetoothkeyboardmouse-sda-v6.23.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.23.1/bluetoothkeyboardmouse-sda-v6.23.1-arm-v7a.apk)
+
+## 20. Brave Browser (v1.97.57)
+- **App ID**: `bravebrowser`
+- **Category**: Tools & Privacy
+- **Description**: Patched Brave Browser by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=bravebrowser
+- **Applied Patches**:
+  - Block Motion Sensors
+  - Block Popups & Rating Requests
+  - Block Trackers
+  - Brave Origin
+  - Clean Shared Links
+  - Clean Start Page
+  - *...and 8 more patches*
+- **Direct Download Assets**:
+  - [bravebrowser-sda-v1.97.57-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.97.57/bravebrowser-sda-v1.97.57-arm64-v8a.apk)
+  - [bravebrowser-sda-v1.97.57-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.97.57/bravebrowser-sda-v1.97.57-arm-v7a.apk)
+
+## 21. ByAir (v2.41.0)
+- **App ID**: `byair`
+- **Category**: Tools & Privacy
+- **Description**: Patched ByAir by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=byair
+- **Applied Patches**:
+  - Enable Pro
+  - Remove Update Prompt
+- **Direct Download Assets**:
+  - [byair-sda-v2.41.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.41.0/byair-sda-v2.41.0-arm64-v8a.apk)
+  - [byair-sda-v2.41.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.41.0/byair-sda-v2.41.0-arm-v7a.apk)
+
+## 22. Calm (v6.102)
+- **App ID**: `calm`
+- **Category**: Tools & Privacy
+- **Description**: Patched Calm by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=calm
+- **Applied Patches**:
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [calm-sda-v6.102-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.102/calm-sda-v6.102-arm64-v8a.apk)
+  - [calm-sda-v6.102-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.102/calm-sda-v6.102-arm-v7a.apk)
+
+## 23. Calorie Counter (v11.8.1.1)
+- **App ID**: `caloriecounter`
+- **Category**: Tools & Privacy
+- **Description**: Patched Calorie Counter by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=caloriecounter
+- **Applied Patches**:
+  - Disable community tab
+  - Disable force update dialog
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [caloriecounter-sda-v11.8.1.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.8.1.1/caloriecounter-sda-v11.8.1.1-arm64-v8a.apk)
+  - [caloriecounter-sda-v11.8.1.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.8.1.1/caloriecounter-sda-v11.8.1.1-arm-v7a.apk)
+
+## 24. CamScanner (v7.20.0.2606230000)
+- **App ID**: `camscanner`
+- **Category**: Tools & Privacy
+- **Description**: Patched CamScanner by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=camscanner
+- **Applied Patches**:
+  - Disable telemetry
+  - Enable Premium
+- **Direct Download Assets**:
+  - [camscanner-sda-v7.20.0.2606230000-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.20.0.2606230000/camscanner-sda-v7.20.0.2606230000-arm64-v8a.apk)
+  - [camscanner-sda-v7.20.0.2606230000-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.20.0.2606230000/camscanner-sda-v7.20.0.2606230000-arm-v7a.apk)
+
+## 25. CapCut (v9.0.0)
+- **App ID**: `capcut`
+- **Category**: Tools & Privacy
+- **Description**: Patched CapCut by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=capcut
+- **Applied Patches**:
+  - Bypass effects region restriction
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [capcut-sda-v9.0.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.0.0/capcut-sda-v9.0.0-arm64-v8a.apk)
+  - [capcut-sda-v9.0.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.0.0/capcut-sda-v9.0.0-arm-v7a.apk)
+
+## 26. Chess.com (v4.10.0)
+- **App ID**: `chesscom`
+- **Category**: Tools & Privacy
+- **Description**: Patched Chess.com by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=chesscom
+- **Applied Patches**:
+  - Ad-Free
+  - Custom Titles
+  - Global Crash Handler
+  - Lichess Puzzles
+  - Local Stockfish Analysis
+  - Unlimited Play Coach
+  - *...and 1 more patches*
+- **Direct Download Assets**:
+  - [chesscom-sda-v4.10.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.10.0/chesscom-sda-v4.10.0-arm64-v8a.apk)
+  - [chesscom-sda-v4.10.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.10.0/chesscom-sda-v4.10.0-arm-v7a.apk)
+
+## 27. Citymapper (v11.60)
+- **App ID**: `citymapper`
+- **Category**: Tools & Privacy
+- **Description**: Patched Citymapper by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=citymapper
+- **Applied Patches**:
+  - Unlock Club
+- **Direct Download Assets**:
+  - [citymapper-sda-v11.60-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.60/citymapper-sda-v11.60-arm64-v8a.apk)
+  - [citymapper-sda-v11.60-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.60/citymapper-sda-v11.60-arm-v7a.apk)
+
+## 28. Cloudflare WARP (v6.38.9)
+- **App ID**: `cloudflarewarp`
+- **Category**: Tools & Privacy
+- **Description**: Patched Cloudflare WARP by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=cloudflarewarp
+- **Applied Patches**:
+  - Disable Analytics / Telemetry
+  - Spoof WARP+ Unlimited UI
+- **Direct Download Assets**:
+  - [cloudflarewarp-sda-v6.38.9-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.38.9/cloudflarewarp-sda-v6.38.9-arm64-v8a.apk)
+  - [cloudflarewarp-sda-v6.38.9-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.38.9/cloudflarewarp-sda-v6.38.9-arm-v7a.apk)
+
+## 29. Cricbuzz (v16.02.05)
+- **App ID**: `cricbuzz`
+- **Category**: Tools & Privacy
+- **Description**: Patched Cricbuzz by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=cricbuzz
+- **Applied Patches**:
+  - Cricbuzz Disable Ads 
+  - Cricbuzz Premium 
+- **Direct Download Assets**:
+  - [cricbuzz-sda-v16.02.05-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.02.05/cricbuzz-sda-v16.02.05-arm64-v8a.apk)
+  - [cricbuzz-sda-v16.02.05-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.02.05/cricbuzz-sda-v16.02.05-arm-v7a.apk)
+
+## 30. Discord (v349.9-Stable)
+- **App ID**: `discord`
+- **Category**: Social & News
+- **Description**: Patched Discord by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=discord
+- **Applied Patches**:
+  - Ad-blocking & sponsored content removal
+  - Background playback & minimize support
+  - Telemetry, analytics & tracker blocking
+  - Premium feature unlocking
+  - Pure clean interface & decluttering
+- **Direct Download Assets**:
+  - [discord-sda-v349.9-Stable-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v349.9-Stable/discord-sda-v349.9-Stable-arm64-v8a.apk)
+  - [discord-sda-v349.9-Stable-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v349.9-Stable/discord-sda-v349.9-Stable-arm-v7a.apk)
+
+## 31. Disney+ (v26.16.0+rc2-2026.09.08)
+- **App ID**: `disney`
+- **Category**: Tools & Privacy
+- **Description**: Patched Disney+ by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=disney
+- **Applied Patches**:
+  - Disney+ Android TV
+- **Direct Download Assets**:
+  - [disney-sda-v26.16.0+rc2-2026.09.08-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.16.0+rc2-2026.09.08/disney-sda-v26.16.0+rc2-2026.09.08-universal.apk)
+
+## 32. Duolingo (v6.98.4)
+- **App ID**: `duolingo`
+- **Category**: Education
+- **Description**: Patched Duolingo by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=duolingo
+- **Applied Patches**:
+  - Enable Premium
+- **Direct Download Assets**:
+  - [duolingo-sda-v6.98.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.98.4/duolingo-sda-v6.98.4-arm64-v8a.apk)
+  - [duolingo-sda-v6.98.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.98.4/duolingo-sda-v6.98.4-arm-v7a.apk)
+
+## 33. Eyecon (v4.2026.04.05.1300)
+- **App ID**: `eyecon`
+- **Category**: Tools & Privacy
+- **Description**: Patched Eyecon by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=eyecon
+- **Applied Patches**:
+  - Eyecon Premium 
+- **Direct Download Assets**:
+  - [eyecon-sda-v4.2026.04.05.1300-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.2026.04.05.1300/eyecon-sda-v4.2026.04.05.1300-arm64-v8a.apk)
+  - [eyecon-sda-v4.2026.04.05.1300-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.2026.04.05.1300/eyecon-sda-v4.2026.04.05.1300-arm-v7a.apk)
+
+## 34. F-Droid (v1.23.2)
+- **App ID**: `fdroid`
+- **Category**: Tools & Privacy
+- **Description**: Patched F-Droid by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=fdroid
+- **Applied Patches**:
+  - Selectable install backend
+- **Direct Download Assets**:
+  - [fdroid-sda-v1.23.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.23.2/fdroid-sda-v1.23.2-arm64-v8a.apk)
+  - [fdroid-sda-v1.23.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.23.2/fdroid-sda-v1.23.2-arm-v7a.apk)
+
+## 35. Facebook (v583.0.0.39.55)
+- **App ID**: `facebook`
+- **Category**: Social & News
+- **Description**: Patched Facebook by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=facebook
+- **Applied Patches**:
+  - Allow screenshots
+  - Block Instant Games ads
+  - Block ad telemetry
+  - Block background ad prefetch
+  - Block background-return feed refresh
+  - Block promotional notifications
+  - *...and 84 more patches*
+- **Direct Download Assets**:
+  - [facebook-sda-v583.0.0.39.55-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v583.0.0.39.55/facebook-sda-v583.0.0.39.55-arm64-v8a.apk)
+  - [facebook-sda-v583.0.0.39.55-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v583.0.0.39.55/facebook-sda-v583.0.0.39.55-arm-v7a.apk)
+
+## 36. FairEmail (v1.2338)
+- **App ID**: `fairemail`
+- **Category**: Tools & Privacy
+- **Description**: Patched FairEmail by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=fairemail
+- **Applied Patches**:
+  - Enable Pro
+- **Direct Download Assets**:
+  - [fairemail-sda-v1.2338-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.2338/fairemail-sda-v1.2338-arm64-v8a.apk)
+  - [fairemail-sda-v1.2338-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.2338/fairemail-sda-v1.2338-arm-v7a.apk)
+
+## 37. Fing (v12.12.0)
+- **App ID**: `fing`
+- **Category**: Tools & Privacy
+- **Description**: Patched Fing by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=fing
+- **Applied Patches**:
+  - Fing Premium 
+- **Direct Download Assets**:
+  - [fing-sda-v12.12.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.12.0/fing-sda-v12.12.0-arm64-v8a.apk)
+  - [fing-sda-v12.12.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.12.0/fing-sda-v12.12.0-arm-v7a.apk)
+
+## 38. Flipkart (v9.15)
+- **App ID**: `flipkart`
+- **Category**: Tools & Privacy
+- **Description**: Patched Flipkart by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=flipkart
+- **Applied Patches**:
+  - Sort by number of ratings
+- **Direct Download Assets**:
+  - [flipkart-sda-v9.15-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.15/flipkart-sda-v9.15-arm64-v8a.apk)
+  - [flipkart-sda-v9.15-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.15/flipkart-sda-v9.15-arm-v7a.apk)
+
+## 39. FolderSync (v4.12.0)
+- **App ID**: `foldersync`
+- **Category**: Tools & Privacy
+- **Description**: Patched FolderSync by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=foldersync
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [foldersync-sda-v4.12.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.12.0/foldersync-sda-v4.12.0-arm64-v8a.apk)
+  - [foldersync-sda-v4.12.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.12.0/foldersync-sda-v4.12.0-arm-v7a.apk)
+
+## 40. Gboard (v18.0.3.954559732-release-arm64-v8a)
+- **App ID**: `gboard`
+- **Category**: Tools & Privacy
+- **Description**: Patched Gboard by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=gboard
+- **Applied Patches**:
+  - AI Writing Tools
+  - Access Points menu style
+  - Add Gboard Signature Bypass
+  - Advanced Voice Typing
+  - Backup & Restore
+  - Change emoji size
+  - *...and 37 more patches*
+- **Direct Download Assets**:
+  - [gboard-sda-v18.0.3.954559732-release-arm64-v8a-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v18.0.3.954559732-release-arm64-v8a/gboard-sda-v18.0.3.954559732-release-arm64-v8a-arm64-v8a.apk)
+
+## 41. GitHub (v1.271.1)
+- **App ID**: `github`
+- **Category**: Tools & Privacy
+- **Description**: Patched GitHub by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=github
+- **Applied Patches**:
+  - AMOLED dark theme
+- **Direct Download Assets**:
+  - [github-sda-v1.271.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.271.1/github-sda-v1.271.1-arm64-v8a.apk)
+  - [github-sda-v1.271.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.271.1/github-sda-v1.271.1-arm-v7a.apk)
+
+## 42. Goodreads (v2.75.0Build3)
+- **App ID**: `goodreads`
+- **Category**: Tools & Privacy
+- **Description**: Patched Goodreads by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=goodreads
+- **Applied Patches**:
+  - Disable ads
+- **Direct Download Assets**:
+  - [goodreads-sda-v2.75.0Build3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.75.0Build3/goodreads-sda-v2.75.0Build3-arm64-v8a.apk)
+  - [goodreads-sda-v2.75.0Build3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.75.0Build3/goodreads-sda-v2.75.0Build3-arm-v7a.apk)
+
+## 43. Google Maps (v26.36.04.973607363)
+- **App ID**: `googlemaps`
+- **Category**: Tools & Privacy
+- **Description**: Patched Google Maps by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=googlemaps
+- **Applied Patches**:
+  - 120 refresh rate
+  - Account sheet cleanup
+  - Any media app
+  - Avoid Flock cameras
+  - Better offline maps
+  - Black theme
+  - *...and 21 more patches*
+- **Direct Download Assets**:
+  - [googlemaps-sda-v26.36.04.973607363-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.36.04.973607363/googlemaps-sda-v26.36.04.973607363-arm64-v8a.apk)
+  - [googlemaps-sda-v26.36.04.973607363-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.36.04.973607363/googlemaps-sda-v26.36.04.973607363-arm-v7a.apk)
+
+## 44. Google News (v5.163.0.947799485)
+- **App ID**: `googlenews`
+- **Category**: Social & News
+- **Description**: Patched Google News by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=googlenews
+- **Applied Patches**:
+  - Enable CustomTabs 
+  - GmsCore support 
+- **Direct Download Assets**:
+  - [googlenews-sda-v5.163.0.947799485-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.163.0.947799485/googlenews-sda-v5.163.0.947799485-arm64-v8a.apk)
+  - [googlenews-sda-v5.163.0.947799485-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.163.0.947799485/googlenews-sda-v5.163.0.947799485-arm-v7a.apk)
+
+## 45. Google Phone (v161.0.726587057)
+- **App ID**: `googlephone`
+- **Category**: Tools & Privacy
+- **Description**: Patched Google Phone by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=googlephone
+- **Applied Patches**:
+  - Enable call recording 
+- **Direct Download Assets**:
+  - [googlephone-sda-v161.0.726587057-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v161.0.726587057/googlephone-sda-v161.0.726587057-arm64-v8a.apk)
+  - [googlephone-sda-v161.0.726587057-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v161.0.726587057/googlephone-sda-v161.0.726587057-arm-v7a.apk)
+
+## 46. Google Photos (v7.97.0.997578476)
+- **App ID**: `googlephotos`
+- **Category**: Tools & Privacy
+- **Description**: Patched Google Photos by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=googlephotos
+- **Applied Patches**:
+  - AMOLED dark theme
+  - Change package name
+  - Enable DCIM folders backup control
+  - Fix DCIM folder classification
+  - GmsCore support
+  - Spoof features
+- **Direct Download Assets**:
+  - [googlephotos-sda-v7.97.0.997578476-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.97.0.997578476/googlephotos-sda-v7.97.0.997578476-arm64-v8a.apk)
+  - [googlephotos-sda-v7.97.0.997578476-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.97.0.997578476/googlephotos-sda-v7.97.0.997578476-arm-v7a.apk)
+
+## 47. Google Recorder (v4.2.20260823.982886211)
+- **App ID**: `googlerecorder`
+- **Category**: Tools & Privacy
+- **Description**: Patched Google Recorder by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=googlerecorder
+- **Applied Patches**:
+  - Remove device restrictions
+- **Direct Download Assets**:
+  - [googlerecorder-sda-v4.2.20260823.982886211-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.2.20260823.982886211/googlerecorder-sda-v4.2.20260823.982886211-arm64-v8a.apk)
+
+## 48. HBO Max (v7.9.0.61)
+- **App ID**: `hbomax`
+- **Category**: Media & Video
+- **Description**: Patched HBO Max by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=hbomax
+- **Applied Patches**:
+  - HBO Max - Disable Ads
+  - HBO Max - Prefer Ad-Free Stream
+- **Direct Download Assets**:
+  - [hbomax-sda-v7.9.0.61-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.9.0.61/hbomax-sda-v7.9.0.61-universal.apk)
+
+## 49. HelloChinese (v7.11.0)
+- **App ID**: `hellochinese`
+- **Category**: Education
+- **Description**: Patched HelloChinese by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=hellochinese
+- **Applied Patches**:
+  - Enable Premium
+- **Direct Download Assets**:
+  - [hellochinese-sda-v7.11.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.0/hellochinese-sda-v7.11.0-arm64-v8a.apk)
+
+## 50. Hermit (v31.6.1)
+- **App ID**: `hermit`
+- **Category**: Tools & Privacy
+- **Description**: Patched Hermit by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=hermit
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [hermit-sda-v31.6.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v31.6.1/hermit-sda-v31.6.1-arm64-v8a.apk)
+  - [hermit-sda-v31.6.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v31.6.1/hermit-sda-v31.6.1-arm-v7a.apk)
+
+## 51. Hola VPN (vAARCH64_1.248.400)
+- **App ID**: `holavpn`
+- **Category**: Tools & Privacy
+- **Description**: Patched Hola VPN by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=holavpn
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [holavpn-sda-vAARCH64_1.248.400-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/vAARCH64_1.248.400/holavpn-sda-vAARCH64_1.248.400-arm64-v8a.apk)
+
+## 52. Ibis Paint X (v14.1.0)
+- **App ID**: `ibispaintx`
+- **Category**: Tools & Privacy
+- **Description**: Patched Ibis Paint X by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=ibispaintx
+- **Applied Patches**:
+  - Enable Prime membership
+- **Direct Download Assets**:
+  - [ibispaintx-sda-v14.1.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.1.0/ibispaintx-sda-v14.1.0-arm64-v8a.apk)
+
+## 53. Icon Packer (v1.21.0-release)
+- **App ID**: `iconpacker`
+- **Category**: Tools & Privacy
+- **Description**: Patched Icon Packer by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=iconpacker
+- **Applied Patches**:
+  - Unlock premium features
+- **Direct Download Assets**:
+  - [iconpacker-sda-v1.21.0-release-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.21.0-release/iconpacker-sda-v1.21.0-release-arm64-v8a.apk)
+  - [iconpacker-sda-v1.21.0-release-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.21.0-release/iconpacker-sda-v1.21.0-release-arm-v7a.apk)
+
+## 54. IMDb (v9.3.4)
+- **App ID**: `imdb`
+- **Category**: Tools & Privacy
+- **Description**: Patched IMDb by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=imdb
+- **Applied Patches**:
+  - Remove IMDb's ads, trackers, and analytics 
+- **Direct Download Assets**:
+  - [imdb-sda-v9.3.4-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.3.4/imdb-sda-v9.3.4-universal.apk)
+
+## 55. Inshorts (v6.12.18)
+- **App ID**: `inshorts`
+- **Category**: Tools & Privacy
+- **Description**: Patched Inshorts by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=inshorts
+- **Applied Patches**:
+  - Remove Ads
+  - Skip Login
+- **Direct Download Assets**:
+  - [inshorts-sda-v6.12.18-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.12.18/inshorts-sda-v6.12.18-arm64-v8a.apk)
+  - [inshorts-sda-v6.12.15-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.12.15/inshorts-sda-v6.12.15-arm-v7a.apk)
+
+## 56. InShot (v2.214.1539)
+- **App ID**: `inshot`
+- **Category**: Tools & Privacy
+- **Description**: Patched InShot by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=inshot
+- **Applied Patches**:
+  - Unlock Pro 
+- **Direct Download Assets**:
+  - [inshot-sda-v2.214.1539-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.214.1539/inshot-sda-v2.214.1539-arm64-v8a.apk)
+  - [inshot-sda-v2.214.1539-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.214.1539/inshot-sda-v2.214.1539-arm-v7a.apk)
+
+## 57. Instagram (v451.0.0.53.80)
+- **App ID**: `instagram`
+- **Category**: Social & News
+- **Description**: Patched Instagram by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=instagram
+- **Applied Patches**:
+  - Accent color
+  - Allow screenshots
+  - Ask before a call
+  - Ask before a like
+  - Ask before a refresh
+  - Back leaves Home
+  - *...and 102 more patches*
+- **Direct Download Assets**:
+  - [instagram-sda-v451.0.0.53.80-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v451.0.0.53.80/instagram-sda-v451.0.0.53.80-arm64-v8a.apk)
+
+## 58. KineStop (v5.1)
+- **App ID**: `kinestop`
+- **Category**: Tools & Privacy
+- **Description**: Patched KineStop by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=kinestop
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [kinestop-sda-v5.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1/kinestop-sda-v5.1-arm64-v8a.apk)
+  - [kinestop-sda-v5.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1/kinestop-sda-v5.1-arm-v7a.apk)
+
+## 59. Komoot (v2026.26.7)
+- **App ID**: `komoot`
+- **Category**: Tools & Privacy
+- **Description**: Patched Komoot by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=komoot
+- **Applied Patches**:
+  - Unlock Premium features 
+- **Direct Download Assets**:
+  - [komoot-sda-v2026.26.7-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.26.7/komoot-sda-v2026.26.7-arm64-v8a.apk)
+  - [komoot-sda-v2026.26.7-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.26.7/komoot-sda-v2026.26.7-arm-v7a.apk)
+
+## 60. Letterboxd (v3.5.8)
+- **App ID**: `letterboxd`
+- **Category**: Tools & Privacy
+- **Description**: Patched Letterboxd by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=letterboxd
+- **Applied Patches**:
+  - Appearance
+  - Brighter Watched-by stars
+  - Denser poster grid
+  - Hide ads
+  - Mod settings
+- **Direct Download Assets**:
+  - [letterboxd-sda-v3.5.8-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.5.8/letterboxd-sda-v3.5.8-arm64-v8a.apk)
+  - [letterboxd-sda-v3.5.8-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.5.8/letterboxd-sda-v3.5.8-arm-v7a.apk)
+
+## 61. LinkedIn (v4.1.1261)
+- **App ID**: `linkedin`
+- **Category**: Tools & Privacy
+- **Description**: Patched LinkedIn by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=linkedin
+- **Applied Patches**:
+  - Block tracking
+  - Disable double-tap like
+  - Download media
+  - Feed filters
+  - Hide Premium upsells
+  - Hide ads
+  - *...and 5 more patches*
+- **Direct Download Assets**:
+  - [linkedin-sda-v4.1.1261-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1261/linkedin-sda-v4.1.1261-arm64-v8a.apk)
+  - [linkedin-sda-v4.1.1261-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1261/linkedin-sda-v4.1.1261-arm-v7a.apk)
+
+## 62. Lumina Wallpapers (v1.0.2.4)
+- **App ID**: `luminawallpapers`
+- **Category**: Tools & Privacy
+- **Description**: Patched Lumina Wallpapers by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=luminawallpapers
+- **Applied Patches**:
+  - Lumina Premium 
+- **Direct Download Assets**:
+  - [luminawallpapers-sda-v1.0.2.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.0.2.4/luminawallpapers-sda-v1.0.2.4-arm64-v8a.apk)
+  - [luminawallpapers-sda-v1.0.2.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.0.2.4/luminawallpapers-sda-v1.0.2.4-arm-v7a.apk)
+
+## 63. MacroDroid (v5.66.9)
+- **App ID**: `macrodroid`
+- **Category**: Tools & Privacy
+- **Description**: Patched MacroDroid by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=macrodroid
+- **Applied Patches**:
+  - Unlock Pro
+- **Direct Download Assets**:
+  - [macrodroid-sda-v5.66.9-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.66.9/macrodroid-sda-v5.66.9-arm64-v8a.apk)
+  - [macrodroid-sda-v5.66.9-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.66.9/macrodroid-sda-v5.66.9-arm-v7a.apk)
+
+## 64. Medium (v4.5.1302097)
+- **App ID**: `medium`
+- **Category**: Tools & Privacy
+- **Description**: Patched Medium by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=medium
+- **Applied Patches**:
+  - Freedium 
+- **Direct Download Assets**:
+  - [medium-sda-v4.5.1302097-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.5.1302097/medium-sda-v4.5.1302097-arm64-v8a.apk)
+  - [medium-sda-v4.5.1302097-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.5.1302097/medium-sda-v4.5.1302097-arm-v7a.apk)
+
+## 65. Meesho (v29.6)
+- **App ID**: `meesho`
+- **Category**: Tools & Privacy
+- **Description**: Patched Meesho by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=meesho
+- **Applied Patches**:
+  - Sort by number of ratings
+- **Direct Download Assets**:
+  - [meesho-sda-v29.6-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v29.6/meesho-sda-v29.6-arm64-v8a.apk)
+  - [meesho-sda-v29.6-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v29.6/meesho-sda-v29.6-arm-v7a.apk)
+
+## 66. Merriam Webster Dictionary (v5.6.2)
+- **App ID**: `merriamwebsterdictionary`
+- **Category**: Education
+- **Description**: Patched Merriam Webster Dictionary by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=merriamwebsterdictionary
+- **Applied Patches**:
+  - Enable Premium
+- **Direct Download Assets**:
+  - [merriamwebsterdictionary-sda-v5.6.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.6.2/merriamwebsterdictionary-sda-v5.6.2-arm64-v8a.apk)
+  - [merriamwebsterdictionary-sda-v5.6.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.6.2/merriamwebsterdictionary-sda-v5.6.2-arm-v7a.apk)
+
+## 67. Messenger (v583.0.0.29.95)
+- **App ID**: `messenger`
+- **Category**: Social & News
+- **Description**: Patched Messenger by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=messenger
+- **Applied Patches**:
+  - Allow chat bubbles
+  - Allow screenshots
+  - Auto reply
+  - Bold and italic text
+  - Fix videos that won't send
+  - Hide AI sticker tools
+  - *...and 52 more patches*
+- **Direct Download Assets**:
+  - [messenger-sda-v583.0.0.29.95-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v583.0.0.29.95/messenger-sda-v583.0.0.29.95-arm64-v8a.apk)
+
+## 68. Microsoft Edge (v152.0.4191.65)
+- **App ID**: `microsoftedge`
+- **Category**: Tools & Privacy
+- **Description**: Patched Microsoft Edge by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=microsoftedge
+- **Applied Patches**:
+  - Copilot feature toggle 
+  - Disable news notifications 
+  - Telemetry elimination 
+- **Direct Download Assets**:
+  - [microsoftedge-sda-v152.0.4191.65-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v152.0.4191.65/microsoftedge-sda-v152.0.4191.65-arm64-v8a.apk)
+  - [microsoftedge-sda-v152.0.4191.65-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v152.0.4191.65/microsoftedge-sda-v152.0.4191.65-arm-v7a.apk)
+
+## 69. Microsoft Lens (v16.0.19628.20008)
+- **App ID**: `microsoftlens`
+- **Category**: Tools & Privacy
+- **Description**: Patched Microsoft Lens by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=microsoftlens
+- **Applied Patches**:
+  - Hide OneDrive migration 
+- **Direct Download Assets**:
+  - [microsoftlens-sda-v16.0.19628.20008-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.0.19628.20008/microsoftlens-sda-v16.0.19628.20008-arm64-v8a.apk)
+  - [microsoftlens-sda-v16.0.19628.20008-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.0.19628.20008/microsoftlens-sda-v16.0.19628.20008-arm-v7a.apk)
+
+## 70. Microsoft Swiftkey (v9.13.13.5)
+- **App ID**: `microsoftswiftkey`
+- **Category**: Tools & Privacy
+- **Description**: Patched Microsoft Swiftkey by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=microsoftswiftkey
+- **Applied Patches**:
+  - Disable cloud sign-in prompt 
+  - Disable telemetry 
+- **Direct Download Assets**:
+  - [microsoftswiftkey-sda-v9.13.13.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.13.13.5/microsoftswiftkey-sda-v9.13.13.5-arm64-v8a.apk)
+  - [microsoftswiftkey-sda-v9.13.13.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.13.13.5/microsoftswiftkey-sda-v9.13.13.5-arm-v7a.apk)
+
+## 71. Money Manager (v4.11.1GF)
+- **App ID**: `moneymanager`
+- **Category**: Tools & Privacy
+- **Description**: Patched Money Manager by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=moneymanager
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [moneymanager-sda-v4.11.1GF-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.11.1GF/moneymanager-sda-v4.11.1GF-arm64-v8a.apk)
+  - [moneymanager-sda-v4.11.1GF-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.11.1GF/moneymanager-sda-v4.11.1GF-arm-v7a.apk)
+
+## 72. Moon+ Reader (v10.5)
+- **App ID**: `moonreader`
+- **Category**: Social & News
+- **Description**: Patched Moon+ Reader by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=moonreader
+- **Applied Patches**:
+  - Make UI look like Pro 
+  - Unlock Moon+ Reader Pro 
+- **Direct Download Assets**:
+  - [moonreader-sda-v10.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v10.5/moonreader-sda-v10.5-arm64-v8a.apk)
+  - [moonreader-sda-v10.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v10.5/moonreader-sda-v10.5-arm-v7a.apk)
+
+## 73. My Expenses (v4.1.1.2)
+- **App ID**: `myexpenses`
+- **Category**: Tools & Privacy
+- **Description**: Patched My Expenses by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=myexpenses
+- **Applied Patches**:
+  - Enable Pro
+- **Direct Download Assets**:
+  - [myexpenses-sda-v4.1.1.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1.2/myexpenses-sda-v4.1.1.2-arm64-v8a.apk)
+  - [myexpenses-sda-v4.1.1.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.1.1.2/myexpenses-sda-v4.1.1.2-arm-v7a.apk)
+
+## 74. MyFitnessPal (v26.31.0)
+- **App ID**: `myfitnesspal`
+- **Category**: Education
+- **Description**: Patched MyFitnessPal by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=myfitnesspal
+- **Applied Patches**:
+  - Enable Premium+
+- **Direct Download Assets**:
+  - [myfitnesspal-sda-v26.31.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.31.0/myfitnesspal-sda-v26.31.0-arm64-v8a.apk)
+  - [myfitnesspal-sda-v26.31.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.31.0/myfitnesspal-sda-v26.31.0-arm-v7a.apk)
+
+## 75. Netflix (v13.0.1build25028)
+- **App ID**: `netflix`
+- **Category**: Media & Video
+- **Description**: Patched Netflix by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=netflix
+- **Applied Patches**:
+  - Disable Netflix CertCheck
+  - Remove Netflix ads (bundle engine)
+  - Remove Netflix ads (loader)
+  - Clone Netflix
+- **Direct Download Assets**:
+  - [netflix-sda-v13.0.1build25028-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.1build25028/netflix-sda-v13.0.1build25028-arm-v7a.apk)
+
+## 76. Niagara Launcher (v1.16.7)
+- **App ID**: `niagaralauncher`
+- **Category**: Tools & Privacy
+- **Description**: Patched Niagara Launcher by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=niagaralauncher
+- **Applied Patches**:
+  - Enable Niagara Pro 
+- **Direct Download Assets**:
+  - [niagaralauncher-sda-v1.16.7-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.16.7/niagaralauncher-sda-v1.16.7-arm64-v8a.apk)
+  - [niagaralauncher-sda-v1.16.7-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.16.7/niagaralauncher-sda-v1.16.7-arm-v7a.apk)
+
+## 77. Ninja VPN (v1.4.7)
+- **App ID**: `ninjavpn`
+- **Category**: Tools & Privacy
+- **Description**: Patched Ninja VPN by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=ninjavpn
+- **Applied Patches**:
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [ninjavpn-sda-v1.4.7-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.4.7/ninjavpn-sda-v1.4.7-arm64-v8a.apk)
+
+## 78. Nova Launcher (v88600)
+- **App ID**: `novalauncher`
+- **Category**: Tools & Privacy
+- **Description**: Patched Nova Launcher by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=novalauncher
+- **Applied Patches**:
+  - Enable Prime
+- **Direct Download Assets**:
+  - [novalauncher-sda-v88600-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v88600/novalauncher-sda-v88600-arm64-v8a.apk)
+  - [novalauncher-sda-v88600-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v88600/novalauncher-sda-v88600-arm-v7a.apk)
+
+## 79. Nuvio (v0.9.0-beta)
+- **App ID**: `nuvio`
+- **Category**: Tools & Privacy
+- **Description**: Patched Nuvio by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=nuvio
+- **Applied Patches**:
+  - Allow Importing Subs from Local Storage 
+  - Local Downloads 
+  - Local Media 
+  - Mark SDH Subtitles 
+  - Random Episode 
+  - Remove SDH Annotations 
+- **Direct Download Assets**:
+  - [nuvio-sda-v0.9.0-beta-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.9.0-beta/nuvio-sda-v0.9.0-beta-arm64-v8a.apk)
+  - [nuvio-sda-v0.9.0-beta-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v0.9.0-beta/nuvio-sda-v0.9.0-beta-arm-v7a.apk)
+
+## 80. Offline Games (v3.15.3)
+- **App ID**: `offlinegames`
+- **Category**: Tools & Privacy
+- **Description**: Patched Offline Games by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=offlinegames
+- **Applied Patches**:
+  - Fast Offline Games startup
+  - In-house ad not clickable
+  - In-house ad only
+  - Instant in-house ad close
+- **Direct Download Assets**:
+  - [offlinegames-sda-v3.15.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.15.3/offlinegames-sda-v3.15.3-arm64-v8a.apk)
+  - [offlinegames-sda-v3.14.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.14.1/offlinegames-sda-v3.14.1-arm-v7a.apk)
+
+## 81. Pandora (v2609.2)
+- **App ID**: `pandora`
+- **Category**: Music & Audio
+- **Description**: Patched Pandora by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=pandora
+- **Applied Patches**:
+  - Disable ads
+  - Unlimited skips
+- **Direct Download Assets**:
+  - [pandora-sda-v2609.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2609.2/pandora-sda-v2609.2-arm64-v8a.apk)
+  - [pandora-sda-v2609.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2609.2/pandora-sda-v2609.2-arm-v7a.apk)
+
+## 82. Peacock (v7.10.102)
+- **App ID**: `peacock`
+- **Category**: Media & Video
+- **Description**: Patched Peacock by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=peacock
+- **Applied Patches**:
+  - Disable auto-updates
+  - Skip ads
+- **Direct Download Assets**:
+  - [peacock-sda-v7.10.102-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.10.102/peacock-sda-v7.10.102-universal.apk)
+
+## 83. Photomath (v8.48.0)
+- **App ID**: `photomath`
+- **Category**: Education
+- **Description**: Patched Photomath by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=photomath
+- **Applied Patches**:
+  - Hide update popup
+  - Spoof device ID
+  - Unlock plus
+- **Direct Download Assets**:
+  - [photomath-sda-v8.48.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.48.0/photomath-sda-v8.48.0-arm64-v8a.apk)
+  - [photomath-sda-v8.48.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.48.0/photomath-sda-v8.48.0-arm-v7a.apk)
+
+## 84. PicsArt (v30.7.8)
+- **App ID**: `picsart`
+- **Category**: Tools & Privacy
+- **Description**: Patched PicsArt by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=picsart
+- **Applied Patches**:
+  - Remove Ads
+  - Remove Watermark
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [picsart-sda-v30.7.8-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v30.7.8/picsart-sda-v30.7.8-universal.apk)
+
+## 85. Pinterest (v14.39.0)
+- **App ID**: `pinterest`
+- **Category**: Tools & Privacy
+- **Description**: Patched Pinterest by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=pinterest
+- **Applied Patches**:
+  - Choose startup tab
+  - Copy direct link
+  - Disable AppsFlyer tracking
+  - Disable Google Engage
+  - Disable Google Engage worker
+  - Disable ads
+  - *...and 28 more patches*
+- **Direct Download Assets**:
+  - [pinterest-sda-v14.39.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.39.0/pinterest-sda-v14.39.0-arm64-v8a.apk)
+  - [pinterest-sda-v14.39.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.39.0/pinterest-sda-v14.39.0-arm-v7a.apk)
+
+## 86. pixiv (v6.196.0)
+- **App ID**: `pixiv`
+- **Category**: Tools & Privacy
+- **Description**: Patched pixiv by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=pixiv
+- **Applied Patches**:
+  - Hide ads
+  - Remove popular search time limit
+- **Direct Download Assets**:
+  - [pixiv-sda-v6.196.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.196.0/pixiv-sda-v6.196.0-arm64-v8a.apk)
+  - [pixiv-sda-v6.196.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.196.0/pixiv-sda-v6.196.0-arm-v7a.apk)
+
+## 87. Plus Messenger (v12.9.2.0)
+- **App ID**: `plusmessenger`
+- **Category**: Social & News
+- **Description**: Patched Plus Messenger by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=plusmessenger
+- **Applied Patches**:
+  - Anti-delete messages 
+  - Anti-disappearing media 
+  - Anti-screenshot notification 
+  - Bypass channel restrictions 
+  - Bypass integrity 
+  - Disable analytics 
+  - *...and 5 more patches*
+- **Direct Download Assets**:
+  - [plusmessenger-sda-v12.9.2.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.9.2.0/plusmessenger-sda-v12.9.2.0-arm64-v8a.apk)
+  - [plusmessenger-sda-v12.9.2.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.9.2.0/plusmessenger-sda-v12.9.2.0-arm-v7a.apk)
+
+## 88. PlutoTV (v5.66.0-leanback)
+- **App ID**: `plutotv`
+- **Category**: Media & Video
+- **Description**: Patched PlutoTV by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=plutotv
+- **Applied Patches**:
+  - Disable auto-updates
+  - Mask live ad breaks (black screen + mute)
+  - Skip ads
+- **Direct Download Assets**:
+  - [plutotv-sda-v5.66.0-leanback-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.66.0-leanback/plutotv-sda-v5.66.0-leanback-universal.apk)
+
+## 89. Pocket Casts (v8.16)
+- **App ID**: `pocketcasts`
+- **Category**: Music & Audio
+- **Description**: Patched Pocket Casts by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=pocketcasts
+- **Applied Patches**:
+  - Unlock Patron
+- **Direct Download Assets**:
+  - [pocketcasts-sda-v8.16-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.16/pocketcasts-sda-v8.16-arm64-v8a.apk)
+  - [pocketcasts-sda-v8.16-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.16/pocketcasts-sda-v8.16-arm-v7a.apk)
+
+## 90. Pocket Whip (v2.3)
+- **App ID**: `pocketwhip`
+- **Category**: Tools & Privacy
+- **Description**: Patched Pocket Whip by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=pocketwhip
+- **Applied Patches**:
+  - Hide ads
+  - Unlock premium
+- **Direct Download Assets**:
+  - [pocketwhip-sda-v2.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.3/pocketwhip-sda-v2.3-arm64-v8a.apk)
+  - [pocketwhip-sda-v2.3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.3/pocketwhip-sda-v2.3-arm-v7a.apk)
+
+## 91. Podcast Addict (v2026.10.1)
+- **App ID**: `podcastaddict`
+- **Category**: Music & Audio
+- **Description**: Patched Podcast Addict by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=podcastaddict
+- **Applied Patches**:
+  - Enable Premium
+- **Direct Download Assets**:
+  - [podcastaddict-sda-v2026.10.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.10.1/podcastaddict-sda-v2026.10.1-arm64-v8a.apk)
+  - [podcastaddict-sda-v2026.10.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.10.1/podcastaddict-sda-v2026.10.1-arm-v7a.apk)
+
+## 92. Poweramp (vbuild-1025-bundle-play)
+- **App ID**: `poweramp`
+- **Category**: Music & Audio
+- **Description**: Patched Poweramp by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=poweramp
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [poweramp-sda-vbuild-1025-bundle-play-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/vbuild-1025-bundle-play/poweramp-sda-vbuild-1025-bundle-play-universal.apk)
+
+## 93. Prime Video (v6.23.23+v15.5.0.70-armv7a)
+- **App ID**: `primevideo`
+- **Category**: Media & Video
+- **Description**: Patched Prime Video by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=primevideo
+- **Applied Patches**:
+  - Bundle native ad-strip hook
+  - Disable auto-updates
+  - Load native ad-strip hook
+  - Prime Video extension
+  - Skip ads
+- **Direct Download Assets**:
+  - [primevideo-sda-v6.23.23+v15.5.0.70-armv7a-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.23.23+v15.5.0.70-armv7a/primevideo-sda-v6.23.23+v15.5.0.70-armv7a-arm-v7a.apk)
+
+## 94. Proton Mail (v7.11.4)
+- **App ID**: `protonmail`
+- **Category**: Tools & Privacy
+- **Description**: Patched Proton Mail by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=protonmail
+- **Applied Patches**:
+  - Unlock Custom Time Picker 
+  - Unlock Unlimited Plan 
+- **Direct Download Assets**:
+  - [protonmail-sda-v7.11.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.4/protonmail-sda-v7.11.4-arm64-v8a.apk)
+  - [protonmail-sda-v7.11.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.4/protonmail-sda-v7.11.4-arm-v7a.apk)
+
+## 95. Proton Pass (v1.41.4)
+- **App ID**: `protonpass`
+- **Category**: Tools & Privacy
+- **Description**: Patched Proton Pass by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=protonpass
+- **Applied Patches**:
+  - AMOLED dark theme
+  - Custom accent color
+  - Hide layout components
+  - Hide promotional messages
+  - Hide upgrade promotions
+  - Material 3 switches
+- **Direct Download Assets**:
+  - [protonpass-sda-v1.41.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.41.4/protonpass-sda-v1.41.4-arm64-v8a.apk)
+  - [protonpass-sda-v1.41.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.41.4/protonpass-sda-v1.41.4-arm-v7a.apk)
+
+## 96. Proton VPN (v5.20.74.0)
+- **App ID**: `protonvpn`
+- **Category**: Tools & Privacy
+- **Description**: Patched Proton VPN by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=protonvpn
+- **Applied Patches**:
+  - AMOLED dark theme
+  - Custom accent color
+  - Disable telemetry
+  - Hide upgrade promotions
+  - Material 3 switches
+  - Remove server change delay
+  - *...and 7 more patches*
+- **Direct Download Assets**:
+  - [protonvpn-sda-v5.20.74.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.20.74.0/protonvpn-sda-v5.20.74.0-arm64-v8a.apk)
+  - [protonvpn-sda-v5.20.74.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.20.74.0/protonvpn-sda-v5.20.74.0-arm-v7a.apk)
+
+## 97. RAR (v7.23.build134)
+- **App ID**: `rar`
+- **Category**: Tools & Privacy
+- **Description**: Patched RAR by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=rar
+- **Applied Patches**:
+  - Unlock Pro
+- **Direct Download Assets**:
+  - [rar-sda-v7.23.build134-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.23.build134/rar-sda-v7.23.build134-arm64-v8a.apk)
+  - [rar-sda-v7.23.build134-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.23.build134/rar-sda-v7.23.build134-arm-v7a.apk)
+
+## 98. Reddit (v2026.24.0)
+- **App ID**: `reddit`
+- **Category**: Social & News
+- **Description**: Patched Reddit by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=reddit
+- **Applied Patches**:
+  - App icon
+  - Copy text
+  - Custom font
+  - Customize post layout
+  - Disable modern home
+  - Disable screenshot popup
+  - *...and 22 more patches*
+- **Direct Download Assets**:
+  - [reddit-sda-v2026.24.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.24.0/reddit-sda-v2026.24.0-arm64-v8a.apk)
+  - [reddit-sda-v2026.24.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.24.0/reddit-sda-v2026.24.0-arm-v7a.apk)
+
+## 99. Rumble (v3.14.5)
+- **App ID**: `rumble`
+- **Category**: Tools & Privacy
+- **Description**: Patched Rumble by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=rumble
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [rumble-sda-v3.14.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.14.5/rumble-sda-v3.14.5-arm64-v8a.apk)
+  - [rumble-sda-v3.14.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.14.5/rumble-sda-v3.14.5-arm-v7a.apk)
+
+## 100. SD Maid 2/SE (v1.7.3-rc0)
+- **App ID**: `sdmaid2se`
+- **Category**: Tools & Privacy
+- **Description**: Patched SD Maid 2/SE by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=sdmaid2se
+- **Applied Patches**:
+  - Unlock Pro 
+- **Direct Download Assets**:
+  - [sdmaid2se-sda-v1.7.3-rc0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.7.3-rc0/sdmaid2se-sda-v1.7.3-rc0-arm64-v8a.apk)
+  - [sdmaid2se-sda-v1.7.3-rc0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.7.3-rc0/sdmaid2se-sda-v1.7.3-rc0-arm-v7a.apk)
+
+## 101. Send Files to TV (v1.4.22)
+- **App ID**: `sendfilestotv`
+- **Category**: Media & Video
+- **Description**: Patched Send Files to TV by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=sendfilestotv
+- **Applied Patches**:
+  - Remove Ads
+- **Direct Download Assets**:
+  - [sendfilestotv-sda-v1.4.22-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.4.22/sendfilestotv-sda-v1.4.22-arm64-v8a.apk)
+  - [sendfilestotv-sda-v1.4.22-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v1.4.22/sendfilestotv-sda-v1.4.22-arm-v7a.apk)
+
+## 102. Showly (v3.72.0)
+- **App ID**: `showly`
+- **Category**: Tools & Privacy
+- **Description**: Patched Showly by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=showly
+- **Applied Patches**:
+  - AMOLED dark theme
+  - Unlock premium
+- **Direct Download Assets**:
+  - [showly-sda-v3.72.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.72.0/showly-sda-v3.72.0-arm64-v8a.apk)
+  - [showly-sda-v3.72.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.72.0/showly-sda-v3.72.0-arm-v7a.apk)
+
+## 103. Smart Launcher 6 (v6.6build020)
+- **App ID**: `smartlauncher6`
+- **Category**: Tools & Privacy
+- **Description**: Patched Smart Launcher 6 by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=smartlauncher6
+- **Applied Patches**:
+  - Enable Pro
+- **Direct Download Assets**:
+  - [smartlauncher6-sda-v6.6build020-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.6build020/smartlauncher6-sda-v6.6build020-arm64-v8a.apk)
+  - [smartlauncher6-sda-v6.6build020-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v6.6build020/smartlauncher6-sda-v6.6build020-arm-v7a.apk)
+
+## 104. Sofascore (v26.09.28)
+- **App ID**: `sofascore`
+- **Category**: Tools & Privacy
+- **Description**: Patched Sofascore by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=sofascore
+- **Applied Patches**:
+  - Block marketing notifications
+  - Disable Facebook SDK
+  - Disable ads
+  - Disable telemetry
+  - Enable Premium
+- **Direct Download Assets**:
+  - [sofascore-sda-v26.09.28-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.09.28/sofascore-sda-v26.09.28-arm64-v8a.apk)
+  - [sofascore-sda-v26.09.28-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.09.28/sofascore-sda-v26.09.28-arm-v7a.apk)
+
+## 105. Solid Explorer (v3.6.1)
+- **App ID**: `solidexplorer`
+- **Category**: Tools & Privacy
+- **Description**: Patched Solid Explorer by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=solidexplorer
+- **Applied Patches**:
+  - Enable Pro
+- **Direct Download Assets**:
+  - [solidexplorer-sda-v3.6.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.6.1/solidexplorer-sda-v3.6.1-arm64-v8a.apk)
+  - [solidexplorer-sda-v3.6.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.6.1/solidexplorer-sda-v3.6.1-arm-v7a.apk)
+
+## 106. SoundCloud (v2026.08.26-release)
+- **App ID**: `soundcloud`
+- **Category**: Music & Audio
+- **Description**: Patched SoundCloud by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=soundcloud
+- **Applied Patches**:
+  - Disable analytics 
+  - Disable consent popup 
+  - Enable SoundCloud Go 
+- **Direct Download Assets**:
+  - [soundcloud-sda-v2026.08.26-release-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.08.26-release/soundcloud-sda-v2026.08.26-release-arm64-v8a.apk)
+  - [soundcloud-sda-v2026.08.26-release-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2026.08.26-release/soundcloud-sda-v2026.08.26-release-arm-v7a.apk)
+
+## 107. Speedtest (v7.0.4)
+- **App ID**: `speedtest`
+- **Category**: Tools & Privacy
+- **Description**: Patched Speedtest by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=speedtest
+- **Applied Patches**:
+  - AdFree Account 
+  - Disable Logging(analytics) 
+- **Direct Download Assets**:
+  - [speedtest-sda-v7.0.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.0.4/speedtest-sda-v7.0.4-arm64-v8a.apk)
+  - [speedtest-sda-v7.0.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.0.4/speedtest-sda-v7.0.4-arm-v7a.apk)
+
+## 108. Strava (v477.14)
+- **App ID**: `strava`
+- **Category**: Tools & Privacy
+- **Description**: Patched Strava by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=strava
+- **Applied Patches**:
+  - Add 'Give Kudos' button to 'Group Activity'
+  - Add activity export
+  - Add media download
+  - Add route export
+  - Block Snowplow tracking
+  - Disable Quick Edit
+  - *...and 4 more patches*
+- **Direct Download Assets**:
+  - [strava-sda-v477.14-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v477.14/strava-sda-v477.14-arm64-v8a.apk)
+  - [strava-sda-v477.14-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v477.14/strava-sda-v477.14-arm-v7a.apk)
+
+## 109. Swift Backup (v5.1.0)
+- **App ID**: `swiftbackup`
+- **Category**: Tools & Privacy
+- **Description**: Patched Swift Backup by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=swiftbackup
+- **Applied Patches**:
+  - Swift Backup Local Cloud Metadata
+  - Swift Backup Premium Unlock
+  - Swift Backup Tamper Protection
+  - Swift Backup Web Login
+- **Direct Download Assets**:
+  - [swiftbackup-sda-v5.1.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1.0/swiftbackup-sda-v5.1.0-arm64-v8a.apk)
+  - [swiftbackup-sda-v5.1.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v5.1.0/swiftbackup-sda-v5.1.0-arm-v7a.apk)
+
+## 110. Symfonium (v14.0.0)
+- **App ID**: `symfonium`
+- **Category**: Music & Audio
+- **Description**: Patched Symfonium by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=symfonium
+- **Applied Patches**:
+  - Unlock Symfonium 
+- **Direct Download Assets**:
+  - [symfonium-sda-v14.0.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.0.0/symfonium-sda-v14.0.0-arm64-v8a.apk)
+  - [symfonium-sda-v14.0.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v14.0.0/symfonium-sda-v14.0.0-arm-v7a.apk)
+
+## 111. Telegram (v13.0.3)
+- **App ID**: `telegram`
+- **Category**: Social & News
+- **Description**: Patched Telegram by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=telegram
+- **Applied Patches**:
+  - AMOLED black
+  - Add Repeat to the message menu
+  - Allow chat blur on slower phones
+  - Ask before sending a sticker
+  - Change sticker size
+  - Disable analytics
+  - *...and 57 more patches*
+- **Direct Download Assets**:
+  - [telegram-sda-v13.0.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.3/telegram-sda-v13.0.3-arm64-v8a.apk)
+  - [telegram-sda-v13.0.3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.3/telegram-sda-v13.0.3-arm-v7a.apk)
+
+## 112. TeraBox (v4.26.5)
+- **App ID**: `terabox`
+- **Category**: Tools & Privacy
+- **Description**: Patched TeraBox by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=terabox
+- **Applied Patches**:
+  - Fix Google login
+  - Hide ads
+  - Hide consent form
+  - Hide promotions
+  - Hide video recommendations
+  - Unlock Premium Plus
+- **Direct Download Assets**:
+  - [terabox-sda-v4.26.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.26.5/terabox-sda-v4.26.5-arm64-v8a.apk)
+  - [terabox-sda-v4.26.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.26.5/terabox-sda-v4.26.5-arm-v7a.apk)
+
+## 113. Termius (v7.11.2)
+- **App ID**: `termius`
+- **Category**: Tools & Privacy
+- **Description**: Patched Termius by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=termius
+- **Applied Patches**:
+  - Server Auditor Premium
+- **Direct Download Assets**:
+  - [termius-sda-v7.11.2-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.2/termius-sda-v7.11.2-arm64-v8a.apk)
+  - [termius-sda-v7.11.2-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v7.11.2/termius-sda-v7.11.2-arm-v7a.apk)
+
+## 114. The Weather Channel (v16.25.0)
+- **App ID**: `theweatherchannel`
+- **Category**: Tools & Privacy
+- **Description**: Patched The Weather Channel by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=theweatherchannel
+- **Applied Patches**:
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [theweatherchannel-sda-v16.25.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.25.0/theweatherchannel-sda-v16.25.0-arm64-v8a.apk)
+  - [theweatherchannel-sda-v16.25.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v16.25.0/theweatherchannel-sda-v16.25.0-arm-v7a.apk)
+
+## 115. Threads (v451.0.0.51.80)
+- **App ID**: `threads`
+- **Category**: Social & News
+- **Description**: Patched Threads by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=threads
+- **Applied Patches**:
+  - Block background-return feed refresh
+  - Change version code
+  - Disable analytics
+  - Disable screenshot detection
+  - Disable video autoplay
+  - Hide ads
+  - *...and 13 more patches*
+- **Direct Download Assets**:
+  - [threads-sda-v451.0.0.51.80-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v451.0.0.51.80/threads-sda-v451.0.0.51.80-arm64-v8a.apk)
+
+## 116. TickTick (v8.1.3.3)
+- **App ID**: `ticktick`
+- **Category**: Tools & Privacy
+- **Description**: Patched TickTick by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=ticktick
+- **Applied Patches**:
+  - Restore notifications 
+  - Restore reminder alarms 
+  - TickTick Premium 
+- **Direct Download Assets**:
+  - [ticktick-sda-v8.1.3.3-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.1.3.3/ticktick-sda-v8.1.3.3-arm64-v8a.apk)
+  - [ticktick-sda-v8.1.3.3-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v8.1.3.3/ticktick-sda-v8.1.3.3-arm-v7a.apk)
+
+## 117. TikTok (v47.1.4)
+- **App ID**: `tiktok`
+- **Category**: Social & News
+- **Description**: Patched TikTok by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=tiktok
+- **Applied Patches**:
+  - AMOLED dark theme
+  - Accent color
+  - Advanced downloads
+  - Allow Duet and Stitch
+  - Allow screenshots and Circle to Search
+  - Always show publish date
+  - *...and 128 more patches*
+- **Direct Download Assets**:
+  - [tiktok-sda-v47.1.4-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v47.1.4/tiktok-sda-v47.1.4-arm64-v8a.apk)
+  - [tiktok-sda-v47.1.4-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v47.1.4/tiktok-sda-v47.1.4-arm-v7a.apk)
+
+## 118. Titanium Browser (v153.0.8010.36)
+- **App ID**: `titaniumbrowser`
+- **Category**: Tools & Privacy
+- **Description**: Patched Titanium Browser by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=titaniumbrowser
+- **Applied Patches**:
+  - Force highest refresh rate
+  - Keep Titanium Extensions Child Processes Alive
+- **Direct Download Assets**:
+  - [titaniumbrowser-sda-v153.0.8010.36-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v153.0.8010.36/titaniumbrowser-sda-v153.0.8010.36-arm64-v8a.apk)
+  - [titaniumbrowser-sda-v153.0.8010.36-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v153.0.8010.36/titaniumbrowser-sda-v153.0.8010.36-arm-v7a.apk)
+
+## 119. Todoist (v12190)
+- **App ID**: `todoist`
+- **Category**: Tools & Privacy
+- **Description**: Patched Todoist by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=todoist
+- **Applied Patches**:
+  - No date first 
+  - Unlock Pro 
+- **Direct Download Assets**:
+  - [todoist-sda-v12190-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12190/todoist-sda-v12190-arm64-v8a.apk)
+  - [todoist-sda-v12190-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12190/todoist-sda-v12190-arm-v7a.apk)
+
+## 120. trakt.TV (v3.19.0)
+- **App ID**: `trakttv`
+- **Category**: Media & Video
+- **Description**: Patched trakt.TV by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=trakttv
+- **Applied Patches**:
+  - Unlock pro
+- **Direct Download Assets**:
+  - [trakttv-sda-v3.19.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.19.0/trakttv-sda-v3.19.0-arm64-v8a.apk)
+  - [trakttv-sda-v3.19.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.19.0/trakttv-sda-v3.19.0-arm-v7a.apk)
+
+## 121. Truecaller (v26.40.5)
+- **App ID**: `truecaller`
+- **Category**: Tools & Privacy
+- **Description**: Patched Truecaller by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=truecaller
+- **Applied Patches**:
+  - Disable ads
+  - Disable telemetry
+  - Disable update prompts
+  - Enable Premium
+  - Hide Premium tab
+  - Hide Scam feed
+  - *...and 4 more patches*
+- **Direct Download Assets**:
+  - [truecaller-sda-v26.40.5-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.40.5/truecaller-sda-v26.40.5-arm64-v8a.apk)
+  - [truecaller-sda-v26.40.5-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.40.5/truecaller-sda-v26.40.5-arm-v7a.apk)
+
+## 122. Tubi (v10.36.5000)
+- **App ID**: `tubi`
+- **Category**: Media & Video
+- **Description**: Patched Tubi by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=tubi
+- **Applied Patches**:
+  - Skip ads
+- **Direct Download Assets**:
+  - [tubi-sda-v10.36.5000-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v10.36.5000/tubi-sda-v10.36.5000-universal.apk)
+
+## 123. Tumblr (v45.8.0.110)
+- **App ID**: `tumblr`
+- **Category**: Tools & Privacy
+- **Description**: Patched Tumblr by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=tumblr
+- **Applied Patches**:
+  - Disable Tumblr TV 
+  - Disable ad-free banner 
+  - Disable blog notification reminder 
+  - Disable gift message popup 
+  - Disable in-app update 
+  - Disable screenshot sharing 
+  - *...and 2 more patches*
+- **Direct Download Assets**:
+  - [tumblr-sda-v45.8.0.110-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v45.8.0.110/tumblr-sda-v45.8.0.110-arm64-v8a.apk)
+  - [tumblr-sda-v45.8.0.110-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v45.8.0.110/tumblr-sda-v45.8.0.110-arm-v7a.apk)
+
+## 124. Twitch (v13.0.0.2)
+- **App ID**: `twitch`
+- **Category**: Media & Video
+- **Description**: Patched Twitch by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=twitch
+- **Applied Patches**:
+  - Block TV ads
+- **Direct Download Assets**:
+  - [twitch-sda-v13.0.0.2-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v13.0.0.2/twitch-sda-v13.0.0.2-universal.apk)
+
+## 125. Twitter (v12.35.0-prod.01)
+- **App ID**: `twitter`
+- **Category**: Social & News
+- **Description**: Patched Twitter by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=twitter
+- **Applied Patches**:
+  - NewX: Classic inline action spacing
+  - NewX: Crash logs
+  - NewX: Custom font
+  - NewX: Custom sharing domain
+  - NewX: Customize drawer items
+  - NewX: Customize inline actions
+  - *...and 37 more patches*
+- **Direct Download Assets**:
+  - [twitter-sda-v12.35.0-prod.01-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.35.0-prod.01/twitter-sda-v12.35.0-prod.01-arm64-v8a.apk)
+  - [twitter-sda-v12.35.0-prod.01-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v12.35.0-prod.01/twitter-sda-v12.35.0-prod.01-arm-v7a.apk)
+
+## 126. Ventusky (v53.1)
+- **App ID**: `ventusky`
+- **Category**: Tools & Privacy
+- **Description**: Patched Ventusky by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=ventusky
+- **Applied Patches**:
+  - Enable Premium
+- **Direct Download Assets**:
+  - [ventusky-sda-v53.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v53.1/ventusky-sda-v53.1-arm64-v8a.apk)
+  - [ventusky-sda-v53.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v53.1/ventusky-sda-v53.1-arm-v7a.apk)
+
+## 127. Viber (v26.1.2.0)
+- **App ID**: `viber`
+- **Category**: Tools & Privacy
+- **Description**: Patched Viber by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=viber
+- **Applied Patches**:
+  - Hide Ads
+- **Direct Download Assets**:
+  - [viber-sda-v26.1.2.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.1.2.0/viber-sda-v26.1.2.0-arm64-v8a.apk)
+  - [viber-sda-v26.1.2.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v26.1.2.0/viber-sda-v26.1.2.0-arm-v7a.apk)
+
+## 128. ViX (v4.47.2_tv)
+- **App ID**: `vix`
+- **Category**: Media & Video
+- **Description**: Patched ViX by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=vix
+- **Applied Patches**:
+  - Override certificate pinning
+  - Skip ads
+- **Direct Download Assets**:
+  - [vix-sda-v4.47.2_tv-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.47.2_tv/vix-sda-v4.47.2_tv-universal.apk)
+
+## 129. VPNify (v2.2.9)
+- **App ID**: `vpnify`
+- **Category**: Tools & Privacy
+- **Description**: Patched VPNify by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=vpnify
+- **Applied Patches**:
+  - Unlock Premium 
+- **Direct Download Assets**:
+  - [vpnify-sda-v2.2.9-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.2.9/vpnify-sda-v2.2.9-arm64-v8a.apk)
+  - [vpnify-sda-v2.2.9-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.2.9/vpnify-sda-v2.2.9-arm-v7a.apk)
+
+## 130. Wallcraft (v3.61.01)
+- **App ID**: `wallcraft`
+- **Category**: Tools & Privacy
+- **Description**: Patched Wallcraft by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=wallcraft
+- **Applied Patches**:
+  - Enable Premium
+- **Direct Download Assets**:
+  - [wallcraft-sda-v3.61.01-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.61.01/wallcraft-sda-v3.61.01-arm64-v8a.apk)
+  - [wallcraft-sda-v3.61.01-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v3.61.01/wallcraft-sda-v3.61.01-arm-v7a.apk)
+
+## 131. Windscribe VPN (v4.3.2360)
+- **App ID**: `windscribevpn`
+- **Category**: Tools & Privacy
+- **Description**: Patched Windscribe VPN by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=windscribevpn
+- **Applied Patches**:
+  - Unlock Premium
+- **Direct Download Assets**:
+  - [windscribevpn-sda-v4.3.2360-universal.apk (UNIVERSAL)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v4.3.2360/windscribevpn-sda-v4.3.2360-universal.apk)
+
+## 132. WPS Office (v18.24)
+- **App ID**: `wpsoffice`
+- **Category**: Tools & Privacy
+- **Description**: Patched WPS Office by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=wpsoffice
+- **Applied Patches**:
+  - Enable Pro
+- **Direct Download Assets**:
+  - [wpsoffice-sda-v18.24-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v18.24/wpsoffice-sda-v18.24-arm64-v8a.apk)
+  - [wpsoffice-sda-v18.24-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v18.24/wpsoffice-sda-v18.24-arm-v7a.apk)
+
+## 133. Xodo (v11.2.0)
+- **App ID**: `xodo`
+- **Category**: Tools & Privacy
+- **Description**: Patched Xodo by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=xodo
+- **Applied Patches**:
+  - Enable Pro
+- **Direct Download Assets**:
+  - [xodo-sda-v11.2.0-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.2.0/xodo-sda-v11.2.0-arm64-v8a.apk)
+  - [xodo-sda-v11.2.0-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v11.2.0/xodo-sda-v11.2.0-arm-v7a.apk)
+
+## 134. XRecorder (v2.5.1.1)
+- **App ID**: `xrecorder`
+- **Category**: Tools & Privacy
+- **Description**: Patched XRecorder by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=xrecorder
+- **Applied Patches**:
+  - Enable Pro
+- **Direct Download Assets**:
+  - [xrecorder-sda-v2.5.1.1-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.1.1/xrecorder-sda-v2.5.1.1-arm64-v8a.apk)
+  - [xrecorder-sda-v2.5.1.1-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v2.5.1.1/xrecorder-sda-v2.5.1.1-arm-v7a.apk)
+
+## 135. YouTube (v21.20.405)
+- **App ID**: `youtube`
+- **Category**: Media & Video
+- **Description**: Patched YouTube by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=youtube
+- **Applied Patches**:
+  - AI channel filter
+  - Add to queue
+  - Ambient mode
+  - App refresh rate
+  - Bypass image region restrictions
+  - Bypass link redirects
+  - *...and 93 more patches*
+- **Direct Download Assets**:
+  - [youtube-sda-v21.20.405-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.20.405/youtube-sda-v21.20.405-arm64-v8a.apk)
+  - [youtube-sda-v21.20.405-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v21.20.405/youtube-sda-v21.20.405-arm-v7a.apk)
+
+## 136. YouTube Music (v9.20.53)
+- **App ID**: `youtubemusic`
+- **Category**: Music & Audio
+- **Description**: Patched YouTube Music by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- **Catalog Link**: https://sudarsansda.github.io/SDA-Store/?app=youtubemusic
+- **Applied Patches**:
+  - Android Auto
+  - App refresh rate
+  - Change header
+  - Change miniplayer color
+  - Change start page
+  - Check watch history domain name resolution
+  - *...and 41 more patches*
+- **Direct Download Assets**:
+  - [youtubemusic-sda-v9.20.53-arm64-v8a.apk (ARM64)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.20.53/youtubemusic-sda-v9.20.53-arm64-v8a.apk)
+  - [youtubemusic-sda-v9.20.53-arm-v7a.apk (ARM)](https://github.com/sudarsanSDA/SDA-Store/releases/download/v9.20.53/youtubemusic-sda-v9.20.53-arm-v7a.apk)

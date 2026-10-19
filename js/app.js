@@ -93,6 +93,54 @@
         setupInAppBrowserAlert();
         setupEventListeners();
         await loadAppsData();
+        handleUrlParams();
+    }
+
+    /**
+     * Handle URL Deep Links (?app=..., ?search=..., ?category=...)
+     * Enables direct search engine indexing and link-sharing into specific apps
+     */
+    function handleUrlParams() {
+        try {
+            const params = new URLSearchParams(window.location.search);
+            const appId = params.get('app');
+            const search = params.get('search');
+            const category = params.get('category');
+
+            if (category && DOM.categoryPills) {
+                const targetPill = Array.from(DOM.categoryPills.querySelectorAll('.category-pill')).find(
+                    p => (p.dataset.category || '').toLowerCase() === category.toLowerCase()
+                );
+                if (targetPill) {
+                    DOM.categoryPills.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
+                    targetPill.classList.add('active');
+                    currentCategory = targetPill.dataset.category;
+                    renderApps();
+                }
+            }
+
+            if (search && DOM.searchInput) {
+                DOM.searchInput.value = search;
+                searchQuery = search;
+                if (DOM.searchClearBtn) DOM.searchClearBtn.classList.remove('hidden');
+                renderApps();
+                const catalogEl = document.getElementById('catalog');
+                if (catalogEl) {
+                    catalogEl.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+
+            if (appId) {
+                const targetApp = appsData.find(a => (a.id || '').toLowerCase() === appId.toLowerCase());
+                if (targetApp) {
+                    setTimeout(() => {
+                        openPatchModal(targetApp.id);
+                    }, 200);
+                }
+            }
+        } catch (e) {
+            console.warn('URL params parsing failed:', e);
+        }
     }
 
     /**

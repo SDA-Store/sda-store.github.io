@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "SDA Store",
+  "name_for_model": "sda_store",
+  "description_for_human": "Browse and download curated, ad-free, non-root patched Android APKs.",
+  "description_for_model": "Plugin and manifest for searching, exploring, and retrieving patched Android APK metadata, download links, and patch lists from SDA Store.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://sudarsansda.github.io/SDA-Store/data/apps.json"
+  },
+  "logo_url": "https://sudarsansda.github.io/SDA-Store/assets/icons/moviebox.svg",
+  "contact_email": "sudarsan@sda.store",
+  "legal_info_url": "https://sudarsansda.github.io/SDA-Store/#utilities"
+}
