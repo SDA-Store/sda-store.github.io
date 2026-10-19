@@ -59,7 +59,18 @@
         reportDeviceInput: document.getElementById('reportDeviceInput'),
         reportDetailsInput: document.getElementById('reportDetailsInput'),
         reportSubmitGithubBtn: document.getElementById('reportSubmitGithubBtn'),
-        reportCopyTemplateBtn: document.getElementById('reportCopyTemplateBtn')
+        reportCopyTemplateBtn: document.getElementById('reportCopyTemplateBtn'),
+
+        // Request App Modal
+        requestModal: document.getElementById('requestModal'),
+        requestAppBtn: document.getElementById('requestAppBtn'),
+        footerRequestLink: document.getElementById('footerRequestLink'),
+        requestModalCloseBtn: document.getElementById('requestModalCloseBtn'),
+        reqAppNameInput: document.getElementById('reqAppNameInput'),
+        reqSourceLinkInput: document.getElementById('reqSourceLinkInput'),
+        reqFeaturesInput: document.getElementById('reqFeaturesInput'),
+        reqSubmitGithubBtn: document.getElementById('reqSubmitGithubBtn'),
+        reqCopyTemplateBtn: document.getElementById('reqCopyTemplateBtn')
     };
 
     /**
@@ -379,6 +390,7 @@
             if (e.key === 'Escape') {
                 closePatchModal();
                 closeReportModal();
+                closeRequestModal();
                 DOM.obtainiumModal.classList.add('hidden');
                 document.body.style.overflow = '';
             }
@@ -493,6 +505,31 @@
         if (DOM.reportCopyTemplateBtn) {
             DOM.reportCopyTemplateBtn.addEventListener('click', copyReportTemplate);
         }
+
+        // Request App Modal Listeners
+        if (DOM.requestAppBtn) {
+            DOM.requestAppBtn.addEventListener('click', openRequestModal);
+        }
+        if (DOM.footerRequestLink) {
+            DOM.footerRequestLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                openRequestModal();
+            });
+        }
+        if (DOM.requestModalCloseBtn) {
+            DOM.requestModalCloseBtn.addEventListener('click', closeRequestModal);
+        }
+        if (DOM.requestModal) {
+            DOM.requestModal.addEventListener('click', (e) => {
+                if (e.target === DOM.requestModal) closeRequestModal();
+            });
+        }
+        if (DOM.reqSubmitGithubBtn) {
+            DOM.reqSubmitGithubBtn.addEventListener('click', submitRequestToGithub);
+        }
+        if (DOM.reqCopyTemplateBtn) {
+            DOM.reqCopyTemplateBtn.addEventListener('click', copyRequestTemplate);
+        }
     }
 
     /**
@@ -564,6 +601,68 @@
     }
 
     /**
+     * Open & Close Request Modal
+     */
+    function openRequestModal() {
+        if (!DOM.requestModal) return;
+        DOM.requestModal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+        setTimeout(() => {
+            if (DOM.reqAppNameInput) DOM.reqAppNameInput.focus();
+        }, 100);
+    }
+
+    function closeRequestModal() {
+        if (!DOM.requestModal) return;
+        DOM.requestModal.classList.add('hidden');
+        document.body.style.overflow = '';
+    }
+
+    /**
+     * Submit App Request to GitHub Issues
+     */
+    function submitRequestToGithub() {
+        const appName = (DOM.reqAppNameInput && DOM.reqAppNameInput.value.trim()) || '';
+        const sourceLink = (DOM.reqSourceLinkInput && DOM.reqSourceLinkInput.value.trim()) || '';
+        const features = (DOM.reqFeaturesInput && DOM.reqFeaturesInput.value.trim()) || '';
+
+        if (!appName) {
+            showToast('Please enter an application name');
+            if (DOM.reqAppNameInput) DOM.reqAppNameInput.focus();
+            return;
+        }
+
+        const title = `[Request]: ${appName}`;
+        const body = `### Requested Application\n${appName}\n\n### Play Store or APK Source Link\n${sourceLink || 'Not provided'}\n\n### Desired Features / Patches\n${features || 'Clean ad-free / unlocked build'}\n\n---\n*Requested via SDA Store Web Catalog*`;
+
+        const issueUrl = `https://github.com/sudarsanSDA/SDA-Store/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+        window.open(issueUrl, '_blank', 'noopener,noreferrer');
+    }
+
+    /**
+     * Copy App Request Template to Clipboard
+     */
+    function copyRequestTemplate() {
+        const appName = (DOM.reqAppNameInput && DOM.reqAppNameInput.value.trim()) || '';
+        const sourceLink = (DOM.reqSourceLinkInput && DOM.reqSourceLinkInput.value.trim()) || '';
+        const features = (DOM.reqFeaturesInput && DOM.reqFeaturesInput.value.trim()) || '';
+
+        if (!appName) {
+            showToast('Please enter an application name');
+            if (DOM.reqAppNameInput) DOM.reqAppNameInput.focus();
+            return;
+        }
+
+        const text = `**SDA Store Application Request**\n• Application: ${appName}\n• Play Store / APK Link: ${sourceLink || 'Not provided'}\n• Desired Patches:\n${features || 'Clean ad-free / unlocked build'}`;
+
+        navigator.clipboard.writeText(text).then(() => {
+            showToast('App request copied to clipboard!');
+        }).catch(() => {
+            showToast('Failed to copy');
+        });
+    }
+
+    /**
      * Show Toast Notification Pill
      */
     function showToast(message) {
@@ -594,7 +693,8 @@
     // Expose for inline handlers
     window.sdaStore = {
         openPatchModal,
-        openReportModal
+        openReportModal,
+        openRequestModal
     };
 
     // Auto-init on DOMContentLoaded
