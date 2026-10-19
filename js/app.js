@@ -47,7 +47,19 @@
         obtainiumGuideCardBtn: document.getElementById('obtainiumGuideCardBtn'),
         obtainiumModal: document.getElementById('obtainiumModal'),
         obtainiumModalCloseBtn: document.getElementById('obtainiumModalCloseBtn'),
-        obtainiumGotItBtn: document.getElementById('obtainiumGotItBtn')
+        obtainiumGotItBtn: document.getElementById('obtainiumGotItBtn'),
+
+        // Report Issue Modal
+        reportModal: document.getElementById('reportModal'),
+        reportIssueBtn: document.getElementById('reportIssueBtn'),
+        footerReportLink: document.getElementById('footerReportLink'),
+        reportModalCloseBtn: document.getElementById('reportModalCloseBtn'),
+        reportAppSelect: document.getElementById('reportAppSelect'),
+        reportCategorySelect: document.getElementById('reportCategorySelect'),
+        reportDeviceInput: document.getElementById('reportDeviceInput'),
+        reportDetailsInput: document.getElementById('reportDetailsInput'),
+        reportSubmitGithubBtn: document.getElementById('reportSubmitGithubBtn'),
+        reportCopyTemplateBtn: document.getElementById('reportCopyTemplateBtn')
     };
 
     /**
@@ -97,6 +109,7 @@
             if (!response.ok) throw new Error('Network error');
             const data = await response.json();
             appsData = data.apps || [];
+            populateReportAppOptions();
             renderApps();
         } catch (err) {
             console.warn('Could not load data/apps.json via fetch:', err);
@@ -365,6 +378,7 @@
             }
             if (e.key === 'Escape') {
                 closePatchModal();
+                closeReportModal();
                 DOM.obtainiumModal.classList.add('hidden');
                 document.body.style.overflow = '';
             }
@@ -454,6 +468,99 @@
                 document.body.style.overflow = '';
             }
         });
+
+        // Report Issue Modal Listeners
+        if (DOM.reportIssueBtn) {
+            DOM.reportIssueBtn.addEventListener('click', () => openReportModal());
+        }
+        if (DOM.footerReportLink) {
+            DOM.footerReportLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                openReportModal();
+            });
+        }
+        if (DOM.reportModalCloseBtn) {
+            DOM.reportModalCloseBtn.addEventListener('click', closeReportModal);
+        }
+        if (DOM.reportModal) {
+            DOM.reportModal.addEventListener('click', (e) => {
+                if (e.target === DOM.reportModal) closeReportModal();
+            });
+        }
+        if (DOM.reportSubmitGithubBtn) {
+            DOM.reportSubmitGithubBtn.addEventListener('click', submitReportToGithub);
+        }
+        if (DOM.reportCopyTemplateBtn) {
+            DOM.reportCopyTemplateBtn.addEventListener('click', copyReportTemplate);
+        }
+    }
+
+    /**
+     * Populate Report Issue App Dropdown
+     */
+    function populateReportAppOptions() {
+        if (!DOM.reportAppSelect) return;
+        const currentVal = DOM.reportAppSelect.value;
+        const options = ['<option value="General / Store Issue">General / Store Issue</option>'];
+        
+        appsData.forEach(app => {
+            options.push(`<option value="${escapeHtml(app.name)}">${escapeHtml(app.name)}</option>`);
+        });
+
+        DOM.reportAppSelect.innerHTML = options.join('');
+        if (currentVal) DOM.reportAppSelect.value = currentVal;
+    }
+
+    /**
+     * Open & Close Report Modal
+     */
+    function openReportModal(preselectedApp = '') {
+        if (!DOM.reportModal) return;
+        if (preselectedApp && DOM.reportAppSelect) {
+            DOM.reportAppSelect.value = preselectedApp;
+        }
+        DOM.reportModal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeReportModal() {
+        if (!DOM.reportModal) return;
+        DOM.reportModal.classList.add('hidden');
+        document.body.style.overflow = '';
+    }
+
+    /**
+     * Submit Report to GitHub Issues (Pre-populated)
+     */
+    function submitReportToGithub() {
+        const app = DOM.reportAppSelect ? DOM.reportAppSelect.value : 'General';
+        const category = DOM.reportCategorySelect ? DOM.reportCategorySelect.value : 'Bug';
+        const device = (DOM.reportDeviceInput && DOM.reportDeviceInput.value.trim()) || 'Not specified';
+        const details = (DOM.reportDetailsInput && DOM.reportDetailsInput.value.trim()) || 'No details provided.';
+
+        const title = `[Bug]: ${app} - ${category}`;
+        const body = `### Affected Application\n${app}\n\n### Issue Category\n${category}\n\n### Device & Android OS\n${device}\n\n### Problem Description\n${details}\n\n---\n*Reported via SDA Store Web Catalog*`;
+
+        const issueUrl = `https://github.com/sudarsanSDA/SDA-Store/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+        window.open(issueUrl, '_blank', 'noopener,noreferrer');
+    }
+
+    /**
+     * Copy Issue Report Template to Clipboard
+     */
+    function copyReportTemplate() {
+        const app = DOM.reportAppSelect ? DOM.reportAppSelect.value : 'General';
+        const category = DOM.reportCategorySelect ? DOM.reportCategorySelect.value : 'Bug';
+        const device = (DOM.reportDeviceInput && DOM.reportDeviceInput.value.trim()) || 'Not specified';
+        const details = (DOM.reportDetailsInput && DOM.reportDetailsInput.value.trim()) || 'No details provided.';
+
+        const text = `**SDA Store Issue Report**\n• Application: ${app}\n• Category: ${category}\n• Device / OS: ${device}\n• Details:\n${details}`;
+
+        navigator.clipboard.writeText(text).then(() => {
+            showToast('Issue report copied to clipboard!');
+        }).catch(() => {
+            showToast('Failed to copy');
+        });
     }
 
     /**
@@ -486,7 +593,8 @@
 
     // Expose for inline handlers
     window.sdaStore = {
-        openPatchModal
+        openPatchModal,
+        openReportModal
     };
 
     // Auto-init on DOMContentLoaded
