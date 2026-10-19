@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="mb-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#mb-grad)"/>
+  <!-- Film Play Icon -->
+  <path d="M38 28 C36.3 28 35 29.3 35 31 L35 69 C35 70.7 36.3 72 38 72 L72 72 C73.7 72 75 70.7 75 69 L75 31 C75 29.3 73.7 28 72 28 Z" fill="#064e3b" opacity="0.4"/>
+  <path d="M42 34 L68 50 L42 66 Z" fill="#ffffff" filter="url(#shadow)"/>
+  <circle cx="70" cy="30" r="4" fill="#6ee7b7"/>
+</svg>

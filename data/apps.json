@@ -12,7 +12,7 @@
       "version": "5",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/tag/v5",
       "publishedAt": "2026-10-19T10:29:49Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/plex.svg",
+      "icon": "assets/icons/moviebox.svg",
       "description": "Patched MovieBox with ad-removal, VIP streaming unlock, download enable, and UI decluttering.",
       "patchCount": 4,
       "patches": [
@@ -39,7 +39,7 @@
       "version": "2.9.5",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T18:07:41Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/acalendar.svg",
+      "icon": "assets/icons/acalendar.png",
       "description": "Patched aCalendar by hxreborn with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -70,7 +70,7 @@
       "version": "21.1.15-3-rc",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/accuweather.svg",
+      "icon": "assets/icons/accuweather.png",
       "description": "Patched AccuWeather by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -101,7 +101,7 @@
       "version": "4.14.68",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/adguard-home.svg",
+      "icon": "assets/icons/adguard.svg",
       "description": "Patched AdGuard by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -132,7 +132,7 @@
       "version": "26.7.1.47181",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T14:33:19Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/adobeacrobat.svg",
+      "icon": "assets/icons/adobeacrobat.png",
       "description": "Patched Adobe Acrobat by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -156,7 +156,7 @@
       "version": "11.5.31",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/adobelightroom.svg",
+      "icon": "assets/icons/adobelightroom.png",
       "description": "Patched Adobe Lightroom by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -180,7 +180,7 @@
       "version": "26.08.01",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/adobescan.svg",
+      "icon": "assets/icons/adobescan.png",
       "description": "Patched Adobe Scan by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -204,7 +204,7 @@
       "version": "8.162.8",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T08:45:24Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/aliexpress.svg",
+      "icon": "assets/icons/aliexpress.png",
       "description": "Patched AliExpress by Quantro100 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 10,
       "patches": [
@@ -244,7 +244,7 @@
       "version": "32.18.0.300",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/amazonindia.svg",
+      "icon": "assets/icons/amazonindia.png",
       "description": "Patched Amazon India by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 8,
       "patches": [
@@ -282,7 +282,7 @@
       "version": "32.18.0.100",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/amazonshopping.svg",
+      "icon": "assets/icons/amazonshopping.png",
       "description": "Patched Amazon Shopping by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 8,
       "patches": [
@@ -320,7 +320,7 @@
       "version": "12.3",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-21T20:18:10Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/appsales.svg",
+      "icon": "assets/icons/appsales.png",
       "description": "Patched AppSales by Entree3k with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -351,7 +351,7 @@
       "version": "0.99",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T14:33:19Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/at4klauncher.svg",
+      "icon": "assets/icons/at4klauncher.png",
       "description": "Patched AT4K Launcher by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -375,7 +375,7 @@
       "version": "1.3.2",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-10T20:35:14Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/atvtools.svg",
+      "icon": "assets/icons/atvtools.png",
       "description": "Patched atvTools by hxreborn with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -406,7 +406,7 @@
       "version": "1.51.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T13:08:23Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/automate.svg",
+      "icon": "assets/icons/automate.png",
       "description": "Patched Automate by BholeyKaBhakt with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -437,7 +437,7 @@
       "version": "7.5.10",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T13:08:23Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/autosync.svg",
+      "icon": "assets/icons/autosync.png",
       "description": "Patched Autosync by BholeyKaBhakt with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -461,7 +461,7 @@
       "version": "6.1.2",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T13:08:23Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/backdrops.svg",
+      "icon": "assets/icons/backdrops.png",
       "description": "Patched Backdrops by BholeyKaBhakt with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -492,7 +492,7 @@
       "version": "2.5.0.6",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T14:33:19Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/batteryguru.svg",
+      "icon": "assets/icons/batteryguru.png",
       "description": "Patched Battery Guru by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -523,7 +523,7 @@
       "version": "0.11.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/betamaniac.svg",
+      "icon": "assets/icons/betamaniac.png",
       "description": "Patched Beta Maniac by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -554,7 +554,7 @@
       "version": "6.23.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/bluetoothkeyboardmouse.svg",
+      "icon": "assets/icons/bluetoothkeyboardmouse.svg",
       "description": "Patched Bluetooth Keyboard & Mouse by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -585,7 +585,7 @@
       "version": "1.97.57",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-15T23:03:01Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/brave.svg",
+      "icon": "assets/icons/bravebrowser.svg",
       "description": "Patched Brave Browser by kveld9 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 14,
       "patches": [
@@ -629,7 +629,7 @@
       "version": "2.41.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-16T09:44:16Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/byair.svg",
+      "icon": "assets/icons/byair.png",
       "description": "Patched ByAir by franticg33k with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -661,7 +661,7 @@
       "version": "6.102",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/calm.svg",
+      "icon": "assets/icons/calm.png",
       "description": "Patched Calm by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -692,7 +692,7 @@
       "version": "11.8.1.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-09T18:48:18Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/caloriecounter.svg",
+      "icon": "assets/icons/caloriecounter.png",
       "description": "Patched Calorie Counter by kondratjev with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 3,
       "patches": [
@@ -725,7 +725,7 @@
       "version": "7.20.0.2606230000",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/camscanner.svg",
+      "icon": "assets/icons/camscanner.png",
       "description": "Patched CamScanner by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -757,7 +757,7 @@
       "version": "9.0.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T16:16:27Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/capcut.svg",
+      "icon": "assets/icons/capcut.png",
       "description": "Patched CapCut by riky with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -789,7 +789,7 @@
       "version": "4.10.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-29T03:19:45Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/chesscom.svg",
+      "icon": "assets/icons/chesscom.png",
       "description": "Patched Chess.com by Prathxm with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 7,
       "patches": [
@@ -826,7 +826,7 @@
       "version": "11.60",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/citymapper.svg",
+      "icon": "assets/icons/citymapper.png",
       "description": "Patched Citymapper by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -857,7 +857,7 @@
       "version": "6.38.9",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/cloudflarewarp.svg",
+      "icon": "assets/icons/cloudflarewarp.png",
       "description": "Patched Cloudflare WARP by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -889,7 +889,7 @@
       "version": "16.02.05",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T11:26:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/cricbuzz.svg",
+      "icon": "assets/icons/cricbuzz.png",
       "description": "Patched Cricbuzz by Paresh with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -921,7 +921,7 @@
       "version": "349.9-Stable",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T22:24:47Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/discord.svg",
+      "icon": "assets/icons/discord.svg",
       "description": "Patched Discord by revenge with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 0,
       "patches": [
@@ -956,7 +956,7 @@
       "version": "26.16.0+rc2-2026.09.08",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T21:12:34Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/disney.svg",
+      "icon": "assets/icons/disney.png",
       "description": "Patched Disney+ by ajstrick81 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -980,7 +980,7 @@
       "version": "6.98.4",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/duolingo.svg",
+      "icon": "assets/icons/duolingo.svg",
       "description": "Patched Duolingo by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1011,7 +1011,7 @@
       "version": "4.2026.04.05.1300",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T11:26:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/eyecon.svg",
+      "icon": "assets/icons/eyecon.png",
       "description": "Patched Eyecon by Paresh with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1042,7 +1042,7 @@
       "version": "1.23.2",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-09T15:50:36Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/fdroid.svg",
+      "icon": "assets/icons/fdroid.png",
       "description": "Patched F-Droid by patchweaver with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1073,7 +1073,7 @@
       "version": "583.0.0.39.55",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-19T04:41:01Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/facebook.svg",
+      "icon": "assets/icons/facebook.svg",
       "description": "Patched Facebook by HushFacebook with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 90,
       "patches": [
@@ -1193,7 +1193,7 @@
       "version": "1.2338",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-11T11:20:50Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/fairemail.svg",
+      "icon": "assets/icons/fairemail.png",
       "description": "Patched FairEmail by heval99 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1224,7 +1224,7 @@
       "version": "12.12.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T11:26:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/fing.svg",
+      "icon": "assets/icons/fing.png",
       "description": "Patched Fing by Paresh with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1255,7 +1255,7 @@
       "version": "9.15",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-12T12:58:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/flipkart.svg",
+      "icon": "assets/icons/flipkart.png",
       "description": "Patched Flipkart by debakarr with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1286,7 +1286,7 @@
       "version": "4.12.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-20T03:21:06Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/foldersync.svg",
+      "icon": "assets/icons/foldersync.png",
       "description": "Patched FolderSync by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1317,7 +1317,7 @@
       "version": "18.0.3.954559732-release-arm64-v8a",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-16T13:21:12Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/gboard.svg",
+      "icon": "assets/icons/gboard.png",
       "description": "Patched Gboard by jasonwu1994 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 43,
       "patches": [
@@ -1383,7 +1383,7 @@
       "version": "1.271.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/github.svg",
+      "icon": "assets/icons/github.svg",
       "description": "Patched GitHub by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1414,7 +1414,7 @@
       "version": "2.75.0Build3",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/goodreads.svg",
+      "icon": "assets/icons/goodreads.png",
       "description": "Patched Goodreads by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1445,7 +1445,7 @@
       "version": "26.36.04.973607363",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-maps.svg",
+      "icon": "assets/icons/googlemaps.svg",
       "description": "Patched Google Maps by bearinmindcat with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 27,
       "patches": [
@@ -1502,7 +1502,7 @@
       "version": "5.163.0.947799485",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T08:45:24Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/googlenews.svg",
+      "icon": "assets/icons/googlenews.png",
       "description": "Patched Google News by docbt with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -1534,7 +1534,7 @@
       "version": "161.0.726587057",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T14:33:19Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/googlephone.svg",
+      "icon": "assets/icons/googlephone.png",
       "description": "Patched Google Phone by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1565,7 +1565,7 @@
       "version": "7.97.0.997578476",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-17T08:59:12Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-photos.svg",
+      "icon": "assets/icons/googlephotos.svg",
       "description": "Patched Google Photos by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 6,
       "patches": [
@@ -1601,7 +1601,7 @@
       "version": "4.2.20260823.982886211",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T11:16:14Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/googlerecorder.svg",
+      "icon": "assets/icons/googlerecorder.png",
       "description": "Patched Google Recorder by DeVanced with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1625,7 +1625,7 @@
       "version": "7.9.0.61",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T21:12:34Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/hbomax.svg",
+      "icon": "assets/icons/hbomax.png",
       "description": "Patched HBO Max by ajstrick81 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -1650,7 +1650,7 @@
       "version": "7.11.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/hellochinese.svg",
+      "icon": "assets/icons/hellochinese.png",
       "description": "Patched HelloChinese by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1674,7 +1674,7 @@
       "version": "31.6.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T11:26:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/hermit.svg",
+      "icon": "assets/icons/hermit.png",
       "description": "Patched Hermit by Lain with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1705,7 +1705,7 @@
       "version": "AARCH64_1.248.400",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-16T03:54:34Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/holavpn.svg",
+      "icon": "assets/icons/holavpn.png",
       "description": "Patched Hola VPN by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1729,7 +1729,7 @@
       "version": "14.1.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-27T17:50:49Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/ibispaintx.svg",
+      "icon": "assets/icons/ibispaintx.png",
       "description": "Patched Ibis Paint X by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1753,7 +1753,7 @@
       "version": "1.21.0-release",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/iconpacker.svg",
+      "icon": "assets/icons/iconpacker.png",
       "description": "Patched Icon Packer by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1784,7 +1784,7 @@
       "version": "9.3.4",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T10:42:38Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/imdb.svg",
+      "icon": "assets/icons/imdb.png",
       "description": "Patched IMDb by adobo with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1808,7 +1808,7 @@
       "version": "6.12.18",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T05:52:20Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/inshorts.svg",
+      "icon": "assets/icons/inshorts.png",
       "description": "Patched Inshorts by BholeyKaBhakt with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -1840,7 +1840,7 @@
       "version": "2.214.1539",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T14:33:19Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/inshot.svg",
+      "icon": "assets/icons/inshot.png",
       "description": "Patched InShot by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -1871,7 +1871,7 @@
       "version": "451.0.0.53.80",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-19T04:41:01Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/instagram.svg",
+      "icon": "assets/icons/instagram.svg",
       "description": "Patched Instagram by HushGram with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 108,
       "patches": [
@@ -2002,7 +2002,7 @@
       "version": "5.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T08:45:24Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/kinestop.svg",
+      "icon": "assets/icons/kinestop.png",
       "description": "Patched KineStop by ShaunTheSheep with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2033,7 +2033,7 @@
       "version": "2026.26.7",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T10:42:38Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/komoot.svg",
+      "icon": "assets/icons/komoot.png",
       "description": "Patched Komoot by brosssh with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2064,7 +2064,7 @@
       "version": "3.5.8",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T05:42:03Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/letterboxd.svg",
+      "icon": "assets/icons/letterboxd.png",
       "description": "Patched Letterboxd by mvaishak with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 5,
       "patches": [
@@ -2099,7 +2099,7 @@
       "version": "4.1.1261",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-16T19:45:57Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/linkedin.svg",
+      "icon": "assets/icons/linkedin.png",
       "description": "Patched LinkedIn by michii with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 11,
       "patches": [
@@ -2140,7 +2140,7 @@
       "version": "1.0.2.4",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T11:26:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/luminawallpapers.svg",
+      "icon": "assets/icons/luminawallpapers.png",
       "description": "Patched Lumina Wallpapers by Paresh with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2171,7 +2171,7 @@
       "version": "5.66.9",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/macrodroid.svg",
+      "icon": "assets/icons/macrodroid.png",
       "description": "Patched MacroDroid by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2202,7 +2202,7 @@
       "version": "4.5.1302097",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T10:42:38Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/medium.svg",
+      "icon": "assets/icons/medium.png",
       "description": "Patched Medium by bufferk with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2233,7 +2233,7 @@
       "version": "29.6",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-12T12:58:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/meesho.svg",
+      "icon": "assets/icons/meesho.png",
       "description": "Patched Meesho by debakarr with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2264,7 +2264,7 @@
       "version": "5.6.2",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/merriamwebsterdictionary.svg",
+      "icon": "assets/icons/merriamwebsterdictionary.png",
       "description": "Patched Merriam Webster Dictionary by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2295,7 +2295,7 @@
       "version": "583.0.0.29.95",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-19T04:41:01Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/facebook-messenger.svg",
+      "icon": "assets/icons/messenger.svg",
       "description": "Patched Messenger by HushMessenger with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 58,
       "patches": [
@@ -2376,7 +2376,7 @@
       "version": "152.0.4191.65",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-14T18:22:52Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/microsoft-edge.svg",
+      "icon": "assets/icons/microsoftedge.svg",
       "description": "Patched Microsoft Edge by quantavil with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 3,
       "patches": [
@@ -2409,7 +2409,7 @@
       "version": "16.0.19628.20008",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-21T03:38:24Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/microsoftlens.svg",
+      "icon": "assets/icons/microsoftlens.png",
       "description": "Patched Microsoft Lens by DeVanced with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2440,7 +2440,7 @@
       "version": "9.13.13.5",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-20T03:21:06Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/microsoftswiftkey.svg",
+      "icon": "assets/icons/microsoftswiftkey.png",
       "description": "Patched Microsoft Swiftkey by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -2472,7 +2472,7 @@
       "version": "4.11.1GF",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T14:33:19Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/moneymanager.svg",
+      "icon": "assets/icons/moneymanager.png",
       "description": "Patched Money Manager by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2503,7 +2503,7 @@
       "version": "10.5",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T13:08:23Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/moonreader.svg",
+      "icon": "assets/icons/moonreader.svg",
       "description": "Patched Moon+ Reader by binarymend with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -2535,7 +2535,7 @@
       "version": "4.1.1.2",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-17T07:27:12Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/myexpenses.svg",
+      "icon": "assets/icons/myexpenses.png",
       "description": "Patched My Expenses by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2566,7 +2566,7 @@
       "version": "26.31.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/myfitnesspal.svg",
+      "icon": "assets/icons/myfitnesspal.png",
       "description": "Patched MyFitnessPal by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2597,7 +2597,7 @@
       "version": "13.0.1build25028",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-17T18:58:34Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/netflix.svg",
+      "icon": "assets/icons/netflix.svg",
       "description": "Patched Netflix by ajstrick81 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 4,
       "patches": [
@@ -2624,7 +2624,7 @@
       "version": "1.16.7",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-21T20:54:41Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/niagaralauncher.svg",
+      "icon": "assets/icons/niagaralauncher.png",
       "description": "Patched Niagara Launcher by Entree3k with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2655,7 +2655,7 @@
       "version": "1.4.7",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/ninjavpn.svg",
+      "icon": "assets/icons/ninjavpn.svg",
       "description": "Patched Ninja VPN by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2679,7 +2679,7 @@
       "version": "88600",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/novalauncher.svg",
+      "icon": "assets/icons/novalauncher.png",
       "description": "Patched Nova Launcher by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2710,7 +2710,7 @@
       "version": "0.9.0-beta",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-09T10:46:22Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/nuvio.svg",
+      "icon": "assets/icons/nuvio.png",
       "description": "Patched Nuvio by liongalahad with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 6,
       "patches": [
@@ -2746,7 +2746,7 @@
       "version": "3.15.3",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-11T21:01:22Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/offlinegames.svg",
+      "icon": "assets/icons/offlinegames.png",
       "description": "Patched Offline Games by ggYasin with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 4,
       "patches": [
@@ -2780,7 +2780,7 @@
       "version": "2609.2",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/pandora.svg",
+      "icon": "assets/icons/pandora.png",
       "description": "Patched Pandora by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -2812,7 +2812,7 @@
       "version": "7.10.102",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T21:12:34Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/peacock.svg",
+      "icon": "assets/icons/peacock.png",
       "description": "Patched Peacock by ajstrick81 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -2837,7 +2837,7 @@
       "version": "8.48.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T11:16:14Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/photomath.svg",
+      "icon": "assets/icons/photomath.png",
       "description": "Patched Photomath by DeVanced with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 3,
       "patches": [
@@ -2870,7 +2870,7 @@
       "version": "30.7.8",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/picsart.svg",
+      "icon": "assets/icons/picsart.png",
       "description": "Patched PicsArt by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 3,
       "patches": [
@@ -2896,7 +2896,7 @@
       "version": "14.39.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T22:24:47Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/pinterest.svg",
+      "icon": "assets/icons/pinterest.png",
       "description": "Patched Pinterest by browzomje with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 34,
       "patches": [
@@ -2960,7 +2960,7 @@
       "version": "6.196.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T11:16:14Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/pixiv.svg",
+      "icon": "assets/icons/pixiv.png",
       "description": "Patched pixiv by DeVanced with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -2992,7 +2992,7 @@
       "version": "12.9.2.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T11:26:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/plusmessenger.svg",
+      "icon": "assets/icons/plusmessenger.png",
       "description": "Patched Plus Messenger by Paresh with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 11,
       "patches": [
@@ -3033,7 +3033,7 @@
       "version": "5.66.0-leanback",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T21:12:34Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/plutotv.svg",
+      "icon": "assets/icons/plutotv.png",
       "description": "Patched PlutoTV by ajstrick81 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 3,
       "patches": [
@@ -3059,7 +3059,7 @@
       "version": "8.16",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/pocketcasts.svg",
+      "icon": "assets/icons/pocketcasts.png",
       "description": "Patched Pocket Casts by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3090,7 +3090,7 @@
       "version": "2.3",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-10T20:35:14Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/pocketwhip.svg",
+      "icon": "assets/icons/pocketwhip.png",
       "description": "Patched Pocket Whip by hxreborn with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -3122,7 +3122,7 @@
       "version": "2026.10.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/podcastaddict.svg",
+      "icon": "assets/icons/podcastaddict.png",
       "description": "Patched Podcast Addict by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3153,7 +3153,7 @@
       "version": "build-1025-bundle-play",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T14:33:19Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/poweramp.svg",
+      "icon": "assets/icons/poweramp.png",
       "description": "Patched Poweramp by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3177,7 +3177,7 @@
       "version": "6.23.23+v15.5.0.70-armv7a",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T21:12:34Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/prime-video.svg",
+      "icon": "assets/icons/primevideo.svg",
       "description": "Patched Prime Video by ajstrick81 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 5,
       "patches": [
@@ -3205,7 +3205,7 @@
       "version": "7.11.4",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T16:16:27Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/protonmail.svg",
+      "icon": "assets/icons/protonmail.png",
       "description": "Patched Proton Mail by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -3237,7 +3237,7 @@
       "version": "1.41.4",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T09:19:58Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/protonpass.svg",
+      "icon": "assets/icons/protonpass.png",
       "description": "Patched Proton Pass by hxreborn with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 6,
       "patches": [
@@ -3273,7 +3273,7 @@
       "version": "5.20.74.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T09:19:58Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/protonvpn.svg",
+      "icon": "assets/icons/protonvpn.png",
       "description": "Patched Proton VPN by hxreborn with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 13,
       "patches": [
@@ -3316,7 +3316,7 @@
       "version": "7.23.build134",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/rar.svg",
+      "icon": "assets/icons/rar.png",
       "description": "Patched RAR by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3347,7 +3347,7 @@
       "version": "2026.24.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T16:16:27Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/reddit.svg",
+      "icon": "assets/icons/reddit.svg",
       "description": "Patched Reddit by Morphe with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 28,
       "patches": [
@@ -3405,7 +3405,7 @@
       "version": "3.14.5",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T14:33:19Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/rumble.svg",
+      "icon": "assets/icons/rumble.png",
       "description": "Patched Rumble by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3436,7 +3436,7 @@
       "version": "1.7.3-rc0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T11:26:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/sdmaid2se.svg",
+      "icon": "assets/icons/sdmaid2se.png",
       "description": "Patched SD Maid 2/SE by Paresh with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3467,7 +3467,7 @@
       "version": "1.4.22",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/sendfilestotv.svg",
+      "icon": "assets/icons/sendfilestotv.png",
       "description": "Patched Send Files to TV by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3498,7 +3498,7 @@
       "version": "3.72.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-10T20:35:14Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/showly.svg",
+      "icon": "assets/icons/showly.png",
       "description": "Patched Showly by hxreborn with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -3530,7 +3530,7 @@
       "version": "6.6build020",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/smartlauncher6.svg",
+      "icon": "assets/icons/smartlauncher6.png",
       "description": "Patched Smart Launcher 6 by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3561,7 +3561,7 @@
       "version": "26.09.28",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-16T17:19:07Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/sofascore.svg",
+      "icon": "assets/icons/sofascore.png",
       "description": "Patched Sofascore by heval99 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 5,
       "patches": [
@@ -3596,7 +3596,7 @@
       "version": "3.6.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/solidexplorer.svg",
+      "icon": "assets/icons/solidexplorer.png",
       "description": "Patched Solid Explorer by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3627,7 +3627,7 @@
       "version": "2026.08.26-release",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/soundcloud.svg",
+      "icon": "assets/icons/soundcloud.svg",
       "description": "Patched SoundCloud by kondratjev with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 3,
       "patches": [
@@ -3660,7 +3660,7 @@
       "version": "7.0.4",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T13:08:23Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/speedtest.svg",
+      "icon": "assets/icons/speedtest.png",
       "description": "Patched Speedtest by BholeyKaBhakt with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -3692,7 +3692,7 @@
       "version": "477.14",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T11:16:14Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/strava.svg",
+      "icon": "assets/icons/strava.png",
       "description": "Patched Strava by DeVanced with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 10,
       "patches": [
@@ -3732,7 +3732,7 @@
       "version": "5.1.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T04:59:55Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/swiftbackup.svg",
+      "icon": "assets/icons/swiftbackup.png",
       "description": "Patched Swift Backup by byehi98 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 4,
       "patches": [
@@ -3766,7 +3766,7 @@
       "version": "14.0.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T13:08:23Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/symfonium.svg",
+      "icon": "assets/icons/symfonium.png",
       "description": "Patched Symfonium by binarymend with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3797,7 +3797,7 @@
       "version": "13.0.3",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T08:22:43Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/telegram.svg",
+      "icon": "assets/icons/telegram.svg",
       "description": "Patched Telegram by HushTelegram with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 63,
       "patches": [
@@ -3890,7 +3890,7 @@
       "version": "4.26.5",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T09:19:58Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/terabox.svg",
+      "icon": "assets/icons/terabox.png",
       "description": "Patched TeraBox by hxreborn with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 6,
       "patches": [
@@ -3926,7 +3926,7 @@
       "version": "7.11.2",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/termius.svg",
+      "icon": "assets/icons/termius.png",
       "description": "Patched Termius by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3957,7 +3957,7 @@
       "version": "16.25.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/theweatherchannel.svg",
+      "icon": "assets/icons/theweatherchannel.png",
       "description": "Patched The Weather Channel by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -3988,7 +3988,7 @@
       "version": "451.0.0.51.80",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T18:07:41Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/threads.svg",
+      "icon": "assets/icons/threads.png",
       "description": "Patched Threads by HushThreads with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 19,
       "patches": [
@@ -4030,7 +4030,7 @@
       "version": "8.1.3.3",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T11:26:01Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/ticktick.svg",
+      "icon": "assets/icons/ticktick.png",
       "description": "Patched TickTick by Paresh with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 3,
       "patches": [
@@ -4063,7 +4063,7 @@
       "version": "47.1.4",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-16T22:46:53Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/tiktok.svg",
+      "icon": "assets/icons/tiktok.svg",
       "description": "Patched TikTok by hushfeed with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 134,
       "patches": [
@@ -4227,7 +4227,7 @@
       "version": "153.0.8010.36",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-01T06:37:10Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/titaniumbrowser.svg",
+      "icon": "assets/icons/titaniumbrowser.png",
       "description": "Patched Titanium Browser by dh6k with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -4259,7 +4259,7 @@
       "version": "12190",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T14:33:19Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/todoist.svg",
+      "icon": "assets/icons/todoist.png",
       "description": "Patched Todoist by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -4291,7 +4291,7 @@
       "version": "3.19.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-07T05:58:24Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/trakttv.svg",
+      "icon": "assets/icons/trakttv.png",
       "description": "Patched trakt.TV by IMXEren with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4322,7 +4322,7 @@
       "version": "26.40.5",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T22:20:42Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/truecaller.svg",
+      "icon": "assets/icons/truecaller.png",
       "description": "Patched Truecaller by heval99 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 10,
       "patches": [
@@ -4362,7 +4362,7 @@
       "version": "10.36.5000",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T21:12:34Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/tubi.svg",
+      "icon": "assets/icons/tubi.png",
       "description": "Patched Tubi by ajstrick81 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4386,7 +4386,7 @@
       "version": "45.8.0.110",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-20T03:21:06Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/tumblr.svg",
+      "icon": "assets/icons/tumblr.png",
       "description": "Patched Tumblr by hooman with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 8,
       "patches": [
@@ -4424,7 +4424,7 @@
       "version": "13.0.0.2",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T21:12:34Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/twitch.svg",
+      "icon": "assets/icons/twitch.svg",
       "description": "Patched Twitch by ajstrick81 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4448,7 +4448,7 @@
       "version": "12.35.0-prod.01",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T12:56:22Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/twitter.svg",
+      "icon": "assets/icons/twitter.svg",
       "description": "Patched Twitter by Piko with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 43,
       "patches": [
@@ -4521,7 +4521,7 @@
       "version": "53.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/ventusky.svg",
+      "icon": "assets/icons/ventusky.png",
       "description": "Patched Ventusky by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4552,7 +4552,7 @@
       "version": "26.1.2.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T11:16:14Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/viber.svg",
+      "icon": "assets/icons/viber.png",
       "description": "Patched Viber by DeVanced with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4583,7 +4583,7 @@
       "version": "4.47.2_tv",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-06T21:12:34Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/vix.svg",
+      "icon": "assets/icons/vix.png",
       "description": "Patched ViX by ajstrick81 with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -4608,7 +4608,7 @@
       "version": "2.2.9",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T13:08:23Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/vpnify.svg",
+      "icon": "assets/icons/vpnify.png",
       "description": "Patched VPNify by BholeyKaBhakt with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4639,7 +4639,7 @@
       "version": "3.61.01",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/wallcraft.svg",
+      "icon": "assets/icons/wallcraft.png",
       "description": "Patched Wallcraft by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4670,7 +4670,7 @@
       "version": "4.3.2360",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/windscribevpn.svg",
+      "icon": "assets/icons/windscribevpn.png",
       "description": "Patched Windscribe VPN by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4694,7 +4694,7 @@
       "version": "18.24",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/wpsoffice.svg",
+      "icon": "assets/icons/wpsoffice.png",
       "description": "Patched WPS Office by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4725,7 +4725,7 @@
       "version": "11.2.0",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/xodo.svg",
+      "icon": "assets/icons/xodo.png",
       "description": "Patched Xodo by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4756,7 +4756,7 @@
       "version": "2.5.1.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-04T20:07:08Z",
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/xrecorder.svg",
+      "icon": "assets/icons/xrecorder.png",
       "description": "Patched XRecorder by hoodles with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -4787,7 +4787,7 @@
       "version": "21.20.405",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T12:52:21Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/youtube.svg",
+      "icon": "assets/icons/youtube.svg",
       "description": "Patched YouTube by Morphe with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 99,
       "patches": [
@@ -4916,7 +4916,7 @@
       "version": "9.20.53",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-18T12:52:21Z",
-      "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/youtube-music.svg",
+      "icon": "assets/icons/youtubemusic.svg",
       "description": "Patched YouTube Music by Morphe with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 47,
       "patches": [

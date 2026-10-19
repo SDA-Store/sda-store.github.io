@@ -137,6 +137,16 @@
     }
 
     /**
+     * Generate elegant monogram SVG fallback data URI for any application
+     */
+    function getFallbackIconUri(name) {
+        const clean = (name || 'App').trim();
+        const initials = clean.split(/\s+/).slice(0, 2).map(w => w[0].toUpperCase()).join('') || 'A';
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#27272a"/><stop offset="100%" stop-color="#09090b"/></linearGradient></defs><rect width="100" height="100" rx="26" fill="url(#g)" stroke="#3f3f46" stroke-width="2"/><text x="50" y="60" text-anchor="middle" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="800" font-size="34" letter-spacing="-1">${initials}</text></svg>`;
+        return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+    }
+
+    /**
      * Render filtered and sorted apps grid with Master Cards
      */
     function renderApps() {
@@ -168,13 +178,16 @@
             const isFlagship = app.id === 'moviebox';
             const topAccentClass = isFlagship ? 'card-top-accent-emerald' : 'card-top-accent';
 
+            const fallbackSrc = getFallbackIconUri(app.name);
+            const iconSrc = app.icon || fallbackSrc;
+
             return `
                 <article class="app-card" data-app-id="${escapeHtml(app.id)}">
                     <div class="${topAccentClass}"></div>
                     <div>
                         <div class="app-card-top">
                             <div class="app-icon-box">
-                                <img class="app-icon-img" src="${escapeHtml(app.icon || '')}" alt="${escapeHtml(app.name)}" onerror="this.onerror=null;this.src='data:image/svg+xml,<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 24 24\\' fill=\\'%230a0a0a\\'><circle cx=\\'12\\' cy=\\'12\\' r=\\'10\\'/></svg>';">
+                                <img class="app-icon-img" src="${escapeHtml(iconSrc)}" alt="${escapeHtml(app.name)}" onerror="this.onerror=null;this.src='${fallbackSrc}';">
                             </div>
                             <div class="app-meta-box">
                                 <span class="app-category-text">${escapeHtml(app.category || 'App')}</span>
@@ -307,7 +320,9 @@
             ? (targetAsset.arch === 'arm64' ? 'ARM64-v8a' : (targetAsset.arch === 'arm' ? 'ARM-v7a' : (targetAsset.arch.toLowerCase() === 'universal' ? 'Universal' : targetAsset.arch.toUpperCase()))) 
             : 'ARM64-v8a';
 
-        DOM.modalAppIcon.src = app.icon || '';
+        const fallbackSrc = getFallbackIconUri(app.name);
+        DOM.modalAppIcon.src = app.icon || fallbackSrc;
+        DOM.modalAppIcon.onerror = () => { DOM.modalAppIcon.src = fallbackSrc; };
         DOM.modalAppName.textContent = app.name;
         DOM.modalAppVersion.textContent = versionStr;
         if (DOM.modalAppArch) {

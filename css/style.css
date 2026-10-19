@@ -954,39 +954,55 @@ body {
 
 .action-row-buttons {
   display: flex;
+  flex-direction: column;
   gap: 0.5rem;
-  align-items: stretch;
+  width: 100%;
 }
 
 .btn-apk-download {
-  flex: 1.15;
-  padding: 0.68rem 0.85rem;
-  font-size: 0.72rem;
-  font-weight: 600;
+  width: 100%;
+  padding: 0.72rem 1rem;
+  font-size: 0.74rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  gap: 8px;
+  border-radius: 9999px;
+  background-color: var(--text-primary);
+  color: var(--bg-canvas);
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s var(--ease-apple);
+}
+
+.btn-apk-download:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  opacity: 0.95;
 }
 
 .btn-releases-ghost,
 .btn-obtainium-ghost {
-  flex: 0.85;
-  padding: 0.68rem 0.85rem;
+  width: 100%;
+  padding: 0.62rem 1rem;
   font-family: var(--font-mono);
   font-size: 0.68rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   border-radius: 9999px;
   border: 1px solid var(--border-subtle);
-  background-color: var(--bg-card);
-  color: var(--text-primary);
+  background-color: var(--bg-card-subtle);
+  color: var(--text-secondary);
   text-decoration: none;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 8px;
   cursor: pointer;
   white-space: nowrap;
   transition: all 0.2s var(--ease-apple);
@@ -994,21 +1010,10 @@ body {
 
 .btn-releases-ghost:hover,
 .btn-obtainium-ghost:hover {
-  background-color: var(--bg-card-subtle);
+  background-color: var(--bg-muted);
   border-color: var(--border-interactive);
+  color: var(--text-primary);
   transform: translateY(-1px);
-}
-
-@media (max-width: 480px) {
-  .action-row-buttons {
-    flex-direction: column;
-  }
-  .btn-apk-download,
-  .btn-releases-ghost,
-  .btn-obtainium-ghost {
-    width: 100%;
-    flex: none;
-  }
 }
 
 .action-row-meta {
@@ -1496,4 +1501,182 @@ body {
 
 .hidden {
   display: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   15. COMPREHENSIVE MOBILE VIEWPORT OPTIMIZATIONS (<768px & <480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .site-header {
+    padding: 0.85rem 1rem;
+  }
+
+  .main-bounds {
+    padding: 1.5rem 1rem 4.5rem;
+  }
+
+  .hero-section {
+    margin-bottom: 2rem;
+  }
+
+  .hero-title-main,
+  .hero-title-serif {
+    font-size: clamp(1.85rem, 6.5vw, 2.5rem);
+  }
+
+  .hero-subtext {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-actions-row {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .hero-actions-row .btn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.85rem 1.25rem;
+  }
+
+  .controls-panel {
+    padding: 1.15rem 1rem;
+    border-radius: 22px;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+
+  .search-input {
+    font-size: 16px; /* Prevents auto-zoom on mobile iOS */
+    padding: 0.85rem 2.75rem 0.85rem 2.75rem;
+  }
+
+  .category-pills {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.5rem;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+  }
+
+  .category-pills::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-pill {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.68rem;
+  }
+
+  .filter-selects {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .custom-select-box {
+    flex: 1;
+    justify-content: center;
+    padding: 0.45rem 0.75rem;
+  }
+
+  .select-native {
+    font-size: 0.75rem;
+    width: 100%;
+  }
+
+  .apps-grid-container {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin-bottom: 4rem;
+  }
+
+  .app-card {
+    padding: 1.5rem 1.25rem;
+    border-radius: 24px;
+  }
+
+  .app-icon-box {
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    padding: 8px;
+  }
+
+  .app-name-title {
+    font-size: 1.2rem;
+  }
+
+  .companion-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .companion-card {
+    padding: 1.5rem 1.25rem;
+    border-radius: 22px;
+  }
+
+  .modal-backdrop {
+    padding: 0.75rem;
+  }
+
+  .modal-card {
+    width: 100%;
+    max-height: 90vh;
+    border-radius: 24px;
+  }
+
+  .modal-header-bar {
+    padding: 1.25rem 1.25rem 1rem;
+  }
+
+  .modal-search-wrapper {
+    padding: 0.75rem 1.25rem 0.25rem;
+  }
+
+  .modal-body-scroll {
+    padding: 0.75rem 1.25rem;
+  }
+
+  .modal-footer-bar {
+    padding: 1rem 1.25rem;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .modal-footer-bar .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .footer-nav-links {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .brand-badge {
+    display: none;
+  }
+  .header-actions span {
+    display: none;
+  }
+  .header-actions .btn-sm {
+    padding: 0.5rem 0.75rem;
+  }
 }
