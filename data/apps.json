@@ -12,7 +12,7 @@
       "version": "6",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/tag/v6",
       "publishedAt": "2026-10-19T11:00:22Z",
-      "icon": "assets/icons/moviebox.png",
+      "icon": "assets/icons/moviebox.svg",
       "description": "Patched MovieBox with ad-removal, VIP streaming unlock, download enable, and UI decluttering.",
       "patchCount": 4,
       "patches": [

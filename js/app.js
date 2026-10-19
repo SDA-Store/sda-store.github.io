@@ -116,7 +116,7 @@
      */
     async function loadAppsData() {
         try {
-            const response = await fetch('data/apps.json');
+            const response = await fetch('data/apps.json?v=3.0');
             if (!response.ok) throw new Error('Network error');
             const data = await response.json();
             appsData = data.apps || [];
@@ -179,7 +179,7 @@
             const topAccentClass = isFlagship ? 'card-top-accent-emerald' : 'card-top-accent';
 
             const fallbackSrc = getFallbackIconUri(app.name);
-            const iconSrc = app.icon || fallbackSrc;
+            const iconSrc = app.icon ? `${app.icon}?v=3.0` : fallbackSrc;
 
             return `
                 <article class="app-card" data-app-id="${escapeHtml(app.id)}">
@@ -321,7 +321,7 @@
             : 'ARM64-v8a';
 
         const fallbackSrc = getFallbackIconUri(app.name);
-        DOM.modalAppIcon.src = app.icon || fallbackSrc;
+        DOM.modalAppIcon.src = app.icon ? `${app.icon}?v=3.0` : fallbackSrc;
         DOM.modalAppIcon.onerror = () => { DOM.modalAppIcon.src = fallbackSrc; };
         DOM.modalAppName.textContent = app.name;
         DOM.modalAppVersion.textContent = versionStr;
