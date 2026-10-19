@@ -28,7 +28,6 @@
         themeIcon: document.getElementById('themeIcon'),
         toast: document.getElementById('toast'),
         toastMsg: document.getElementById('toastMsg'),
-        customCursor: document.getElementById('customCursor'),
 
         // Patch Modal
         patchModal: document.getElementById('patchModal'),
@@ -56,7 +55,6 @@
      */
     async function init() {
         setupTheme();
-        setupCustomCursor();
         setupEventListeners();
         await loadAppsData();
     }
@@ -88,59 +86,6 @@
                 DOM.themeIcon.className = 'fa-solid fa-moon';
             }
         }
-    }
-
-    /**
-     * Interactive Fluid Custom Cursor (Section 6.3 of Spec)
-     */
-    function setupCustomCursor() {
-        const cursor = DOM.customCursor;
-        if (!cursor) return;
-
-        let mouseX = window.innerWidth / 2;
-        let mouseY = window.innerHeight / 2;
-        let cursorX = mouseX;
-        let cursorY = mouseY;
-        let isVisible = false;
-
-        window.addEventListener('mousemove', (e) => {
-            mouseX = e.clientX;
-            mouseY = e.clientY;
-            if (!isVisible) {
-                isVisible = true;
-                cursor.style.display = 'block';
-            }
-        });
-
-        document.addEventListener('mouseleave', () => {
-            isVisible = false;
-            cursor.style.display = 'none';
-        });
-
-        // Hover expansion on interactive elements
-        const updateHoverState = (e) => {
-            const target = e.target;
-            if (!target) return;
-            const isInteractive = target.closest('a, button, input, select, .category-pill, .patch-chip-more, .btn-text-patches');
-            if (isInteractive) {
-                cursor.classList.add('is-hovering');
-            } else {
-                cursor.classList.remove('is-hovering');
-            }
-        };
-
-        window.addEventListener('mouseover', updateHoverState);
-
-        // Physics animation loop (Spring-like smoothness)
-        function animateCursor() {
-            const ease = 0.22;
-            cursorX += (mouseX - cursorX) * ease;
-            cursorY += (mouseY - cursorY) * ease;
-            cursor.style.left = `${cursorX}px`;
-            cursor.style.top = `${cursorY}px`;
-            requestAnimationFrame(animateCursor);
-        }
-        requestAnimationFrame(animateCursor);
     }
 
     /**

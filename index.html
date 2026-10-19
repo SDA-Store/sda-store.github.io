@@ -28,18 +28,15 @@
     <!-- SVG Noise Texture Overlay (Section 5.1 of Spec) -->
     <div id="noiseOverlay" class="noise-overlay" aria-hidden="true"></div>
 
-    <!-- Interactive Fluid Custom Cursor (Section 6.3 of Spec) -->
-    <div id="customCursor" class="custom-cursor" aria-hidden="true"></div>
-
     <!-- 24px Background Grid with Radial Mask (Section 5.2 of Spec) -->
     <div class="bg-grid-pattern" aria-hidden="true"></div>
     <div class="ambient-glow ambient-glow-center" aria-hidden="true"></div>
     <div class="ambient-glow ambient-glow-corner" aria-hidden="true"></div>
 
-    <!-- Floating Pill Navigation (Section 4.1 & 7.3 of Spec) -->
+    <!-- Floating Pill Navigation -->
     <header class="site-header">
         <div class="header-container">
-            <!-- Brand with Rotating Circular Stamp (Section 5.5 of Spec) -->
+            <!-- Brand with Rotating Circular Stamp -->
             <a href="#" class="brand" aria-label="SDA Store Home">
                 <div class="rotating-stamp">
                     <svg viewBox="0 0 100 100" class="stamp-svg" aria-hidden="true">
@@ -54,15 +51,9 @@
                 </div>
                 <div class="brand-text">
                     <span class="brand-title">SDA Store</span>
-                    <span class="brand-badge">Automated CI • Non-Root</span>
+                    <span class="brand-badge">Pure APKs • Non-Root</span>
                 </div>
             </a>
-
-            <!-- Directional Expanding Underline Links (Section 7.4 of Spec) -->
-            <nav class="header-nav" aria-label="Primary Navigation">
-                <a href="#catalog" class="nav-link">01 // Catalog</a>
-                <a href="#obtainium" class="nav-link">02 // Auto-Update</a>
-            </nav>
 
             <div class="header-actions">
                 <a href="https://github.com/sudarsanSDA/SDA-Store" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" aria-label="GitHub Repository">
@@ -80,29 +71,22 @@
     <main class="main-bounds">
         <!-- Hero Section -->
         <section class="hero-section">
-            <!-- Eyebrow Line (Section 3.2 of Spec) -->
-            <div class="section-eyebrow">
-                <span class="eyebrow-line"></span>
-                <span class="eyebrow-text">00 // Headless CI/CD Architecture</span>
-            </div>
-
-            <!-- Mega Dual-Texture Hero Statement (Section 3.2 of Spec) -->
+            <!-- Hero Statement -->
             <h1 class="hero-title">
                 <span class="hero-title-main">PRE-PATCHED</span>
                 <span class="hero-title-serif stroke-text">APPLICATIONS</span>
             </h1>
 
-            <!-- Editorial Serif Subtitle (Section 3.2 of Spec) -->
+            <!-- Caption -->
             <p class="hero-subtext">
-                &ldquo;High-performance Android APK catalog built entirely via headless GitHub Actions CI. 
-                No Magisk modules, pure non-root binaries, and native Obtainium auto-sync.&rdquo;
+                Pure APKs built with zero additional permissions, zero data tracking, and zero information collection.
             </p>
 
-            <!-- Action Buttons Row (Section 7.1 & 7.2 of Spec) -->
+            <!-- Action Buttons Row -->
             <div class="hero-actions-row">
                 <a href="#catalog" class="btn btn-primary">
                     <span>Explore Software Catalog</span>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i class="fa-solid fa-arrow-down"></i>
                 </a>
                 <button id="obtainiumGuideBtn" class="btn btn-secondary">
                     <i class="fa-solid fa-arrows-rotate"></i>
@@ -111,21 +95,8 @@
             </div>
         </section>
 
-        <!-- Section 01: Pre-Built Applications Catalog -->
+        <!-- Catalog Section -->
         <section id="catalog" class="catalog-section">
-            <div class="section-eyebrow">
-                <span class="eyebrow-line"></span>
-                <span class="eyebrow-text">01 // Curated Software Products</span>
-            </div>
-
-            <h2 class="section-heading">
-                Pre-Built <br />
-                <span class="stroke-text font-serif">Applications</span>
-            </h2>
-            <p class="section-desc mb-8">
-                Every application is fetched directly from verified official distributors and patched in isolated GitHub runners.
-            </p>
-
             <!-- Precision Controls Panel -->
             <div class="controls-panel">
                 <!-- Search Input -->
@@ -194,10 +165,6 @@
                 <div>
                     <div class="card-icon-circle">
                         <i class="fa-solid fa-arrows-rotate"></i>
-                    </div>
-                    <div class="section-eyebrow" style="margin-bottom: 0.5rem;">
-                        <span class="eyebrow-line"></span>
-                        <span class="eyebrow-text">02 // Lifecycle Automation</span>
                     </div>
                     <h3 class="info-card-title">Obtainium Integration</h3>
                     <p class="info-card-text">
