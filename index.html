@@ -61,9 +61,7 @@
             <!-- Directional Expanding Underline Links (Section 7.4 of Spec) -->
             <nav class="header-nav" aria-label="Primary Navigation">
                 <a href="#catalog" class="nav-link">01 // Catalog</a>
-                <a href="#blueprint" class="nav-link">02 // Pipeline</a>
-                <a href="#gmscore" class="nav-link">03 // GmsCore</a>
-                <a href="#obtainium" class="nav-link">04 // Auto-Update</a>
+                <a href="#obtainium" class="nav-link">02 // Auto-Update</a>
             </nav>
 
             <div class="header-actions">
@@ -110,10 +108,6 @@
                     <i class="fa-solid fa-arrows-rotate"></i>
                     <span>Auto-Update Setup</span>
                 </button>
-                <a href="#gmscore" class="btn btn-secondary">
-                    <i class="fa-brands fa-google"></i>
-                    <span>GmsCore / MicroG</span>
-                </a>
             </div>
         </section>
 
@@ -193,111 +187,17 @@
             </div>
         </section>
 
-        <!-- Section 02: Technical Blueprint Window (Section 9 of Spec) -->
-        <section id="blueprint" class="blueprint-section">
-            <div class="section-eyebrow">
-                <span class="eyebrow-line"></span>
-                <span class="eyebrow-text">02 // CI/CD Headless Build Pipeline</span>
-            </div>
-
-            <h2 class="section-heading">
-                Native <br />
-                <span class="stroke-text font-serif">Unhardening</span>
-            </h2>
-
-            <div class="dark-blueprint-card">
-                <!-- Window Titlebar -->
-                <div class="blueprint-window-bar">
-                    <div class="window-dots">
-                        <span class="window-dot window-dot-red"></span>
-                        <span class="window-dot window-dot-yellow"></span>
-                        <span class="window-dot window-dot-green"></span>
-                        <span class="window-title-text">github-actions_runner_x86_64</span>
-                    </div>
-                    <span class="blueprint-status-badge">
-                        <i class="fa-solid fa-check"></i> PIPELINE VERIFIED
-                    </span>
-                </div>
-
-                <!-- Technical Hook Cards -->
-                <div class="blueprint-grid-content">
-                    <div class="blueprint-box">
-                        <span class="box-hook-tag">[ Hook 01: Ijiami / SecShell Interposition ]</span>
-                        <div class="box-code-line">
-                            <span>s.h.e.l.l.A &rarr; hx.Delegate</span>
-                            <span class="box-code-tag">ACTIVE</span>
-                        </div>
-                        <p class="box-desc">
-                            Overrides Android AppComponentFactory in classes2.dex to interpose classloading before native runtime decryption.
-                        </p>
-                    </div>
-
-                    <div class="blueprint-box">
-                        <span class="box-hook-tag">[ Hook 02: Anti-Tamper Bypass ]</span>
-                        <div class="box-code-line">
-                            <span>ConfusionUtils.check()</span>
-                            <span class="box-code-tag">DISABLED</span>
-                        </div>
-                        <p class="box-desc">
-                            Neutralizes resource obfuscation and package integrity validation routines to prevent instant launch crashes.
-                        </p>
-                    </div>
-
-                    <div class="blueprint-box">
-                        <span class="box-hook-tag">[ Hook 03: Feature Unlocking ]</span>
-                        <div class="box-code-line">
-                            <span>All-In-One Patch</span>
-                            <span class="box-code-tag">UNLOCKED</span>
-                        </div>
-                        <p class="box-desc">
-                            Enables 1080p VIP playback, removes all in-app advertising banners, unlocks video downloads, and bypasses region constraints.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Blueprint Footer -->
-                <div class="blueprint-footer">
-                    <span>Target: Android 10 - 15 (ARM64-v8a)</span>
-                    <span style="color: #f3f4f6; font-weight: 700;">Java 21 Temurin + Morphe Desktop CLI</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 03 & 04: Companion Infrastructure -->
-        <section id="gmscore" class="companion-grid">
-            <!-- GmsCore Card -->
-            <div class="master-info-card">
-                <div class="card-top-accent"></div>
-                <div>
-                    <div class="card-icon-circle">
-                        <i class="fa-brands fa-google"></i>
-                    </div>
-                    <div class="section-eyebrow" style="margin-bottom: 0.5rem;">
-                        <span class="eyebrow-text">03 // Authentication Companion</span>
-                    </div>
-                    <h3 class="info-card-title">MicroG / GmsCore</h3>
-                    <p class="info-card-text">
-                        Required for non-root Google account login on YouTube, YouTube Music, and Google Photos. 
-                        Install once on your device to enable synchronized history, playlists, and subscription feeds.
-                    </p>
-                </div>
-                <div>
-                    <a href="https://github.com/ReVanced/GmsCore/releases/latest" target="_blank" rel="noopener" class="btn btn-secondary">
-                        <i class="fa-solid fa-download"></i>
-                        <span>Get Official GmsCore APK</span>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Obtainium Card -->
-            <div class="master-info-card" id="obtainium">
+        <!-- Section 02: Obtainium Lifecycle Automation -->
+        <section id="obtainium" class="obtainium-section" style="margin-bottom: 5.5rem;">
+            <div class="master-info-card" style="max-width: 900px; margin: 0 auto;">
                 <div class="card-top-accent"></div>
                 <div>
                     <div class="card-icon-circle">
                         <i class="fa-solid fa-arrows-rotate"></i>
                     </div>
                     <div class="section-eyebrow" style="margin-bottom: 0.5rem;">
-                        <span class="eyebrow-text">04 // Lifecycle Automation</span>
+                        <span class="eyebrow-line"></span>
+                        <span class="eyebrow-text">02 // Lifecycle Automation</span>
                     </div>
                     <h3 class="info-card-title">Obtainium Integration</h3>
                     <p class="info-card-text">
