@@ -12,7 +12,7 @@
       "version": "6",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/tag/v6",
       "publishedAt": "2026-10-19T11:00:22Z",
-      "icon": "assets/icons/moviebox.svg",
+      "icon": "assets/icons/moviebox.png",
       "description": "Patched MovieBox with ad-removal, VIP streaming unlock, download enable, and UI decluttering.",
       "patchCount": 4,
       "patches": [
@@ -554,7 +554,7 @@
       "version": "6.23.1",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "assets/icons/bluetoothkeyboardmouse.svg",
+      "icon": "assets/icons/bluetoothkeyboardmouse.png",
       "description": "Patched Bluetooth Keyboard & Mouse by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
@@ -2503,7 +2503,7 @@
       "version": "10.5",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-09-08T13:08:23Z",
-      "icon": "assets/icons/moonreader.svg",
+      "icon": "assets/icons/moonreader.png",
       "description": "Patched Moon+ Reader by binarymend with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 2,
       "patches": [
@@ -2655,7 +2655,7 @@
       "version": "1.4.7",
       "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases",
       "publishedAt": "2026-10-14T20:47:54Z",
-      "icon": "assets/icons/ninjavpn.svg",
+      "icon": "assets/icons/ninjavpn.png",
       "description": "Patched Ninja VPN by rushiranpise with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 1,
       "patches": [
