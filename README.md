@@ -1,16 +1,21 @@
 # SDA Store 📱✨
 > **Fast, Modern Catalog for Patched Android APKs**  
-> *Inspired by NullStore & Morphe Patches. 100% Non-Root APKs. Zero Modules. Free GitHub Hosting.*
+> *100% Non-Root APKs. Zero Modules. Automated GitHub Actions CI/CD.*
+
+[![Automated APK Builder & Release](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/build-and-release.yml)
+[![Deploy SDA Store to GitHub Pages](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/sudarsanSDA/SDA-Store/actions/workflows/deploy-pages.yml)
+[![Latest Release](https://img.shields.io/github/v/release/sudarsanSDA/SDA-Store?style=flat&color=10b981)](https://github.com/sudarsanSDA/SDA-Store/releases)
 
 ---
 
 ## 🌟 Overview
 
 **SDA Store** is an open-source, automated Android application catalog designed to make discovering, installing, and updating patched Android apps effortless:
+* **136+ Patched Applications:** Complete replicated catalog with real local icons, applied patch details, and direct APK download binaries.
 * **APKs Only:** Filtered strictly for standalone, non-root `.apk` binaries (no Magisk/KernelSU modules).
-* **Automated Builds & Releases:** Ready-to-use GitHub Actions workflows that apply patches via CLI and upload to GitHub Releases.
+* **Automated Builds & Releases:** Production-grade GitHub Actions CI/CD pipeline that downloads base APKs via Uptodown/APKMirror, applies patches via Morphe CLI and ReVanced CLI, signs with keystore, and publishes directly to GitHub Releases.
 * **Obtainium Integration:** One-click install and background auto-updates through [Obtainium](https://github.com/ImranR98/Obtainium).
-* **Zero Cost:** Hosted entirely for free on **GitHub Pages** with zero domain, server, or storage fees.
+* **Zero Cost:** Hosted entirely on **GitHub Pages** and **GitHub Actions**.
 
 ---
 

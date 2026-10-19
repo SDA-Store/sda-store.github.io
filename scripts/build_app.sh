@@ -192,7 +192,7 @@ case "$TARGET" in
     youtube)
         patch_app "youtube"
         ;;
-    youtubemusic)
+    youtubemusic|youtube-music)
         patch_app "youtube-music"
         ;;
     reddit)
@@ -210,10 +210,28 @@ case "$TARGET" in
     bravebrowser|brave)
         patch_app "brave"
         ;;
-    all)
-        echo "Building flagship apps..."
-        for a in moviebox youtube reddit; do
+    duolingo)
+        patch_app "duolingo"
+        ;;
+    discord)
+        patch_app "discord"
+        ;;
+    photos)
+        patch_app "photos"
+        ;;
+    all|all-flagships)
+        echo "Building flagship apps suite..."
+        for a in moviebox youtube reddit twitter instagram tiktok brave; do
+            echo "--- Starting patch for $a ---"
             patch_app "$a" || true
+        done
+        ;;
+    all-apps)
+        echo "Building all configured apps in data/patches/..."
+        for f in data/patches/*.toml; do
+            app_slug=$(basename "$f" .toml)
+            echo "--- Starting patch for $app_slug ---"
+            patch_app "$app_slug" || true
         done
         ;;
     *)

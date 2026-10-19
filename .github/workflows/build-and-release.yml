@@ -9,6 +9,7 @@ on:
         default: 'moviebox'
         type: choice
         options:
+          - 'all-flagships'
           - 'moviebox'
           - 'youtube'
           - 'youtubemusic'
@@ -20,15 +21,15 @@ on:
           - 'duolingo'
           - 'discord'
           - 'photos'
-          - 'all'
+          - 'all-apps'
       custom_apk_url:
         description: 'Optional: Custom direct URL for base clean APK'
         required: false
         default: ''
         type: string
   schedule:
-    # Run weekly every Sunday at 02:00 UTC
-    - cron: '0 2 * * 0'
+    # Run daily at 02:00 UTC
+    - cron: '0 2 * * *'
 
 permissions:
   contents: write
