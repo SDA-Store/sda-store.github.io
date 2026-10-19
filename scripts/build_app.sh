@@ -19,9 +19,9 @@ echo "  SDA Store - Headless APK Builder"
 echo "  Target: $TARGET"
 echo "========================================================"
 
-# Setup CLI & Patches if not present
+# Setup ReVanced / RVX CLI & Patches
 setup_tools() {
-    echo "Checking patcher tools..."
+    echo "Checking RVX patcher tools..."
 
     if [ ! -f "$TOOLS_DIR/cli.jar" ]; then
         echo "Downloading inotia00/revanced-cli..."
@@ -47,6 +47,37 @@ setup_tools() {
             curl -sL "$PATCH_URL" -o "$TOOLS_DIR/patches.rvp"
         fi
         echo "Downloaded Patches to $TOOLS_DIR/patches.rvp"
+    fi
+}
+
+# Setup Morphe CLI & hxreborn Patches (specifically engineered for MovieBox Ijiami unpacker)
+setup_morphe_tools() {
+    echo "Checking Morphe patcher tools for MovieBox..."
+
+    if [ ! -f "$TOOLS_DIR/morphe-cli.jar" ]; then
+        echo "Downloading Morphe Desktop CLI..."
+        if command -v gh >/dev/null 2>&1; then
+            gh release download --repo MorpheApp/morphe-desktop --pattern "*all.jar" --output "$TOOLS_DIR/morphe-cli.jar" || true
+        fi
+        if [ ! -f "$TOOLS_DIR/morphe-cli.jar" ] || [ ! -s "$TOOLS_DIR/morphe-cli.jar" ]; then
+            CLI_URL=$(curl -sL https://api.github.com/repos/MorpheApp/morphe-desktop/releases/latest | grep -o 'https://[^"]*morphe-desktop-[^"]*\.jar' | head -n 1)
+            [ -z "$CLI_URL" ] && CLI_URL="https://github.com/MorpheApp/morphe-desktop/releases/download/v1.18.1/morphe-desktop-1.18.1-all.jar"
+            curl -sL "$CLI_URL" -o "$TOOLS_DIR/morphe-cli.jar"
+        fi
+        echo "Downloaded Morphe CLI to $TOOLS_DIR/morphe-cli.jar"
+    fi
+
+    if [ ! -f "$TOOLS_DIR/hxreborn-patches.mpp" ]; then
+        echo "Downloading hxreborn/morphe-patches bundle..."
+        if command -v gh >/dev/null 2>&1; then
+            gh release download --repo hxreborn/morphe-patches --pattern "*.mpp" --output "$TOOLS_DIR/hxreborn-patches.mpp" || true
+        fi
+        if [ ! -f "$TOOLS_DIR/hxreborn-patches.mpp" ] || [ ! -s "$TOOLS_DIR/hxreborn-patches.mpp" ]; then
+            PATCH_URL=$(curl -sL https://api.github.com/repos/hxreborn/morphe-patches/releases/latest | grep -o 'https://[^"]*patches-[^"]*\.mpp' | head -n 1)
+            [ -z "$PATCH_URL" ] && PATCH_URL="https://github.com/hxreborn/morphe-patches/releases/download/v1.55.0/patches-1.55.0.mpp"
+            curl -sL "$PATCH_URL" -o "$TOOLS_DIR/hxreborn-patches.mpp"
+        fi
+        echo "Downloaded hxreborn patches to $TOOLS_DIR/hxreborn-patches.mpp"
     fi
 }
 
@@ -112,23 +143,34 @@ patch_app() {
     fetch_base_apk "$app" || return 1
 
     echo "Applying patches to $base_apk..."
-    if [ -f "$TOOLS_DIR/cli.jar" ] && [ -f "$TOOLS_DIR/patches.rvp" ]; then
-        java -jar "$TOOLS_DIR/cli.jar" patch \
-            -p "$TOOLS_DIR/patches.rvp" \
+    if [ "$app" = "moviebox" ]; then
+        setup_morphe_tools
+        echo "Patching MovieBox using Morphe CLI & hxreborn patches (with native Ijiami unhardener)..."
+        java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
+            -p "$TOOLS_DIR/hxreborn-patches.mpp" \
             -f \
             --purge \
-            --signer "SDA Store" \
             -o "$output_apk" \
             "$base_apk"
-
-        echo ">>> SUCCESS: Built and signed: $output_apk"
     else
-        echo "Error: CLI ($TOOLS_DIR/cli.jar) or patches bundle ($TOOLS_DIR/patches.rvp) missing."
-        return 1
+        setup_tools
+        echo "Patching $app using RVX CLI..."
+        if [ -f "$TOOLS_DIR/cli.jar" ] && [ -f "$TOOLS_DIR/patches.rvp" ]; then
+            java -jar "$TOOLS_DIR/cli.jar" patch \
+                -p "$TOOLS_DIR/patches.rvp" \
+                -f \
+                --purge \
+                --signer "SDA Store" \
+                -o "$output_apk" \
+                "$base_apk"
+        else
+            echo "Error: CLI ($TOOLS_DIR/cli.jar) or patches bundle ($TOOLS_DIR/patches.rvp) missing."
+            return 1
+        fi
     fi
-}
 
-setup_tools
+    echo ">>> SUCCESS: Built and signed: $output_apk"
+}
 
 case "$TARGET" in
     moviebox)

@@ -8,18 +8,18 @@
       "id": "moviebox",
       "name": "MovieBox",
       "category": "Media & Video",
-      "brand": "Morphe",
-      "version": "3",
-      "releaseUrl": "https://github.com/sudarsanSDA/SDA-Store/releases/tag/v3",
+      "brand": "hxreborn (Morphe)",
+      "version": "4.0.03",
+      "releaseUrl": "https://github.com/hxreborn/morphe-patches",
       "publishedAt": "2026-10-19T06:21:44Z",
       "icon": "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/plex.svg",
-      "description": "Patched MovieBox with ad-removal, banner stripping, and VIP streaming unlock.",
+      "description": "Patched MovieBox with ad-removal, VIP streaming unlock, download enable, and UI decluttering.",
       "patchCount": 4,
       "patches": [
-        "Remove video pre-roll and mid-roll ads",
-        "Bypass VIP stream playback restriction",
-        "Disable analytics, telemetry and crash tracking",
-        "Disable forced update screen"
+        "All-In-One (Playback & download enable, ad removal, VIP unlock)",
+        "Hide BuzzBox tabs from bottom navigation",
+        "Hide Midnight 18+ tab from home",
+        "Hide permanent foreground notification"
       ],
       "assets": [
         {
