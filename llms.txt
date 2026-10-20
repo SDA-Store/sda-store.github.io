@@ -26,8 +26,8 @@ Builds are automatically compiled and published through GitHub Actions CI pipeli
 - [Instagram](https://sda-store.github.io/?app=instagram): v7 • Patched Instagram by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
 - [Reddit](https://sda-store.github.io/?app=reddit): v2026.24.0 • Patched Reddit by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
 - [Twitter](https://sda-store.github.io/?app=twitter): v12.35.0-prod.01 • Patched Twitter by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
-- [YouTube](https://sda-store.github.io/?app=youtube): v7 • Patched YouTube by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
-- [YouTube Music](https://sda-store.github.io/?app=youtubemusic): v9.20.53 • Patched YouTube Music by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.
+- [YouTube](https://sda-store.github.io/?app=youtube): v7 • Patched YouTube by SDA Store using Morphe engine with ad-removal, background play, SponsorBlock, Return Dislike, AMOLED black theme, and zero telemetry.
+- [YouTube Music](https://sda-store.github.io/?app=youtubemusic): v9.20.53 • Patched YouTube Music by SDA Store using Morphe engine with ad-free audio stream, background playback, audio-only mode, and zero telemetry.
 
 ## Available Categories
 

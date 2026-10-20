@@ -122,21 +122,28 @@ def main():
 
     # 1. Check Patch Engines & Bundles
     print("Checking upstream patch releases...")
-    latest_morphe = get_latest_github_release("hxreborn/morphe-patches") or "v1.55.0"
+    latest_morphe_app = get_latest_github_release("MorpheApp/morphe-patches") or "v1.47.0"
+    latest_morphe_hx = get_latest_github_release("hxreborn/morphe-patches") or "v1.56.0"
     latest_revanced = get_latest_github_release("inotia00/revanced-patches") or "v5.14.1"
 
-    print(f"Morphe Patches: current={state.get('morphe_patches')} | upstream={latest_morphe}")
+    print(f"Morphe YouTube Patches (MorpheApp): current={state.get('morphe_app_patches')} | upstream={latest_morphe_app}")
+    print(f"Morphe MovieBox Patches (hxreborn): current={state.get('morphe_hx_patches')} | upstream={latest_morphe_hx}")
     print(f"ReVanced Patches: current={state.get('revanced_patches')} | upstream={latest_revanced}")
 
-    if state.get('morphe_patches') and state.get('morphe_patches') != latest_morphe:
-        print(f"==> NEW MORPHE PATCH BUNDLE: {latest_morphe}! Queueing MovieBox rebuild...")
+    if state.get('morphe_app_patches') and state.get('morphe_app_patches') != latest_morphe_app:
+        print(f"==> NEW MORPHE YOUTUBE PATCH BUNDLE: {latest_morphe_app}! Queueing YouTube & YT Music rebuild...")
+        updated_apps.update(['youtube', 'youtubemusic'])
+
+    if state.get('morphe_hx_patches') and state.get('morphe_hx_patches') != latest_morphe_hx:
+        print(f"==> NEW MORPHE MOVIEBOX PATCH BUNDLE: {latest_morphe_hx}! Queueing MovieBox rebuild...")
         updated_apps.add('moviebox')
 
     if state.get('revanced_patches') and state.get('revanced_patches') != latest_revanced:
         print(f"==> NEW REVANCED PATCH BUNDLE: {latest_revanced}! Queueing flagship rebuilds...")
-        updated_apps.update(['youtube', 'youtubemusic', 'reddit', 'twitter', 'instagram', 'tiktok', 'bravebrowser'])
+        updated_apps.update(['reddit', 'twitter', 'instagram', 'tiktok', 'bravebrowser'])
 
-    state['morphe_patches'] = latest_morphe
+    state['morphe_app_patches'] = latest_morphe_app
+    state['morphe_hx_patches'] = latest_morphe_hx
     state['revanced_patches'] = latest_revanced
 
     # 2. Check MovieBox official APK release

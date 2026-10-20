@@ -51,9 +51,10 @@ setup_tools() {
     fi
 }
 
-# Setup Morphe CLI & hxreborn Patches (engineered for MovieBox Ijiami unpacker)
+# Setup Morphe CLI & Morphe Patches (MorpheApp for YouTube/Music, hxreborn for MovieBox)
 setup_morphe_tools() {
-    echo "Checking Morphe patcher tools for MovieBox..."
+    local patch_source="${1:-morphe}"
+    echo "Checking Morphe patcher tools ($patch_source)..."
 
     if [ ! -f "$TOOLS_DIR/morphe-cli.jar" ]; then
         echo "Downloading Morphe Desktop CLI..."
@@ -68,17 +69,33 @@ setup_morphe_tools() {
         echo "Downloaded Morphe CLI to $TOOLS_DIR/morphe-cli.jar"
     fi
 
-    if [ ! -f "$TOOLS_DIR/hxreborn-patches.mpp" ]; then
-        echo "Downloading hxreborn/morphe-patches bundle..."
-        if command -v gh >/dev/null 2>&1; then
-            gh release download --repo hxreborn/morphe-patches --pattern "*.mpp" --output "$TOOLS_DIR/hxreborn-patches.mpp" || true
+    if [ "$patch_source" = "hxreborn" ]; then
+        if [ ! -f "$TOOLS_DIR/hxreborn-patches.mpp" ]; then
+            echo "Downloading hxreborn/morphe-patches bundle (MovieBox)..."
+            if command -v gh >/dev/null 2>&1; then
+                gh release download --repo hxreborn/morphe-patches --pattern "*.mpp" --output "$TOOLS_DIR/hxreborn-patches.mpp" || true
+            fi
+            if [ ! -f "$TOOLS_DIR/hxreborn-patches.mpp" ] || [ ! -s "$TOOLS_DIR/hxreborn-patches.mpp" ]; then
+                PATCH_URL=$(curl -sL https://api.github.com/repos/hxreborn/morphe-patches/releases/latest | grep -o 'https://[^"]*patches-[^"]*\.mpp' | head -n 1)
+                [ -z "$PATCH_URL" ] && PATCH_URL="https://github.com/hxreborn/morphe-patches/releases/download/v1.56.0/patches-1.56.0.mpp"
+                curl -sL "$PATCH_URL" -o "$TOOLS_DIR/hxreborn-patches.mpp"
+            fi
+            echo "Downloaded hxreborn patches to $TOOLS_DIR/hxreborn-patches.mpp"
         fi
-        if [ ! -f "$TOOLS_DIR/hxreborn-patches.mpp" ] || [ ! -s "$TOOLS_DIR/hxreborn-patches.mpp" ]; then
-            PATCH_URL=$(curl -sL https://api.github.com/repos/hxreborn/morphe-patches/releases/latest | grep -o 'https://[^"]*patches-[^"]*\.mpp' | head -n 1)
-            [ -z "$PATCH_URL" ] && PATCH_URL="https://github.com/hxreborn/morphe-patches/releases/download/v1.55.0/patches-1.55.0.mpp"
-            curl -sL "$PATCH_URL" -o "$TOOLS_DIR/hxreborn-patches.mpp"
+    else
+        # Official MorpheApp/morphe-patches for YouTube & YouTube Music
+        if [ ! -f "$TOOLS_DIR/morphe-patches.mpp" ]; then
+            echo "Downloading MorpheApp/morphe-patches bundle (YouTube & YouTube Music)..."
+            if command -v gh >/dev/null 2>&1; then
+                gh release download --repo MorpheApp/morphe-patches --pattern "*.mpp" --output "$TOOLS_DIR/morphe-patches.mpp" || true
+            fi
+            if [ ! -f "$TOOLS_DIR/morphe-patches.mpp" ] || [ ! -s "$TOOLS_DIR/morphe-patches.mpp" ]; then
+                PATCH_URL=$(curl -sL https://api.github.com/repos/MorpheApp/morphe-patches/releases/latest | grep -o 'https://[^"]*patches-[^"]*\.mpp' | head -n 1)
+                [ -z "$PATCH_URL" ] && PATCH_URL="https://github.com/MorpheApp/morphe-patches/releases/download/v1.47.0/patches-1.47.0.mpp"
+                curl -sL "$PATCH_URL" -o "$TOOLS_DIR/morphe-patches.mpp"
+            fi
+            echo "Downloaded Morphe patches to $TOOLS_DIR/morphe-patches.mpp"
         fi
-        echo "Downloaded hxreborn patches to $TOOLS_DIR/hxreborn-patches.mpp"
     fi
 }
 
@@ -86,6 +103,12 @@ setup_morphe_tools() {
 fetch_base_apk() {
     local app="$1"
     local base_path="$WORKSPACE/base-${app}.apk"
+
+    if [ "$app" = "youtube-music" ] && [ -f "$WORKSPACE/base-youtubemusic.apk" ] && [ ! -f "$base_path" ]; then
+        cp "$WORKSPACE/base-youtubemusic.apk" "$base_path"
+    elif [ "$app" = "youtubemusic" ] && [ -f "$WORKSPACE/base-youtube-music.apk" ] && [ ! -f "$base_path" ]; then
+        cp "$WORKSPACE/base-youtube-music.apk" "$base_path"
+    fi
 
     if [ -f "$base_path" ] && [ -s "$base_path" ]; then
         echo "Base APK '$base_path' already exists in workspace."
@@ -158,10 +181,26 @@ patch_app() {
 
     echo "Applying patches to $base_apk..."
     if [ "$app" = "moviebox" ]; then
-        setup_morphe_tools
+        setup_morphe_tools "hxreborn"
         echo "Patching MovieBox using Morphe CLI & hxreborn patches..."
         java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
             -p "$TOOLS_DIR/hxreborn-patches.mpp" \
+            -f \
+            -o "$output_apk" \
+            "$base_apk"
+    elif [ "$app" = "youtube" ]; then
+        setup_morphe_tools "morphe"
+        echo "Patching YouTube using official Morphe CLI & Morphe patches (com.google.android.youtube)..."
+        java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
+            -p "$TOOLS_DIR/morphe-patches.mpp" \
+            -f \
+            -o "$output_apk" \
+            "$base_apk"
+    elif [ "$app" = "youtube-music" ] || [ "$app" = "youtubemusic" ]; then
+        setup_morphe_tools "morphe"
+        echo "Patching YouTube Music using official Morphe CLI & Morphe patches (com.google.android.apps.youtube.music)..."
+        java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
+            -p "$TOOLS_DIR/morphe-patches.mpp" \
             -f \
             -o "$output_apk" \
             "$base_apk"
@@ -221,7 +260,7 @@ case "$TARGET" in
         ;;
     all|all-flagships)
         echo "Building flagship apps suite..."
-        for a in moviebox youtube reddit twitter instagram tiktok brave; do
+        for a in moviebox youtube youtube-music reddit twitter instagram tiktok brave; do
             echo "--- Starting patch for $a ---"
             patch_app "$a" || true
         done

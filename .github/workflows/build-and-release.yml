@@ -70,7 +70,7 @@ jobs:
 
       # Optional: APKMirror trusted downloader for Google/Play Store apps
       - name: Download Base APK from APKMirror (for YouTube fallback)
-        if: ${{ github.event.inputs.target_app == 'youtube' && github.event.inputs.custom_apk_url == '' }}
+        if: ${{ (github.event.inputs.target_app == 'youtube' || github.event.inputs.target_app == 'all-flagships' || github.event.inputs.target_app == '') && github.event.inputs.custom_apk_url == '' }}
         uses: Yakov5776/gh-apkmirror-dl@v1.3
         continue-on-error: true
         with:
@@ -79,6 +79,18 @@ jobs:
           version: ""
           bundle: "false"
           filename: "workspace/base-youtube.apk"
+          overwrite: "true"
+
+      - name: Download Base APK from APKMirror (for YouTube Music fallback)
+        if: ${{ (github.event.inputs.target_app == 'youtubemusic' || github.event.inputs.target_app == 'all-flagships') && github.event.inputs.custom_apk_url == '' }}
+        uses: Yakov5776/gh-apkmirror-dl@v1.3
+        continue-on-error: true
+        with:
+          org: "google-inc"
+          repo: "youtube-music"
+          version: ""
+          bundle: "false"
+          filename: "workspace/base-youtube-music.apk"
           overwrite: "true"
 
       - name: Download Base APK from APKMirror (for Reddit fallback)
