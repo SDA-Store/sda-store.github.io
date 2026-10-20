@@ -124,15 +124,15 @@ fetch_base_apk() {
     echo "Fetching base APK for '$app'..."
 
     if [ "$app" = "moviebox" ]; then
-        echo "Fetching official MovieBox base APK from movie-box.co..."
-        MOVIEBOX_OFFICIAL_URL="https://h5-api.aoneroom.com/pkg/redirect"
-        curl -sL -f -A "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36" \
-            "$MOVIEBOX_OFFICIAL_URL" -o "$base_path" || true
+        echo "Fetching verified Morphe-compatible MovieBox base APK (v4.0.03.0922.03)..."
+        MOVIEBOX_CDN_URL="https://apk.aoneroom.com/apk/moviebox/release/4.0.03.0922.03/1218_protected_signed/moviebox-in-v-4.0.03.0922.03.apk"
+        curl -sL -f -A "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36" \
+            "$MOVIEBOX_CDN_URL" -o "$base_path" || true
         
         if [ ! -f "$base_path" ] || [ ! -s "$base_path" ] || [ $(wc -c < "$base_path" 2>/dev/null || echo 0) -lt 10000000 ]; then
-            echo "Fallback to direct CDN release URL for MovieBox..."
-            curl -sL -f -A "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36" \
-                "https://apk.aoneroom.com/apk/moviebox/release/4.0.03.0922.03/1218_protected_signed/moviebox-in-v-4.0.03.0922.03.apk" -o "$base_path"
+            echo "Fallback to official redirect endpoint..."
+            curl -sL -f -A "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36" \
+                "https://h5-api.aoneroom.com/pkg/redirect" -o "$base_path"
         fi
         return 0
     fi
