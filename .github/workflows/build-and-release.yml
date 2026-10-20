@@ -76,7 +76,7 @@ jobs:
         with:
           org: "google-inc"
           repo: "youtube"
-          version: ""
+          version: "21.40.161"
           bundle: "false"
           filename: "workspace/base-youtube.apk"
           overwrite: "true"
@@ -88,7 +88,7 @@ jobs:
         with:
           org: "google-inc"
           repo: "youtube-music"
-          version: ""
+          version: "9.40.51"
           bundle: "false"
           filename: "workspace/base-youtube-music.apk"
           overwrite: "true"

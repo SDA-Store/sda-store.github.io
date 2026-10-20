@@ -110,9 +110,16 @@ fetch_base_apk() {
         cp "$WORKSPACE/base-youtube-music.apk" "$base_path"
     fi
 
-    if [ -f "$base_path" ] && [ -s "$base_path" ]; then
-        echo "Base APK '$base_path' already exists in workspace."
-        return 0
+    # Check minimum APK size (corrupt/empty file check)
+    if [ -f "$base_path" ]; then
+        local sz=$(wc -c < "$base_path" 2>/dev/null || echo 0)
+        if [ "$sz" -lt 10000000 ]; then
+            echo "Notice: Existing base APK '$base_path' is too small ($sz bytes). Removing..."
+            rm -f "$base_path"
+        else
+            echo "Base APK '$base_path' already exists in workspace."
+            return 0
+        fi
     fi
 
     if [ -n "$CUSTOM_URL" ]; then
@@ -148,9 +155,24 @@ fetch_base_apk() {
         local uptodown_url=$(grep -E '^\s*uptodown-dlurl\s*=' "$toml_file" | head -n 1 | cut -d'"' -f2 || true)
         local archive_url=$(grep -E '^\s*archive-dlurl\s*=' "$toml_file" | head -n 1 | cut -d'"' -f2 || true)
 
+        local target_ver=""
+        if [ "$app" = "youtube" ]; then
+            target_ver="21.40.161"
+        elif [ "$app" = "youtube-music" ] || [ "$app" = "youtubemusic" ]; then
+            target_ver="9.40.51"
+        fi
+
         if [ -n "$uptodown_url" ]; then
-            echo "Attempting to resolve & download base APK via Uptodown ($uptodown_url)..."
-            if python3 scripts/uptodown.py download "$uptodown_url" "" "$base_path" "arm64-v8a" 2>/dev/null; then
+            if [ -n "$target_ver" ]; then
+                echo "Attempting to resolve & download verified base APK v$target_ver via Uptodown..."
+                if python3 scripts/uptodown.py download "$uptodown_url" "$target_ver" "$base_path" "arm64-v8a"; then
+                    echo "Successfully downloaded verified base APK (v$target_ver) via Uptodown!"
+                    return 0
+                fi
+            fi
+
+            echo "Attempting latest release via Uptodown ($uptodown_url)..."
+            if python3 scripts/uptodown.py download "$uptodown_url" "" "$base_path" "arm64-v8a"; then
                 echo "Successfully downloaded base APK via Uptodown!"
                 return 0
             fi
@@ -185,6 +207,7 @@ patch_app() {
         echo "Patching MovieBox using Morphe CLI & hxreborn patches..."
         java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
             -p "$TOOLS_DIR/hxreborn-patches.mpp" \
+            --continue-on-error \
             -f \
             -o "$output_apk" \
             "$base_apk"
@@ -193,6 +216,7 @@ patch_app() {
         echo "Patching YouTube using official Morphe CLI & Morphe patches (com.google.android.youtube)..."
         java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
             -p "$TOOLS_DIR/morphe-patches.mpp" \
+            --continue-on-error \
             -f \
             -o "$output_apk" \
             "$base_apk"
@@ -201,6 +225,7 @@ patch_app() {
         echo "Patching YouTube Music using official Morphe CLI & Morphe patches (com.google.android.apps.youtube.music)..."
         java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
             -p "$TOOLS_DIR/morphe-patches.mpp" \
+            --continue-on-error \
             -f \
             -o "$output_apk" \
             "$base_apk"
