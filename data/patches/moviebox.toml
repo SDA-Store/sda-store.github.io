@@ -1,0 +1,11 @@
+[MovieBox-hxreborn]
+enabled = true
+pkg-name = "com.community.oneroom"
+app-name = "MovieBox"
+patches-source = "hxreborn/morphe-patches"
+brand = "SDA Store"
+build-mode = "both"
+patch-folder = "moviebox"
+patches-version = "stable"
+archive-dlurl = "https://apk.aoneroom.com/apk/moviebox/release/4.0.03.0922.03/1234_protected_signed/moviebox-v-4.0.03.0922.03.apk"
+uptodown-dlurl = "https://com-community-oneroom.en.uptodown.com/android"
