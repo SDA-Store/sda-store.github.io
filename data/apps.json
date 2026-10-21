@@ -1,7 +1,7 @@
 {
   "storeName": "SDA Store",
   "storeDescription": "Fast, modern catalog for clean, automated patched Android APKs.",
-  "updatedAt": "2026-10-20T08:19:25Z",
+  "updatedAt": "2026-10-21T02:23:42Z",
   "appsCount": 136,
   "apps": [
     {
@@ -9,9 +9,9 @@
       "name": "MovieBox",
       "category": "Media & Video",
       "brand": "SDA Store",
-      "version": "13",
-      "releaseUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/tag/v13",
-      "publishedAt": "2026-10-20T08:19:24Z",
+      "version": "18",
+      "releaseUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/tag/v18",
+      "publishedAt": "2026-10-21T02:23:41Z",
       "icon": "assets/icons/moviebox.svg",
       "description": "Patched MovieBox by SDA Store with ad-removal, VIP streaming unlock, download enable, and UI decluttering.",
       "patchCount": 4,
@@ -25,9 +25,9 @@
         {
           "name": "moviebox-patched-arm64-v8a.apk",
           "arch": "arm64",
-          "version": "13",
+          "version": "18",
           "size": 66406454,
-          "downloadUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/download/v13/moviebox-patched-arm64-v8a.apk"
+          "downloadUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/download/v18/moviebox-patched-arm64-v8a.apk"
         }
       ]
     },
@@ -1868,9 +1868,9 @@
       "name": "Instagram",
       "category": "Social & News",
       "brand": "SDA Store",
-      "version": "8",
-      "releaseUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/tag/v8",
-      "publishedAt": "2026-10-20T03:18:48Z",
+      "version": "16",
+      "releaseUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/tag/v16",
+      "publishedAt": "2026-10-21T00:24:05Z",
       "icon": "assets/icons/instagram.svg",
       "description": "Patched Instagram by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 108,
@@ -1988,9 +1988,9 @@
         {
           "name": "instagram-patched-arm64-v8a.apk",
           "arch": "arm64",
-          "version": "8",
-          "size": 162858445,
-          "downloadUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/download/v8/instagram-patched-arm64-v8a.apk"
+          "version": "16",
+          "size": 162822235,
+          "downloadUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/download/v16/instagram-patched-arm64-v8a.apk"
         }
       ]
     },
@@ -4060,9 +4060,9 @@
       "name": "TikTok",
       "category": "Social & News",
       "brand": "SDA Store",
-      "version": "7",
-      "releaseUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/tag/v7",
-      "publishedAt": "2026-10-19T17:08:44Z",
+      "version": "14",
+      "releaseUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/tag/v14",
+      "publishedAt": "2026-10-21T00:27:26Z",
       "icon": "assets/icons/tiktok.svg",
       "description": "Patched TikTok by SDA Store with premium feature unlock, ad-free experience, privacy enhancements, and zero tracking.",
       "patchCount": 134,
@@ -4206,9 +4206,9 @@
         {
           "name": "tiktok-patched-arm64-v8a.apk",
           "arch": "arm64",
-          "version": "7",
-          "size": 379463346,
-          "downloadUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/download/v7/tiktok-patched-arm64-v8a.apk"
+          "version": "14",
+          "size": 805793252,
+          "downloadUrl": "https://github.com/SDA-Store/sda-store.github.io/releases/download/v14/tiktok-patched-arm64-v8a.apk"
         }
       ]
     },
