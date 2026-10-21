@@ -2,15 +2,15 @@
   "morphe_patches": "v1.56.0",
   "revanced_patches": "v5.14.1",
   "apps": {
-    "moviebox": "4.0.03.1016.03",
+    "moviebox": "4.0.03.0922.03",
     "youtube": "21.42.243",
-    "youtubemusic": "9.41.53",
+    "youtubemusic": "9.42.52",
     "reddit": "2026.42.0",
     "discord": "349.9",
-    "duolingo": "6.101.2",
-    "tiktok": "47.6.0",
-    "instagram": "453.0.0.0.60",
-    "twitter": "12.34.0-prod.01"
+    "duolingo": "6.102.4",
+    "tiktok": "47.4.3",
+    "instagram": "453.0.0.0.67",
+    "twitter": "12.36.1-prod.01"
   },
   "morphe_app_patches": "v1.47.0",
   "morphe_hx_patches": "v1.56.0"
