@@ -27,9 +27,9 @@ on:
         required: false
         default: ''
         type: string
-  schedule:
-    # Run daily at 02:00 UTC
-    - cron: '0 2 * * *'
+concurrency:
+  group: sda-build-and-release
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -94,7 +94,7 @@ jobs:
           overwrite: "true"
 
       - name: Download Base APK from APKMirror (for Reddit fallback)
-        if: ${{ github.event.inputs.target_app == 'reddit' && github.event.inputs.custom_apk_url == '' }}
+        if: ${{ (github.event.inputs.target_app == 'reddit' || github.event.inputs.target_app == 'all-flagships') && github.event.inputs.custom_apk_url == '' }}
         uses: Yakov5776/gh-apkmirror-dl@v1.3
         continue-on-error: true
         with:
@@ -158,7 +158,11 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions [SDA Store Builder]"
           git add data/apps.json
-          git diff --staged --quiet || (git commit -m "chore(store): auto-update apps.json with build #${{ github.run_number }} [skip ci]" && git push)
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(store): auto-update apps.json with build #${{ github.run_number }} [skip ci]"
+            git pull --rebase origin main || true
+            git push origin main
+          fi
 
       # 5. Trigger GitHub Pages Deployment
       - name: Trigger GitHub Pages Redeploy

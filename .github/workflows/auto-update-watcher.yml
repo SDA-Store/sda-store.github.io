@@ -22,7 +22,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Setup Python 3.12
         uses: actions/setup-python@v5
@@ -49,4 +49,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions [SDA Update Watcher]"
           git add data/upstream_state.json
-          git diff --staged --quiet || (git commit -m "chore(watcher): update upstream release versions state [skip ci]" && git push origin main)
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(watcher): update upstream release versions state [skip ci]"
+            git pull --rebase origin main || true
+            git push origin main
+          fi

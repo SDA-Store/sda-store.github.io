@@ -285,7 +285,7 @@ case "$TARGET" in
         ;;
     all|all-flagships)
         echo "Building flagship apps suite..."
-        for a in moviebox youtube youtube-music reddit twitter instagram tiktok brave; do
+        for a in moviebox youtube youtube-music reddit; do
             echo "--- Starting patch for $a ---"
             patch_app "$a" || true
         done

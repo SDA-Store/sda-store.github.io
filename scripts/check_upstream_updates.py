@@ -111,6 +111,22 @@ def save_state(state):
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(state, f, indent=2)
 
+def parse_version(v):
+    if not v:
+        return ()
+    nums = re.findall(r'\d+', str(v))
+    return tuple(int(x) for x in nums)
+
+def is_newer_version(new_v, current_v):
+    if not current_v:
+        return bool(new_v)
+    if not new_v:
+        return False
+    return parse_version(new_v) > parse_version(current_v)
+
+# Applications supported for automated headless building in GitHub Actions CI
+AUTONOMOUS_BUILD_APPS = {'moviebox', 'youtube', 'youtubemusic', 'reddit'}
+
 def main():
     trigger_actions = "--trigger" in sys.argv
     state = load_state()
@@ -122,39 +138,42 @@ def main():
 
     # 1. Check Patch Engines & Bundles
     print("Checking upstream patch releases...")
-    latest_morphe_app = get_latest_github_release("MorpheApp/morphe-patches") or "v1.47.0"
-    latest_morphe_hx = get_latest_github_release("hxreborn/morphe-patches") or "v1.56.0"
+    latest_morphe_app = get_latest_github_release("MorpheApp/morphe-patches") or "v1.48.0"
+    latest_morphe_hx = get_latest_github_release("hxreborn/morphe-patches") or "v1.59.0"
     latest_revanced = get_latest_github_release("inotia00/revanced-patches") or "v5.14.1"
 
-    print(f"Morphe YouTube Patches (MorpheApp): current={state.get('morphe_app_patches')} | upstream={latest_morphe_app}")
-    print(f"Morphe MovieBox Patches (hxreborn): current={state.get('morphe_hx_patches')} | upstream={latest_morphe_hx}")
-    print(f"ReVanced Patches: current={state.get('revanced_patches')} | upstream={latest_revanced}")
+    curr_morphe_app = state.get('morphe_app_patches', '')
+    curr_morphe_hx = state.get('morphe_hx_patches', '')
+    curr_revanced = state.get('revanced_patches', '')
 
-    if state.get('morphe_app_patches') and state.get('morphe_app_patches') != latest_morphe_app:
+    print(f"Morphe YouTube Patches (MorpheApp): current={curr_morphe_app} | upstream={latest_morphe_app}")
+    print(f"Morphe MovieBox Patches (hxreborn): current={curr_morphe_hx} | upstream={latest_morphe_hx}")
+    print(f"ReVanced Patches: current={curr_revanced} | upstream={latest_revanced}")
+
+    if is_newer_version(latest_morphe_app, curr_morphe_app):
         print(f"==> NEW MORPHE YOUTUBE PATCH BUNDLE: {latest_morphe_app}! Queueing YouTube & YT Music rebuild...")
         updated_apps.update(['youtube', 'youtubemusic'])
+        state['morphe_app_patches'] = latest_morphe_app
 
-    if state.get('morphe_hx_patches') and state.get('morphe_hx_patches') != latest_morphe_hx:
+    if is_newer_version(latest_morphe_hx, curr_morphe_hx):
         print(f"==> NEW MORPHE MOVIEBOX PATCH BUNDLE: {latest_morphe_hx}! Queueing MovieBox rebuild...")
         updated_apps.add('moviebox')
+        state['morphe_hx_patches'] = latest_morphe_hx
 
-    if state.get('revanced_patches') and state.get('revanced_patches') != latest_revanced:
-        print(f"==> NEW REVANCED PATCH BUNDLE: {latest_revanced}! Queueing flagship rebuilds...")
-        updated_apps.update(['reddit', 'twitter', 'instagram', 'tiktok', 'bravebrowser'])
-
-    state['morphe_app_patches'] = latest_morphe_app
-    state['morphe_hx_patches'] = latest_morphe_hx
-    state['revanced_patches'] = latest_revanced
+    if is_newer_version(latest_revanced, curr_revanced):
+        print(f"==> NEW REVANCED PATCH BUNDLE: {latest_revanced}! Queueing Reddit rebuild...")
+        updated_apps.add('reddit')
+        state['revanced_patches'] = latest_revanced
 
     # 2. Check MovieBox official APK release
     print("\nChecking MovieBox official base APK...")
     mb_latest = get_moviebox_latest_version()
     mb_current = state.get('apps', {}).get('moviebox', '')
     print(f"MovieBox APK: current={mb_current} | upstream={mb_latest}")
-    if mb_current and mb_current != mb_latest:
+    if is_newer_version(mb_latest, mb_current):
         print(f"==> NEW MOVIEBOX VERSION DETECTED: {mb_latest}")
         updated_apps.add('moviebox')
-    state.setdefault('apps', {})['moviebox'] = mb_latest
+        state.setdefault('apps', {})['moviebox'] = mb_latest
 
     # 3. Check Flagship & Popular apps via Uptodown / Patch configs
     print("\nChecking flagship applications...")
@@ -175,32 +194,41 @@ def main():
         current_v = state.get('apps', {}).get(app_id, '')
         if upstream_v:
             print(f"{app_id:15}: current={current_v:12} | upstream={upstream_v}")
-            if current_v and current_v != upstream_v:
-                print(f"  ==> UPDATE FOUND for {app_id}: {current_v} -> {upstream_v}")
-                updated_apps.add(app_id)
-            state['apps'][app_id] = upstream_v
+            if is_newer_version(upstream_v, current_v):
+                print(f"  ==> Upstream version updated for {app_id}: {current_v} -> {upstream_v}")
+                if app_id in AUTONOMOUS_BUILD_APPS:
+                    updated_apps.add(app_id)
+                state['apps'][app_id] = upstream_v
         else:
             print(f"{app_id:15}: upstream check skipped (rate-limited/no-change)")
 
     save_state(state)
 
+    buildable_apps = sorted([app for app in updated_apps if app in AUTONOMOUS_BUILD_APPS])
+
     print("\n==================================================")
-    print(f"Update Check Finished. Apps requiring build: {list(updated_apps)}")
+    print(f"Update Check Finished. Apps requiring build: {buildable_apps}")
     print("==================================================")
 
     # 4. Trigger GitHub Actions if updates found and --trigger passed
-    if updated_apps and trigger_actions:
-        print("Dispatching automated builds via GitHub Actions...")
-        for app in updated_apps:
-            print(f"--> Triggering build for: {app}")
-            try:
-                cmd = ["gh", "workflow", "run", "build-and-release.yml", "-f", f"target_app={app}"]
+    if buildable_apps and trigger_actions:
+        print("Dispatching automated build via GitHub Actions...")
+        try:
+            if len(buildable_apps) > 1:
+                print(f"Multiple apps updated ({buildable_apps}). Dispatching single consolidated 'all-flagships' workflow to save runner minutes...")
+                cmd = ["gh", "workflow", "run", "build-and-release.yml", "-f", "target_app=all-flagships"]
                 subprocess.run(cmd, check=True)
-                print(f"Successfully dispatched workflow for {app}")
-            except Exception as e:
-                print(f"Error dispatching workflow for {app}: {e}")
-    elif updated_apps:
-        print("Run with '--trigger' to automatically launch GitHub Actions builds for updated apps.")
+                print("Successfully dispatched consolidated all-flagships build.")
+            else:
+                target = buildable_apps[0]
+                print(f"--> Triggering single build for: {target}")
+                cmd = ["gh", "workflow", "run", "build-and-release.yml", "-f", f"target_app={target}"]
+                subprocess.run(cmd, check=True)
+                print(f"Successfully dispatched workflow for {target}")
+        except Exception as e:
+            print(f"Error dispatching workflow: {e}")
+    elif buildable_apps:
+        print("Run with '--trigger' to automatically launch GitHub Actions build for updated apps.")
     else:
         print("All apps and patch bundles are up to date! Zero builds needed.")
 
