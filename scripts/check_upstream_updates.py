@@ -72,9 +72,9 @@ def get_moviebox_latest_version():
                 if m:
                     return m.group(1)
         # Fallback to current verified MovieBox version
-        return "4.0.03.0922.03"
+        return "4.0.03.1022.03"
     except Exception:
-        return "4.0.03.0922.03"
+        return "4.0.03.1022.03"
 
 def get_uptodown_version(uptodown_url):
     if not uptodown_url:

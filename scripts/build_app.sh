@@ -62,8 +62,8 @@ setup_morphe_tools() {
             gh release download --repo MorpheApp/morphe-desktop --pattern "*all.jar" --output "$TOOLS_DIR/morphe-cli.jar" || true
         fi
         if [ ! -f "$TOOLS_DIR/morphe-cli.jar" ] || [ ! -s "$TOOLS_DIR/morphe-cli.jar" ]; then
-            CLI_URL=$(curl -sL https://api.github.com/repos/MorpheApp/morphe-desktop/releases/latest | grep -o 'https://[^"]*morphe-desktop-[^"]*\.jar' | head -n 1)
-            [ -z "$CLI_URL" ] && CLI_URL="https://github.com/MorpheApp/morphe-desktop/releases/download/v1.18.1/morphe-desktop-1.18.1-all.jar"
+            CLI_URL=$(curl -sL https://api.github.com/repos/MorpheApp/morphe-desktop/releases/latest | grep -o 'https://[^"]*all\.jar' | head -n 1)
+            [ -z "$CLI_URL" ] && CLI_URL="https://github.com/MorpheApp/morphe-desktop/releases/download/v1.19.1/morphe-desktop-1.19.1-all.jar"
             curl -sL "$CLI_URL" -o "$TOOLS_DIR/morphe-cli.jar"
         fi
         echo "Downloaded Morphe CLI to $TOOLS_DIR/morphe-cli.jar"
@@ -77,7 +77,7 @@ setup_morphe_tools() {
             fi
             if [ ! -f "$TOOLS_DIR/hxreborn-patches.mpp" ] || [ ! -s "$TOOLS_DIR/hxreborn-patches.mpp" ]; then
                 PATCH_URL=$(curl -sL https://api.github.com/repos/hxreborn/morphe-patches/releases/latest | grep -o 'https://[^"]*patches-[^"]*\.mpp' | head -n 1)
-                [ -z "$PATCH_URL" ] && PATCH_URL="https://github.com/hxreborn/morphe-patches/releases/download/v1.56.0/patches-1.56.0.mpp"
+                [ -z "$PATCH_URL" ] && PATCH_URL="https://github.com/hxreborn/morphe-patches/releases/download/v1.65.0/patches-1.65.0.mpp"
                 curl -sL "$PATCH_URL" -o "$TOOLS_DIR/hxreborn-patches.mpp"
             fi
             echo "Downloaded hxreborn patches to $TOOLS_DIR/hxreborn-patches.mpp"
@@ -131,10 +131,15 @@ fetch_base_apk() {
     echo "Fetching base APK for '$app'..."
 
     if [ "$app" = "moviebox" ]; then
-        echo "Fetching verified Morphe-compatible MovieBox base APK (v4.0.03.0922.03 - com.community.oneroom)..."
-        MOVIEBOX_CDN_URL="https://apk.aoneroom.com/apk/moviebox/release/4.0.03.0922.03/1234_protected_signed/moviebox-v-4.0.03.0922.03.apk"
+        echo "Fetching verified Morphe-compatible MovieBox base APK (v4.0.03.1022.03 - com.community.oneroom)..."
+        MOVIEBOX_URL="https://download.moviebox.gg/Files/moviebox-v-4.0.03.1022.03.apk"
         curl -sL -f -A "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36" \
-            "$MOVIEBOX_CDN_URL" -o "$base_path" || true
+            "$MOVIEBOX_URL" -o "$base_path" || true
+
+        if [ ! -f "$base_path" ] || [ ! -s "$base_path" ] || [ $(wc -c < "$base_path" 2>/dev/null || echo 0) -lt 10000000 ]; then
+            echo "Fallback to Uptodown verified release..."
+            python3 scripts/uptodown.py download "https://com-community-oneroom.en.uptodown.com/android" "4.0.03.1020.03" "$base_path" "arm64-v8a" || true
+        fi
         
         if [ ! -f "$base_path" ] || [ ! -s "$base_path" ] || [ $(wc -c < "$base_path" 2>/dev/null || echo 0) -lt 10000000 ]; then
             echo "Fallback to official redirect endpoint..."
@@ -207,7 +212,6 @@ patch_app() {
         echo "Patching MovieBox using Morphe CLI & hxreborn patches..."
         java -jar "$TOOLS_DIR/morphe-cli.jar" patch \
             -p "$TOOLS_DIR/hxreborn-patches.mpp" \
-            --continue-on-error \
             -f \
             -o "$output_apk" \
             "$base_apk"
