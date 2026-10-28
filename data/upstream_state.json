@@ -4,12 +4,12 @@
   "apps": {
     "moviebox": "4.0.03.1016.03",
     "youtube": "21.42.244",
-    "youtubemusic": "9.42.53",
-    "reddit": "2026.43.0",
+    "youtubemusic": "9.43.51",
+    "reddit": "2026.43.1",
     "discord": "349.9",
     "duolingo": "6.102.4",
     "tiktok": "47.4.3",
-    "instagram": "454.0.0.0.55",
+    "instagram": "454.0.0.0.60",
     "twitter": "12.37.2-prod.01"
   },
   "morphe_app_patches": "v1.48.0",
