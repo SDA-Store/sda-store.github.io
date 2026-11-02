@@ -3,15 +3,15 @@
   "revanced_patches": "v5.14.1",
   "apps": {
     "moviebox": "4.0.03.1028.03",
-    "youtube": "21.43.523",
+    "youtube": "21.43.528",
     "youtubemusic": "9.43.51",
     "reddit": "2026.44.0",
     "discord": "349.9",
     "duolingo": "6.103.6",
     "tiktok": "47.4.3",
-    "instagram": "455.0.0.0.0",
-    "twitter": "12.38.1-prod.01"
+    "instagram": "455.0.0.0.36",
+    "twitter": "12.39.0-prod.01"
   },
   "morphe_app_patches": "v2.0.0",
-  "morphe_hx_patches": "v1.68.0"
+  "morphe_hx_patches": "v1.69.0"
 }
