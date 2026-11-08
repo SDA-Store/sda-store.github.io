@@ -9,9 +9,9 @@
     "discord": "352.17",
     "duolingo": "6.104.5",
     "tiktok": "47.7.3",
-    "instagram": "455.0.0.21.72",
+    "instagram": "455.0.0.39.72",
     "twitter": "12.41.0-prod.01"
   },
   "morphe_app_patches": "v2.1.0",
-  "morphe_hx_patches": "v1.73.0"
+  "morphe_hx_patches": "v1.74.0"
 }
