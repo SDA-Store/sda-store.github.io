@@ -2,16 +2,16 @@
   "morphe_patches": "v1.56.0",
   "revanced_patches": "v5.14.1",
   "apps": {
-    "moviebox": "4.0.03.1028.03",
+    "moviebox": "4.0.04.1112.03",
     "youtube": "21.45.82",
     "youtubemusic": "9.45.51",
     "reddit": "2026.45.0",
     "discord": "352.17",
     "duolingo": "6.105.2",
     "tiktok": "47.7.3",
-    "instagram": "456.0.0.0.66",
+    "instagram": "456.0.0.0.71",
     "twitter": "12.42.0"
   },
   "morphe_app_patches": "v2.2.0",
-  "morphe_hx_patches": "v1.76.0"
+  "morphe_hx_patches": "v1.77.0"
 }
