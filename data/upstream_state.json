@@ -4,7 +4,7 @@
   "apps": {
     "moviebox": "4.0.04.1119.03",
     "youtube": "21.46.528",
-    "youtubemusic": "9.46.55",
+    "youtubemusic": "9.47.51",
     "reddit": "2026.47.0",
     "discord": "352.17",
     "duolingo": "6.106.5",
@@ -13,5 +13,5 @@
     "twitter": "12.44.0-prod.01"
   },
   "morphe_app_patches": "v2.3.0",
-  "morphe_hx_patches": "v1.84.0"
+  "morphe_hx_patches": "v1.85.0"
 }
